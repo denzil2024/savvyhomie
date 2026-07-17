@@ -52,7 +52,7 @@ Budget angles ("under $25") are post types inside categories, not a category.
 
 ## Tech stack (agreed)
 - **React, pre-rendered to static HTML** — everything in code, articles as Markdown files. No WordPress, no Astro.
-- **Hosting:** Cloudflare (site) + Railway (Python automation/workers).
+- **Hosting:** Railway (site + Python automation, auto-deploy from GitHub repo denzil2024/savvyhomie) with Cloudflare in front (DNS/CDN/AI-bot policies). User's preferred workflow.
 - **Python automation:** pin image generator (Pillow, 3–5 approved templates, 1000×1500) + Pinterest API v5 poster, 3–5 pins/day human-like schedule, 2–3 pin designs per post. Official API only — no bot flooding.
 - Grow JS snippet (Journey requirement) + ad scripts added at approval time.
 
