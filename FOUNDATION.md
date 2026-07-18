@@ -1,16 +1,70 @@
-# SavvyHomie — Foundation Record
+# SavvyHomie — Foundation & Handover Record
 
-All decisions agreed as of July 15, 2026. Nothing built yet — this is the record we execute from.
+Last updated: July 18, 2026. **Site is mid-build** — foundation, brand, and both core page templates (homepage, category, article) are done and visually verified. Real content writing has not started yet. Read this whole file before continuing work in a new chat.
+
+## Live status checklist
+- [x] Domain **savvyhomie.com** purchased, on Cloudflare (nameservers), proxied through Railway
+- [x] Amazon Associates: already an established account since 2023 with prior earnings (not a new signup — no 180-day 3-sale clock to worry about)
+- [x] Pinterest business account created, claimed, 10+ boards live
+- [x] GitHub repo: `denzil2024/savvyhomie` (private), pushed and current
+- [x] Railway: connected to the repo, auto-deploys on push, custom domain attached
+- [x] Site scaffold: React + Vite, SSR-prerendered to static HTML per route (see Tech stack)
+- [x] Brand identity: logo, favicon, palette, fonts all finalized and wired in (see Design)
+- [x] Homepage: fully built with 8 real sections (see Design → Homepage)
+- [x] Category page template: built and verified
+- [x] Article page template: built and verified, works for both product-roundup and pure-informational content
+- [x] All 5 category tile images sourced from real Amazon product photos and wired in
+- [x] Founder photo (Carol, real name/face) wired into the founder-trust section and all bylines
+- [~] **About page v2 built (July 2026), owner sign-off pending.** The owner calls this the most important trust page; treat it with care. A v1 (bare prose column, generic copy) was rejected outright. v2 uses the full band rhythm: paper header (eyebrow + "The Pickiest Shopper You Know" + dek) → white band with a 300px 4:5 keyline-framed portrait beside the story → dark spruce "Three Promises on Every List" band (reuses founder-band styling) → butter "Amazon Pays the Bills. It Doesn't Pick the Lists." money band → email plate. Emits AboutPage JSON-LD with `Person` Carol, `alumniOf` Parsons, `sameAs` Pinterest; in `routes()` for prerender.
+- [x] **Contact page built (July 2026):** `/contact/` route + `src/pages/Contact.jsx`. Paper header ("Get In Touch," reply-time promise says 24 hours — keep this and the sidebar note in sync if it changes) → white band holding ONE bordered `.contact-panel` (not two loose columns — a form beside a paper2 sidebar with a vertical divider). This single-panel structure is deliberate: CSS grid stretches both children to the row's full height by default, so the paper2 wash fills evenly regardless of which side has more content — that's what makes the two sides read as equal-height without hand-tuned spacing (an earlier two-column version with `align-items: start` broke this). Sidebar top to bottom: Carol's avatar + "Carol replies personally / Usually within 24 hours" (personal-trust touch) → "Before You Write" triage (3 common reasons people write in, so specific asks self-route before typing) → "Direct" (hello@savvyhomie.com placeholder + Pinterest) pinned to the bottom via `margin-top: auto`. Form is name/email/topic-select/message, non-functional `preventDefault` like the newsletter form — no backend/ESP wired yet. No email plate at the bottom — a second email capture directly under a contact form was judged redundant. In `routes()` for prerender, emits ContactPage JSON-LD. **hello@savvyhomie.com is a placeholder address, not yet verified as real** — same caveat as the Pinterest handle.
+- [x] **Legal pages built (July 2026):** `/privacy-policy/`, `/cookie-policy/`, `/terms-of-service/`, `/affiliate-disclosure/` share `src/components/LegalLayout.jsx` (paper header with "Legal" eyebrow + last-updated line → white band with a bordered `.legal-toc` "On This Page" jump box → `.prose legal-body` reading column, 780px). The TOC box is a designed card, not a plain bordered list: paper2 wash, 3px gold accent bar on the left, gold diamond bullets on each link, butter-line dividers between rows — a flat white-on-white box was tried first and looked like an afterthought. `/how-we-pick-products/` is NOT part of the legal template — it's an editorial trust page (own file `src/pages/HowWePickProducts.jsx`) reusing the About page's band family: white band with an `.answer` callout + 4 numbered method cards (`.hwp-steps`, echoes product-card `.product-n` numeral) → spruce "If We Get It Wrong" correction-policy band → butter "How the Picks Make Money" band → email plate. All five routes registered in `getRoutes()` + `metaFor()` (WebPage/ContactPage-style JSON-LD). Content is real (not lorem ipsum) and specific to this site's actual state — e.g. the Cookie Policy honestly says no analytics/ad cookies run yet since GA4 and Mediavine aren't wired up, rather than pre-describing tracking that isn't live. **Not a substitute for real legal review** — recommend the owner have a lawyer look these over before public launch, especially Terms of Service and the FTC-compliance framing in Affiliate Disclosure.
+  - **Sitewide bug fixed during this pass:** `.prose p { margin: 0 }` out-specified `.prose > * + * { margin-top: 1.5em }`, silently collapsing the gap between any two consecutive `<p>` elements — this hit every prose surface (articles, legal pages), not just the page where it was spotted. Fixed with an explicit `.prose p + p { margin-top: 1.5em }` rule. Watch for the same specificity trap anywhere else `.prose x { margin: 0 }` resets a tag that the generic sibling-spacing rule is also targeting.
+- [ ] **No real articles published** — only 4 test/demo posts exist (see Content status below), none are real researched content
+- [ ] GA4, Search Console, Bing Webmaster Tools not wired up yet
+- [ ] Python Pinterest pin-automation not built yet
+- [ ] Real product research (the actual content workflow) has not been run on a real topic yet
 
 ## The business
 - **Model:** display ad revenue (Journey by Mediavine → Mediavine → Raptive) + Amazon Associates affiliate income on the same posts.
-- **Niche:** home & kitchen product roundups and gift guides. No photography needed — product images come legitimately via the Amazon Associates program.
+- **Niche:** home & kitchen product roundups and gift guides. No original photography — product images sourced legitimately via Amazon SiteStripe (Associates program).
 - **Expected RPM:** $12–15 average across the year; 2–3× in Q4 gift season. Affiliate income typically matches or exceeds ad income in this niche.
 
 ## Brand
-- **Name:** SavvyHomie
-- **Domain:** savvyhomie.com — available, ~$10/yr, NOT YET PURCHASED (buying starts the 4-month Journey age clock)
-- **Pinterest:** business account created (Content creator, Home Decor industry), profile done, 10+ keyword boards created and public. Website claim pending domain purchase.
+- **Name:** SavvyHomie · **Author/face:** Carol (real person, wife of the site owner) — used in bylines ("By Carol") and the homepage founder-trust section ("Hi, I'm Carol.")
+- **Carol's credential:** interior design graduate of Parsons School of Design, with a personal bent for design and budget shopping, plus an obsession with photography and videography (framed on the About page as a trust skill: she can tell when a product photo oversells). Lead with this everywhere E-E-A-T matters (homepage bio does already; reuse in the About page, "How We Pick Products", and any author schema/bio when those get written). Voice for her bio: trained eye + bargain hunter, helping readers get a designed look on an everyday budget; skip "entrepreneur" framing.
+- **Domain:** savvyhomie.com — purchased and live
+- **Pinterest:** claimed and active (boards live, no automated posting yet)
+
+## Design (as actually built — supersedes any earlier mockup)
+
+### Design language — read before touching any page; reuse these moves, don't invent new ones
+**Status: work in progress, not final.** The owner considers the current design maybe halfway there and expects to keep tweaking it session by session. So: the rules below are the stable foundation to build on (don't contradict them casually), but expect ongoing refinement requests on top of them — spacing, copy, individual sections, new polish. When a tweak conflicts with a rule below, ask or update the rule here; when a tweak is just refinement, apply it and keep this section current.
+1. **Mood:** warm editorial magazine for a shopping guide. Think curated print catalog. Never review-lab (no "tested/methodology" visuals), never SaaS landing page (no rounded gradient blobs, no emoji).
+2. **Sharp corners everywhere.** `border-radius: 0` on every element — cards, buttons, inputs, images, chips. The single exception is the circular founder portrait.
+3. **Surfaces:** page background is warm paper `#FAF8F4`. Content cards are pure white with 1px `--line` hairline borders — white is reserved for content surfaces so they read as cards against paper. Tinted panels use `--paper2 #F2EEE5` or the butter-pale gold wash. Never flat-white the page background; that was tried and it made every tinted panel look like a dirty gray box.
+4. **Full-bleed band system:** homepage sections alternate background bands via `.band` (`margin: 64px calc(50% - 50vw)` breakout + inner `.wrap`; `html,body { overflow-x: clip }` prevents scrollbar overflow). Variants: `.band-white` (hairline top/bottom borders), `.band-spruce`, `.band-butter`. The page is framed in ink: slim `.topbar` at the top, dark footer at the bottom. Sections read as distinct rooms; don't stack floating boxes on one background.
+5. **Color roles, strictly:** Ink `#14130F` = text and the two framing bands. Spruce `#1D5235` = everything interactive and brand-voiced: links, buttons, tile icons, the one italic accent phrase in the hero H1, the founder band background. Gold `#C9A030` = ornament only — eyebrow rules, diamonds, keyline frames, chips, italic numerals, hover arrows, topbar ✦ marks; never a large fill, and small gold text on light backgrounds uses `--butter-ink #7A5B14` for contrast.
+6. **Typography:** Fraunces weight 500 for every heading; Fraunces italic for accent phrases and decorative numerals ("No. 1"); Inter Tight for everything else. One eyebrow style sitewide: `.lbl` (12px/600/.08em/uppercase). Every size comes from the `--fs-*` scale in `:root` — never set a one-off px size.
+7. **Signature moves** (the recognizable SavvyHomie details): small-caps eyebrow flanked by short gold rules, above a serif Title Case H2 (`.sec-head`) · gold diamond-with-rules ornament (`.hero-orn`) · branded placeholder art for missing images (paper2 + inset gold keyline + thin-line house logomark + "Photo via Amazon") · oversized faint gold house outline on dark bands (`.founder-orn`) · gold `::selection` tint.
+8. **Motion:** hover-only, subtle. Cards lift 2px + soft shadow; cover images zoom `scale(1.03–1.05)` over .25–.3s; arrows slide in on tile bars; color/background transitions .15s ease. Every transform sits behind a `prefers-reduced-motion` guard.
+9. **Alignment rhythm:** homepage sections and article headers are centered; body copy and card interiors are left-aligned; never mix alignments inside one section.
+10. **Buttons:** `.btn` solid spruce, hover darkens to `#17452C` (never opacity fades); `.btn-ghost` butter-ink outline, hover fills. Text links in spruce with a trailing → for "read/browse" actions. **Inline links inside body copy are always spruce + bold (600) + underlined** (underline-offset 2px) — one shared rule covers `.prose`, `.disclosure`, `.about-story`, `.about-money`; extend that selector list when new body-copy surfaces appear, never invent a second inline-link style.
+11. **Ads/affiliate constraint:** content always sits on white or paper (ad creatives and Amazon product shots assume light backgrounds — same reason as the no-dark-mode rule). Keep `.ad-slot` divs where they are and dimension-quiet (no CLS).
+12. **Verification is part of the language:** no visual change is done until screenshotted at 1440 AND 390 (`node scripts/screenshot.mjs <url> <out.png> [width]`) and actually looked at. The hero-sub misalignment shipped because a wide-viewport check was skipped.
+
+- **Palette:** matches the Zennara/ytgrowth/workwithdenzil sibling-project token system exactly, fixed to light only (see "No dark mode" below). Paper `#FAF8F4` · Card `#FFFFFF` · Ink `#14130F` · Muted `#6B6862` · Soft `#4A4843` · Gold accent `#C9A030` (used sparingly — chips, CTAs, small rules, never as a fill everywhere) · Spruce green `#1D5235` (links, buttons). Footer is a permanently dark ink band (`#14130F`) regardless of page theme, matching the same pattern ytgrowth/workwithdenzil use.
+- **No dark mode.** Explicitly built then removed. Reasoning: Amazon product photos and display ad creatives are both built for white backgrounds, so dark mode would surround every product image and ad slot with an ugly white box. workwithdenzil (the sibling site closest to SavvyHomie's general-audience purpose) also skips dark mode. Don't re-add without discussing first.
+- **Fonts:** two typefaces only — Fraunces (display/headlines, weight 500, plus italic for accent phrases and the founder-band numerals) and Inter Tight (body/nav/buttons/labels). Small-caps labels use the single `.lbl` style (Inter Tight 12px/600/.08em) everywhere; the earlier JetBrains Mono label idea was dropped. Loaded via Google Fonts `<link>` in index.html. This replaced an earlier Cormorant Garamond/Barlow Condensed choice (too luxury-spa, wrong tone for a shopping guide).
+- **Logo:** two-tone wordmark, "savvy" in ink black + "homie" in spruce green, built from a raw Canva export via a custom chroma-key + crop script (`scripts/process-logo.mjs`, needs `pngjs`). Files: `public/logo.png` (plain black, used in the dark footer via CSS `filter:invert(1)`), `public/logo-color.png` (two-tone, used in the header). Favicon (`public/favicon.png`) has a permanent dark solid backing (favicons can't respond to the page's own theming, so it needs to stay legible regardless of browser chrome color). Raw source files and rejected options archived in `brand/` (not deployed).
+- **Writing style — hard rules, see memory `feedback-writing-style`:** never use em-dashes anywhere; avoid "really" and "actually"; all H2 headings sitewide use Title Case ("Start With Ambient Light", not "Start with ambient light"); avoid review-site/testing-lab tone (no "tested", no methodology badges) — warm curated-guide voice instead. **Write in the audience's own language** — they are savvy shoppers, so use their concrete vocabulary (one-star reviews, six-month follow-ups, $18 vs $45, carts, what survives a slammed drawer), never abstract design-school phrasing ("where both halves meet", "earns space in your home" style copy was rejected as the worst kind of filler).
+- **Mobile chrome (July 2026):** masthead collapses to one sticky row — logo left, hamburger right, nothing else. Categories open in a dropdown panel (React `useState` in App.jsx, `.nav-toggle` / `nav.cats.open` styles) with the Subscribe button as a full-width `.btn` at the bottom of the menu (`.nav-cta-menu`; the header `.nav-cta` is desktop-only). Footer link groups sit side by side in two columns on mobile. Founder-band promise points center-align on mobile to match the centered intro above them. Footer's fourth column is "Follow Along" (Join-the-list gold CTA + "Pinterest ↗" external link at pinterest.com/savvyhomie — handle assumed from the brand name, not yet verified); the footer brand column carries the Fraunces-italic tagline (`.ft-tag`, the TAGLINE constant from content.js) above the Amazon-disclosure description so the dark band keeps the serif brand voice. Section bands use tighter mobile padding (40px). Mobile states can be screenshotted open/closed with an ad hoc Playwright script (see scratchpad pattern: click `.nav-toggle`, then screenshot).
+- **Polish details (July 2026):** slim ink topbar above the masthead with the one-line brand promise ("Every pick compared. Cons included.") framed by tiny gold ✦ marks · gold diamond ornament under the hero sub · every section eyebrow gets short gold rules either side (`.sec-head .lbl`) · category tile bars slide in a gold → on hover · card/featured cover images zoom subtly on hover (reduced-motion safe) · image placeholders are branded art (gold keyline inset frame + house logomark + "Photo via Amazon") · oversized faint gold house-outline ornament in the founder band's top-right (hidden below 1000px) · `.btn-ghost` outline button style (used on the seasonal banner CTA) · seasonal-banner eyebrow carries a leading short gold rule (same `.eyebrow-rule` move as the category-page eyebrow) · gold `::selection` tint · "More Guides" grid renders only when there are 2+ posts beyond the featured one.
+- **Homepage layout (redesigned July 2026):** built on full-bleed background bands (`.band` utility, `margin: calc(50% - 50vw)` breakout with an inner `.wrap`) so each section reads as a distinct room instead of boxes floating on one background. Rhythm top to bottom: full-bleed dotted-paper hero band whose content sits inside a gold keyline "cover plate" (`.hero-inner`: hairline `--butter-line` border + faint paper wash over the dot grid, like the front of a print catalog; centered eyebrow with gold rules + Fraunces H1 with an italic spruce phrase + dek + diamond ornament + trust line inside the frame; faint gift/house line icons flank OUTSIDE the frame, bleeding off-canvas on narrower desktops, hidden below 1180px; on mobile the trust line drops its hairline separators and the eyebrow rules shrink so nothing wraps mid-rule) → white band with 5 category tiles (bright card style, label bar with spruce icon BELOW the photo at Inter Tight 13.5px/500 — 600 read too bold; no dark gradient overlay; under each bar a quiet "directory" list of topic links mirroring the live Pinterest boards, defined per-category as `topics` in content.js — they point at the parent category page until each topic has its own pillar post, then update the link; the grid uses `minmax(0, 1fr)` columns and the hover → is absolutely positioned over a white fade, because the long "Organization & Storage" nowrap label otherwise widens its column and misaligns every bar) → dark spruce founder band (Carol intro with gold-ringed photo PLUS the three "how we choose" promises with italic gold No. 1/2/3 numerals — this replaced a separate HowWePick strip that repeated the founder copy; HowWePick.jsx was deleted) → featured "The Latest Guide" split card on paper → in-content ad slot → "More Guides" grid (plain 3-column grid, capped at 9 so a full homepage shows three complete rows; while the site has 2–8 posts beyond the featured one the last row can run short, which is fine during growth) → gold seasonal band (fixed-size, swaps copy by month) → white email band ("The Savvy List", centered on a `.email-plate`: paper2 panel with an inset gold keyline, same family as the hero plate and photo placeholder, so the page closes on the move it opened with; flanked-rules eyebrow; input and button joined into one bar on desktop, stacked on mobile). Homepage section headers use `.sec-head`: centered gold-ink eyebrow + serif Title Case h2.
+- **Category page (redesigned July 2026 to match the homepage's band rhythm):** centered editorial header (flanked-rules "Category" eyebrow → serif H1 → centered full-paragraph blurb → the category's Pinterest-topic chips in the SOLID gold `.chip-solid` style, same as the post-header category chip — the faint `.chip` version read washed out here) → white `.band` with a `.sec-head` (guide-count eyebrow + "Latest Guides") holding the card grid → email plate band. The grid uses `.grid-center` (auto-fit, centered) so one or two cards sit centered instead of hugging the left edge of a 3-column grid; empty categories show the `.empty` state inside the white band.
+- **Article page:** centered editorial header (solid gold category chip → H1 at `--fs-4xl`, 32px on mobile → dek → centered byline block: gold-ringed circular Carol avatar (founder.jpg, 48px) above "By Carol" + 13px meta line — never "Published by SavvyHomie"; Article JSON-LD carries `author: Person Carol` pointing at /about/) → 16:9 hero that ALWAYS renders (real cover when one exists — sized per the photo-quality note below — else the branded placeholder art), sitting at 920px (slightly wider than the 840 text column); the hero well wants a ~1400px+ source image so it stays sharp on retina → disclosure/answer callout → intro prose → product cards (if it's a roundup) → rest of the `.prose` body (works equally well for pure informational/how-to content with no product cards — verified with a real test post). **Roundup prose placement:** a `<!-- products -->` marker in the markdown body splits it — prose above the marker renders before the product cards (intro/context), prose below renders after (How We Chose, analysis, FAQ); without the marker the whole body renders after the cards. Real roundups should always use the marker: intro above, a "How We Chose" section + FAQ below (see the demo roundup for the shape). **Product card anatomy (July 2026):** gold italic "No. n" numeral beside a solid-gold `award` chip ("Top Pick" / "Best for X" — every pick should have one) → serif name (`--fs-xl`) → serif-italic muted "Best for:" line → `description` paragraph(s) → hairline-topped pros/cons columns → "Our Verdict" panel (butter-pale wash + gold left rule, `verdict` field) → gold "Check price on Amazon →" CTA. Cards carry `id="pick-n"` anchors. `award`, `description`, and `verdict` are frontmatter product fields (description/verdict take string or array for multi-paragraph); rows without a value are skipped, CTA only renders when `url` is set. **The Lineup:** roundups with 2+ products automatically get an at-a-glance box after the answer callout — numbered pick names as jump links to `#pick-n` with right-aligned award labels. FAQ `<details>` sit flush (`details + details` kills the generic prose gap) and prose list items are tight (.3em). Prose tables are styled as catalog spec sheets: white card surface with hairline border, paper2 header in butter-ink small caps with a 2px gold-line rule beneath, soft zebra rows, first-column labels bold and nowrap. Supporting text uses `--fs-md` (16px). The card is STACKED: full-width 16:9 photo on top, text below (a side photo column was tried and cramped the text) — card text must not read as fine print next to the 18px body. The demo roundup's first product shows the full shape (its amazon.com URL is a placeholder) → FAQ (styled `<details>`/`<summary>`, no wrapper div needed) → related posts → email plate band → scroll-progress bar fixed at the very top of the page.
+  - **One shared column (July 2026, after comparing with ytgrowth's BlogPost):** `article.post` is 840px (owner nudged it up from 780; a full match to the hero width was tried and pulled back) and header, disclosure, answer, lineup, product cards, and prose all fill it, while the hero sits at 920 — 40px prouder than the text on each side — the prose has NO narrower max-width of its own; a narrower centered prose column read as mis-indented against the callout blocks. Prose lists use tiny gold diamond bullets and butter-ink ordinals, not default browser markers.
+  - **Related section:** lives OUTSIDE the `<article>` and breaks out of the 1080 `.wrap` to an 1180px footprint (matching ytgrowth's related-card scale: 380px cards, 380×213 covers, 20px gap) with a hairline top border, LEFT-aligned (owner preference — centered looked odd on desktop): left eyebrow "Related" + serif "Keep Reading", fixed 3-column grid (partial rows hug left), cards carry a category chip and a divided meta row (`.meta-rule`). Card placeholder art takes the same 16:9 as a real cover (`.card > a .photo`), so layout doesn't shift when real images land. Product cards number themselves with the italic gold "No. 1/2/3" serif numeral (`.product-n`, butter-ink on white), not a plain "1." in the title.
+- **Photo-quality rule:** Amazon thumbnail images are small (roughly 330–500px). Fine for category tiles (~200px display) and card grids (~16:9 at moderate width). Do NOT reuse a small thumbnail as a full-width article hero or homepage featured image (600–740px+) — it will upscale and blur. The homepage featured-card cover well renders ~551×351 desktop / 340×191 mobile; source its image at roughly 1200×800 (3:2) or larger. Learned this the hard way; the fix was reverting the reuse, not resizing CSS.
 
 ## Site categories (5)
 1. Gift Guides (Q4 moneymaker)
@@ -18,59 +72,67 @@ All decisions agreed as of July 15, 2026. Nothing built yet — this is the reco
 3. Organization & Storage
 4. Home Decor Finds
 5. Seasonal
-Budget angles ("under $25") are post types inside categories, not a category.
+Budget angles ("under $25") are post types inside categories, not a category. Full paragraph descriptions for each live in `src/lib/content.js`.
 
-## Content workflow (agreed)
+The live Pinterest boards map into these 5 categories as `topics` per category in content.js (shown as link lists on the homepage tiles): Gift Guides → Gifts for Him, Gifts for Her · Kitchen Finds → Kitchen Gadgets & Finds · Organization & Storage → Small Space Ideas, Kitchen Organization · Home Decor Finds → Cozy Bedroom Ideas, Amazon Home Finds · Seasonal → Christmas Gift Ideas. Boards that ARE a category ("Gift Guides", "Home Organization & Storage") aren't repeated as topics. New boards should slot into an existing category's topics, not become new categories.
+
+## Content status
+Four test posts exist in `content/posts/`, all explicitly demo/placeholder, none real:
+1. `demo-kitchen-organizers-under-25.md` — product-roundup format, but the 3 "products" are invented placeholder names with no real Amazon URLs. Built to prove the roundup template renders correctly.
+2. `how-to-layer-lighting-small-living-room.md` — pure informational/how-to format (headings, table, list, FAQ, zero product cards). Built to prove the article template works for non-review content too.
+3. `demo-small-closet-storage-ideas.md` + 4. `demo-pantry-organization-on-a-budget.md` — thin stubs added only so the `organization` category has 3 posts for previewing the category grid (and the homepage "More Guides" grid, which now renders). Their bodies say they're placeholders.
+
+**Neither should be treated as real published content.** Real articles need to go through the actual workflow below on a real topic.
+
+## Content workflow (agreed, not yet run for real)
 1. Pick a search query (query first, title later)
 2. Validate: study top 10 Google results + Pinterest for that query — demand, difficulty, who ranks
 3. If good → gap analysis: what top results covered, what they missed, what we do better
 4. Thorough outline built from the gaps
-5. Write in the site's defined voice, tone and style
-6. Publish → automated pins
-
-## Content
-- First 50 post titles: see CONTENT-PLAN.md (20 kitchen/organization → 10 decor → 20 gift guides published Sep–Oct for Q4). Titles are query candidates — each still goes through the workflow above before writing.
-- Every post: 10–15 products, genuine curation (pros AND cons, who each item is for), 1,500+ words, comparison table. Thin copy-paste lists = network rejection.
-- Titles are validated against Pinterest Trends + Google autocomplete/PAA per weekly batch BEFORE writing.
+5. Write in the site's defined voice, tone and style (see writing-style rules above)
+6. Source real product images via Amazon SiteStripe (once the article's real products are chosen)
+7. Publish → automated pins (automation not built yet)
 
 ## SEO / AEO plan
-1. **Topical authority:** each category = cluster (1 pillar page + 15–20 interlinked roundups). One primary keyword per URL, logged in a keyword map to prevent cannibalization. Target long-tail terms low-authority competitors already rank for.
-2. **Architecture:** category silos, breadcrumbs, ≤3 clicks from home, every post links to pillar + 3–5 siblings, no orphans.
-3. **E-E-A-T:** named author with consistent bio (site + Pinterest), "How We Pick Products" methodology page, selection criteria in every post, pros/cons on every product.
-4. **On-page:** keyword in title/H1/URL/intro; ItemList + FAQPage + Article schema; alt text; TOC; direct 2–3 sentence answer block at top.
-5. **AEO/GEO:** answer blocks + FAQ per post (quotable by AI engines), consistent entity naming, llms.txt, index on Bing Webmaster Tools (ChatGPT search = Bing), Google Discover eligibility (large images, strong titles).
-6. **Technical:** pre-rendered static HTML with full metadata baked in, sitemap.xml, robots.txt, llms.txt, Core Web Vitals green, mobile-first, HTTPS.
-7. **Iterate:** GSC + GA4 from day one; quarterly refresh winners / merge losers; gift guides refreshed and re-dated annually.
+1. **Topical authority:** each category = cluster (1 pillar page + 15–20 interlinked roundups). One primary keyword per URL, logged in a keyword map to prevent cannibalization.
+2. **Architecture:** category silos, breadcrumbs, ≤3 clicks from home, every post links to pillar + siblings.
+3. **E-E-A-T:** named real author (Carol) with consistent bio/photo across site, "How We Pick Products" methodology page (not yet written), selection criteria in every post, pros/cons on every product.
+4. **On-page:** keyword in title/H1/URL/intro; JSON-LD (Article/CollectionPage/WebSite already emitted per-route via `metaFor()` in content.js); alt text; direct answer block at top of every post.
+5. **AEO/GEO:** answer blocks + FAQ per post (quotable by AI engines), llms.txt (already generated at build), index on Bing Webmaster Tools once live.
+6. **Technical:** pre-rendered static HTML with full metadata baked in per-route, sitemap.xml + robots.txt + llms.txt all auto-generated at build (`scripts/prerender.mjs`).
+7. **Iterate:** GA4/Search Console not wired up yet — needed before real launch.
 
-## Design (agreed)
-- **Look:** calm "kitchen journal" — square corners, hairline rules, generous whitespace. Mockup: design-mockup.html (published artifact).
-- **Palette:** Flour #FBF8F2 (background) · Walnut #3B3128 (text) · Butter #E9B44C (category chips, highlights, CTAs) · Spruce #3E5C50 (links, buttons) · Linen #E7DFD2 (borders). Dark mode variants included in mockup.
-- **Fonts:** Lora (headlines) + Source Sans 3 (body/UI), free, self-hosted in repo — no CDN, no render delay.
-- **Homepage:** masthead with wordmark + 5 category nav → leaderboard ad slot → featured post → card grid → email signup strip ("The Savvy List") → footer with trust links + affiliate disclosure.
-- **Article template:** breadcrumbs → H1 + byline ("updated" date, review independence line) → answer block (butter left-border) → numbered product cards (image via Amazon, "best for" line, pros AND cons, price CTA) → in-content ad slots → FAQ accordion.
-- **Ad slots reserved in layout from day one** (leaderboard, in-content 300×250, more at approval) so ads don't break the design later.
+## Tech stack (as built)
+- **React + Vite, SSR-prerendered to static HTML.** Every route gets its own real HTML file with baked-in title/meta/JSON-LD (verify via `dist/client/**/index.html` after build) — genuinely separate pages for crawlers, not a JS-only SPA shell. Client-side navigation is fast (React Router `Link`), same pattern every sibling project uses (Zennara/react-router, workwithdenzil/Next.js Link).
+- **Build:** `npm run build` runs Vite client build → Vite SSR build → `node scripts/prerender.mjs` (renders every route, writes sitemap.xml/llms.txt).
+- **Dev server:** `npm run dev`. **Port 5173 is taken by the user's other project (ytgrowth) on this machine — always use `--port 5180`** or you'll silently hit the wrong app.
+- **Hosting:** Railway (auto-deploys on git push) with Cloudflare in front for DNS. No WordPress, no Astro (explicitly rejected).
+- **Content:** Markdown files in `content/posts/*.md`, custom frontmatter parser in `src/lib/content.js` (supports multi-line JSON arrays for the `products` field).
+- **Screenshot/visual verification:** Playwright is installed ad hoc (`npm install --no-save playwright pngjs` — not in package.json, reinstall each session) with `scripts/screenshot.mjs`. Usage: `node scripts/screenshot.mjs "http://localhost:5180/path/" "output.png"`, then view with the Read tool. **Always verify visual changes this way before claiming something looks right** — guessing from CSS alone has caused real missed bugs (doubled borders, pastel dark-mode buttons, a CSS specificity bug that broke an eyebrow icon's alignment, blurry upscaled images).
+- **Image processing:** `scripts/process-logo.mjs` (pngjs-based chroma-key + autocrop, used for the logo/favicon).
+- **Not yet built:** Python pin-image generator + Pinterest API v5 poster.
 
-## Tech stack (agreed)
-- **React, pre-rendered to static HTML** — everything in code, articles as Markdown files. No WordPress, no Astro.
-- **Hosting:** Railway (site + Python automation, auto-deploy from GitHub repo denzil2024/savvyhomie) with Cloudflare in front (DNS/CDN/AI-bot policies). User's preferred workflow.
-- **Python automation:** pin image generator (Pillow, 3–5 approved templates, 1000×1500) + Pinterest API v5 poster, 3–5 pins/day human-like schedule, 2–3 pin designs per post. Official API only — no bot flooding.
-- Grow JS snippet (Journey requirement) + ad scripts added at approval time.
+## Image inventory (public/)
+- `logo.png`, `logo-color.png`, `favicon.png` — see Design section
+- `founder.jpg` — Carol's real photo, cropped/positioned for the circular founder-section treatment
+- `cat-gift-guides.jpg`, `cat-kitchen-finds.jpg`, `cat-organization.jpg`, `cat-decor-finds.jpg`, `cat-seasonal.jpg` — real Amazon product photos, one per category tile, chosen for palette cohesion (warm gold/cream/wood tones) over more saturated alternatives
+- `brand/` folder (not deployed): raw logo source, rejected founder-photo and tile-image options, archived for reference
 
 ## Traffic plan
-- **Months 1–12 bridge: Pinterest** (keyword-driven, automated pinning, seasonal content 45–60 days early). Expect 2–3 quiet months, then compounding. Only metric: outbound clicks.
+- **Months 1–12 bridge: Pinterest** (keyword-driven, automated pinning once built, seasonal content 45–60 days early). Expect 2–3 quiet months, then compounding.
 - **Months 6+: Google/Bing compound** via the SEO plan. New domains sit in sandbox ~6 months regardless of niche.
-- **Email list from day one** as the owned channel.
+- **Email list from day one** as the owned channel (signup UI is live, no ESP connected yet).
 
 ## Money milestones
-1. Domain purchase → age clocks start
-2. ~Month 3–4: 1,000 sessions/mo via Pinterest → apply to Journey (site 4+ months old, Grow snippet 30 days)
-3. ~Month 5+: first ad revenue; apply to Amazon Associates once site is live with ~20 posts (need 3 sales in 180 days to stay in)
+1. Domain purchase → age clocks started (done)
+2. ~Month 3–4: 1,000 sessions/mo via Pinterest → apply to Journey by Mediavine (site needs to be 4+ months old, Grow snippet running 30 days first)
+3. First ad revenue once Journey approved. Amazon Associates already active — no waiting needed there.
 4. 25K pageviews + ≥50% US/UK/CA/AU/NZ traffic + domain 6+ months → Raptive eligible; $5K/yr revenue → full Mediavine
 
-## Execution order (when we start building)
-1. Buy savvyhomie.com
-2. Scaffold React prerender project + deploy pipeline (Cloudflare/Railway)
-3. Legal/trust pages: About (author bio), Contact, Privacy Policy, Affiliate Disclosure, How We Pick Products
-4. GA4 + Search Console + Bing Webmaster + claim domain on Pinterest
-5. First content batch (keyword-validated) + pin templates approved → automation on
-6. Publish cadence per CONTENT-PLAN.md phases
+## What to do next (in order)
+1. Have a lawyer review the legal pages (Terms of Service, Affiliate Disclosure especially) before real launch — all trust/legal/methodology pages now exist and are designed (About, Contact, Privacy Policy, Cookie Policy, Terms of Service, Affiliate Disclosure, How We Pick Products)
+   - Verify hello@savvyhomie.com is a real inbox (or set up forwarding) before the Contact form goes live for real — it currently only `preventDefault`s, no submission backend exists yet
+2. Wire up GA4 + Search Console + Bing Webmaster Tools
+3. Run the real content workflow on a real first topic (query validation → gap analysis → outline → write → real Amazon products via SiteStripe)
+4. Delete/replace both demo posts once real content exists
+5. Build the Python pin-automation once there's real content worth pinning

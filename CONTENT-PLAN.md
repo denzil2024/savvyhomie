@@ -5,7 +5,7 @@ Order: evergreen first (posts 1–30, Jul–Sep), gift guides ramp Sep–Oct for
 Format per post: 10–15 products, why each is good + who it suits, Amazon affiliate links/images, comparison notes, 1,500+ words.
 
 ## Phase 1 — Kitchen & Organization evergreen (posts 1–20)
-1. 15 Kitchen Organizers Under $25 That Actually Work
+1. 15 Kitchen Organizers Under $25 That Work
 2. 12 Pantry Organization Ideas for Small Kitchens
 3. 10 Drawer Dividers That End Kitchen Chaos
 4. 14 Under-Sink Storage Solutions You'll Wish You Knew Sooner
@@ -41,7 +41,7 @@ Format per post: 10–15 products, why each is good + who it suits, Amazon affil
 ## Phase 3 — Gift guide wave (posts 31–50, publish Sep–Oct)
 31. 15 Gifts for Coffee Lovers Under $30
 32. 12 Gifts for the Person Who Loves to Cook
-33. 14 Gifts for New Homeowners They'll Actually Use
+33. 14 Gifts for New Homeowners They'll Use
 34. 10 Gifts for Tea Lovers That Aren't Just Tea
 35. 15 Cozy Gifts for People Who Are Always Cold
 36. 12 Gifts for Moms Who Say They Don't Want Anything

@@ -1,67 +1,579 @@
+/* Two typefaces only: Fraunces for headlines, Inter Tight for everything else
+   (nav, body, labels, buttons, meta). No third "mono label" face — small caps
+   labels use Inter Tight at one fixed weight/size/tracking sitewide instead of
+   ad hoc values, so nothing reads as mismatched.
+   Page background is warm paper; cards stay white so they read as cards. */
 :root {
-  --paper: #FBF8F2; --card: #FFFFFF; --ink: #3B3128; --muted: #8A7D6E;
-  --butter: #E9B44C; --spruce: #3E5C50; --spruce-hi: #33544718;
-  --line: #E7DFD2; --spec: #F1EAE0;
-  --serif: Lora, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --sans: "Source Sans 3", Seravek, "Gill Sans Nova", Ubuntu, Calibri, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #211B15; --card: #2A231C; --ink: #EDE4D6; --muted: #A2927D;
-    --butter: #E9B44C; --spruce: #8FB3A4; --spruce-hi: #8FB3A41F;
-    --line: #3A3128; --spec: #2E261E;
-  }
+  --paper: #FAF8F4; --paper2: #F2EEE5; --card: #FFFFFF; --ink: #14130F; --muted: #6B6862; --soft: #3D3B36;
+  --butter: #C9A030; --butter-ink: #7A5B14; --butter-pale: rgba(201,160,48,.08);
+  --spruce: #1D5235; --spruce-hi: rgba(45,122,79,.10);
+  --btn-ink: #FFFFFF;
+  --line: rgba(0,0,0,.09); --wash: rgba(20,19,15,.03); --good: #1D5235; --bad: #C0392B;
+  --butter-line: rgba(201,160,48,.3);
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Inter Tight", Seravek, Ubuntu, Calibri, sans-serif;
+  --shadow: 0 1px 2px rgba(20,19,15,.04), 0 8px 24px -12px rgba(20,19,15,.12);
+
+  /* type scale — every heading/label pulls from this list, nothing sets a one-off px value.
+     Body copy has exactly two sizes: --fs-lead for intro/dek-style copy, --fs-sm for
+     everything supporting (card text, byline, form copy). --fs-label is for the one
+     small-caps tag style, reused everywhere instead of each spot inventing its own. */
+  --fs-label: 12px;   /* uppercase small-caps labels + timestamps, tracked */
+  --fs-sm: 15px;      /* secondary/supporting copy: card text, founder bio, form copy, nav */
+  --fs-md: 16px;      /* product-card supporting text (whofor, pros/cons) — sits between card copy and body */
+  --fs-lead: 17px;    /* intro copy: hero sub, category blurb, post dek, article body */
+  --fs-lg: 19px;      /* card/product headings */
+  --fs-xl: 21px;      /* founder/email/banner subheads, product names */
+  --fs-2xl: 23px;     /* prose h2, section heads, featured title */
+  --fs-3xl: 36px;     /* category page h1 */
+  --fs-4xl: 40px;     /* article h1 */
+  --fs-5xl: 52px;     /* homepage hero only */
 }
 
 * { box-sizing: border-box; }
-body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.65; margin: 0; font-size: 17px; }
-.wrap { max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+html { scroll-behavior: smooth; }
+html, body { overflow-x: clip; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
+
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.65; margin: 0; font-size: 17px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
 a { color: var(--spruce); text-decoration: none; }
-h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0 0 .4em; line-height: 1.2; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; text-wrap: balance; margin: 0 0 .4em; line-height: 1.18; }
+p { margin: 0 0 1em; }
 
-header.masthead { border-bottom: 1px solid var(--line); background: var(--card); }
-.mast-inner { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 20px 0; flex-wrap: wrap; }
-.wordmark { font-family: var(--serif); font-size: 26px; color: var(--ink); font-weight: 600; }
+/* reusable small-caps label — the single "eyebrow" style used everywhere */
+.lbl { font-family: var(--sans); font-size: var(--fs-label); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+
+::selection { background: rgba(201,160,48,.28); }
+
+/* ── topbar: slim ink strip framing the page, one-line brand promise ── */
+.topbar { background: var(--ink); color: rgba(250,248,244,.78); text-align: center; font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; padding: 8px 24px; }
+.topbar-dot { color: var(--butter); font-size: 9px; vertical-align: 1px; padding: 0 6px; }
+
+/* ── masthead ── */
+header.masthead { border-bottom: 1px solid var(--line); background: var(--card); position: sticky; top: 0; z-index: 10; }
+.mast-inner { display: flex; align-items: center; gap: 20px; padding: 18px 0; flex-wrap: wrap; }
+.mast-inner .wordmark { flex: 0 0 auto; }
+.mast-inner .nav-cta { flex: 0 0 auto; }
+.wordmark { display: flex; align-items: center; font-family: var(--serif); font-size: 24px; color: var(--ink); font-weight: 600; letter-spacing: -.01em; }
 .wordmark .dot { color: var(--butter); }
-nav.cats { display: flex; gap: 20px; font-size: 14.5px; flex-wrap: wrap; }
-nav.cats a { color: var(--ink); padding-bottom: 2px; }
-nav.cats a:hover { box-shadow: 0 2px 0 var(--butter); }
+.logo-img { height: 52px; width: auto; display: block; }
+nav.cats { display: flex; gap: 22px; font-size: var(--fs-sm); font-weight: 500; flex-wrap: wrap; flex: 1 1 auto; justify-content: center; }
+.nav-cta { padding: 9px 22px; font-size: var(--fs-sm); }
+nav.cats a { color: var(--soft); padding-bottom: 3px; border-bottom: 2px solid transparent; transition: color .15s ease; }
+nav.cats a:hover { color: var(--ink); border-color: var(--butter); }
 
-.hero { padding: 48px 0 40px; border-bottom: 1px solid var(--line); }
-.hero h1 { font-size: 38px; max-width: 20ch; }
-.hero p { color: var(--muted); max-width: 55ch; margin: 0; }
+/* mobile masthead: one compact sticky row (logo left, Subscribe + hamburger
+   right); categories live in a dropdown panel under the header */
+.nav-toggle { display: none; }
+.nav-cta-menu { display: none; }
+@media (max-width: 780px) {
+  .topbar { font-size: 10px; letter-spacing: .08em; padding: 7px 14px; }
+  .mast-inner { padding: 10px 0; gap: 10px; flex-wrap: nowrap; }
+  .mast-inner .wordmark { margin-right: auto; }
+  .logo-img { height: 38px; }
+  .nav-cta { display: none; }
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; flex-shrink: 0; background: none; border: 1px solid var(--line); color: var(--ink); cursor: pointer; padding: 0; }
+  nav.cats { display: none; }
+  nav.cats.open {
+    display: flex; position: absolute; top: 100%; left: 0; right: 0; z-index: 20;
+    flex-direction: column; gap: 0; background: var(--card);
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    box-shadow: 0 16px 28px -16px rgba(20,19,15,.2); padding: 4px 24px 10px;
+  }
+  nav.cats.open a { width: 100%; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--ink); }
+  nav.cats.open a.nav-cta-menu { display: block; text-align: center; margin: 14px 0 8px; padding: 12px; border-bottom: 0; color: var(--btn-ink); }
+}
 
-.section-h { display: flex; align-items: center; gap: 12px; margin: 40px 0 18px; color: var(--muted); font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; }
+/* ── ad slots: dimension-reserved, silent until a network fills them (no CLS) ── */
+.ad-slot { display: block; margin: 0 auto; overflow: hidden; }
+.ad-slot[data-slot="leaderboard"] { min-height: 0; }
+.ad-slot[data-slot="incontent"] { min-height: 0; margin: 32px 0; }
+
+/* ── hero: short copy (visitors from Pinterest/search already know why they're
+   here) but presented with real typographic weight, not an afterthought line ── */
+.hero { padding: 52px 0 36px; }
+.hero-compact {
+  margin: 0 calc(50% - 50vw); padding: 60px 24px 40px; text-align: center; overflow: hidden;
+  background-image: radial-gradient(rgba(20,19,15,.14) 1.3px, transparent 1.3px);
+  background-size: 22px 22px;
+}
+.hero-inner { position: relative; max-width: 900px; margin: 0 auto; border: 1px solid var(--butter-line); background: rgba(250,248,244,.55); padding: 46px 48px 40px; }
+.hero-deco { position: absolute; top: 40px; width: 210px; height: 210px; color: var(--butter); opacity: .12; pointer-events: none; }
+.hero-deco-l { left: -244px; }
+.hero-deco-r { right: -244px; }
+@media (max-width: 1180px) { .hero-deco { display: none; } }
+.hero-compact .eyebrow { display: inline-flex; align-items: center; gap: 12px; color: var(--spruce); margin: 0 0 18px; }
+.hero-compact h1 { font-size: var(--fs-5xl); font-weight: 500; color: var(--ink); max-width: 19ch; letter-spacing: -.015em; line-height: 1.06; margin-left: auto; margin-right: auto; }
+.hero-compact h1 em { font-style: italic; font-weight: 500; color: var(--spruce); }
+.hero-compact .hero-sub { font-size: var(--fs-lead); color: var(--soft); max-width: 52ch; margin: 18px auto 0; }
+.hero-orn { display: inline-flex; align-items: center; gap: 12px; margin-top: 30px; }
+.hero-orn::before, .hero-orn::after { content: ""; width: 44px; height: 1px; background: var(--butter-line); }
+.hero-orn i { width: 7px; height: 7px; background: var(--butter); transform: rotate(45deg); }
+.hero-trust { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 28px; flex-wrap: wrap; }
+.hero-trust span:not(.rule) { font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--butter-ink); }
+.hero-trust .rule { width: 1px; height: 11px; background: var(--butter-line); flex-shrink: 0; }
+.hero .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--spruce); margin-bottom: 14px; }
+.eyebrow-rule { display: inline-block; width: 24px; height: 1px; background: var(--butter); flex-shrink: 0; }
+.hero h1 { font-size: 42px; max-width: 18ch; }
+.hero p { color: var(--muted); max-width: 56ch; font-size: var(--fs-lead); margin: 0; }
+/* category header: centered editorial header matching the article/homepage
+   rhythm, with the Pinterest-board topics shown as chips under the blurb */
+.cat-hero { padding-bottom: 8px; text-align: center; animation: fadeUp .5s ease both; }
+.cat-hero h1 { font-size: var(--fs-3xl); font-weight: 500; letter-spacing: -.01em; line-height: 1.1; margin-left: auto; margin-right: auto; }
+.cat-hero p { margin-left: auto; margin-right: auto; }
+.cat-topics { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.cat-topics .chip-solid { margin-bottom: 0; }
+
+/* ── full-bleed section bands: each homepage section gets its own background
+   (white / spruce / gold) so sections read as distinct rooms instead of boxes
+   floating on one flat page. Bands escape the .wrap and re-contain inside. ── */
+.band { margin: 64px calc(50% - 50vw); padding: 56px 0; }
+.band-white { background: var(--card); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.band-spruce { background: var(--spruce); }
+.band-butter { background: var(--butter-pale); border-top: 1px solid var(--butter-line); border-bottom: 1px solid var(--butter-line); padding: 34px 0; }
+
+/* ── homepage section header: eyebrow + serif title, centered like the article
+   headers so the whole site shares one editorial rhythm ── */
+.sec-head { text-align: center; margin: 0 0 26px; }
+.sec-head .lbl { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin-bottom: 8px; }
+.sec-head .lbl::before, .sec-head .lbl::after { content: ""; width: 22px; height: 1px; background: var(--butter-line); }
+.sec-head h2 { font-size: var(--fs-2xl); font-weight: 500; letter-spacing: -.01em; margin: 0; }
+
+/* ── category tiles: bright card treatment, label bar under the photo instead
+   of a dark gradient overlay (Amazon product shots stay clean and legible) ── */
+.hero-cats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.cat-tile { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); transition: transform .15s ease, box-shadow .15s ease; }
+.cat-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.cat-tile-main { display: flex; flex-direction: column; }
+.cat-tile-media { position: relative; display: block; aspect-ratio: 1 / 1; overflow: hidden; background: var(--paper2); }
+.cat-tile-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
+.cat-tile-main:hover .cat-tile-photo { transform: scale(1.04); }
+.cat-tile-media .photo { position: absolute; inset: 0; min-height: 0; height: 100%; }
+.cat-tile-bar { position: relative; display: flex; align-items: center; gap: 8px; padding: 12px 12px 13px; color: var(--ink); font-family: var(--sans); font-size: 13.5px; font-weight: 500; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cat-tile-bar::after { content: "→"; position: absolute; right: 0; top: 0; bottom: 0; display: flex; align-items: center; padding: 0 12px 0 18px; background: linear-gradient(90deg, rgba(255,255,255,0), var(--card) 45%); color: var(--butter-ink); opacity: 0; transform: translateX(-4px); transition: opacity .15s ease, transform .15s ease; }
+.cat-tile-icon { width: 17px; height: 17px; color: var(--spruce); flex-shrink: 0; }
+.cat-tile:hover { border-color: var(--butter-line); }
+.cat-tile-main:hover .cat-tile-bar::after { opacity: 1; transform: translateX(0); }
+@media (prefers-reduced-motion: reduce) { .cat-tile-main:hover .cat-tile-photo { transform: none; } }
+/* topic links under the tile bar: the Pinterest-board sub-topics, styled as a
+   quiet catalog directory list inside each department tile */
+.cat-tile-topics { display: flex; flex-direction: column; gap: 5px; border-top: 1px solid var(--line); padding: 9px 12px 11px; }
+.cat-tile-topic { font-size: 13px; line-height: 1.35; color: var(--muted); transition: color .15s ease; }
+.cat-tile-topic:hover { color: var(--spruce); }
+@media (max-width: 780px) {
+  .hero-cats { display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .cat-tile { flex: 0 0 44%; scroll-snap-align: start; }
+}
+
+/* ── founder panel: single dark-spruce brand moment that carries both the
+   personal intro and the three how-we-choose promises (one strong trust
+   section instead of two thin ones repeating each other) ── */
+.founder { color: #FAF8F4; overflow: hidden; }
+.founder .wrap { position: relative; }
+.founder-orn { position: absolute; right: -70px; top: -40px; width: 260px; height: 260px; color: var(--butter); opacity: .08; pointer-events: none; }
+.founder-main { position: relative; display: grid; grid-template-columns: 132px 1fr; gap: 34px; align-items: center; }
+.founder-photo { width: 132px; height: 132px; border-radius: 50%; overflow: hidden; flex-shrink: 0; outline: 2px solid var(--butter); outline-offset: 5px; margin: 7px; }
+.founder-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; display: block; }
+.founder-txt .lbl { display: block; color: var(--butter); margin-bottom: 8px; }
+.founder-txt h3 { font-size: var(--fs-xl); color: #FAF8F4; margin: 0 0 10px; }
+.founder-txt p { font-size: var(--fs-sm); color: rgba(250,248,244,.8); max-width: 58ch; margin: 0 0 12px; }
+.founder-link { font-size: var(--fs-sm); font-weight: 600; }
+.founder .founder-link { color: var(--butter); }
+.founder-points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 36px; padding-top: 30px; border-top: 1px solid rgba(250,248,244,.16); }
+.fp-n { display: block; font-family: var(--serif); font-style: italic; font-size: 17px; color: var(--butter); margin-bottom: 6px; }
+.fp h4 { font-family: var(--serif); font-size: var(--fs-lg); font-weight: 500; color: #FAF8F4; margin: 0 0 6px; line-height: 1.25; }
+.fp p { font-size: var(--fs-sm); color: rgba(250,248,244,.72); margin: 0; }
+@media (max-width: 1000px) { .founder-orn { display: none; } }
+@media (max-width: 780px) {
+  .founder-main { grid-template-columns: 1fr; text-align: center; justify-items: center; }
+  .founder-txt p { margin-left: auto; margin-right: auto; }
+  .founder-points { grid-template-columns: 1fr; gap: 22px; text-align: center; }
+}
+
+/* ── featured guide: one big split card so the newest post gets real estate
+   instead of sitting in the same grid as everything else ── */
+.feat-card { display: grid; grid-template-columns: 1.15fr 1fr; background: var(--card); border: 1px solid var(--line); transition: transform .15s ease, box-shadow .15s ease; }
+.feat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.feat-media { position: relative; display: block; min-height: 320px; background: var(--paper2); overflow: hidden; }
+.feat-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.feat-card:hover .feat-media img { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .feat-card:hover .feat-media img { transform: none; } }
+.feat-media .photo { position: absolute; inset: 0; min-height: 0; height: 100%; }
+.feat-txt { padding: 38px 42px; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; justify-content: center; }
+.feat-txt h3 { font-size: var(--fs-2xl); line-height: 1.18; letter-spacing: -.01em; margin: 0; }
+.feat-txt h3 a { color: var(--ink); }
+.feat-txt h3 a:hover { color: var(--spruce); }
+.feat-txt p { font-size: var(--fs-sm); color: var(--soft); margin: 0; }
+.feat-link { font-size: var(--fs-sm); font-weight: 600; }
+@media (max-width: 780px) {
+  .feat-card { grid-template-columns: 1fr; }
+  .feat-media { min-height: 0; aspect-ratio: 16 / 9; }
+  .feat-txt { padding: 24px 22px 28px; gap: 12px; }
+  .feat-txt h3 { font-size: var(--fs-xl); }
+}
+
+/* ── seasonal banner: warm gold band, not an alert bar ── */
+.seasonal-banner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.seasonal-banner .lbl { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin: 0 0 7px; }
+.seasonal-banner h3 { font-size: var(--fs-xl); margin: 0; color: var(--ink); }
+.seasonal-banner .founder-link { white-space: nowrap; color: var(--butter-ink); }
+@media (max-width: 780px) { .seasonal-banner { flex-direction: column; align-items: flex-start; } }
+
+.section-h { display: flex; align-items: baseline; gap: 14px; margin: 44px 0 18px; }
+.section-h h2 { font-family: var(--sans); font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; white-space: nowrap; margin: 0; }
 .section-h::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-.card { border: 1px solid var(--line); background: var(--card); padding: 20px; display: flex; flex-direction: column; gap: 10px; }
-.card h3 { font-size: 19px; margin: 0; }
-.card p { margin: 0; color: var(--muted); font-size: 15px; }
-.chip { align-self: flex-start; background: var(--butter); color: #3B2E10; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; padding: 3px 9px; }
-.meta { font-size: 12.5px; color: var(--muted); }
+/* ── photo placeholder: branded art (keyline frame + logomark) so empty
+   image wells look intentional until real Amazon images are wired in ── */
+.photo { position: relative; min-height: 190px; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; background: var(--paper2); }
+.photo::after { content: ""; position: absolute; inset: 10px; border: 1px solid var(--butter-line); pointer-events: none; }
+.photo span { font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; opacity: .8; }
+/* logomark scales with its well (15% of width, clamped) so it doesn't look
+   lost in big wells like the article hero or shout in small tiles */
+.photo-mark { width: clamp(30px, 15%, 72px); height: auto; aspect-ratio: 1; color: var(--butter); opacity: .75; }
+.chip { align-self: flex-start; background: var(--butter-pale); color: var(--butter-ink); font-family: var(--sans); font-size: var(--fs-label); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; }
+.card h3 a:hover { color: var(--spruce); }
 
-.empty { border: 1px dashed var(--line); color: var(--muted); padding: 36px; text-align: center; font-size: 15px; }
+/* ── card grid ── */
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+/* category pages: cards center while the collection is small instead of
+   hugging the left edge of a 3-column grid */
+.grid-center { grid-template-columns: repeat(auto-fit, minmax(280px, 328px)); justify-content: center; }
+.card { border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; transition: transform .15s ease, box-shadow .15s ease; }
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.card > a { display: block; overflow: hidden; }
+/* placeholder art in card covers takes the same 16:9 as a real cover image */
+.card > a .photo { aspect-ratio: 16 / 9; min-height: 0; }
+.card-cover-img { transition: transform .3s ease; }
+.card:hover .card-cover-img { transform: scale(1.03); }
+@media (prefers-reduced-motion: reduce) { .card:hover .card-cover-img { transform: none; } }
+.card .txt { padding: 18px 20px 22px; display: flex; flex-direction: column; gap: 9px; flex: 1; }
+.card h3 { font-size: var(--fs-lg); margin: 0; }
+.card h3 a { color: var(--ink); }
+.card p { margin: 0; color: var(--muted); font-size: var(--fs-sm); }
+.meta { font-size: var(--fs-label); letter-spacing: normal; text-transform: none; font-weight: 400; color: var(--muted); margin-top: auto; padding-top: 6px; }
 
-article.post { max-width: 720px; padding: 40px 0 60px; }
-.crumbs { font-size: 12px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 14px; }
-article.post h1 { font-size: 34px; }
-.byline { font-size: 13.5px; color: var(--muted); margin-bottom: 20px; }
-.byline b { color: var(--ink); }
-.disclosure { font-size: 13px; color: var(--muted); border: 1px solid var(--line); background: var(--spec); padding: 10px 14px; margin: 18px 0; }
-article.post img { max-width: 100%; height: auto; }
-article.post table { border-collapse: collapse; width: 100%; font-size: 15px; }
-article.post .table-scroll, article.post pre { overflow-x: auto; }
-article.post th, article.post td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
-article.post blockquote { border-left: 3px solid var(--butter); background: var(--spec); margin: 22px 0; padding: 14px 18px; }
+.cat-grid .card .txt { gap: 6px; }
+.cat-grid h3 { font-size: var(--fs-lg); }
 
-footer.site-foot { border-top: 1px solid var(--line); background: var(--card); margin-top: 40px; padding: 26px 0; font-size: 13.5px; color: var(--muted); }
-footer.site-foot p { margin: 4px 0; }
-footer.site-foot a { color: var(--muted); text-decoration: underline; }
+.empty { border: 1px dashed var(--line); color: var(--muted); padding: 44px 24px; text-align: center; font-size: var(--fs-lead); background: var(--paper2); }
+
+/* ── email block: centered editorial subscribe band. The content sits on a
+   paper plate with an inset gold keyline (same family as the hero plate and
+   the branded photo placeholder) so the page closes on the move it opened with ── */
+.email { text-align: center; scroll-margin-top: 90px; }
+.email-plate { position: relative; max-width: 660px; margin: 0 auto; background: var(--paper2); padding: 44px 36px 46px; }
+.email-plate::after { content: ""; position: absolute; inset: 10px; border: 1px solid var(--butter-line); pointer-events: none; }
+.email .lbl { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin-bottom: 10px; }
+.email .lbl::before, .email .lbl::after { content: ""; width: 22px; height: 1px; background: var(--butter-line); }
+.email h3 { font-size: var(--fs-2xl); margin: 0 0 8px; }
+.email p { margin: 0 auto; font-size: var(--fs-sm); color: var(--muted); max-width: 44ch; }
+.email form { display: flex; gap: 0; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
+.email input { border: 1px solid var(--line); border-right: 0; background: var(--card); color: var(--ink); padding: 11px 14px; font: inherit; font-size: var(--fs-sm); width: 280px; }
+.btn { background: var(--spruce); color: var(--btn-ink); border: 0; padding: 11px 22px; font: inherit; font-size: var(--fs-sm); font-weight: 600; cursor: pointer; white-space: nowrap; transition: background .15s ease; }
+.btn:hover { background: #17452C; }
+.btn-ghost { display: inline-block; border: 1px solid var(--butter-ink); color: var(--butter-ink); padding: 10px 20px; font-family: var(--sans); font-size: var(--fs-sm); font-weight: 600; white-space: nowrap; transition: background .15s ease, color .15s ease; }
+.btn-ghost:hover { background: var(--butter-ink); color: #FFFFFF; }
+
+/* ── about page: full band rhythm like the homepage — paper header, white
+   photo+story split, dark spruce rules band, butter money band, email plate ── */
+.about-intro { display: grid; grid-template-columns: 300px 1fr; gap: 48px; align-items: center; }
+.about-photo { position: relative; aspect-ratio: 4 / 5; background: var(--paper2); overflow: hidden; }
+.about-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; }
+.about-photo::after { content: ""; position: absolute; inset: 10px; border: 1px solid rgba(250,248,244,.65); pointer-events: none; }
+.about-story .lbl { display: block; color: var(--butter-ink); margin-bottom: 8px; }
+.about-story h2 { font-size: var(--fs-2xl); letter-spacing: -.01em; margin: 0 0 14px; }
+.about-story p { font-size: var(--fs-lead); line-height: 1.7; color: var(--soft); margin: 0 0 1em; }
+.about-story p:last-child { margin-bottom: 0; }
+.about-rules .sec-head .lbl { color: var(--butter); }
+.about-rules .sec-head .lbl::before, .about-rules .sec-head .lbl::after { background: rgba(201,160,48,.5); }
+.about-rules .sec-head h2 { color: #FAF8F4; }
+.about-rules .founder-points { border-top: 0; margin-top: 6px; padding-top: 0; }
+.about-money { text-align: center; padding: 44px 0; }
+.about-money .lbl { display: block; color: var(--butter-ink); margin-bottom: 8px; }
+.about-money h3 { font-size: var(--fs-xl); color: var(--ink); margin: 0 0 10px; }
+.about-money p { font-size: var(--fs-md); color: var(--soft); max-width: 62ch; margin: 0 auto; }
+@media (max-width: 780px) {
+  .about-intro { grid-template-columns: 1fr; gap: 26px; }
+  .about-photo { max-width: 300px; margin: 0 auto; width: 100%; }
+  .about-story { text-align: center; }
+  .about-money { padding: 36px 0; }
+}
+
+/* ── contact page: one bordered panel holds both the form and the sidebar
+   (instead of two loose columns) so the paper2 wash fills the full row
+   height regardless of which side has more content — that's what makes the
+   two sides read as equal-height without hand-tuned spacing ── */
+.contact-panel { display: grid; grid-template-columns: 1.3fr 1fr; border: 1px solid var(--line); background: var(--card); }
+.contact-form { display: flex; flex-direction: column; gap: 18px; padding: 44px 48px; border-right: 1px solid var(--line); }
+.contact-form > .lbl { color: var(--butter-ink); margin-bottom: -4px; }
+.contact-form label { display: flex; flex-direction: column; gap: 7px; font-size: var(--fs-sm); font-weight: 500; color: var(--soft); }
+.contact-form input, .contact-form select, .contact-form textarea { border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 11px 14px; font: inherit; font-size: var(--fs-sm); }
+.contact-form textarea { resize: vertical; min-height: 150px; }
+.contact-form .btn { align-self: flex-start; margin-top: 4px; }
+.cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+
+.contact-side { background: var(--paper2); padding: 40px 42px; display: flex; flex-direction: column; }
+.cs-avatar { display: flex; align-items: center; gap: 14px; }
+.cs-avatar-img { width: 46px; height: 46px; border-radius: 50%; overflow: hidden; outline: 1.5px solid var(--butter); outline-offset: 3px; flex-shrink: 0; }
+.cs-avatar-img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; display: block; }
+.cs-name { font-size: var(--fs-sm); font-weight: 600; color: var(--ink); margin: 0; }
+.cs-time { font-size: 13px; color: var(--muted); margin: 2px 0 0; }
+.cs-block { padding-top: 24px; margin-top: 24px; border-top: 1px solid var(--butter-line); }
+.cs-block > .lbl { display: block; color: var(--butter-ink); margin-bottom: 15px; }
+.ct-item + .ct-item { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
+.ct-item h3 { font-size: var(--fs-md); font-weight: 600; font-family: var(--sans); color: var(--ink); margin: 0 0 4px; }
+.ct-item p { font-size: 13.5px; color: var(--muted); margin: 0; line-height: 1.6; }
+.cs-direct { margin-top: auto; }
+.cs-direct a { display: block; font-weight: 600; }
+.cs-direct a + a { margin-top: 9px; }
+@media (max-width: 780px) {
+  .contact-panel { grid-template-columns: 1fr; }
+  .contact-form { padding: 32px 22px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .contact-side { padding: 32px 22px; }
+  .cf-row { grid-template-columns: 1fr; gap: 18px; }
+}
+
+/* ── how-we-pick-products: answer callout + 4 numbered method cards, then
+   reuses the spruce founder-band and butter about-money bands so it shares
+   the About page's visual family instead of inventing new ones ── */
+.hwp-answer { max-width: 780px; margin: 0 auto 40px; }
+.hwp-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.hwp-step { border: 1px solid var(--line); background: var(--card); padding: 26px 28px 28px; }
+.hwp-step h3 { font-size: var(--fs-lg); margin: 2px 0 8px; }
+.hwp-step p { font-size: var(--fs-md); color: var(--soft); line-height: 1.7; margin: 0; }
+.hwp-correct .wrap { text-align: center; padding: 6px 0; }
+.hwp-correct .lbl { color: var(--butter); }
+.hwp-correct h3 { color: #FAF8F4; font-size: var(--fs-xl); margin: 8px 0 12px; }
+.hwp-correct p { color: rgba(250,248,244,.82); font-size: var(--fs-md); max-width: 62ch; margin: 0 auto; }
+.hwp-correct a { color: var(--butter); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 780px) {
+  .hwp-steps { grid-template-columns: 1fr; }
+}
+
+/* ── legal pages: shared template for Privacy/Cookie/Terms/Affiliate.
+   Bordered "On This Page" jump box (two columns of anchor links) sits above
+   a single reading column — legal text needs to be scannable, not just
+   readable start-to-finish. ── */
+.legal-updated { font-family: var(--sans); font-size: 13px; letter-spacing: .03em; color: var(--muted); margin-top: 10px !important; }
+.legal-wrap { max-width: 780px; margin: 0 auto; }
+.legal-toc { position: relative; border: 1px solid var(--butter-line); background: var(--paper2); padding: 26px 30px 10px; margin: 0 0 40px; }
+.legal-toc::before { content: ""; position: absolute; left: 0; top: 18px; bottom: 18px; width: 3px; background: var(--butter); }
+.legal-toc > .lbl { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin-bottom: 6px; }
+.legal-toc ol { display: flex; flex-wrap: wrap; list-style: none; margin: 0; padding: 0; }
+.legal-toc li { width: 50%; border-top: 1px solid var(--butter-line); }
+.legal-toc li:nth-child(1), .legal-toc li:nth-child(2) { border-top: 0; }
+.legal-toc a { position: relative; display: block; padding: 12px 24px 12px 17px; color: var(--ink); font-weight: 500; font-size: var(--fs-md); }
+.legal-toc a::before { content: ""; position: absolute; left: 0; top: 50%; width: 5px; height: 5px; background: var(--butter); transform: translateY(-50%) rotate(45deg); }
+.legal-toc a:hover { color: var(--spruce); }
+.legal-body h2 { scroll-margin-top: 96px; }
+.legal-body h2:first-of-type { margin-top: 0; }
+@media (max-width: 780px) {
+  .legal-toc li { width: 100%; border-top: 1px solid var(--butter-line); }
+  .legal-toc li:nth-child(1) { border-top: 0; }
+}
+
+/* ── scroll progress ── */
+.scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 50; background: transparent; }
+.scroll-progress-bar { height: 100%; background: var(--butter); transition: width .08s linear; }
+
+/* ── article ── */
+/* one shared column: header, hero, disclosure, answer, product cards, and
+   prose all share this width so nothing reads as indented against its
+   neighbors. The related grid lives outside the article at its own width. */
+article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
+.crumbs { font-family: var(--sans); font-size: var(--fs-label); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 16px; }
+.crumbs a { color: var(--muted); }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.post-header { text-align: center; padding: 8px 0 0; animation: fadeUp .5s ease both; }
+.chip-solid { display: inline-block; background: var(--butter); color: #14100A; font-family: var(--sans); font-size: var(--fs-label); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 6px 14px; margin-bottom: 22px; }
+.chip-solid:hover { opacity: .92; }
+.post-header h1 { font-size: var(--fs-4xl); font-weight: 500; letter-spacing: -.01em; line-height: 1.1; }
+.post-dek { font-size: var(--fs-lead); color: var(--soft); line-height: 1.6; max-width: 58ch; margin: 0 auto 26px; }
+.byline-block { text-align: center; }
+.byline-avatar { display: inline-block; width: 48px; height: 48px; border-radius: 50%; overflow: hidden; outline: 1.5px solid var(--butter); outline-offset: 3px; margin-bottom: 13px; }
+.byline-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; display: block; }
+.byline-author { font-size: var(--fs-sm); font-weight: 500; color: var(--ink); margin: 0; }
+.byline-meta { font-family: var(--sans); font-size: 13px; letter-spacing: .03em; color: var(--muted); margin: 7px 0 0; }
+
+/* hero sits slightly wider (920) than the 840 reading column */
+.post-hero-image { width: min(920px, calc(100vw - 48px)); margin: 40px 0 0 calc((100% - min(920px, calc(100vw - 48px))) / 2); aspect-ratio: 16 / 9; border: 1px solid var(--line); overflow: hidden; background: var(--paper2); }
+.post-hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.post-hero-image .photo { height: 100%; min-height: 0; }
+
+.post-body { padding-top: 36px; }
+.disclosure { font-size: var(--fs-sm); color: var(--muted); border: 1px solid var(--line); background: var(--wash); padding: 11px 15px; margin: 0 0 26px; }
+.answer { border-left: 3px solid var(--butter); background: var(--paper2); padding: 18px 22px; margin: 0 0 30px; font-size: var(--fs-lead); line-height: 1.78; }
+.answer b { font-family: var(--serif); font-style: italic; font-weight: 600; }
+
+/* stacked card: full-width 2:1 photo on top, text below (side-by-side photo
+   column was cramping the text). Zones read top to bottom: numeral + award →
+   name → best-for → description → pros/cons → verdict panel → CTA. */
+.product { border: 1px solid var(--line); background: var(--card); margin: 40px 0; scroll-margin-top: 90px; }
+.product > a { display: block; }
+.product .photo { aspect-ratio: 2 / 1; min-height: 0; }
+.product .txt { padding: 26px 32px 30px; }
+.product-head { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
+.product-award { background: var(--butter); color: #14100A; font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 4px 12px; }
+.verdict { background: var(--butter-pale); border-left: 3px solid var(--butter); padding: 14px 18px 15px; margin: 0 0 20px; }
+.verdict .lbl { display: block; color: var(--butter-ink); margin-bottom: 5px; }
+.verdict .product-desc { margin: 0; }
+.verdict .product-desc + .product-desc { margin-top: 10px; }
+
+/* ── lineup: at-a-glance list of the picks, jump links to each card ── */
+.lineup { border: 1px solid var(--line); background: var(--card); padding: 20px 26px 10px; margin: 0 0 30px; }
+.lineup .lbl { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin-bottom: 6px; }
+.lineup ol { list-style: none; margin: 0; padding: 0; }
+.lineup li { display: flex; align-items: baseline; gap: 12px; padding: 11px 0 12px; }
+.lineup li + li { border-top: 1px solid var(--line); }
+.lineup-n { font-family: var(--serif); font-style: italic; font-size: var(--fs-sm); color: var(--butter-ink); flex-shrink: 0; }
+.lineup a { color: var(--ink); font-weight: 500; font-size: var(--fs-md); }
+.lineup a:hover { color: var(--spruce); }
+.lineup-award { margin-left: auto; font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--butter-ink); flex-shrink: 0; padding-left: 12px; }
+/* italic gold numeral, same move as the founder band's No. 1/2/3 (butter-ink
+   on light backgrounds per the color-role rule) */
+.product-n { display: block; font-family: var(--serif); font-style: italic; font-size: 17px; color: var(--butter-ink); }
+.product h3 { font-size: var(--fs-xl); margin-bottom: 6px; }
+.whofor { font-family: var(--serif); font-style: italic; font-size: var(--fs-md); color: var(--muted); margin: 0 0 16px; }
+.product-desc { font-size: var(--fs-md); line-height: 1.7; color: #312E26; margin: 0 0 16px; }
+.pc { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; font-size: var(--fs-md); border-top: 1px solid var(--line); padding-top: 16px; margin-bottom: 18px; }
+.pc .h { font-family: var(--sans); font-size: var(--fs-label); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
+.pc .h.good { color: var(--good); }
+.pc .h.bad { color: var(--bad); }
+.pc ul { margin: 7px 0 0; padding-left: 0; list-style: none; }
+.pc li { padding-left: 16px; position: relative; margin-bottom: 4px; }
+.pc .good li::before { content: "+"; position: absolute; left: 0; color: var(--good); font-weight: 600; }
+.pc .bad li::before { content: "–"; position: absolute; left: 0; color: var(--bad); font-weight: 600; }
+.cta { display: inline-block; background: var(--butter); color: #14100A; font-weight: 600; font-size: var(--fs-sm); padding: 12px 24px; }
+.cta:hover { opacity: .92; }
+
+/* ── prose: typography for markdown article body content ── */
+.prose { font-size: var(--fs-lead); line-height: 1.78; color: var(--ink); }
+.prose > * + * { margin-top: 1.5em; }
+.prose p { color: #312E26; margin: 0; }
+/* `.prose p` resets margin on all sides, which out-specifies the generic
+   sibling-spacing rule above and silently zeroed the gap between two
+   consecutive paragraphs — this one rule needs to win that fight */
+.prose p + p { margin-top: 1.5em; }
+.prose strong { font-weight: 600; color: var(--ink); }
+.prose h2 { font-size: var(--fs-2xl); font-weight: 500; letter-spacing: -.3px; line-height: 1.2; margin-top: 1.7em; margin-bottom: .5em; }
+.prose h2:first-child { margin-top: 0; }
+.prose h3 { font-size: var(--fs-lg); font-weight: 500; letter-spacing: -.2px; line-height: 1.3; margin-top: 1.5em; margin-bottom: .45em; }
+/* sitewide standard for inline content links: spruce, bold, underlined */
+.prose a, .disclosure a, .about-story a, .about-money a { color: var(--spruce); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+/* lists: tiny gold diamond bullets (the hero-ornament motif) and butter-ink
+   ordinals instead of default browser markers */
+.prose ul { padding-left: 1.5em; margin: 0; list-style: none; }
+.prose ul > li { position: relative; padding-left: .5em; }
+.prose ul > li::before { content: ""; position: absolute; left: -.85em; top: .66em; width: 5px; height: 5px; background: var(--butter); transform: rotate(45deg); }
+.prose ol { padding-left: 1.6em; margin: 0; list-style: none; counter-reset: prose-li; }
+.prose ol > li { position: relative; padding-left: .4em; counter-increment: prose-li; }
+.prose ol > li::before { content: counter(prose-li) "."; position: absolute; left: -1.5em; color: var(--butter-ink); font-weight: 600; font-size: .95em; }
+.prose li { margin: .3em 0; line-height: 1.7; color: #312E26; }
+.prose img { max-width: 100%; height: auto; border: 1px solid var(--line); margin: 0; }
+/* tables read as catalog spec sheets: white card surface, gold-ruled header
+   in butter-ink small caps, soft zebra rows, emphasized row labels */
+.prose table { border-collapse: collapse; width: 100%; font-size: var(--fs-md); background: var(--card); border: 1px solid var(--line); }
+.prose th { background: var(--paper2); border-bottom: 2px solid var(--butter-line); font-family: var(--sans); font-size: var(--fs-label); letter-spacing: .07em; text-transform: uppercase; font-weight: 600; color: var(--butter-ink); text-align: left; padding: 12px 16px; }
+.prose td { border-top: 1px solid var(--line); padding: 13px 16px; text-align: left; line-height: 1.6; }
+.prose tbody tr:nth-child(even) td { background: var(--wash); }
+.prose td:first-child { font-weight: 500; color: var(--ink); white-space: nowrap; }
+/* whatever follows a table needs extra air — the table's border carries
+   visual mass that makes the default prose gap read cramped */
+.prose table + * { margin-top: 2.2em; }
+.table-scroll { overflow-x: auto; }
+.prose blockquote { border-left: 3px solid var(--butter); background: var(--paper2); padding: 16px 20px; margin: 0; }
+.prose blockquote p { color: var(--ink); }
+
+.prose details { border-bottom: 1px solid var(--line); padding: 14px 0; }
+.prose details:first-of-type { border-top: 1px solid var(--line); }
+/* adjacent questions sit flush — the generic 1.5em prose gap between details
+   elements read as huge holes in the FAQ */
+.prose details + details { margin-top: 0; }
+.prose summary { font-weight: 500; cursor: pointer; font-family: var(--serif); font-size: var(--fs-lg); }
+.prose summary::marker { color: var(--butter); }
+/* FAQ answers read as body text, not fine print — they're the AEO-quotable
+   content, and inherit tracks the prose size on both desktop and mobile */
+.prose details p { color: #312E26; font-size: inherit; margin-top: 10px; line-height: 1.7; }
+
+/* ── related posts: separated from the article body by a hairline, cards
+   carry a category chip and a divided meta row ── */
+/* breaks out of the 1080 .wrap to an 1180px footprint so cards land at 380px
+   wide, the same scale as ytgrowth's related cards */
+.related { margin: 56px calc(50% - 50vw) 72px; padding: 44px 24px 0; border-top: 1px solid var(--line); }
+.related-head, .related-grid { max-width: 1180px; margin-left: auto; margin-right: auto; }
+.related-head { margin-bottom: 24px; }
+.related-head .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--butter-ink); margin-bottom: 8px; }
+.related-head h2 { font-size: var(--fs-2xl); letter-spacing: -.01em; margin: 0; }
+.meta-rule { border-top: 1px solid var(--line); padding-top: 12px; }
+.related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.card-cover-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+@media (max-width: 780px) { .related-grid { grid-template-columns: 1fr; } }
+
+/* ── footer: dark editorial ink band, dot-grid texture (savvyhomie sibling-project pattern) ── */
+footer.brand-ft {
+  margin-top: 64px; padding: 56px 0 28px; background: #14130F; color: #FAF8F4;
+  background-image: radial-gradient(rgba(250,248,244,.14) 1.2px, transparent 1.2px);
+  background-size: 22px 22px;
+  border-top: 1px solid rgba(201,160,48,.35);
+}
+.brand-ft .ft-wordmark { display: flex; align-items: center; margin-bottom: 14px; }
+.brand-ft .ft-wordmark .logo-img { filter: invert(1); }
+.ft-tag { font-family: var(--serif); font-style: italic; font-size: var(--fs-lg); color: rgba(250,248,244,.9); margin: 0 0 10px; }
+.ft-desc { font-size: var(--fs-sm); color: rgba(250,248,244,.6); line-height: 1.9; max-width: 340px; margin: 0; }
+.ft-inner { display: grid; grid-template-columns: 1.6fr 1.2fr 1fr 1fr; gap: 36px; margin-bottom: 44px; }
+.ft-col-t { font-family: var(--sans); font-size: var(--fs-label); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--butter); margin: 0 0 18px; }
+.ft-links { display: flex; flex-direction: column; gap: 11px; }
+.ft-links a { font-size: var(--fs-sm); color: rgba(250,248,244,.65); transition: color .15s ease; }
+.ft-links a:hover { color: var(--butter); }
+.ft-links a.ft-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--butter); color: var(--ink); font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 9px 16px; margin-bottom: 8px; transition: background .15s ease; }
+.ft-links a.ft-cta:hover { background: #DDB646; color: var(--ink); }
+.ft-bottom { border-top: 1px solid rgba(250,248,244,.14); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.ft-copy { font-family: var(--sans); font-size: var(--fs-label); letter-spacing: .04em; text-transform: none; font-weight: 400; color: rgba(250,248,244,.45); }
+.ft-legal { display: flex; gap: 18px; }
+.ft-legal a { font-family: var(--sans); font-size: var(--fs-label); letter-spacing: .04em; text-transform: none; font-weight: 400; color: rgba(250,248,244,.45); }
+.ft-legal a:hover { color: var(--butter); }
+/* mobile footer: link groups side by side instead of one long list */
+@media (max-width: 780px) {
+  footer.brand-ft { margin-top: 44px; padding: 40px 0 22px; }
+  .ft-inner { grid-template-columns: 1fr 1fr; gap: 30px 18px; margin-bottom: 32px; }
+  .ft-inner > div:first-child, .ft-inner > div:last-child { grid-column: 1 / -1; }
+  .ft-col-t { margin-bottom: 13px; }
+  .ft-links { gap: 9px; }
+  .ft-bottom { flex-direction: column; align-items: flex-start; gap: 10px; padding-top: 18px; }
+  .ft-legal { flex-wrap: wrap; gap: 12px 16px; }
+}
 
 :focus-visible { outline: 2px solid var(--spruce); outline-offset: 2px; }
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
   .grid { grid-template-columns: 1fr; }
-  .hero h1 { font-size: 30px; }
+  .featured { grid-template-columns: 1fr; }
+  .product .txt { padding: 20px 20px 24px; }
+  .pc { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 32px; }
+  .post-header h1 { font-size: 32px; }
+  .post-dek { font-size: 16px; }
+  .prose { font-size: 16.5px; }
+  .answer { font-size: 16.5px; }
+  .post-hero-image { margin-top: 26px; }
+  .hero-compact { padding: 26px 18px; }
+  .hero-inner { padding: 30px 16px 28px; }
+  .hero-compact .eyebrow { gap: 8px; }
+  .hero-compact .eyebrow .eyebrow-rule { width: 16px; }
+  .hero-trust { gap: 10px 14px; }
+  .hero-trust .rule { display: none; }
+  .hero-compact h1 { font-size: 34px; }
+  .hero-compact .hero-sub { font-size: 16px; }
+  .hero-orn { margin-top: 22px; }
+  .band { margin: 40px calc(50% - 50vw); padding: 40px 0; }
+  .band-butter { padding: 26px 0; }
+  .sec-head { margin-bottom: 20px; }
+  .email-plate { padding: 32px 20px 34px; }
+  .email form { flex-direction: column; align-items: stretch; gap: 8px; }
+  .email input { width: 100%; border-right: 1px solid var(--line); }
 }
