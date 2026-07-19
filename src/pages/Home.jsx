@@ -22,9 +22,9 @@ export default function Home() {
           <svg className="hero-deco hero-deco-r" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M4 21V10l8-6 8 6v11M9 21v-7h6v7" />
           </svg>
-          <p className="eyebrow lbl"><span className="eyebrow-rule" />Gifts &amp; Home, Curated<span className="eyebrow-rule" /></p>
-          <h1>Gift and home finds, <em>chosen with care</em>.</h1>
-          <p className="hero-sub">Roundups and gift guides for a home that feels put together. Every pick is weighed against its alternatives, and the cons sit right beside the pros.</p>
+          <p className="eyebrow lbl"><span className="eyebrow-rule" />Home Tips &amp; Curated Finds<span className="eyebrow-rule" /></p>
+          <h1>Home tips and gift finds, <em>chosen with care</em>.</h1>
+          <p className="hero-sub">Simple tips for a home that feels put together, plus gift guides and picks we've carefully compared, cons included.</p>
           <span className="hero-orn" aria-hidden="true"><i /></span>
           <div className="hero-trust">
             <span>Independently Researched</span>

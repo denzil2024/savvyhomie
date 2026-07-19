@@ -1,6 +1,6 @@
 const TRIAGE = [
   { t: 'Found a broken link or wrong price', d: 'Fastest replies live here. Include the post title and I\'ll fix it or pull the pick.' },
-  { t: 'Want a product considered for a list', d: 'Send the link and why it beats what\'s already on the page. No guarantees, but I read every one.' },
+  { t: 'Have a product or topic to suggest', d: 'Send the details, a product link or the topic you want covered, and why it\'s worth adding. No guarantees, but I read every one.' },
   { t: 'Pitching a partnership or press', d: 'Say what you\'re pitching in the first line. Vague intros go to the bottom of the pile.' },
 ]
 
@@ -9,8 +9,8 @@ export default function Contact() {
     <>
       <section className="hero cat-hero">
         <span className="eyebrow lbl"><span className="eyebrow-rule" />Contact<span className="eyebrow-rule" /></span>
-        <h1>Get In Touch</h1>
-        <p>One person reads this inbox, so a specific message beats a friendly one. Tell me what you need and I'll get back to you within 24 hours.</p>
+        <h1>Drop Me a Line</h1>
+        <p>It's just me reading this inbox, so the more specific you can be, the faster I can help. Tell me what you need and I'll get back to you within 24 hours.</p>
       </section>
 
       <section className="band band-white">

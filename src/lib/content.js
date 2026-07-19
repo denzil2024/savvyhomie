@@ -2,12 +2,14 @@ import { marked } from 'marked'
 
 export const SITE = 'https://savvyhomie.com'
 export const SITE_NAME = 'SavvyHomie'
-export const TAGLINE = 'Thoughtful finds for a home you love.'
+export const TAGLINE = 'Thoughtful tips and finds for a home you love.'
 
-// `topics` mirrors the live Pinterest boards one-to-one (boards that ARE a
-// category, like "Gift Guides" and "Home Organization & Storage", are covered
-// by the tile itself). They link to the parent category page until each topic
-// has its own pillar post; when one publishes, point its entry at that URL.
+// `topics` roughly mirrors the live Pinterest boards (boards that ARE a category,
+// like "Gift Guides", are covered by the tile itself), but the two aren't forced
+// to match word for word: this label is on-site copy, so it stays free of brand
+// names like "Amazon" even if the linked Pinterest board is named differently for
+// Pinterest's own search behavior. They link to the parent category page until
+// each topic has its own pillar post; when one publishes, point its entry at that URL.
 export const categories = [
   {
     slug: 'gift-guides',
@@ -18,25 +20,25 @@ export const categories = [
   {
     slug: 'kitchen-finds',
     name: 'Kitchen Finds',
-    blurb: 'Gadgets and tools that earn their spot on a counter or in a drawer. Every pick here is checked against cheaper alternatives and flashier ones, so what makes the list is worth the space it takes up.',
+    blurb: 'Gadgets, tools, and kitchen tips that earn their spot on a counter or in a drawer. Every pick is checked against a cheaper option and a flashier one, so what makes the list is worth the space.',
     topics: ['Kitchen Gadgets & Finds'],
   },
   {
     slug: 'organization',
     name: 'Organization & Storage',
-    blurb: 'Storage systems for pantries, closets, drawers, and the small spaces that collect clutter fastest. We focus on what fixes daily friction, not what just looks tidy in a photo.',
-    topics: ['Small Space Ideas', 'Kitchen Organization'],
+    blurb: 'Storage systems and organizing tips for pantries, closets, drawers, and the small spaces that collect clutter fastest. We focus on what fixes daily friction, not what just looks tidy in a photo.',
+    topics: ['Small Space Ideas', 'Kitchen Organization', 'Bathroom Organization', 'Home Organization & Storage'],
   },
   {
     slug: 'decor-finds',
     name: 'Home Decor Finds',
-    blurb: 'Pieces that make a room feel finished without a full remodel budget. Lighting, textiles, and small decor changes that make the biggest visible difference for what they cost.',
-    topics: ['Cozy Bedroom Ideas', 'Amazon Home Finds'],
+    blurb: 'Decor tips and pieces that make a room feel finished without a full remodel budget. Lighting, textiles, and small changes that make the biggest visible difference for what they cost.',
+    topics: ['Cozy Bedroom Ideas', 'Everyday Home Finds'],
   },
   {
     slug: 'seasonal',
     name: 'Seasonal',
-    blurb: 'Holiday and seasonal picks, published early enough to plan around instead of scrambling last minute. Gift season, spring refreshes, and everything in between.',
+    blurb: 'Holiday and seasonal guides, published early enough to plan around instead of scrambling last minute. Gift season, spring refreshes, and everything in between.',
     topics: ['Christmas Gift Ideas'],
   },
 ]
@@ -148,14 +150,14 @@ export function metaFor(url) {
   if (clean === '' || url === '/') {
     return {
       title: `${SITE_NAME} · ${TAGLINE}`,
-      description: 'Honest gift guides and home & kitchen product roundups. Every pick compared, pros and cons included.',
+      description: 'Practical home & kitchen tips, gift guides, and honest product picks, pros and cons included.',
       jsonLd: { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE },
     }
   }
   if (clean === '/about') {
     return {
       title: `About Carol · ${SITE_NAME}`,
-      description: 'Carol is an interior design graduate of Parsons School of Design. SavvyHomie is her trained eye applied to everyday budgets: honest home and kitchen picks, cons included.',
+      description: 'Carol is an interior design graduate of Parsons School of Design. SavvyHomie is her trained eye applied to everyday budgets: practical home tips and honest product picks, cons included.',
       jsonLd: {
         '@context': 'https://schema.org', '@type': 'AboutPage', url: SITE + url,
         mainEntity: {

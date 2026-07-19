@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <ScrollToHash />
-      <div className="topbar"><span className="topbar-dot">✦</span> Every pick compared. Cons included. <span className="topbar-dot">✦</span></div>
+      <div className="topbar"><span className="topbar-dot">✦</span> Real tips. Honest picks. No fluff. <span className="topbar-dot">✦</span></div>
       <header className="masthead">
         <div className="wrap mast-inner">
           <Link to="/" className="wordmark" onClick={closeNav}><Logo src="/logo-color.png" /></Link>
@@ -61,7 +61,7 @@ export default function App() {
             <div>
               <div className="ft-wordmark"><Logo /></div>
               <p className="ft-tag">{TAGLINE}</p>
-              <p className="ft-desc">Honest home &amp; kitchen roundups and gift guides, independently researched and reviewed. As an Amazon Associate, {SITE_NAME} earns from qualifying purchases.</p>
+              <p className="ft-desc">Practical home &amp; kitchen tips, gift guides, and honest product picks, independently researched and reviewed. As an Amazon Associate, {SITE_NAME} earns from qualifying purchases.</p>
             </div>
             <div>
               <p className="ft-col-t">Shop by Category</p>
