@@ -51,7 +51,7 @@ export default function App() {
           <Route path="/affiliate-disclosure/*" element={<AffiliateDisclosure />} />
           <Route path="/how-we-pick-products/*" element={<HowWePickProducts />} />
           <Route path="/category/:slug/*" element={<Category />} />
-          <Route path="/:slug/*" element={<Post />} />
+          <Route path="/blog/:slug/*" element={<Post />} />
         </Routes>
       </main>
 

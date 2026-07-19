@@ -69,12 +69,12 @@ function RelatedCard({ post }) {
   const cat = categories.find((c) => c.slug === post.category)
   return (
     <article className="card">
-      <Link to={`/${post.slug}/`}>
+      <Link to={`/blog/${post.slug}/`}>
         {post.cover ? <img className="card-cover-img" src={post.cover} alt={post.title} /> : <Photo seed={post.slug} />}
       </Link>
       <div className="txt">
         {cat && <span className="chip">{cat.name}</span>}
-        <h3><Link to={`/${post.slug}/`}>{post.title}</Link></h3>
+        <h3><Link to={`/blog/${post.slug}/`}>{post.title}</Link></h3>
         <span className="meta meta-rule">Updated {post.updated}{post.readTime ? ` · ${post.readTime}` : ''}</span>
       </div>
     </article>

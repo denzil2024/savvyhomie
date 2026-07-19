@@ -51,15 +51,15 @@ export default function Home() {
         <>
           <div className="sec-head"><span className="lbl">Fresh off the List</span><h2>The Latest Guide</h2></div>
           <article className="feat-card">
-            <Link to={`/${featured.slug}/`} className="feat-media">
+            <Link to={`/blog/${featured.slug}/`} className="feat-media">
               {featured.cover ? <img src={featured.cover} alt={featured.title} /> : <Photo seed={featured.slug} />}
             </Link>
             <div className="feat-txt">
               {featuredCat && <span className="chip">{featuredCat.name}</span>}
-              <h3><Link to={`/${featured.slug}/`}>{featured.title}</Link></h3>
+              <h3><Link to={`/blog/${featured.slug}/`}>{featured.title}</Link></h3>
               <p>{featured.description}</p>
               <span className="meta">Updated {featured.updated}{featured.readTime ? ` · ${featured.readTime}` : ''}</span>
-              <Link to={`/${featured.slug}/`} className="feat-link">Read the guide →</Link>
+              <Link to={`/blog/${featured.slug}/`} className="feat-link">Read the guide →</Link>
             </div>
           </article>
         </>
@@ -78,10 +78,10 @@ export default function Home() {
               const cat = categories.find((c) => c.slug === p.category)
               return (
                 <article className="card" key={p.slug}>
-                  <Link to={`/${p.slug}/`}>{p.cover ? <img className="card-cover-img" src={p.cover} alt={p.title} /> : <Photo seed={p.slug} />}</Link>
+                  <Link to={`/blog/${p.slug}/`}>{p.cover ? <img className="card-cover-img" src={p.cover} alt={p.title} /> : <Photo seed={p.slug} />}</Link>
                   <div className="txt">
                     {cat && <span className="chip">{cat.name}</span>}
-                    <h3><Link to={`/${p.slug}/`}>{p.title}</Link></h3>
+                    <h3><Link to={`/blog/${p.slug}/`}>{p.title}</Link></h3>
                     <p>{p.description}</p>
                     <span className="meta">Updated {p.updated}{p.readTime ? ` · ${p.readTime}` : ''}</span>
                   </div>

@@ -34,11 +34,11 @@ export default function Category() {
             <div className="grid grid-center">
               {list.map((p) => (
                 <article className="card" key={p.slug}>
-                  <Link to={`/${p.slug}/`}>
+                  <Link to={`/blog/${p.slug}/`}>
                     {p.cover ? <img className="card-cover-img" src={p.cover} alt={p.title} /> : <Photo seed={p.slug} />}
                   </Link>
                   <div className="txt">
-                    <h3><Link to={`/${p.slug}/`}>{p.title}</Link></h3>
+                    <h3><Link to={`/blog/${p.slug}/`}>{p.title}</Link></h3>
                     <p>{p.description}</p>
                     <span className="meta">Updated {p.updated}{p.readTime ? ` · ${p.readTime}` : ''}</span>
                   </div>

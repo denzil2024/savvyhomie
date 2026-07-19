@@ -74,6 +74,18 @@ function parseFrontmatter(raw) {
   return { meta, body }
 }
 
+const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+
+function parseFaqs(raw) {
+  const faqs = []
+  const re = /<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g
+  let m
+  while ((m = re.exec(raw))) {
+    faqs.push({ question: stripTags(m[1]), answer: stripTags(m[2]) })
+  }
+  return faqs
+}
+
 export const posts = Object.entries(files)
   .map(([path, raw]) => {
     const slug = path.split('/').pop().replace(/\.md$/, '')
@@ -94,11 +106,17 @@ export const posts = Object.entries(files)
       readTime: meta.readTime || '',
       cover: meta.cover || '',
       products: meta.products || [],
+      demo: meta.demo === 'true',
+      faqs: parseFaqs(body),
       introHtml: restMd.length ? marked.parse(introMd) : '',
       html: marked.parse(restMd.length ? restMd.join('\n') : body),
     }
   })
   .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+
+// `demo: true` in frontmatter keeps a post out of llms.txt — slug prefix and description
+// wording were tried first and both proved unreliable (see FOUNDATION.md).
+export const realPosts = posts.filter((p) => !p.demo)
 
 export function postsInCategory(slug) {
   return posts.filter((p) => p.category === slug)
@@ -108,12 +126,21 @@ export function getRelatedPosts(slug, category, limit = 3) {
   return posts.filter((p) => p.slug !== slug && p.category === category).slice(0, limit)
 }
 
-export function getRoutes() {
+export function getSitemapEntries() {
+  const catLastmod = (slug) => {
+    const catPosts = posts.filter((p) => p.category === slug && p.date)
+    return catPosts.length ? catPosts.reduce((max, p) => (p.date > max ? p.date : max), catPosts[0].date) : undefined
+  }
   return [
-    '/', '/about/', '/contact/',
-    '/privacy-policy/', '/cookie-policy/', '/terms-of-service/', '/affiliate-disclosure/', '/how-we-pick-products/',
-    ...categories.map((c) => `/category/${c.slug}/`), ...posts.map((p) => `/${p.slug}/`),
+    { loc: '/' }, { loc: '/about/' }, { loc: '/contact/' },
+    { loc: '/privacy-policy/' }, { loc: '/cookie-policy/' }, { loc: '/terms-of-service/' }, { loc: '/affiliate-disclosure/' }, { loc: '/how-we-pick-products/' },
+    ...categories.map((c) => ({ loc: `/category/${c.slug}/`, lastmod: catLastmod(c.slug) })),
+    ...posts.map((p) => ({ loc: `/blog/${p.slug}/`, lastmod: p.date || undefined })),
   ]
+}
+
+export function getRoutes() {
+  return getSitemapEntries().map((e) => e.loc)
 }
 
 export function metaFor(url) {
@@ -171,7 +198,7 @@ export function metaFor(url) {
       jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
     }
   }
-  const post = posts.find((p) => `/${p.slug}` === clean)
+  const post = posts.find((p) => `/blog/${p.slug}` === clean)
   if (post) {
     const jsonLd = [{
       '@context': 'https://schema.org', '@type': 'Article',
@@ -186,6 +213,15 @@ export function metaFor(url) {
         '@context': 'https://schema.org', '@type': 'ItemList',
         itemListElement: post.products.map((pr, i) => ({
           '@type': 'ListItem', position: i + 1, name: pr.name, url: pr.url,
+        })),
+      })
+    }
+    if (post.faqs.length) {
+      jsonLd.push({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: post.faqs.map((f) => ({
+          '@type': 'Question', name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
         })),
       })
     }

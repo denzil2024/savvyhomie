@@ -1,5 +1,6 @@
 ---
 title: 15 Kitchen Organizers Under $25 That Work
+demo: true
 description: We compared 60+ best-selling kitchen organizers so you don't have to. These are the ones with the reviews to back them up, flaws included.
 category: organization
 date: 2026-07-17

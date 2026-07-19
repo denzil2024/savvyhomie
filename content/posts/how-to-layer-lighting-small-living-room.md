@@ -1,5 +1,6 @@
 ---
 title: How to Layer Lighting in a Small Living Room
+demo: true
 description: A room doesn't feel finished until the lighting has layers. Here's the order to add them in, and the mistakes that make a small living room feel flatter instead of cozier.
 category: decor-finds
 date: 2026-07-18

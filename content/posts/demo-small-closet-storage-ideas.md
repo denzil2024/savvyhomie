@@ -1,5 +1,6 @@
 ---
 title: 12 Small Closet Storage Ideas That Double Your Space
+demo: true
 description: Demo post. Slim hangers, double rods, and shelf dividers turn one cramped closet into two. Here's what works and what wastes money.
 category: organization
 date: 2026-07-14

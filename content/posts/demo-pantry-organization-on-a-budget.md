@@ -1,5 +1,6 @@
 ---
 title: Pantry Organization on a Budget, Shelf by Shelf
+demo: true
 description: Demo post. A working pantry system for under $60, built from bins and risers that earn their spot instead of just looking tidy.
 category: organization
 date: 2026-07-12
