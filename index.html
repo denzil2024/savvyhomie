@@ -12,14 +12,33 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Inter+Tight:wght@400;500;600;700&display=swap"
     />
     <!--app-head-->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZWC1BW1J7"></script>
+    <!-- Google tag (gtag.js). Suppression, same pattern as ytgrowth's:
+         two reasons NOT to record a visit —
+           1. Non-production host: only savvyhomie.com / www.savvyhomie.com
+              count as production, so localhost/dev/Railway preview traffic
+              never pollutes real analytics.
+           2. Owner opt-out: load any page once with ?sh_notrack=1 to stop
+              your own visits being recorded on this browser; ?sh_track=1
+              re-enables. Persists in localStorage, so it survives a dynamic
+              IP (works from anywhere, including on the move) and works on
+              every device you opt in on separately. -->
     <script>
+      (function(){try{
+        var h=location.hostname;
+        var isProd=(h==='savvyhomie.com'||h==='www.savvyhomie.com');
+        var p=new URLSearchParams(location.search);
+        if(p.has('sh_notrack'))localStorage.setItem('sh_notrack','1');
+        if(p.has('sh_track'))localStorage.removeItem('sh_notrack');
+        var optedOut=localStorage.getItem('sh_notrack')==='1';
+        window.__shTrack=(isProd&&!optedOut);
+        if(!window.__shTrack){window['ga-disable-G-7ZWC1BW1J7']=true;}
+      }catch(e){window.__shTrack=false;}})();
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-7ZWC1BW1J7');
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZWC1BW1J7"></script>
   </head>
   <body>
     <div id="root"><!--app-html--></div>
