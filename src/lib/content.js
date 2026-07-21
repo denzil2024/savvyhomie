@@ -227,7 +227,10 @@ export function metaFor(url) {
         })),
       })
     }
-    return { title: `${post.title} · ${SITE_NAME}`, description: post.description, jsonLd }
+    return {
+      title: `${post.title} · ${SITE_NAME}`, description: post.description, jsonLd,
+      type: 'article', cover: post.cover, date: post.date,
+    }
   }
   return { title: SITE_NAME, description: TAGLINE }
 }

@@ -108,7 +108,7 @@ export default function Post() {
           </div>
         </header>
 
-        <div className="post-hero-image">
+        <div className={`post-hero-image${post.cover ? ' post-hero-framed' : ''}`}>
           {post.cover ? <img src={post.cover} alt={post.title} /> : <Photo seed={post.slug} label="" />}
         </div>
 

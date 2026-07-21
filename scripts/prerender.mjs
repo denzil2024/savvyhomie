@@ -12,17 +12,25 @@ const routes = getRoutes()
 for (const url of routes) {
   const { html } = render(url)
   const m = metaFor(url)
+  const isArticle = m.type === 'article'
+  const image = m.cover ? SITE + m.cover : SITE + '/og-image.png'
   const head = [
     `<title>${esc(m.title)}</title>`,
     `<meta name="description" content="${esc(m.description)}">`,
     `<link rel="canonical" href="${SITE + url}">`,
     `<meta property="og:title" content="${esc(m.title)}">`,
     `<meta property="og:description" content="${esc(m.description)}">`,
-    `<meta property="og:type" content="website">`,
+    `<meta property="og:type" content="${isArticle ? 'article' : 'website'}">`,
     `<meta property="og:url" content="${SITE + url}">`,
     `<meta property="og:site_name" content="${SITE_NAME}">`,
+    `<meta property="og:image" content="${image}">`,
+    m.cover ? '' : `<meta property="og:image:width" content="1200">`,
+    m.cover ? '' : `<meta property="og:image:height" content="630">`,
+    isArticle ? `<meta property="article:published_time" content="${m.date}">` : '',
+    isArticle ? `<meta property="article:author" content="Carol">` : '',
+    `<meta name="twitter:card" content="summary_large_image">`,
     m.jsonLd ? `<script type="application/ld+json">${JSON.stringify(m.jsonLd)}</script>` : '',
-  ].join('\n    ')
+  ].filter(Boolean).join('\n    ')
 
   const page = template.replace('<!--app-head-->', head).replace('<!--app-html-->', html)
   const file = url === '/' ? 'index.html' : url.replace(/^\//, '').replace(/\/$/, '') + '/index.html'
