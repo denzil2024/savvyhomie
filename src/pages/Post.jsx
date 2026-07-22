@@ -11,9 +11,11 @@ function ProductCard({ p, index }) {
   return (
     <div className="product" id={`pick-${index}`}>
       {p.url ? (
-        <a href={p.url} target="_blank" rel="nofollow sponsored noopener"><Photo seed={p.name} /></a>
+        <a href={p.url} target="_blank" rel="nofollow sponsored noopener">
+          {p.image ? <div className="product-photo-well"><img src={p.image} alt={p.name} className="product-photo" /></div> : <Photo seed={p.name} />}
+        </a>
       ) : (
-        <Photo seed={p.name} />
+        p.image ? <div className="product-photo-well"><img src={p.image} alt={p.name} className="product-photo" /></div> : <Photo seed={p.name} />
       )}
       <div className="txt">
         <div className="product-head">
@@ -112,6 +114,13 @@ export default function Post() {
           {post.cover ? <img src={post.cover} alt={post.title} /> : <Photo seed={post.slug} label="" />}
         </div>
 
+        {post.pin && (
+          <details className="pin-toggle">
+            <summary>Pin this list</summary>
+            <img src={post.pin} alt={`${post.title}, pin this list`} />
+          </details>
+        )}
+
         <div className="post-body">
           <div className="disclosure">We may earn a commission when you buy through links on this page, at no extra cost to you. <Link to="/how-we-pick-products/">How we pick products</Link>.</div>
 
@@ -122,12 +131,17 @@ export default function Post() {
           {post.introHtml && <div className="prose" dangerouslySetInnerHTML={{ __html: post.introHtml }} />}
 
           {post.products.map((p, i) => (
-            <ProductCard p={p} index={i + 1} key={p.name} />
+            <div key={p.name}>
+              {p.category && p.category !== post.products[i - 1]?.category && (
+                <h2 className="product-group-head">{p.category}</h2>
+              )}
+              <ProductCard p={p} index={i + 1} />
+            </div>
           ))}
 
           {post.products.length > 3 && <div className="ad-slot" data-slot="incontent" />}
 
-          <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className={`prose${post.products.length === 0 && !post.introHtml ? ' prose-lead' : ''}`} dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
 
       </article>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  :root {
+    --paper: #FAF8F4;
+    --card: #FFFFFF;
+    --line: rgba(0,0,0,.09);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1600px;
+    height: 900px;
+    background: var(--paper);
+    overflow: hidden;
+  }
+  .grid {
+    width: 1600px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .cell {
+    background: var(--card);
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+  }
+  .cell:nth-child(3n) { border-right: none; }
+  .cell:nth-child(n+4) { border-bottom: none; }
+  .cell img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="cell"><img src="../public/products/airpods-pro.jpg" /></div>
+    <div class="cell"><img src="../public/products/weighted-blanket.jpg" /></div>
+    <div class="cell"><img src="../public/products/lego-classic-set.jpg" /></div>
+    <div class="cell"><img src="../public/products/scented-candle-set.jpg" /></div>
+    <div class="cell"><img src="../public/products/grill-tool-set.jpg" /></div>
+    <div class="cell"><img src="../public/products/charcuterie-board-set.jpg" /></div>
+  </div>
+</body>
+</html>

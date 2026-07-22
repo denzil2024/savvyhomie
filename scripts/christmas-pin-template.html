@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&family=Caveat:wght@600;700&display=swap" />
+<style>
+  :root {
+    --paper: #FFF8EE;
+    --ink: #14130F;
+    --red: #C0392B;
+    --cream: #FFF8EE;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1000px; height: 1500px; background: var(--paper); font-family: 'Inter Tight', sans-serif; overflow: hidden; position: relative; }
+
+  .band { background: var(--red); width: 100%; padding: 54px 36px 46px; text-align: center; }
+  .num { font-family: 'Poppins', sans-serif; font-weight: 900; font-size: 150px; color: var(--cream); line-height: 0.8; }
+  .headline { font-family: 'Poppins', sans-serif; font-weight: 900; font-size: 84px; line-height: 1.02; text-transform: uppercase; letter-spacing: -0.015em; margin-top: 6px; color: var(--cream); }
+  .ribbon { font-family: 'Caveat', cursive; font-weight: 700; font-size: 46px; color: var(--ink); background: var(--cream); display: inline-block; padding: 8px 36px; margin-top: 26px; border-radius: 4px; }
+
+  .photo { position: absolute; border-radius: 4px; box-shadow: 0 16px 34px rgba(0,0,0,0.28); background: #fff; padding: 16px; }
+  .photo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .p1 { width: 460px; height: 420px; left: 46px; top: 660px; transform: rotate(-3deg); z-index: 2; }
+  .p2 { width: 430px; height: 400px; right: 40px; top: 700px; transform: rotate(3deg); z-index: 3; }
+  .p3 { width: 400px; height: 380px; left: 260px; top: 1080px; transform: rotate(-2deg); z-index: 4; }
+</style>
+</head>
+<body>
+  <div class="band">
+    <div class="num">45</div>
+    <div class="headline">Christmas<br/>Gift Ideas</div>
+    <div class="ribbon">for everyone on your list</div>
+  </div>
+  <div class="photo p1"><img src="../public/products/airpods-pro.jpg" /></div>
+  <div class="photo p2"><img src="../public/products/whiskey-decanter-set.jpg" /></div>
+  <div class="photo p3"><img src="../public/products/charcuterie-board-set.jpg" /></div>
+</body>
+</html>

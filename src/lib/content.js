@@ -107,6 +107,7 @@ export const posts = Object.entries(files)
       answer: meta.answer || '',
       readTime: meta.readTime || '',
       cover: meta.cover || '',
+      pin: meta.pin || '',
       products: meta.products || [],
       demo: meta.demo === 'true',
       faqs: parseFaqs(body),

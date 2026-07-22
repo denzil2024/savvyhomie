@@ -244,7 +244,9 @@ nav.cats a:hover { color: var(--ink); border-color: var(--butter); }
 .grid-center { grid-template-columns: repeat(auto-fit, minmax(280px, 328px)); justify-content: center; }
 .card { border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; transition: transform .15s ease, box-shadow .15s ease; }
 .card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
-.card > a { display: block; overflow: hidden; }
+/* a hairline seam so a light/white-background cover photo doesn't visually
+   bleed straight into the white text block below it */
+.card > a { display: block; overflow: hidden; border-bottom: 1px solid var(--line); }
 /* placeholder art in card covers takes the same 16:9 as a real cover image */
 .card > a .photo { aspect-ratio: 16 / 9; min-height: 0; }
 .card-cover-img { transition: transform .3s ease; }
@@ -407,6 +409,12 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 /* real cover photos get a thin gold keyline, same family as the hero
    cover-plate/placeholder-art keyline elsewhere on the site */
 .post-hero-framed::after { content: ""; position: absolute; inset: 10px; border: 1px solid var(--butter-line); pointer-events: none; }
+/* collapsed by default so it doesn't duplicate the cover photo's visual
+   weight, but a reader can open it to see/save the actual pin image */
+.pin-toggle { width: min(920px, calc(100vw - 48px)); margin: 18px auto 0; text-align: center; }
+.pin-toggle summary { display: inline-block; cursor: pointer; font-family: var(--sans); font-size: var(--fs-sm); font-weight: 600; color: var(--spruce); text-decoration: underline; text-underline-offset: 2px; list-style: none; }
+.pin-toggle summary::-webkit-details-marker { display: none; }
+.pin-toggle img { display: block; margin: 16px auto 0; max-width: 340px; width: 100%; height: auto; border: 1px solid var(--line); }
 
 .post-body { padding-top: 36px; }
 .disclosure { font-size: var(--fs-sm); color: var(--muted); border: 1px solid var(--line); background: var(--wash); padding: 11px 15px; margin: 0 0 26px; }
@@ -419,6 +427,9 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 .product { border: 1px solid var(--line); background: var(--card); margin: 40px 0; scroll-margin-top: 90px; }
 .product > a { display: block; }
 .product .photo { aspect-ratio: 2 / 1; min-height: 0; }
+.product-photo-well { display: flex; align-items: center; justify-content: center; background: var(--card); padding: 28px; min-height: 260px; border-bottom: 1px solid var(--line); }
+.product-photo { display: block; max-width: 340px; max-height: 320px; width: auto; height: auto; object-fit: contain; }
+.product-group-head { font-family: var(--serif); font-size: var(--fs-2xl); font-weight: 500; letter-spacing: -.3px; line-height: 1.2; margin: 1.7em 0 .5em; }
 .product .txt { padding: 26px 32px 30px; }
 .product-head { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
 .product-award { background: var(--butter); color: #14100A; font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 4px 12px; }
@@ -464,7 +475,12 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 .prose p + p { margin-top: 1.5em; }
 .prose strong { font-weight: 600; color: var(--ink); }
 .prose h2 { font-size: var(--fs-2xl); font-weight: 500; letter-spacing: -.3px; line-height: 1.2; margin-top: 1.7em; margin-bottom: .5em; }
-.prose h2:first-child { margin-top: 0; }
+/* Only zero the gap when this prose block is the very first thing on the
+   page (pure how-to posts with no product cards or intro above it) — a
+   blanket `.prose h2:first-child` also matches the closing prose block on
+   product posts, which sits after the whole product list and needs its
+   normal top margin, not zero. */
+.prose-lead h2:first-child { margin-top: 0; }
 .prose h3 { font-size: var(--fs-lg); font-weight: 500; letter-spacing: -.2px; line-height: 1.3; margin-top: 1.5em; margin-bottom: .45em; }
 /* sitewide standard for inline content links: spruce, bold, underlined */
 .prose a, .disclosure a, .about-story a, .about-money a { color: var(--spruce); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
@@ -497,6 +513,9 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 /* adjacent questions sit flush — the generic 1.5em prose gap between details
    elements read as huge holes in the FAQ */
 .prose details + details { margin-top: 0; }
+/* a closing paragraph after the last FAQ needs real air, otherwise it reads
+   as glued to the divider line under the last question */
+.prose details + p { margin-top: 1.5em; }
 .prose summary { font-weight: 500; cursor: pointer; font-family: var(--serif); font-size: var(--fs-lg); }
 .prose summary::marker { color: var(--butter); }
 /* FAQ answers read as body text, not fine print — they're the AEO-quotable
@@ -562,6 +581,9 @@ footer.brand-ft {
   .post-header h1 { font-size: 32px; }
   .post-dek { font-size: 16px; }
   .prose { font-size: 16.5px; }
+  .prose h2 { font-size: 20px; margin-top: 1.5em; margin-bottom: .4em; }
+  .product-group-head { font-size: 20px; margin-top: 1.5em; margin-bottom: .4em; }
+  .prose h3 { font-size: 17px; margin-top: 1.3em; margin-bottom: .35em; }
   .answer { font-size: 16.5px; }
   .post-hero-image { margin-top: 26px; }
   .hero-compact { padding: 26px 18px; }

@@ -2,3 +2,18 @@ node_modules/
 dist/
 .env
 __pycache__/
+
+# raw source-material staging folders (Amazon link/image drops, pin
+# references, generated-cover/pin drafts before one is picked) — not
+# consumed by the built site, only public/products, public/covers, and
+# public/pins are actually served
+product-drops/
+pin-drops/
+cover-drops/
+pin-references/
+
+# ad-hoc verification screenshots taken during development, not real assets
+scripts/*-check.png
+scripts/*-check2.png
+scripts/*-draft-*.png
+scripts/frame-mockup.png

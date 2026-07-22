@@ -1,7 +1,7 @@
 # SavvyHomie — Content Plan
 
 Site: savvyhomie.com · Niche: home & kitchen product roundups + gift guides
-Format per post: 10–15 products, why each is good + who it suits, Amazon affiliate links/images, comparison notes, 1,500+ words.
+Format per spoke post: 10–15 products, why each is good + who it suits, Amazon affiliate links/images, comparison notes, 1,500+ words. **Pillar posts (one per cluster, the flagship page) go bigger: 40–50 products, 3,500–5,000+ words** — decided 2026-07-22 after real competitor research on the Christmas Gift Ideas pillar showed top-ranking pages running 42-50 items and 3,500-5,500 words against our original 10-15/1,500-word standard. Owner's call: match that depth on pillars going forward rather than risk being thin, "we have to be safe, we can't leave anything." Spokes stay at the original size since they target narrower keywords where competitors aren't running this deep.
 
 Only real, keyword-verified posts belong in this file. Everything below has gone through the process in FOUNDATION.md → "Keyword map in progress": real Keyword Planner volume, organic-difficulty-tested, near-duplicates dropped. No guessed titles.
 
