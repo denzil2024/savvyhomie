@@ -54,7 +54,7 @@ p { margin: 0 0 1em; }
 
 /* ── masthead ── */
 header.masthead { border-bottom: 1px solid var(--line); background: var(--card); position: sticky; top: 0; z-index: 10; }
-.mast-inner { display: flex; align-items: center; gap: 20px; padding: 18px 0; flex-wrap: wrap; }
+.mast-inner { display: flex; align-items: center; gap: 20px; padding-top: 18px; padding-bottom: 18px; flex-wrap: wrap; }
 .mast-inner .wordmark { flex: 0 0 auto; }
 .mast-inner .nav-cta { flex: 0 0 auto; }
 .wordmark { display: flex; align-items: center; font-family: var(--serif); font-size: 24px; color: var(--ink); font-weight: 600; letter-spacing: -.01em; }
@@ -71,7 +71,7 @@ nav.cats a:hover { color: var(--ink); border-color: var(--butter); }
 .nav-cta-menu { display: none; }
 @media (max-width: 780px) {
   .topbar { font-size: 10px; letter-spacing: .08em; padding: 7px 14px; }
-  .mast-inner { padding: 10px 0; gap: 10px; flex-wrap: nowrap; }
+  .mast-inner { padding-top: 10px; padding-bottom: 10px; gap: 10px; flex-wrap: nowrap; }
   .mast-inner .wordmark { margin-right: auto; }
   .logo-img { height: 38px; }
   .nav-cta { display: none; }
