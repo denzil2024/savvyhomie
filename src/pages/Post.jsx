@@ -104,7 +104,7 @@ export default function Post() {
           <h1>{post.title}</h1>
           <p className="post-dek">{post.description}</p>
           <div className="byline-block">
-            <span className="byline-avatar"><img src="/founder.jpg" alt="Carol, author" /></span>
+            <span className="byline-avatar"><img src="/founder.webp" alt="Carol, author" /></span>
             <p className="byline-author">By Carol</p>
             <p className="byline-meta">Updated {post.updated}{post.readTime ? ` · ${post.readTime}` : ''} · Every pick independently reviewed</p>
           </div>

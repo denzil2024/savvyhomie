@@ -14,7 +14,7 @@ export default function FounderTeaser() {
         <path d="M4 21V10l8-6 8 6v11M9 21v-7h6v7" />
       </svg>
       <div className="founder-main">
-        <div className="founder-photo"><img src="/founder.jpg" alt="Carol, founder of SavvyHomie" /></div>
+        <div className="founder-photo"><img src="/founder.webp" alt="Carol, founder of SavvyHomie" /></div>
         <div className="founder-txt">
           <span className="lbl">Who's Behind This</span>
           <h3>Hi, I'm Carol.</h3>

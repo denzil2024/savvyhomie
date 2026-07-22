@@ -11,11 +11,11 @@ const ICONS = {
 
 // Real photos land here as they're picked; slugs without one fall back to the placeholder.
 const IMAGES = {
-  'gift-guides': '/cat-gift-guides.jpg',
-  'kitchen-finds': '/cat-kitchen-finds.jpg',
-  'organization': '/cat-organization.jpg',
-  'decor-finds': '/cat-decor-finds.jpg',
-  'seasonal': '/cat-seasonal.jpg',
+  'gift-guides': '/cat-gift-guides.webp',
+  'kitchen-finds': '/cat-kitchen-finds.webp',
+  'organization': '/cat-organization.webp',
+  'decor-finds': '/cat-decor-finds.webp',
+  'seasonal': '/cat-seasonal.webp',
 }
 
 export default function CategoryTile({ slug, name, topics = [] }) {

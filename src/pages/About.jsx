@@ -18,7 +18,7 @@ export default function About() {
 
       <section className="band band-white">
         <div className="wrap about-intro">
-          <div className="about-photo"><img src="/founder.jpg" alt="Carol, founder of SavvyHomie" /></div>
+          <div className="about-photo"><img src="/founder.webp" alt="Carol, founder of SavvyHomie" /></div>
           <div className="about-story">
             <span className="lbl">Hi, I'm Carol</span>
             <h2>Good Taste on a Normal Budget</h2>

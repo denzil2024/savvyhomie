@@ -13,7 +13,7 @@ for (const url of routes) {
   const { html } = render(url)
   const m = metaFor(url)
   const isArticle = m.type === 'article'
-  const image = m.cover ? SITE + m.cover : SITE + '/og-image.png'
+  const image = m.cover ? SITE + m.cover : SITE + '/og-image.webp'
   const head = [
     `<title>${esc(m.title)}</title>`,
     `<meta name="description" content="${esc(m.description)}">`,

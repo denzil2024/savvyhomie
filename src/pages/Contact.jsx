@@ -47,7 +47,7 @@ export default function Contact() {
 
             <div className="contact-side">
               <div className="cs-avatar">
-                <span className="cs-avatar-img"><img src="/founder.jpg" alt="Carol" /></span>
+                <span className="cs-avatar-img"><img src="/founder.webp" alt="Carol" /></span>
                 <div>
                   <p className="cs-name">Carol replies personally</p>
                   <p className="cs-time">Usually within 24 hours</p>
