@@ -22,7 +22,7 @@ export default function CookiePolicy() {
       <p>Cookies are small text files a site stores in your browser to remember something between visits, that you closed a banner, that you're mid-way through a form, or that an ad has already been shown to you. They're not unique to this site; nearly every site you visit uses them in some form.</p>
 
       <h2 id="cookies-today">Cookies We Use Today</h2>
-      <p>{SITE_NAME} doesn't run display advertising yet, so there's no ad-tracking cookie to disclose. What runs today is Google Analytics (GA4), which sets cookies to distinguish returning visitors from new ones and to measure how pages are used, plus essential, functional cookies that keep basic site behavior working correctly as you move between pages. None of them are used to build an advertising profile of you.</p>
+      <p>{SITE_NAME} doesn't run display advertising yet, so there's no ad-tracking cookie to disclose. What runs today is Google Analytics (GA4), which sets cookies to distinguish returning visitors from new ones and to measure how pages are used, plus essential, functional cookies that keep basic site behavior working correctly as you move between pages. We also run Ahrefs Analytics, a lightweight tool that measures page views and traffic sources alongside GA4. None of this is used to build an advertising profile of you.</p>
 
       <h2 id="cookies-coming">Cookies We'll Add</h2>
       <p>One thing is planned and not live yet. When it ships, this page gets updated the same day, not eventually:</p>

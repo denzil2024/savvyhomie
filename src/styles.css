@@ -83,7 +83,7 @@ nav.cats a:hover { color: var(--ink); border-color: var(--butter); }
     border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
     box-shadow: 0 16px 28px -16px rgba(20,19,15,.2); padding: 4px 24px 10px;
   }
-  nav.cats.open a { width: 100%; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--ink); }
+  nav.cats.open a { width: 100%; padding: 15px 0; border-bottom: 1px solid var(--line); font-size: 18px; font-weight: 500; color: var(--ink); }
   nav.cats.open a.nav-cta-menu { display: block; text-align: center; margin: 14px 0 8px; padding: 12px; border-bottom: 0; color: var(--btn-ink); }
 }
 
@@ -577,6 +577,13 @@ footer.brand-ft {
   .featured { grid-template-columns: 1fr; }
   .product .txt { padding: 20px 20px 24px; }
   .pc { grid-template-columns: 1fr; }
+  /* long product names wrap to 2-3 lines at this width — letting the award
+     badge sit inline (margin-left: auto) leaves it stranded next to the
+     first line while the rest of the name wraps underneath it, so drop it
+     to its own line instead */
+  .lineup { padding: 16px 18px 6px; }
+  .lineup li { flex-wrap: wrap; row-gap: 4px; padding: 10px 0 11px; }
+  .lineup-award { flex-basis: 100%; margin-left: 30px; padding-left: 0; }
   .hero h1 { font-size: 32px; }
   .post-header h1 { font-size: 32px; }
   .post-dek { font-size: 16px; }
