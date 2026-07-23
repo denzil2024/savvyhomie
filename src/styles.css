@@ -412,7 +412,11 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 .post-hero-framed::after { content: ""; position: absolute; inset: 10px; border: 1px solid var(--butter-line); pointer-events: none; }
 /* collapsed by default so it doesn't duplicate the cover photo's visual
    weight, but a reader can open it to see/save the actual pin image */
-.pin-toggle { width: min(920px, calc(100vw - 48px)); margin: 18px auto 0; text-align: center; }
+/* wider (920) than its 840px reading-column parent, same as .post-hero-image
+   above — margin:auto silently resolves to 0 (not centered) once a box is
+   wider than its containing block per spec, so center it with an explicit
+   calc instead, exactly like the hero image does */
+.pin-toggle { width: min(920px, calc(100vw - 48px)); margin: 18px 0 0 calc((100% - min(920px, calc(100vw - 48px))) / 2); text-align: center; }
 .pin-toggle summary { display: inline-block; cursor: pointer; font-family: var(--sans); font-size: var(--fs-sm); font-weight: 600; color: var(--spruce); text-decoration: underline; text-underline-offset: 2px; list-style: none; }
 .pin-toggle summary::-webkit-details-marker { display: none; }
 .pin-toggle img { display: block; margin: 16px auto 0; max-width: 340px; width: 100%; height: auto; border: 1px solid var(--line); }
