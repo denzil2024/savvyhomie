@@ -598,4 +598,8 @@ If Christmas morning is closer than a package can realistically arrive, a gift c
 
 Christmas shopping doesn't have to mean scrolling the same fifty-item list everyone else already has open in another tab. Pick the section for whoever's hardest to shop for first, then work outward. The rest of the list gets easier fast.
 
-Still have specific names left on the list? The [Christmas Gifts for Coworkers](/blog/christmas-gifts-for-coworkers/) guide and the [Gifts for Wine Lovers](/blog/gifts-for-wine-lovers/) guide go deeper on those two in particular.
+## More Gift Guides in This Collection
+
+- [Christmas Gifts for Coworkers](/blog/christmas-gifts-for-coworkers/), for the professional-but-thoughtful office exchange
+- [Gifts for Wine Lovers](/blog/gifts-for-wine-lovers/), tools and finds for anyone who takes their wine seriously
+- [Teacher Christmas Gifts](/blog/teacher-christmas-gifts/), picks that skip the usual mug and trinkets
