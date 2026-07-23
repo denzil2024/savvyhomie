@@ -597,3 +597,5 @@ If Christmas morning is closer than a package can realistically arrive, a gift c
 ## Final Thoughts
 
 Christmas shopping doesn't have to mean scrolling the same fifty-item list everyone else already has open in another tab. Pick the section for whoever's hardest to shop for first, then work outward. The rest of the list gets easier fast.
+
+Still have specific names left on the list? The [Christmas Gifts for Coworkers](/blog/christmas-gifts-for-coworkers/) guide and the [Gifts for Wine Lovers](/blog/gifts-for-wine-lovers/) guide go deeper on those two in particular.

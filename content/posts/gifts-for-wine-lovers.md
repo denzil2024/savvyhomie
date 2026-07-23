@@ -300,7 +300,7 @@ products: [
 ]
 ---
 
-Good gifts for wine lovers usually get overlooked in favor of just another bottle, which is safe but forgettable. The picks below solve a real problem instead, opening, preserving, chilling, learning, or hosting, organized by what kind of wine lover you're shopping for. Shopping for more than one person this year? The [45 Christmas Gift Ideas](/blog/christmas-gift-ideas/) guide covers everyone else on the list too.
+Good gifts for wine lovers usually get overlooked in favor of just another bottle, which is safe but forgettable. The picks below solve a real problem instead, opening, preserving, chilling, learning, or hosting, organized by what kind of wine lover you're shopping for. Shopping for more than one person this year? The [45 Christmas Gift Ideas](/blog/christmas-gift-ideas/) guide covers everyone else on the list, and the [Christmas Gifts for Coworkers](/blog/christmas-gifts-for-coworkers/) guide is worth a look if there's an office gift exchange to plan for too.
 
 <!-- products -->
 
