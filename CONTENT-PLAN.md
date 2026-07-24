@@ -256,7 +256,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 150. Christmas Gifts for Coworkers
 151. Teacher Christmas Gifts
 152. Gifts for Neighbors
-153. DIY Gifts for Dog Lovers
+153. Gifts for Dog Lovers (changed from "DIY Gifts for Dog Lovers" 2026-07-24 — that exact phrase's real SERP is dominated by craft-tutorial content, a format mismatch; "Gifts for Dog Lovers" validated instead at 5,000/mo)
 
 **DIY/Homemade Gifts (14)**
 154. Homemade Christmas Gifts
