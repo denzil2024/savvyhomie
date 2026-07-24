@@ -4,8 +4,8 @@ cover: /covers/gifts-for-dog-lovers.webp
 pin: /pins/gifts-for-dog-lovers.webp
 description: 25 gifts for dog lovers built around walking gear, home comfort, keepsakes, and treats, picked for daily use over shelf decor.
 category: seasonal
-date: 2026-07-27
-updated: July 2026
+date: 2026-07-23
+updated: July 24, 2026
 readTime: 16 min read
 answer: the best gifts for dog lovers fit into daily walks and home routines instead of sitting on a shelf. Walking gear, home comfort items, and personalized keepsakes all make the cut for that reason.
 products: [

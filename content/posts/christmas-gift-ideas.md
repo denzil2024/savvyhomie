@@ -4,8 +4,8 @@ cover: /covers/christmas-gift-ideas.webp
 pin: /pins/christmas-gift-ideas.webp
 description: 45 Christmas gift ideas for everyone on your list, for him, for her, for mom and dad, for kids, stocking stuffers, and gifts for the home, all under one roof.
 category: seasonal
-date: 2026-07-22
-updated: July 2026
+date: 2026-07-18
+updated: July 24, 2026
 readTime: 27 min read
 answer: the fastest way to work through Christmas gift ideas for a full list is by recipient and budget, not by browsing endlessly. Picks are grouped for him, her, mom, dad, kids, stocking stuffers, gifts under $50, and gifts for the home.
 products: [

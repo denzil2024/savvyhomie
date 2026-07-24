@@ -4,8 +4,8 @@ cover: /covers/gifts-for-neighbors.webp
 pin: /pins/gifts-for-neighbors.webp
 description: 27 gifts for neighbors, organized by porch decor, pantry treats, cozy touches, and kitchen finds, each one picked to feel thoughtful without being over the top.
 category: seasonal
-date: 2026-07-26
-updated: July 2026
+date: 2026-07-22
+updated: July 24, 2026
 readTime: 16 min read
 answer: the best gifts for neighbors are thoughtful without being too personal. Porch decor, pantry treats, and small kitchen finds all work well because they don't require knowing someone very well.
 products: [

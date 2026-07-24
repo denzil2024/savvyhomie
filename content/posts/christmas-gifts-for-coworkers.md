@@ -4,8 +4,8 @@ cover: /covers/christmas-gifts-for-coworkers.webp
 pin: /pins/christmas-gifts-for-coworkers.webp
 description: 27 Christmas gifts for coworkers that stay professional without feeling generic, from desk upgrades to snacks, each one compared on who it's right for.
 category: seasonal
-date: 2026-07-24
-updated: July 2026
+date: 2026-07-20
+updated: July 24, 2026
 readTime: 15 min read
 answer: the best Christmas gifts for coworkers stay useful and a little personal without crossing the line into too personal. Desk items, snacks, and small comforts all work because they don't require knowing someone well.
 products: [
