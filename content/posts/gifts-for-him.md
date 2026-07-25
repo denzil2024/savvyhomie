@@ -607,3 +607,7 @@ Gifts for him tend to be an afterthought until the last minute, and then it's th
 ## Final Thoughts
 
 The best gift here depends on which category matches him, not which pick ranks highest on this list. Someone who grills every weekend and someone who reads on the couch every night need completely different picks, and that's fine. Pick two or three from the categories that fit him well rather than trying to cover every base at once.
+
+## More Gift Guides in This Collection
+
+- [27 Gifts for Men, Organized by Who You're Buying For](/blog/gifts-for-men/), sorted by dad, brother, coworker or boss, friend, and neighbor or acquaintance instead of hobby
