@@ -249,14 +249,14 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. This cluster used a loosened difficulty rule specific to Seasonal/Gift Guide content: a keyword confirms if either an indie blog appears in the Google top 3, OR Pinterest shows strong presence in the SERP (the site's months 1-12 traffic plan is Pinterest-first, and gift-guide searches are a native Pinterest use case independent of Google-organic difficulty). Note: Homemade Gifts for Boyfriend/Husband/Wife are DIY/craft-content, not buy-this-product roundups — kept here rather than in Gift Guides → Gifts for Him/Her, which is evergreen buying-guide content, a different content type despite the shared recipient gender.
 
 **Pillar**
-148. Christmas Gift Ideas
+~~148. Christmas Gift Ideas~~ — published 2026-07-24
 
 **Recipient/Interest Gifts (5)**
-149. Gifts for Wine Lovers
-150. Christmas Gifts for Coworkers
-151. Teacher Christmas Gifts
-152. Gifts for Neighbors
-153. Gifts for Dog Lovers (changed from "DIY Gifts for Dog Lovers" 2026-07-24 — that exact phrase's real SERP is dominated by craft-tutorial content, a format mismatch; "Gifts for Dog Lovers" validated instead at 5,000/mo)
+~~149. Gifts for Wine Lovers~~ — published 2026-07-24
+~~150. Christmas Gifts for Coworkers~~ — published 2026-07-24
+~~151. Teacher Christmas Gifts~~ — published 2026-07-24
+~~152. Gifts for Neighbors~~ — published 2026-07-24
+~~153. Gifts for Dog Lovers~~ — published 2026-07-24 (changed from "DIY Gifts for Dog Lovers" 2026-07-24 — that exact phrase's real SERP is dominated by craft-tutorial content, a format mismatch; "Gifts for Dog Lovers" validated instead at 5,000/mo)
 
 **DIY/Homemade Gifts (14)**
 154. Homemade Christmas Gifts
@@ -423,17 +423,17 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. Evergreen buying-guide content (Amazon-product-roundup, Pinterest-only traffic, no Google-ranking expectation) — confirmed on real Keyword Planner volume + on-topic + non-duplicate + genre-fit alone. Note: "Christmas Gifts for Men" here is evergreen buy-this-product content, distinct from the DIY/homemade content in Seasonal → Christmas Gift Ideas — not a duplicate.
 
 **Pillar**
-268. Gifts for Him
+~~268. Gifts for Him~~ — published 2026-07-24
 
 **General/Recipient (8)**
-269. Gifts for Men
-270. Gift Ideas for Him
-271. Gift Ideas for Men
-272. Gifts for Boyfriend
-273. Gift Ideas for Husband
-274. Gifts for Guys
-275. Best Gifts for Men
-276. Unique Gifts for Men
+~~269. Gifts for Men~~ — published 2026-07-25
+~~270. Gift Ideas for Him~~ — skipped 2026-07-25, duplicate SERP of #269 (CNN Underscored, Timeout LA, HGTV all reappear)
+~~271. Gift Ideas for Men~~ — skipped 2026-07-25, duplicate SERP of #269 (CNN Underscored, Timeout LA, Forbes)
+~~272. Gifts for Boyfriend~~ — published 2026-07-25
+~~273. Gift Ideas for Husband~~ — published 2026-07-26
+~~274. Gifts for Guys~~ — skipped 2026-07-25, duplicate SERP of #269 (CNN Underscored, Timeout LA, Forbes)
+~~275. Best Gifts for Men~~ — skipped 2026-07-25, duplicate SERP of #269 (Forbes, CNN Underscored, Timeout LA)
+~~276. Unique Gifts for Men~~ — skipped 2026-07-25, duplicate SERP of #269, drifts into the separately-planned Has-Everything and Valentine's angles
 
 **Occasion (8)**
 277. Christmas Gifts for Men
