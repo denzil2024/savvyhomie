@@ -4,6 +4,7 @@ cover: /covers/christmas-gifts-for-men.webp
 pin: /pins/christmas-gifts-for-men.webp
 description: 27 Christmas gifts for men sorted by budget, from small basics under $25 to splurge-worthy picks over $100, so it's easy to find something that fits.
 category: gift-guides
+topic: Gifts for Him
 date: 2026-07-27
 updated: July 27, 2026
 readTime: 19 min read

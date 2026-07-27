@@ -3,6 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { categories, SITE_NAME, TAGLINE } from './lib/content.js'
 import Home from './pages/Home.jsx'
 import Category from './pages/Category.jsx'
+import Topic from './pages/Topic.jsx'
 import Post from './pages/Post.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="/terms-of-service/*" element={<TermsOfService />} />
           <Route path="/affiliate-disclosure/*" element={<AffiliateDisclosure />} />
           <Route path="/how-we-pick-products/*" element={<HowWePickProducts />} />
+          <Route path="/category/:slug/:topic/*" element={<Topic />} />
           <Route path="/category/:slug/*" element={<Category />} />
           <Route path="/blog/:slug/*" element={<Post />} />
         </Routes>

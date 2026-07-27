@@ -4,6 +4,7 @@ cover: /covers/gifts-for-men.webp
 pin: /pins/gifts-for-men.webp
 description: 27 gifts for men sorted by dad, brother, coworker or boss, friend, and neighbor or acquaintance, so it's easy to shop for the actual person, not a generic list.
 category: gift-guides
+topic: Gifts for Him
 date: 2026-07-25
 updated: July 25, 2026
 readTime: 16 min read

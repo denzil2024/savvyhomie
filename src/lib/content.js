@@ -43,6 +43,8 @@ export const categories = [
   },
 ]
 
+export const slugifyTopic = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
 const files = import.meta.glob('../../content/posts/*.md', { query: '?raw', import: 'default', eager: true })
 
 function parseFrontmatter(raw) {
@@ -102,6 +104,7 @@ export const posts = Object.entries(files)
       title: meta.title || slug,
       description: meta.description || '',
       category: meta.category || '',
+      topic: meta.topic || '',
       date: meta.date || '',
       updated: meta.updated || meta.date || '',
       answer: meta.answer || '',
@@ -125,8 +128,25 @@ export function postsInCategory(slug) {
   return posts.filter((p) => p.category === slug)
 }
 
+// A topic only gets a real page once it has posts (see FOUNDATION.md's
+// sub-topic hard gate) — this returns [] for topics with no posts yet,
+// which callers use to decide whether the topic chip is clickable.
+export function postsInTopic(categorySlug, topicSlug) {
+  return posts.filter((p) => p.category === categorySlug && p.topic && slugifyTopic(p.topic) === topicSlug)
+}
+
 export function getRelatedPosts(slug, category, limit = 3) {
-  return posts.filter((p) => p.slug !== slug && p.category === category).slice(0, limit)
+  const current = posts.find((p) => p.slug === slug)
+  const pool = posts.filter((p) => p.slug !== slug && p.category === category)
+  // Prefer same-topic posts first (e.g. other Gifts for Him spokes) so
+  // "Keep Reading" stays tightly relevant once topics are tagged, falling
+  // back to the rest of the category for posts without a topic yet.
+  if (current?.topic) {
+    const sameTopic = pool.filter((p) => p.topic === current.topic)
+    const rest = pool.filter((p) => p.topic !== current.topic)
+    return [...sameTopic, ...rest].slice(0, limit)
+  }
+  return pool.slice(0, limit)
 }
 
 export function getSitemapEntries() {
@@ -134,10 +154,21 @@ export function getSitemapEntries() {
     const catPosts = posts.filter((p) => p.category === slug && p.date)
     return catPosts.length ? catPosts.reduce((max, p) => (p.date > max ? p.date : max), catPosts[0].date) : undefined
   }
+  const topicEntries = []
+  for (const c of categories) {
+    for (const t of c.topics || []) {
+      const topicSlug = slugifyTopic(t)
+      const tPosts = postsInTopic(c.slug, topicSlug)
+      if (tPosts.length === 0) continue
+      const lastmod = tPosts.reduce((max, p) => (p.date > max ? p.date : max), tPosts[0].date)
+      topicEntries.push({ loc: `/category/${c.slug}/${topicSlug}/`, lastmod })
+    }
+  }
   return [
     { loc: '/' }, { loc: '/about/' }, { loc: '/contact/' },
     { loc: '/privacy-policy/' }, { loc: '/cookie-policy/' }, { loc: '/terms-of-service/' }, { loc: '/affiliate-disclosure/' }, { loc: '/how-we-pick-products/' },
     ...categories.map((c) => ({ loc: `/category/${c.slug}/`, lastmod: catLastmod(c.slug) })),
+    ...topicEntries,
     ...posts.map((p) => ({ loc: `/blog/${p.slug}/`, lastmod: p.date || undefined })),
   ]
 }
@@ -190,6 +221,16 @@ export function metaFor(url) {
       title: `${m.title} · ${SITE_NAME}`,
       description: m.description,
       jsonLd: { '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, url: SITE + url },
+    }
+  }
+  const topicMatch = clean.match(/^\/category\/([^/]+)\/([^/]+)$/)
+  if (topicMatch) {
+    const c = categories.find((x) => x.slug === topicMatch[1])
+    const topicName = c?.topics?.find((t) => slugifyTopic(t) === topicMatch[2])
+    if (c && topicName) return {
+      title: `${topicName} · ${SITE_NAME}`,
+      description: `Every ${topicName} guide on ${SITE_NAME}, all sorted so it's easy to find something that fits.`,
+      jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
     }
   }
   const catMatch = clean.match(/^\/category\/([^/]+)$/)

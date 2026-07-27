@@ -4,6 +4,7 @@ cover: /covers/gifts-for-husband.webp
 pin: /pins/gifts-for-husband.webp
 description: 43 gifts for husband organized by where you are in the marriage, newlywed, new dad, long-term, decades together, and everyday appreciation, so it's easy to find something that fits.
 category: gift-guides
+topic: Gifts for Him
 date: 2026-07-26
 updated: July 26, 2026
 readTime: 28 min read

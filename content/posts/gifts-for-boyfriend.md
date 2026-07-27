@@ -4,6 +4,7 @@ cover: /covers/gifts-for-boyfriend.webp
 pin: /pins/gifts-for-boyfriend.webp
 description: 45 gifts for boyfriend organized by relationship stage, new relationship, long-term, long-distance, and big milestones, so it's easy to find something that fits where you are.
 category: gift-guides
+topic: Gifts for Him
 date: 2026-07-25
 updated: July 25, 2026
 readTime: 28 min read

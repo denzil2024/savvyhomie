@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { categories, postsInCategory } from '../lib/content.js'
+import { categories, postsInCategory, postsInTopic, slugifyTopic } from '../lib/content.js'
 import Photo from '../components/Photo.jsx'
 import EmailSignup from '../components/EmailSignup.jsx'
 
@@ -17,7 +17,13 @@ export default function Category() {
         <p>{cat.blurb}</p>
         {cat.topics && cat.topics.length > 0 && (
           <div className="cat-topics">
-            {cat.topics.map((t) => <span className="chip-solid" key={t}>{t}</span>)}
+            {cat.topics.map((t) => {
+              const topicSlug = slugifyTopic(t)
+              const hasPosts = postsInTopic(cat.slug, topicSlug).length > 0
+              return hasPosts
+                ? <Link className="chip-solid" key={t} to={`/category/${cat.slug}/${topicSlug}/`}>{t}</Link>
+                : <span className="chip-solid chip-soon" key={t}>{t}</span>
+            })}
           </div>
         )}
       </section>
