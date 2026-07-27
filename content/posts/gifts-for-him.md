@@ -613,3 +613,4 @@ The best gift here depends on which category matches him, not which pick ranks h
 - [27 Gifts for Men, Organized by Who You're Buying For](/blog/gifts-for-men/), sorted by dad, brother, coworker or boss, friend, and neighbor or acquaintance instead of hobby
 - [45 Gifts for Boyfriend for Every Stage of Your Relationship](/blog/gifts-for-boyfriend/), sorted by new relationship, long-term, long-distance, and big milestones
 - [43 Gifts for Husband for Every Stage of Your Marriage](/blog/gifts-for-husband/), sorted by newlywed, new dad, long-term, decades together, and everyday appreciation
+- [27 Christmas Gifts for Men for Every Budget](/blog/christmas-gifts-for-men/), sorted by price from under $25 to splurge-worthy
