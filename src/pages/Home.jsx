@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import { posts, categories } from '../lib/content.js'
 import Photo from '../components/Photo.jsx'
 import CategoryTile from '../components/CategoryTile.jsx'
@@ -6,11 +7,21 @@ import FounderTeaser from '../components/FounderTeaser.jsx'
 import SeasonalBanner from '../components/SeasonalBanner.jsx'
 import EmailSignup from '../components/EmailSignup.jsx'
 
+const PAGE_SIZE = 9 // three full rows of three per page
+
 export default function Home() {
   const featured = posts[0]
-  // 9 = three full rows of three in the More Guides grid, no ragged last row
-  const rest = posts.slice(1, 10)
+  const rest = posts.slice(1)
+  const totalPages = Math.ceil(rest.length / PAGE_SIZE)
+  const [page, setPage] = useState(1)
+  const pageStart = (page - 1) * PAGE_SIZE
+  const pagePosts = rest.slice(pageStart, pageStart + PAGE_SIZE)
   const featuredCat = featured && categories.find((c) => c.slug === featured.category)
+
+  const goToPage = (n) => {
+    setPage(n)
+    document.getElementById('more-guides')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   return (
     <>
@@ -72,9 +83,9 @@ export default function Home() {
       {/* Renders once there are at least 2 posts beyond the featured one; a lone card in a 3-column grid reads as broken. */}
       {rest.length >= 2 && (
         <>
-          <div className="sec-head"><span className="lbl">Keep Browsing</span><h2>More Guides</h2></div>
+          <div id="more-guides" className="sec-head"><span className="lbl">Keep Browsing</span><h2>More Guides</h2></div>
           <div className="grid">
-            {rest.map((p) => {
+            {pagePosts.map((p) => {
               const cat = categories.find((c) => c.slug === p.category)
               return (
                 <article className="card" key={p.slug}>
@@ -89,6 +100,38 @@ export default function Home() {
               )
             })}
           </div>
+
+          {totalPages > 1 && (
+            <nav className="pagination" aria-label="More guides pages">
+              <button
+                type="button"
+                className="pagination-arrow"
+                onClick={() => goToPage(page - 1)}
+                disabled={page === 1}
+              >
+                ← Prev
+              </button>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
+                <button
+                  key={n}
+                  type="button"
+                  className={`pagination-num${n === page ? ' active' : ''}`}
+                  aria-current={n === page ? 'page' : undefined}
+                  onClick={() => goToPage(n)}
+                >
+                  {n}
+                </button>
+              ))}
+              <button
+                type="button"
+                className="pagination-arrow"
+                onClick={() => goToPage(page + 1)}
+                disabled={page === totalPages}
+              >
+                Next →
+              </button>
+            </nav>
+          )}
         </>
       )}
 
