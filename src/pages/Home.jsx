@@ -75,7 +75,7 @@ export default function Home() {
           </article>
         </>
       ) : (
-        <div className="empty">First guides are landing soon. The content workflow is next.</div>
+        <div className="empty">First guides are coming soon. The content workflow is next.</div>
       )}
 
       <div className="ad-slot" data-slot="incontent" />

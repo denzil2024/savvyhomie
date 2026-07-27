@@ -20,7 +20,7 @@ export default function HowWePickProducts() {
       <section className="band band-white">
         <div className="wrap">
           <div className="answer hwp-answer">
-            <b>The short version:</b> every product is compared against a cheaper and a pricier alternative, the drawbacks get published next to the strengths, and the list stays short enough to actually finish reading.
+            <b>The short version:</b> every product is compared against a cheaper and a pricier alternative, the drawbacks get published next to the strengths, and the list stays short enough to finish reading.
           </div>
           <div className="hwp-steps">
             {STEPS.map((s, i) => (

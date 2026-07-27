@@ -34,7 +34,7 @@ export default function CookiePolicy() {
       <p>Every modern browser lets you block or delete cookies from its settings menu, either sitewide or per-site. Blocking cookies entirely may break some site features, like staying logged into an embedded widget. For Google Analytics specifically, Google offers a dedicated <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">opt-out browser add-on</a> that stops your visits from being measured on any site, including this one. Once ad cookies go live, this section will include direct opt-out links for that tool too.</p>
 
       <h2 id="changes">Changes to This Policy</h2>
-      <p>This policy is intentionally short right now because the site is genuinely not doing much with cookies yet. As that changes, this page changes with it, and the update date at the top will move. For the broader picture of what information we collect and why, see the <Link to="/privacy-policy/">privacy policy</Link>.</p>
+      <p>This policy is intentionally short right now because the site is not doing much with cookies yet. As that changes, this page changes with it, and the update date at the top will move. For the broader picture of what information we collect and why, see the <Link to="/privacy-policy/">privacy policy</Link>.</p>
     </LegalLayout>
   )
 }

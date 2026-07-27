@@ -14,7 +14,7 @@ export const categories = [
   {
     slug: 'gift-guides',
     name: 'Gift Guides',
-    blurb: "Gift guides sorted by the person, not just the occasion. We skip the generic gift-shop filler and focus on things a specific person, coffee lovers, new homeowners, the friend who has everything, would genuinely use.",
+    blurb: "Gift guides sorted by the person, not just the occasion. We skip the generic gift-shop filler and focus on things a specific person, coffee lovers, new homeowners, the friend who has everything, would use.",
     topics: ['Gifts for Him', 'Gifts for Her'],
   },
   {

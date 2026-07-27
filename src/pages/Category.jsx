@@ -29,7 +29,7 @@ export default function Category() {
             <h2>Latest Guides</h2>
           </div>
           {list.length === 0 ? (
-            <div className="empty">Guides for this category are landing soon.</div>
+            <div className="empty">Guides for this category are coming soon.</div>
           ) : (
             <div className="grid grid-center">
               {list.map((p) => (
