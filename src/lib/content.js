@@ -138,13 +138,12 @@ export function postsInTopic(categorySlug, topicSlug) {
 export function getRelatedPosts(slug, category, limit = 3) {
   const current = posts.find((p) => p.slug === slug)
   const pool = posts.filter((p) => p.slug !== slug && p.category === category)
-  // Prefer same-topic posts first (e.g. other Gifts for Him spokes) so
-  // "Keep Reading" stays tightly relevant once topics are tagged, falling
-  // back to the rest of the category for posts without a topic yet.
+  // Once a post has a topic (e.g. Gifts for Him vs Gifts for Her), related
+  // posts must stay inside that same topic only, even if that means fewer
+  // than `limit` results — topics are a hard split, never a soft preference,
+  // so this never falls back to other topics in the same category.
   if (current?.topic) {
-    const sameTopic = pool.filter((p) => p.topic === current.topic)
-    const rest = pool.filter((p) => p.topic !== current.topic)
-    return [...sameTopic, ...rest].slice(0, limit)
+    return pool.filter((p) => p.topic === current.topic).slice(0, limit)
   }
   return pool.slice(0, limit)
 }

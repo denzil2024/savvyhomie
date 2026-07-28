@@ -436,8 +436,8 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~276. Unique Gifts for Men~~ — skipped 2026-07-25, duplicate SERP of #269, drifts into the separately-planned Has-Everything and Valentine's angles
 
 **Occasion (8)**
-277. Christmas Gifts for Men
-278. Birthday Gifts for Him
+~~277. Christmas Gifts for Men~~ — published 2026-07-27
+~~278. Birthday Gifts for Him~~ — published 2026-07-27
 279. Anniversary Gifts for Him
 280. Valentines Gifts for Him
 281. Stocking Stuffers for Men
@@ -483,10 +483,10 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. Evergreen buying-guide content (Amazon-product-roundup, Pinterest-only traffic, no Google-ranking expectation) — confirmed on real Keyword Planner volume + on-topic + non-duplicate + genre-fit alone. Note: "Homemade Gifts for Wife" in Seasonal → Christmas Gift Ideas is DIY/craft content, distinct from the evergreen buying-guide content here — not a duplicate.
 
 **Pillar**
-310. Gifts for Her
+~~310. Gifts for Her~~ — published 2026-07-28
 
 **General/Recipient (8)**
-311. Gifts for Women
+~~311. Gifts for Women~~ — published 2026-07-28
 312. Gift Ideas for Women
 313. Gifts for Girlfriend
 314. Gifts for Wife
