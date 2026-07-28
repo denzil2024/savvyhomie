@@ -52,7 +52,7 @@ const llms = `# ${SITE_NAME}
 > Honest home & kitchen product roundups and gift guides. Every pick compared, pros and cons included, curated by a human editor.
 
 ## Guides
-${realPosts.map((p) => `- [${p.title}](${SITE}/blog/${p.slug}/): ${p.description}`).join('\n') || '- First guides landing soon.'}
+${realPosts.map((p) => `- [${p.title}](${SITE}/blog/${p.slug}/): ${p.description}`).join('\n') || '- First guides coming soon.'}
 `
 fs.writeFileSync(path.join(outDir, 'llms.txt'), llms)
 
