@@ -54,7 +54,7 @@ products: [
     "award": "Best for Planning Future Dates",
     "whofor": "whoever keeps saying \"we should do that sometime\" and never picks a date",
     "description": "A running list of date ideas usually lives buried in someone's notes app, forgotten the moment it's needed. This puts 100 of them on a poster instead, each one hidden under a gold scratch-off circle, so picking the next date becomes its own small event rather than a scramble for ideas. By the time the poster's mostly scratched, it's also turned into a record of everything the two of you have done together.",
-    "pros": ["100 date ideas span a wide range of budgets and effort levels", "Scratch-off format turns planning into part of the date", "Poster doubles as wall art once it's mostly scratched", "Ships in a mailer tube, ready to gift without extra wrapping"],
+    "pros": ["100 date ideas cover a wide range of budgets and effort levels", "Scratch-off format turns planning into part of the date", "Poster doubles as wall art once it's mostly scratched", "Ships in a mailer tube, ready to gift without extra wrapping"],
     "cons": ["Some listed ideas will be more relevant depending on the city"],
     "verdict": "Solves the \"what should we do\" question for months without repeating an idea."
   },

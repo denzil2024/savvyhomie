@@ -12,7 +12,7 @@ answer: the best gifts for her match her daily habits, not a generic top-10 list
 products: [
   {
     "name": "Wireless Earbuds with Charging Case",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/4pFHrlj",
     "image": "/products/wireless-earbuds-raycon.webp",
     "award": "Best Everyday Tech Gift",
@@ -24,7 +24,7 @@ products: [
   },
   {
     "name": "Sunrise Simulation Alarm Clock",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/4fEuiEg",
     "image": "/products/sunrise-alarm-clock.webp",
     "award": "Best for Waking Up Without a Blaring Alarm",
@@ -36,7 +36,7 @@ products: [
   },
   {
     "name": "Portable Power Bank with Clip Strap",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/3RU2Pqp",
     "image": "/products/portable-charger-power-bank.webp",
     "award": "Best for a Phone That Never Makes It Through the Day",
@@ -48,7 +48,7 @@ products: [
   },
   {
     "name": "Smart WiFi Digital Photo Frame",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/4yK0Oh6",
     "image": "/products/smart-wifi-photo-frame-her.webp",
     "award": "Best for Grandparents or Anyone Far From Family",
@@ -60,7 +60,7 @@ products: [
   },
   {
     "name": "Ceramic Hair Straightening Brush",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/4wsuON1",
     "image": "/products/hair-straightening-brush.webp",
     "award": "Best for a Fast, Heat-Conscious Style",
@@ -72,7 +72,7 @@ products: [
   },
   {
     "name": "Waterproof Bluetooth Shower Speaker",
-    "category": "Tech & Gadgets",
+    "category": "Tech and Gadgets for Her",
     "url": "https://amzn.to/4xbsMkp",
     "image": "/products/bluetooth-shower-speaker-her.webp",
     "award": "Best for a Tiny Bathroom Counter",
@@ -84,7 +84,7 @@ products: [
   },
   {
     "name": "Origins Skincare Gift Set, 5-Piece",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/4fXPJBC",
     "image": "/products/origins-skincare-gift-set.webp",
     "award": "Best Full-Routine Starter",
@@ -96,7 +96,7 @@ products: [
   },
   {
     "name": "Facial Ice Roller with Gua Sha",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/4vNp3rX",
     "image": "/products/facial-ice-roller-gua-sha.webp",
     "award": "Best for De-Puffing in the Morning",
@@ -108,7 +108,7 @@ products: [
   },
   {
     "name": "LED Trifold Makeup Mirror",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/3REYgjF",
     "image": "/products/led-trifold-makeup-mirror.webp",
     "award": "Best for Getting Ready in Low Light",
@@ -120,7 +120,7 @@ products: [
   },
   {
     "name": "Jade Facial Roller with Gua Sha",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/3Tnv4hz",
     "image": "/products/jade-facial-roller-gua-sha.webp",
     "award": "Best for a Slow-Down Skincare Ritual",
@@ -132,7 +132,7 @@ products: [
   },
   {
     "name": "Hot Air Volumizing Brush",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/4fp8SML",
     "image": "/products/hair-volumizing-hot-brush.webp",
     "award": "Best for Root Volume Without a Full Blowout",
@@ -144,7 +144,7 @@ products: [
   },
   {
     "name": "Makeup Organizer Train Case",
-    "category": "Beauty & Skincare",
+    "category": "Beauty and Skincare Gifts for Her",
     "url": "https://amzn.to/3TnfAKy",
     "image": "/products/makeup-organizer-train-case.webp",
     "award": "Best for a Makeup Collection That's Outgrown a Drawer",
@@ -156,7 +156,7 @@ products: [
   },
   {
     "name": "Engraved Name Necklace",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/4wq98Rs",
     "image": "/products/engraved-name-necklace.webp",
     "award": "Best Personalized Jewelry Under $20",
@@ -168,7 +168,7 @@ products: [
   },
   {
     "name": "Layered Necklace Set, 3-Piece",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/45oqJxh",
     "image": "/products/layered-necklace-set.webp",
     "award": "Best for Someone Who Wears Jewelry Every Day",
@@ -180,7 +180,7 @@ products: [
   },
   {
     "name": "Birthstone Flower Ring",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/4gVwgm4",
     "image": "/products/birthstone-flower-ring.webp",
     "award": "Best Delicate Everyday Ring",
@@ -192,7 +192,7 @@ products: [
   },
   {
     "name": "Clover Charm Bracelet",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/4wmqQFt",
     "image": "/products/clover-charm-bracelet.webp",
     "award": "Best for a Classic, Wear-With-Anything Look",
@@ -204,7 +204,7 @@ products: [
   },
   {
     "name": "Jewelry Travel Case",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/4h0xKvs",
     "image": "/products/jewelry-travel-case.webp",
     "award": "Best for a Jewelry Collection That Travels Poorly",
@@ -216,7 +216,7 @@ products: [
   },
   {
     "name": "Hoop Earring Set, 3 Sizes",
-    "category": "Jewelry & Accessories",
+    "category": "Jewelry and Accessories for Her",
     "url": "https://amzn.to/4yPYUf1",
     "image": "/products/hoop-earring-set.webp",
     "award": "Best Earring Upgrade from Basic Studs",
@@ -228,7 +228,7 @@ products: [
   },
   {
     "name": "Satin Pajama Set",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/4wpTBBb",
     "image": "/products/silk-pajama-set.webp",
     "award": "Best Everyday Luxury Pajama Set",
@@ -240,7 +240,7 @@ products: [
   },
   {
     "name": "Mulberry Silk Pillowcase",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/3RVRztC",
     "image": "/products/mulberry-silk-pillowcase.webp",
     "award": "Best Low-Effort Hair and Skin Upgrade",
@@ -252,7 +252,7 @@ products: [
   },
   {
     "name": "Cooling Weighted Blanket",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/44Ti99B",
     "image": "/products/cooling-weighted-blanket-throw.webp",
     "award": "Best for Better Sleep Without Overheating",
@@ -264,7 +264,7 @@ products: [
   },
   {
     "name": "Fuzzy Slipper Socks, 5-Pack",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/45prcPL",
     "image": "/products/fuzzy-slipper-socks-5pack.webp",
     "award": "Best Stocking-Stuffer-Style Comfort Gift",
@@ -276,7 +276,7 @@ products: [
   },
   {
     "name": "Cashmere Wrap Scarf",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/3Tepf6a",
     "image": "/products/cashmere-wrap-scarf.webp",
     "award": "Best Dressed-Up Cold-Weather Accessory",
@@ -288,7 +288,7 @@ products: [
   },
   {
     "name": "Cloud Slide Sandals",
-    "category": "Loungewear & Cozy",
+    "category": "Loungewear and Cozy Gifts for Her",
     "url": "https://amzn.to/4xbvE0F",
     "image": "/products/cloud-slide-sandals.webp",
     "award": "Best for Around the House",
@@ -300,7 +300,7 @@ products: [
   },
   {
     "name": "Luxury Aroma Candle Gift Set",
-    "category": "Home & Candles",
+    "category": "Home and Candle Gifts for Her",
     "url": "https://amzn.to/4hA8Dj6",
     "image": "/products/luxury-aroma-candle-gift-set.webp",
     "award": "Best Home Fragrance Gift Set",
@@ -312,7 +312,7 @@ products: [
   },
   {
     "name": "Asakuki Essential Oil Diffuser",
-    "category": "Home & Candles",
+    "category": "Home and Candle Gifts for Her",
     "url": "https://amzn.to/4wqg8hl",
     "image": "/products/aromatherapy-essential-oil-diffuser-her.webp",
     "award": "Best for Someone Who's Talked About Wanting One",
@@ -324,7 +324,7 @@ products: [
   },
   {
     "name": "Ceramic Vase Set, 3-Piece",
-    "category": "Home & Candles",
+    "category": "Home and Candle Gifts for Her",
     "url": "https://amzn.to/3RhqbWR",
     "image": "/products/ceramic-vase-set-3pc.webp",
     "award": "Best Neutral Home Decor Gift",
@@ -336,7 +336,7 @@ products: [
   },
   {
     "name": "Monogram Wine Glass",
-    "category": "Home & Candles",
+    "category": "Home and Candle Gifts for Her",
     "url": "https://amzn.to/3RYQNMr",
     "image": "/products/monogram-wine-glass.webp",
     "award": "Best Personalized Wine Glass Gift",
@@ -348,7 +348,7 @@ products: [
   },
   {
     "name": "Cozy Ribbed Throw Blanket",
-    "category": "Home & Candles",
+    "category": "Home and Candle Gifts for Her",
     "url": "https://amzn.to/4bj1tvY",
     "image": "/products/cozy-ribbed-throw-blanket.webp",
     "award": "Best for the Couch That's Missing a Blanket",
@@ -360,7 +360,7 @@ products: [
   },
   {
     "name": "Crossbody Sling Bag",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/4vX3Dcb",
     "image": "/products/crossbody-sling-bag.webp",
     "award": "Best Hands-Free Everyday Bag",
@@ -372,7 +372,7 @@ products: [
   },
   {
     "name": "Lightweight Silk Scarf Wrap",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/3TWD8pG",
     "image": "/products/silk-scarf-wrap.webp",
     "award": "Best Versatile Accessory for Any Outfit",
@@ -384,7 +384,7 @@ products: [
   },
   {
     "name": "Vegan Leather Tote Bag",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/4yE3MDX",
     "image": "/products/leather-tote-bag.webp",
     "award": "Best Everyday Work Bag",
@@ -396,7 +396,7 @@ products: [
   },
   {
     "name": "Leather Sunglasses Case Set, 3-Pack",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/4yI6zvz",
     "image": "/products/leather-sunglasses-case-set.webp",
     "award": "Best for Someone Who Loses Sunglasses Constantly",
@@ -408,7 +408,7 @@ products: [
   },
   {
     "name": "Star Wrap Sunglasses",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/4fXDwgd",
     "image": "/products/star-wrap-sunglasses.webp",
     "award": "Best Statement Sunglasses",
@@ -420,7 +420,7 @@ products: [
   },
   {
     "name": "Packable Rain Jacket",
-    "category": "Fashion",
+    "category": "Fashion Gifts for Her",
     "url": "https://amzn.to/3TdaK2x",
     "image": "/products/packable-rain-jacket.webp",
     "award": "Best Practical Outdoor Gift",
@@ -432,7 +432,7 @@ products: [
   },
   {
     "name": "Extra-Thick Yoga Mat Set",
-    "category": "Fitness & Wellness",
+    "category": "Fitness and Wellness Gifts for Her",
     "url": "https://amzn.to/4wsG9g1",
     "image": "/products/yoga-mat-set.webp",
     "award": "Best for Starting a Home Yoga Practice",
@@ -444,7 +444,7 @@ products: [
   },
   {
     "name": "Mini Percussion Massage Gun",
-    "category": "Fitness & Wellness",
+    "category": "Fitness and Wellness Gifts for Her",
     "url": "https://amzn.to/4wtshSJ",
     "image": "/products/mini-massage-gun.webp",
     "award": "Best for Sore Muscles After a Workout",
@@ -456,7 +456,7 @@ products: [
   },
   {
     "name": "Resistance Band Set with Handles",
-    "category": "Fitness & Wellness",
+    "category": "Fitness and Wellness Gifts for Her",
     "url": "https://amzn.to/3ToUjAb",
     "image": "/products/resistance-band-set-her.webp",
     "award": "Best Compact Home Workout Kit",
@@ -468,7 +468,7 @@ products: [
   },
   {
     "name": "King-Size Electric Heating Pad",
-    "category": "Fitness & Wellness",
+    "category": "Fitness and Wellness Gifts for Her",
     "url": "https://amzn.to/4fUgAOZ",
     "image": "/products/electric-heating-pad-king-size.webp",
     "award": "Best for Everyday Aches and Cramps",
@@ -480,7 +480,7 @@ products: [
   },
   {
     "name": "Fitness Tracker Smart Band",
-    "category": "Fitness & Wellness",
+    "category": "Fitness and Wellness Gifts for Her",
     "url": "https://amzn.to/3RlbwtH",
     "image": "/products/fitness-tracker-smart-band.webp",
     "award": "Best for Someone New to Fitness Tracking",
@@ -492,7 +492,7 @@ products: [
   },
   {
     "name": "Embroidery Starter Kit",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/4pLAWNV",
     "image": "/products/embroidery-starter-kit.webp",
     "award": "Best for Learning a New Slow Hobby",
@@ -504,7 +504,7 @@ products: [
   },
   {
     "name": "50-Color Watercolor Paint Set",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/4fHvyqo",
     "image": "/products/watercolor-paint-set-50pc.webp",
     "award": "Best for Rediscovering an Old Creative Hobby",
@@ -516,7 +516,7 @@ products: [
   },
   {
     "name": "Book Lover Scented Candle",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/45rvWEA",
     "image": "/products/book-lover-scented-candle.webp",
     "award": "Best Funny Gift for a Reader",
@@ -528,7 +528,7 @@ products: [
   },
   {
     "name": "Rotating Puzzle Board with Drawers",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/3TXsBKU",
     "image": "/products/puzzle-board-with-drawers.webp",
     "award": "Best for a Puzzle That Takes Over the Table",
@@ -540,7 +540,7 @@ products: [
   },
   {
     "name": "Bamboo Charcuterie Board Set",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/3TI44JI",
     "image": "/products/bamboo-charcuterie-board-set.webp",
     "award": "Best for Hosting Wine Nights or Get-Togethers",
@@ -552,7 +552,7 @@ products: [
   },
   {
     "name": "Guided Wine Tasting Journal",
-    "category": "Hobbies & Interests",
+    "category": "Hobbies and Interests for Her",
     "url": "https://amzn.to/4wd1KZ3",
     "image": "/products/guided-wine-tasting-journal.webp",
     "award": "Best Low-Key Hobby Gift for Wine Nights",
@@ -564,7 +564,7 @@ products: [
   },
   {
     "name": "Custom Royal Pet Portrait",
-    "category": "Keepsakes & Personalized",
+    "category": "Keepsakes and Personalized Gifts for Her",
     "url": "https://amzn.to/4bibRnE",
     "image": "/products/custom-royal-pet-portrait.webp",
     "award": "Best Funny Personalized Pet Gift",
@@ -576,7 +576,7 @@ products: [
   },
   {
     "name": "Engraved Silver Jewelry Box",
-    "category": "Keepsakes & Personalized",
+    "category": "Keepsakes and Personalized Gifts for Her",
     "url": "https://amzn.to/4bjPNcm",
     "image": "/products/engraved-jewelry-box.webp",
     "award": "Best Personalized Keepsake Box",
@@ -588,7 +588,7 @@ products: [
   },
   {
     "name": "Personalized Monogram Robe",
-    "category": "Keepsakes & Personalized",
+    "category": "Keepsakes and Personalized Gifts for Her",
     "url": "https://amzn.to/4hyZjMq",
     "image": "/products/personalized-monogram-robe.webp",
     "award": "Best Personalized Comfort Gift",
@@ -600,7 +600,7 @@ products: [
   },
   {
     "name": "Custom Song Lyric Print",
-    "category": "Keepsakes & Personalized",
+    "category": "Keepsakes and Personalized Gifts for Her",
     "url": "https://amzn.to/4fHvMxK",
     "image": "/products/custom-song-lyric-print.webp",
     "award": "Best for a Meaningful Song or Memory",
@@ -612,7 +612,7 @@ products: [
   },
   {
     "name": "Photo Collage Blanket",
-    "category": "Keepsakes & Personalized",
+    "category": "Keepsakes and Personalized Gifts for Her",
     "url": "https://amzn.to/4fJ1omJ",
     "image": "/products/photo-collage-blanket.webp",
     "award": "Best for a Blanket Full of Real Memories",
@@ -625,9 +625,9 @@ products: [
 ]
 ---
 
-Buying for her is supposed to be the easy one, and then the shopping starts and every list online repeats the same candle-and-jewelry combo. This one goes wider on purpose.
+Every gift guide for her repeats the same candle-and-jewelry combo, which makes the "easy" category oddly hard to shop. This one goes wider on purpose.
 
-51 picks span nine categories: tech, beauty and skincare, jewelry, loungewear, home fragrance, fashion, fitness, hobbies, and personalized keepsakes.
+51 picks break down into nine categories: tech, beauty and skincare, jewelry, loungewear, home fragrance, fashion, fitness, hobbies, and personalized keepsakes.
 
 The right pick depends more on her habits than on guessing at a generic idea of "a gift for her." A friend who journals every night needs something different than one who's always mid-workout, so skip around instead of reading top to bottom.
 
@@ -662,3 +662,4 @@ The best gift here depends on which category matches her, not which pick ranks h
 ## More Gift Guides in This Collection
 
 - [50 Best Gifts for Women, Sorted by Budget](/blog/gifts-for-women/), sorted by price from under $25 to splurge-worthy
+- [38 Gifts for Girlfriend, Sorted by Relationship Stage](/blog/gifts-for-girlfriend/), from new relationship to a few years in

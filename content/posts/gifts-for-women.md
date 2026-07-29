@@ -613,9 +613,9 @@ products: [
 ]
 ---
 
-Buying for a budget is easier than buying for a specific taste, and every real gift guide for women leans into that instead. This one sorts by price first, five clean tiers, so there's no scrolling past $200 picks looking for something under $25.
+A budget is easier to shop than a specific taste, and every real gift guide for women leans into that instead. This one sorts by price first, five clean tiers, so there's no scrolling past $200 picks looking for something under $25.
 
-50 picks span five price tiers: Under $25, Under $50, Under $100, Under $200, and Splurge-Worthy. For a broader roundup organized by category instead of price, the [51 Gifts for Her](/blog/gifts-for-her/) guide covers tech, beauty, jewelry, loungewear, and more.
+50 picks sort into five price tiers: Under $25, Under $50, Under $100, Under $200, and Splurge-Worthy. For a broader roundup organized by category instead of price, the [51 Gifts for Her](/blog/gifts-for-her/) guide covers tech, beauty, jewelry, loungewear, and more, and [Gifts for Girlfriend](/blog/gifts-for-girlfriend/) is sorted by relationship stage instead.
 
 <!-- products -->
 

@@ -579,7 +579,7 @@ products: [
 
 Gifts for him tend to be an afterthought until the last minute, and then it's the same five things every time. Ask what he wants for his birthday, Christmas, or an anniversary and the answer is usually a shrug, or worse, "I don't know, whatever." That's the gap this list is built to close.
 
-47 picks span nine categories: tech and outdoor gear, grooming, the home bar, food, fashion, fitness, hobbies, and personalized keepsakes. Jump straight to whichever one fits him best, someone who grills every weekend and someone glued to a desk setup need two completely different starting points.
+47 picks cover nine categories: tech and outdoor gear, grooming, the home bar, food, fashion, fitness, hobbies, and personalized keepsakes. Jump straight to whichever one fits him best, someone who grills every weekend and someone glued to a desk setup need two completely different starting points.
 
 <!-- products -->
 
