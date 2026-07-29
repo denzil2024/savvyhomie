@@ -1,5 +1,7 @@
 ---
 title: 38 Gifts for Girlfriend, Sorted by Relationship Stage
+cover: /covers/gifts-for-girlfriend.webp
+pin: /pins/gifts-for-girlfriend.webp
 description: 38 gifts for girlfriend, from romantic and sentimental to cozy self-care, tech, jewelry, and thoughtful picks under $25, sorted so it's easy to find what fits.
 category: gift-guides
 topic: Gifts for Her
