@@ -663,3 +663,4 @@ The best gift here depends on which category matches her, not which pick ranks h
 
 - [50 Best Gifts for Women, Sorted by Budget](/blog/gifts-for-women/), sorted by price from under $25 to splurge-worthy
 - [38 Gifts for Girlfriend, Sorted by Relationship Stage](/blog/gifts-for-girlfriend/), from new relationship to a few years in
+- [50 Gifts for Wife, Sorted by What Her Life Needs More Of](/blog/gifts-for-wife/), sorted by sentimental, jewelry, fashion, home, wellness, tech, and hobbies
