@@ -665,3 +665,4 @@ The best gift here depends on which category matches her, not which pick ranks h
 - [38 Gifts for Girlfriend, Sorted by Relationship Stage](/blog/gifts-for-girlfriend/), from new relationship to a few years in
 - [50 Gifts for Wife, Sorted by What Her Life Needs More Of](/blog/gifts-for-wife/), sorted by sentimental, jewelry, fashion, home, wellness, tech, and hobbies
 - [43 Christmas Gifts for Women, From Stocking Stuffers to Splurges](/blog/christmas-gifts-for-women/), personalized keepsakes, beauty, jewelry, home and hosting, tech, and stocking stuffers
+- [28 Birthday Gifts for Her, Sorted by What She's Into](/blog/birthday-gifts-for-her/), personalized keepsakes, beauty, jewelry, home decor, gadgets, and activity gifts
