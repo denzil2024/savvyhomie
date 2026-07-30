@@ -12,7 +12,7 @@ answer: the best gifts for a girlfriend match the relationship stage, not just h
 products: [
   {
     "name": "Friendship Touch Lamp Set",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4bjt14p",
     "image": "/products/friendship-touch-lamp-set.webp",
     "award": "Best for Staying Close From a Distance",
@@ -24,7 +24,7 @@ products: [
   },
   {
     "name": "Constellation Zodiac Necklace",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4biEPnq",
     "image": "/products/constellation-zodiac-necklace.webp",
     "award": "Best Personalized Zodiac Gift",
@@ -36,7 +36,7 @@ products: [
   },
   {
     "name": "Open When Letters Box Set",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/45y8k0Y",
     "image": "/products/open-when-letters-box-set.webp",
     "award": "Best for a Long-Distance Rough Patch",
@@ -48,7 +48,7 @@ products: [
   },
   {
     "name": "Couples Connection Card Game",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4x9pnCC",
     "image": "/products/couples-connection-card-game.webp",
     "award": "Best for Deeper Conversation",
@@ -60,7 +60,7 @@ products: [
   },
   {
     "name": "Custom Couple Photo Canvas Print",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4gZeoqx",
     "image": "/products/custom-couple-photo-canvas-girlfriend.webp",
     "award": "Best for a Specific Moment You Don't Want to Forget",
@@ -72,7 +72,7 @@ products: [
   },
   {
     "name": "Engraved Floral Compact Mirror",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/3RCEZPS",
     "image": "/products/engraved-floral-compact-mirror.webp",
     "award": "Best Everyday Personalized Accessory",
@@ -84,7 +84,7 @@ products: [
   },
   {
     "name": "Custom Relationship Timeline Print",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4yRPcsC",
     "image": "/products/custom-relationship-timeline-print.webp",
     "award": "Best for Marking How Far You've Come",
@@ -96,7 +96,7 @@ products: [
   },
   {
     "name": "Heart Shaped Photo Puzzle",
-    "category": "Romantic and Sentimental Gifts for Girlfriend",
+    "category": "Romantic and Sentimental Gifts",
     "url": "https://amzn.to/4yLcRKT",
     "image": "/products/heart-shaped-photo-puzzle.webp",
     "award": "Best Playful Sentimental Gift",
@@ -108,7 +108,7 @@ products: [
   },
   {
     "name": "Heated Neck and Shoulder Wrap",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4hDY3aR",
     "image": "/products/heated-neck-shoulder-wrap.webp",
     "award": "Best for Tension After a Long Day",
@@ -120,7 +120,7 @@ products: [
   },
   {
     "name": "Spa Gift Basket Set",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4wo1x5W",
     "image": "/products/spa-gift-basket-set.webp",
     "award": "Best All-in-One Pamper Gift",
@@ -132,7 +132,7 @@ products: [
   },
   {
     "name": "Lavender Weighted Eye Pillow",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4bhRGGv",
     "image": "/products/lavender-weighted-eye-pillow.webp",
     "award": "Best for Winding Down Before Bed",
@@ -144,7 +144,7 @@ products: [
   },
   {
     "name": "Rechargeable Heated Hand Warmers, 2-Pack",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4fsbfyn",
     "image": "/products/rechargeable-heated-hand-warmers-2pk.webp",
     "award": "Best for Cold Hands All Winter",
@@ -156,7 +156,7 @@ products: [
   },
   {
     "name": "Herbal Tea Sampler Set",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4hD2QcA",
     "image": "/products/taylors-herbal-tea-sampler-set.webp",
     "award": "Best for a Tea-Drinking Wind-Down",
@@ -168,7 +168,7 @@ products: [
   },
   {
     "name": "Knit Blanket Wrap Scarf",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/3RnkbMd",
     "image": "/products/knit-blanket-wrap-scarf-black.webp",
     "award": "Best Cozy Layer for Chilly Nights",
@@ -180,7 +180,7 @@ products: [
   },
   {
     "name": "Bubble Bath Candle Soak Set",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4fEwTho",
     "image": "/products/bubble-bath-candle-soak-set.webp",
     "award": "Best Bath Night Bundle",
@@ -192,7 +192,7 @@ products: [
   },
   {
     "name": "Silk Sleep Eye Mask, 2-Pack",
-    "category": "Cozy and Self-Care Gifts for Girlfriend",
+    "category": "Cozy and Self-Care Gifts",
     "url": "https://amzn.to/4fEwZFM",
     "image": "/products/silk-sleep-eye-mask-2pk.webp",
     "award": "Best for Actually Blocking Light",
@@ -204,7 +204,7 @@ products: [
   },
   {
     "name": "Mini Instant Photo Printer",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/4vXpOPn",
     "image": "/products/mini-instant-photo-printer.webp",
     "award": "Best for Turning Phone Photos Real",
@@ -216,7 +216,7 @@ products: [
   },
   {
     "name": "Electric Jewelry Cleaner",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/4hmaZlV",
     "image": "/products/electric-jewelry-cleaner.webp",
     "award": "Best for Jewelry That's Lost Its Shine",
@@ -228,7 +228,7 @@ products: [
   },
   {
     "name": "Personalized Initial Ring Dish",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/45sxMoF",
     "image": "/products/personalized-initial-ring-dish.webp",
     "award": "Best Everyday Jewelry Catch-All",
@@ -240,7 +240,7 @@ products: [
   },
   {
     "name": "Portable Phone Camera Lens Kit",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/3TJVA4N",
     "image": "/products/portable-phone-camera-lens-kit.webp",
     "award": "Best for Leveling Up Phone Photos",
@@ -252,7 +252,7 @@ products: [
   },
   {
     "name": "Handheld Facial Mist Fan",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/4fHKuVs",
     "image": "/products/handheld-facial-mist-fan.webp",
     "award": "Best for Staying Cool on a Hot Day Out",
@@ -264,7 +264,7 @@ products: [
   },
   {
     "name": "Smart Reminder Water Bottle",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/4w0k9In",
     "image": "/products/smart-reminder-water-bottle.webp",
     "award": "Best for Someone Who Forgets to Drink Water",
@@ -276,7 +276,7 @@ products: [
   },
   {
     "name": "Portable Blender Bottle",
-    "category": "Tech and Practical Gifts for Girlfriend",
+    "category": "Tech and Practical Gifts",
     "url": "https://amzn.to/44UDyzm",
     "image": "/products/portable-blender-bottle-ninja.webp",
     "award": "Best for Smoothies on the Go",
@@ -288,7 +288,7 @@ products: [
   },
   {
     "name": "Dainty Initial Pendant Necklace",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/3RGI8OC",
     "image": "/products/dainty-initial-pendant-necklace.webp",
     "award": "Best Minimalist Personalized Necklace",
@@ -300,7 +300,7 @@ products: [
   },
   {
     "name": "Interlocking Heart Bracelet Set",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4wtjiB3",
     "image": "/products/interlocking-heart-bracelet-set.webp",
     "award": "Best Matching-Style Bracelet Gift",
@@ -312,7 +312,7 @@ products: [
   },
   {
     "name": "Gemstone Tennis Bracelet",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4wDTO3R",
     "image": "/products/gemstone-tennis-bracelet.webp",
     "award": "Best Everyday Sparkle",
@@ -324,7 +324,7 @@ products: [
   },
   {
     "name": "Minimalist Ring Stack Set",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4bkcDR1",
     "image": "/products/minimalist-ring-stack-set.webp",
     "award": "Best for Building a Ring Collection",
@@ -336,7 +336,7 @@ products: [
   },
   {
     "name": "Small Huggie Hoop Earrings",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4yNcgbN",
     "image": "/products/small-huggie-hoop-earrings.webp",
     "award": "Best Everyday Hoop Upgrade",
@@ -348,7 +348,7 @@ products: [
   },
   {
     "name": "Initial Charm Bracelet",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4hD3abi",
     "image": "/products/initial-charm-bracelet-girlfriend.webp",
     "award": "Best Personalized Layering Piece",
@@ -360,7 +360,7 @@ products: [
   },
   {
     "name": "Compact Crossbody Wallet Purse",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4pHPrC8",
     "image": "/products/compact-crossbody-wallet-purse.webp",
     "award": "Best Small Going-Out Bag",
@@ -372,7 +372,7 @@ products: [
   },
   {
     "name": "Layered Anklet Set, 5-Piece",
-    "category": "Jewelry and Accessories for Girlfriend",
+    "category": "Jewelry and Accessories",
     "url": "https://amzn.to/4gYEx8T",
     "image": "/products/layered-anklet-set-5pc.webp",
     "award": "Best Warm-Weather Jewelry Set",
@@ -384,7 +384,7 @@ products: [
   },
   {
     "name": "Novelty Cat Paw Fuzzy Socks, 6-Pack",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/4hmbgFt",
     "image": "/products/novelty-cat-paw-fuzzy-socks.webp",
     "award": "Best Fun Stocking-Stuffer-Style Gift",
@@ -396,7 +396,7 @@ products: [
   },
   {
     "name": "Burt's Bees Lip Balm Set, 4-Pack",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/4vYHn1A",
     "image": "/products/burts-bees-lip-balm-4pk.webp",
     "award": "Best Low-Cost Everyday Add-On",
@@ -408,7 +408,7 @@ products: [
   },
   {
     "name": "Mini Plush Bunny Keychain",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/3TGclxN",
     "image": "/products/mini-plush-bunny-keychain.webp",
     "award": "Best Cute Everyday Add-On",
@@ -420,7 +420,7 @@ products: [
   },
   {
     "name": "Mini Acrylic Desk Photo Frame",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/3S1RdSf",
     "image": "/products/mini-acrylic-desk-photo-frame.webp",
     "award": "Best Small Photo Display",
@@ -432,7 +432,7 @@ products: [
   },
   {
     "name": "Coconut Vanilla Body Butter Set",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/44Uj5KY",
     "image": "/products/coconut-vanilla-body-butter-set.webp",
     "award": "Best Bath and Body Gift Set",
@@ -444,7 +444,7 @@ products: [
   },
   {
     "name": "Cute Lidded Mug Set, 2-Piece",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/3Ttrt1t",
     "image": "/products/cute-lidded-mug-set-2pc.webp",
     "award": "Best Everyday Drinkware Gift",
@@ -456,7 +456,7 @@ products: [
   },
   {
     "name": "Pop-Up Love Tree Greeting Card",
-    "category": "Thoughtful Gifts for Girlfriend Under $25",
+    "category": "Thoughtful Gifts Under $25",
     "url": "https://amzn.to/4yMOL2y",
     "image": "/products/pop-up-love-tree-card.webp",
     "award": "Best Card That Doesn't Get Thrown Away",

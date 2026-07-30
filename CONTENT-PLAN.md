@@ -490,13 +490,13 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~312. Gift Ideas for Women~~ — skipped 2026-07-28, duplicate SERP of #311 (CNN Underscored, HGTV, keyirobot all reappear)
 ~~313. Gifts for Girlfriend~~ — published 2026-07-29
 ~~314. Gifts for Wife~~ — published 2026-07-29
-315. Gift Ideas for Wife
-316. Gifts for Girls
+~~315. Gift Ideas for Wife~~ — skipped 2026-07-29, duplicate SERP of #314 (CNN Underscored, TheKnot, UncommonGoods all reappear)
+~~316. Gifts for Girls~~ — skipped 2026-07-29, duplicate SERP of #311 (GMA and CNN Underscored both rank their "gifts for women" pages for this query, not distinct girls-specific content)
 ~~317. Best Gifts for Women~~ — skipped 2026-07-28, duplicate SERP of #311 (CNN Underscored, HGTV, Forbes, GMA all reappear)
 ~~318. Unique Gifts for Women~~ — skipped 2026-07-28, duplicate SERP of #311 (CNN Underscored, HGTV, GMA all reappear)
 
 **Occasion (8)**
-319. Christmas Gifts for Women
+~~319. Christmas Gifts for Women~~ — published 2026-07-30
 320. Birthday Gifts for Her
 321. Anniversary Gifts for Her
 322. Valentines Gifts for Her
