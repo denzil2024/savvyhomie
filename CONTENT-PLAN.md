@@ -299,7 +299,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. This cluster is Amazon-product-roundup content: Pinterest-only traffic, no Google-ranking expectation, so keywords are confirmed on real Keyword Planner volume + on-topic + non-duplicate + genre-fit alone, no SERP check.
 
 **Pillar**
-180. Kitchen Gadgets
+~~180. Kitchen Gadgets~~ — published 2026-08-01 (45 products)
 
 **General/Qualifier (11)**
 181. Best Kitchen Gadgets
