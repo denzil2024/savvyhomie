@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { categories, postsInTopic, slugifyTopic } from '../lib/content.js'
+import { categories, postsInTopic, slugifyTopic, MIN_POSTS_FOR_TOPIC_PAGE } from '../lib/content.js'
 import Photo from '../components/Photo.jsx'
 import EmailSignup from '../components/EmailSignup.jsx'
 
@@ -9,6 +9,9 @@ export default function Topic() {
   const topicName = cat?.topics?.find((t) => slugifyTopic(t) === topic)
   if (!cat || !topicName) return <section className="hero"><h1>Not found</h1></section>
   const list = postsInTopic(slug, topic)
+  // Same hard SEO gate as getSitemapEntries() — belt and suspenders in case this
+  // route is ever hit before the topic has enough real posts to earn its own page.
+  if (list.length < MIN_POSTS_FOR_TOPIC_PAGE) return <section className="hero"><h1>Not found</h1></section>
 
   return (
     <>

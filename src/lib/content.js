@@ -45,6 +45,11 @@ export const categories = [
 
 export const slugifyTopic = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
+// Hard SEO gate: a sub-topic never gets its own page/route/sitemap entry until it
+// has this many real posts. A dedicated page with only 1-3 posts is thin content,
+// it hurts ranking more than having no page at all. See FOUNDATION.md "SEO / AEO plan".
+export const MIN_POSTS_FOR_TOPIC_PAGE = 4
+
 const files = import.meta.glob('../../content/posts/*.md', { query: '?raw', import: 'default', eager: true })
 
 function parseFrontmatter(raw) {
@@ -158,7 +163,7 @@ export function getSitemapEntries() {
     for (const t of c.topics || []) {
       const topicSlug = slugifyTopic(t)
       const tPosts = postsInTopic(c.slug, topicSlug)
-      if (tPosts.length === 0) continue
+      if (tPosts.length < MIN_POSTS_FOR_TOPIC_PAGE) continue
       const lastmod = tPosts.reduce((max, p) => (p.date > max ? p.date : max), tPosts[0].date)
       topicEntries.push({ loc: `/category/${c.slug}/${topicSlug}/`, lastmod })
     }
