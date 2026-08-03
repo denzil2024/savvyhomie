@@ -602,3 +602,4 @@ The best kitchen gadgets never feel like gadgets after a few weeks of owning the
 - [23 Best Kitchen Gadgets for Everyday Cooking](/blog/best-kitchen-gadgets/), sorted into prep and cutting, cooking tools, cookware and bakeware, small appliances, and storage
 - [29 Top Kitchen Gadgets for a Better-Stocked Kitchen](/blog/top-kitchen-gadgets/), sorted by where they fit into an actual day in the kitchen, prep through cocktail hour
 - [31 Cool Kitchen Gadgets That Make Cooking Feel Less Like a Chore](/blog/cool-kitchen-gadgets/), sorted into prep, storage, the countertop, baking, and coffee and serving
+- [32 Amazon Kitchen Gadgets Worth Their Five-Star Reviews](/blog/amazon-kitchen-gadgets/), sorted into chopping and slicing, electric appliances, the pantry and fridge, and stovetop and drinks
