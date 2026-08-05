@@ -1,0 +1,203 @@
+import { readFileSync, readdirSync } from 'node:fs'
+import { loadEnv } from './pinterest-env.mjs'
+import { refreshAccessToken } from './pinterest-refresh.mjs'
+
+let { PINTEREST_ACCESS_TOKEN } = loadEnv()
+
+async function pinterest(path) {
+  let res = await fetch(`https://api.pinterest.com/v5${path}`, {
+    headers: { Authorization: `Bearer ${PINTEREST_ACCESS_TOKEN}` },
+  })
+  if (res.status === 401) {
+    PINTEREST_ACCESS_TOKEN = await refreshAccessToken()
+    res = await fetch(`https://api.pinterest.com/v5${path}`, {
+      headers: { Authorization: `Bearer ${PINTEREST_ACCESS_TOKEN}` },
+    })
+  }
+  const body = await res.json()
+  if (!res.ok) throw new Error(`${path} -> ${res.status}: ${JSON.stringify(body)}`)
+  return body
+}
+
+// 1. Load every published post: slug, date, title
+const postFiles = readdirSync('content/posts').filter((f) => f.endsWith('.md'))
+const posts = postFiles.map((f) => {
+  const slug = f.replace(/\.md$/, '')
+  const raw = readFileSync(`content/posts/${f}`, 'utf8')
+  const dateMatch = raw.match(/^date:\s*"?([\d-]+)/m)
+  const titleMatch = raw.match(/^title:\s*"?(.*?)"?\s*$/m)
+  return {
+    slug,
+    date: dateMatch ? dateMatch[1] : '',
+    title: titleMatch ? titleMatch[1] : slug,
+  }
+})
+posts.sort((a, b) => a.date.localeCompare(b.date))
+
+// 2. Pin-drops inventory per slug (some pillar folders use a "-pillar" suffix that doesn't match the post slug)
+const PIN_DROP_FOLDER_ALIASES = {
+  'christmas-gift-ideas': 'christmas-gift-ideas-pillar',
+  'gifts-for-him': 'gifts-for-him-pillar',
+  'gifts-for-her': 'gifts-for-her-pillar',
+  'kitchen-gadgets': 'kitchen-gadgets-pillar',
+}
+function pinDropCount(slug) {
+  const folder = PIN_DROP_FOLDER_ALIASES[slug] || slug
+  try {
+    return readdirSync(`pin-drops/${folder}`).filter((f) => f.endsWith('.png')).length
+  } catch {
+    return 0
+  }
+}
+
+// 3. Live pins from Pinterest, with link field for exact slug matching
+const boardsRes = await pinterest('/boards?page_size=100')
+const boards = boardsRes.items
+const allPins = []
+for (const board of boards) {
+  const pinsRes = await pinterest(`/boards/${board.id}/pins?page_size=100&pin_filter=all`)
+  for (const p of pinsRes.items || []) {
+    if (!p.is_owner) continue
+    allPins.push({
+      board: board.name,
+      title: p.title || '',
+      link: p.link || '',
+      created: p.created_at?.slice(0, 10) || '',
+    })
+  }
+}
+
+// 4. Match live pins to post slugs via exact link substring
+for (const post of posts) {
+  post.livePins = allPins
+    .filter((p) => p.link.includes(`/${post.slug}/`) || p.link.includes(`/${post.slug}`))
+    .sort((a, b) => a.created.localeCompare(b.created))
+  post.available = pinDropCount(post.slug)
+  post.postedCount = post.livePins.length
+  post.boardsUsed = [...new Set(post.livePins.map((p) => p.board))]
+}
+
+// 5. Report
+console.log('=== PIN TRACKER (live, generated', new Date().toISOString().slice(0, 10), ') ===\n')
+console.log(
+  'published'.padEnd(11),
+  'slug'.padEnd(30),
+  'posted/avail'.padEnd(13),
+  'boards used'
+)
+for (const post of posts) {
+  const flag = post.postedCount === 0 ? '  <-- ZERO PINS LIVE' : post.postedCount < post.available ? '' : ' (exhausted)'
+  console.log(
+    post.date.padEnd(11),
+    post.slug.padEnd(30),
+    `${post.postedCount}/${post.available}`.padEnd(13),
+    post.boardsUsed.join(', ') + flag
+  )
+}
+
+console.log('\n=== NEXT-UP QUEUE (earliest published first, has unposted pin-drops images) ===')
+const queue = posts.filter((p) => p.postedCount < p.available)
+if (queue.length === 0) {
+  console.log('(none - every post with pin-drops images has them all posted)')
+} else {
+  queue.forEach((p, i) => {
+    console.log(`${i + 1}. ${p.slug} (published ${p.date}) - ${p.postedCount}/${p.available} posted, boards used: ${p.boardsUsed.join(', ') || 'none'}`)
+  })
+}
+
+// 5b. Posting strategy: a batch-by-batch plan, one pin per post per batch,
+// never repeating a board within the same batch (same-day cadence rule),
+// preferring a board that specific post hasn't used yet.
+const CLUSTERS = {
+  him: {
+    slugs: ['gifts-for-him', 'gifts-for-men', 'gifts-for-boyfriend', 'gifts-for-husband', 'birthday-gifts-for-him', 'christmas-gifts-for-men'],
+    boards: ['Gifts for Him', 'Gift Ideas', 'Christmas Gift Ideas'],
+  },
+  her: {
+    slugs: ['gifts-for-her', 'gifts-for-women', 'gifts-for-girlfriend', 'gifts-for-wife', 'birthday-gifts-for-her', 'christmas-gifts-for-women'],
+    boards: ['Gifts for Her', 'Gift Ideas', 'Christmas Gift Ideas'],
+  },
+  miscGift: {
+    slugs: ['gifts-for-dog-lovers', 'gifts-for-neighbors', 'gifts-for-wine-lovers', 'teacher-christmas-gifts', 'christmas-gifts-for-coworkers', 'christmas-gift-ideas'],
+    boards: ['Gift Ideas', 'Christmas Gift Ideas'],
+  },
+  kitchen: {
+    slugs: ['kitchen-gadgets', 'best-kitchen-gadgets', 'top-kitchen-gadgets', 'cool-kitchen-gadgets', 'amazon-kitchen-gadgets', 'amazon-kitchen-utensils'],
+    boards: ['Kitchen Gadgets & Finds', 'Amazon Home Finds'],
+  },
+}
+function eligibleBoards(slug) {
+  for (const c of Object.values(CLUSTERS)) if (c.slugs.includes(slug)) return c.boards
+  return ['Gift Ideas'] // fallback catch-all
+}
+
+// lastUsedAt tracks, per item, the most recent batch index each board was used in for THAT post
+// (seeded from live post-history order so already-used boards aren't picked again before new ones) —
+// board choice always prefers the least-recently-used board, so once a post cycles through every
+// board it owns it starts rotating instead of hammering one board batch after batch.
+const planItems = queue.map((p) => {
+  const boards = eligibleBoards(p.slug)
+  const lastUsedAt = {}
+  boards.forEach((b) => (lastUsedAt[b] = -Infinity))
+  p.boardsUsed.forEach((b, idx) => {
+    if (b in lastUsedAt) lastUsedAt[b] = idx - p.boardsUsed.length
+  })
+  return { slug: p.slug, remaining: p.available - p.postedCount, boards, lastUsedAt }
+})
+
+const batches = []
+let guard = 0
+while (planItems.some((p) => p.remaining > 0) && guard < 40) {
+  const boardsUsedThisBatch = new Set()
+  const batch = []
+  for (const item of planItems) {
+    if (item.remaining <= 0) continue
+    const candidates = item.boards
+      .filter((b) => !boardsUsedThisBatch.has(b))
+      .sort((a, b) => item.lastUsedAt[a] - item.lastUsedAt[b])
+    const board = candidates[0]
+    if (!board) continue // every eligible board for this post already used elsewhere this batch
+    batch.push({ slug: item.slug, board })
+    boardsUsedThisBatch.add(board)
+    item.lastUsedAt[board] = guard
+    item.remaining--
+  }
+  if (batch.length === 0) break // nothing schedulable (shouldn't happen with 2+ boards per cluster)
+  batches.push(batch)
+  guard++
+}
+
+console.log('\n=== POSTING STRATEGY (one batch = one sitting/day; a board never repeats within a batch) ===')
+batches.forEach((batch, i) => {
+  console.log(`\nBatch ${i + 1}:`)
+  batch.forEach((item) => console.log(`  - ${item.slug} -> ${item.board}`))
+})
+console.log(`\n${batches.length} batches clears the current backlog (${queue.reduce((s, p) => s + (p.available - p.postedCount), 0)} pins total).`)
+
+console.log('\n=== ZERO-PIN POSTS (published, no live pin at all) ===')
+const zero = posts.filter((p) => p.postedCount === 0)
+if (zero.length === 0) console.log('(none)')
+else zero.forEach((p) => console.log(`- ${p.slug} (published ${p.date}, ${p.available} pin-drops images ready)`))
+
+// 6. Account-level performance (last 30 days)
+const today = new Date()
+const end = today.toISOString().slice(0, 10)
+const start = new Date(today.getTime() - 30 * 86400000).toISOString().slice(0, 10)
+const analytics = await pinterest(
+  `/user_account/analytics?start_date=${start}&end_date=${end}&metric_types=IMPRESSION,PIN_CLICK,SAVE,OUTBOUND_CLICK&granularity=TOTAL`
+)
+const totals = analytics.all?.summary_metrics || {}
+const daily = (analytics.all?.daily_metrics || []).filter((d) => d.data_status === 'READY')
+console.log(`\n=== HOW WE'RE DOING (last 30 days, ${start} to ${end}) ===`)
+console.log('Impressions:', totals.IMPRESSION ?? 0)
+console.log('Pin clicks:', totals.PIN_CLICK ?? 0)
+console.log('Saves:', totals.SAVE ?? 0)
+console.log('Outbound clicks (to site):', totals.OUTBOUND_CLICK ?? 0)
+if (daily.length) {
+  const last7 = daily.slice(-7)
+  const prev7 = daily.slice(-14, -7)
+  const sum = (arr, k) => arr.reduce((s, d) => s + (d.metrics[k] || 0), 0)
+  console.log(
+    `Last 7 days impressions: ${sum(last7, 'IMPRESSION')} (previous 7: ${sum(prev7, 'IMPRESSION')})`
+  )
+}
