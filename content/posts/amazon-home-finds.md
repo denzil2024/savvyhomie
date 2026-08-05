@@ -711,3 +711,7 @@ Jump to whichever room's driving you crazy right now, or start at the top and wo
 ## Final Thoughts
 
 A house rarely gets finished in one weekend, and that's fine. These 55 finds are meant to be worked through room by room, picking off whichever gap bothers you most first, not bought all at once in a single order. Start with the room used most, add one piece at a time, and let the rest fill in as budget and patience allow.
+
+## More Everyday Home Finds Guides
+
+- [27 Amazon Bathroom Finds Worth Adding to Your Space](/blog/amazon-bathroom-finds/), the bathroom-specific companion to this guide, sorted by storage, shower, vanity, decor, and towels.

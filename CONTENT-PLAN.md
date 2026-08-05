@@ -354,7 +354,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~214. Amazon Home Finds~~ — published 2026-08-05 (55 products)
 
 **Room-specific Amazon Finds (2)**
-215. Amazon Bathroom Finds
+~~215. Amazon Bathroom Finds~~ — published 2026-08-05 (27 products)
 216. Amazon Must Haves for Home
 
 **Trendy/Must-Have Decor (10)**
