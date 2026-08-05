@@ -351,7 +351,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. This cluster is Amazon-product-roundup content: Pinterest-only traffic, no Google-ranking expectation, so keywords are confirmed on real Keyword Planner volume + on-topic + non-duplicate + genre-fit alone, no SERP check required (a few were spot-checked on request; retailer/Pinterest-dominated as expected, doesn't change the confirm decision). Bedroom-specific candidates were excluded throughout — that room belongs to the Cozy Bedroom Ideas topic, not here.
 
 **Pillar**
-214. Amazon Home Finds
+~~214. Amazon Home Finds~~ — published 2026-08-05 (55 products)
 
 **Room-specific Amazon Finds (2)**
 215. Amazon Bathroom Finds
