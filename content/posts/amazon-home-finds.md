@@ -717,3 +717,4 @@ A house rarely gets finished in one weekend, and that's fine. These 55 finds are
 - [27 Amazon Bathroom Finds Worth Adding to Your Space](/blog/amazon-bathroom-finds/), the bathroom-specific companion to this guide, sorted by storage, shower, vanity, decor, and towels.
 - [32 Amazon Must Haves for Home That Solve Something](/blog/amazon-must-haves-for-home/), sorted by problem instead of room, kitchen, laundry, tech, bedroom, and workspace.
 - [28 Amazon Home Decor Must Haves for a Room That Finally Looks Finished](/blog/home-decor-must-haves/), pure decor instead of room or problem, lighting, wall art, rugs, accents, and furniture.
+- [27 Trendy Home Decor Finds Worth Buying Right Now](/blog/trendy-home-decor/), sorted by what's trending right now, vintage, curved shapes, natural texture, lighting, coastal, and pattern.
