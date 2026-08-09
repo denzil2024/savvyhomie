@@ -358,8 +358,8 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~216. Amazon Must Haves for Home~~ — published 2026-08-07 (32 products)
 
 **Trendy/Must-Have Decor (10)**
-217. Home Decor Must Haves
-218. Trendy Home Decor
+~~217. Home Decor Must Haves~~ — published 2026-08-08 (28 products)
+~~218. Trendy Home Decor~~ — published 2026-08-09 (27 products)
 219. Trendy Wall Art
 220. Trendy Throw Pillows
 221. Trendy Room Decor

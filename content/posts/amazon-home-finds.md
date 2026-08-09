@@ -718,3 +718,4 @@ A house rarely gets finished in one weekend, and that's fine. These 55 finds are
 - [32 Amazon Must Haves for Home That Solve Something](/blog/amazon-must-haves-for-home/), sorted by problem instead of room, kitchen, laundry, tech, bedroom, and workspace.
 - [28 Amazon Home Decor Must Haves for a Room That Finally Looks Finished](/blog/home-decor-must-haves/), pure decor instead of room or problem, lighting, wall art, rugs, accents, and furniture.
 - [27 Trendy Home Decor Finds Worth Buying Right Now](/blog/trendy-home-decor/), sorted by what's trending right now, vintage, curved shapes, natural texture, lighting, coastal, and pattern.
+- [27 Trendy Wall Art Finds Worth Hanging Right Now](/blog/trendy-wall-art/), just the walls this time, abstract, botanical, coastal, vintage, textured, and landscape style.
