@@ -136,6 +136,12 @@ const CLUSTERS = {
     slugs: ['amazon-home-finds', 'amazon-bathroom-finds', 'amazon-must-haves-for-home', 'home-decor-must-haves', 'trendy-home-decor', 'trendy-wall-art'],
     boards: ['Amazon Home Finds'],
   },
+  // Cozy Bedroom Ideas is its own topic under Home Decor Finds (round-robin position
+  // after Everyday Home Finds closed at 6/6) — separate live board from Amazon Home Finds.
+  cozyBedroom: {
+    slugs: ['cozy-bedroom-ideas'],
+    boards: ['Cozy Bedroom Ideas'],
+  },
 }
 function eligibleBoards(slug) {
   for (const c of Object.values(CLUSTERS)) if (c.slugs.includes(slug)) return c.boards

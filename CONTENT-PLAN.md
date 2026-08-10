@@ -306,7 +306,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~182. Top Kitchen Gadgets~~ — published 2026-08-02 (29 products)
 ~~183. Cool Kitchen Gadgets~~ — published 2026-08-03 (31 products)
 ~~184. Amazon Kitchen Gadgets~~ — published 2026-08-03 (32 products)
-185. Amazon Kitchen Utensils
+~~185. Amazon Kitchen Utensils~~ — published 2026-08-04 (27 products)
 186. Useful Kitchen Gadgets
 187. Weird Kitchen Gadgets
 188. Under Cabinet Jar Opener
@@ -360,7 +360,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 **Trendy/Must-Have Decor (10)**
 ~~217. Home Decor Must Haves~~ — published 2026-08-08 (28 products)
 ~~218. Trendy Home Decor~~ — published 2026-08-09 (27 products)
-219. Trendy Wall Art
+~~219. Trendy Wall Art~~ — published 2026-08-09 (27 products)
 220. Trendy Throw Pillows
 221. Trendy Room Decor
 222. Trendy Wall Decor
