@@ -670,3 +670,7 @@ A general decor guide covers a whole room's function, furniture, storage, layout
 Fifty pieces are a lot to look through, but a cozy bedroom rarely comes from buying all of them at once. Pick two or three that solve what's missing, whether that's warmth, light, or texture. Let the room build from there instead of trying to finish it all in one trip.
 
 The feeling matters more than any single item on this list. A warm lamp and one good throw blanket can do more for a room than an expensive new bed frame, so start with whichever piece changes how the room feels the fastest, not necessarily the one that costs the most.
+
+## More Cozy Bedroom Ideas Guides
+
+- [25 Cozy Master Bedroom Ideas Worth Trying](/blog/cozy-master-bedroom-ideas/), the primary-bedroom-specific companion to this guide, sorted by seating, TV setup, nightstands, window light control, and rugs sized for a shared room.

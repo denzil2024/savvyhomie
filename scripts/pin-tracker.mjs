@@ -139,7 +139,7 @@ const CLUSTERS = {
   // Cozy Bedroom Ideas is its own topic under Home Decor Finds (round-robin position
   // after Everyday Home Finds closed at 6/6) — separate live board from Amazon Home Finds.
   cozyBedroom: {
-    slugs: ['cozy-bedroom-ideas'],
+    slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas'],
     boards: ['Cozy Bedroom Ideas'],
   },
 }
@@ -211,20 +211,36 @@ console.log(`\n=== TODAY (${todayStr}) ===`)
 console.log('Boards already posted to today (skip these):', [...boardsUsedToday].join(', ') || '(none yet)')
 console.log('Boards still free today:', boardsFreeToday.join(', '))
 
-console.log(`\nRecommended posts for right now (from Batch 1, boards free today):`)
-if (batches.length === 0) {
-  console.log('(backlog is empty, nothing to post)')
-} else {
-  const picks = batches[0].filter((item) => boardsFreeToday.includes(item.board))
-  if (picks.length === 0) {
-    console.log('(every board Batch 1 wants is already used today - wait until tomorrow, or check the full batch list above for a post whose eligible boards are still free)')
-  } else {
-    picks.forEach((item) => console.log(`  - ${item.slug} -> ${item.board}`))
+console.log(`\nRecommended posts for right now (every free board matched to its lowest-level eligible post, no cross-post blocking):`)
+{
+  const freeSet = new Set(boardsFreeToday)
+  const items = queue.map((p) => ({ slug: p.slug, level: p.postedCount, remaining: p.available - p.postedCount, date: p.date }))
+  const todayPicks = []
+  let progressed = true
+  while (progressed) {
+    progressed = false
+    items.sort((a, b) => a.level - b.level || a.date.localeCompare(b.date))
+    for (const item of items) {
+      if (item.remaining <= 0) continue
+      let boards
+      try {
+        boards = eligibleBoards(item.slug).filter((b) => freeSet.has(b))
+      } catch {
+        continue // unmapped slug - surfaced elsewhere, don't crash the whole report
+      }
+      if (boards.length === 0) continue
+      const board = boards[0]
+      todayPicks.push({ slug: item.slug, board })
+      freeSet.delete(board)
+      item.level++
+      item.remaining--
+      progressed = true
+    }
   }
-  const skipped = batches[0].filter((item) => !boardsFreeToday.includes(item.board))
-  if (skipped.length) {
-    console.log('Held back (board already used today, post tomorrow instead):')
-    skipped.forEach((item) => console.log(`  - ${item.slug} -> ${item.board}`))
+  if (todayPicks.length === 0) {
+    console.log('(no eligible post for any board free today - wait until tomorrow)')
+  } else {
+    todayPicks.forEach((item) => console.log(`  - ${item.slug} -> ${item.board}`))
   }
 }
 
