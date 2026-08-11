@@ -115,6 +115,11 @@ export const posts = Object.entries(files)
       answer: meta.answer || '',
       readTime: meta.readTime || '',
       cover: meta.cover || '',
+      // Optional wide lifestyle photo (~2000px) for the homepage showcase well.
+      // The cover is finished pin artwork with the title lettered into it, so it
+      // can't sit behind the showcase card; without a `hero` the homepage falls
+      // back to showing the cover whole beside the card instead.
+      hero: meta.hero || '',
       pin: meta.pin || '',
       products: meta.products || [],
       demo: meta.demo === 'true',

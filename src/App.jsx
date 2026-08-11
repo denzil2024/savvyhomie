@@ -16,28 +16,54 @@ import Logo from './components/Logo.jsx'
 import ScrollToHash from './components/ScrollToHash.jsx'
 import './styles.css'
 
+// The nav sets category names in tracked small caps, where the full
+// "Organization & Storage" is wide enough to push the row to two lines. These
+// shorter labels are display-only — the category pages keep their real names.
+const NAV_LABEL = {
+  'organization': 'Organization',
+  'decor-finds': 'Home Decor',
+}
+
 export default function App() {
   const [navOpen, setNavOpen] = useState(false)
   const closeNav = () => setNavOpen(false)
   return (
     <>
       <ScrollToHash />
-      <div className="topbar"><span className="topbar-dot">✦</span> Real tips. Honest picks. No fluff. <span className="topbar-dot">✦</span></div>
+      {/* utility strip: brand promise centered, contact/social pinned right */}
+      <div className="topbar">
+        <div className="wrap topbar-inner">
+          <span className="topbar-promise"><span className="topbar-dot">✦</span> Real tips. Honest picks. No fluff. <span className="topbar-dot">✦</span></span>
+          <span className="topbar-icons">
+            <a href="https://www.pinterest.com/savvyhomie/" target="_blank" rel="noopener noreferrer" aria-label="SavvyHomie on Pinterest">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.2 9.3-.1-.8-.2-2 0-2.9.2-.8 1.2-5.2 1.2-5.2s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 .9-.6 2.3-.9 3.6-.3 1.1.5 2 1.6 2 1.9 0 3.4-2 3.4-5 0-2.6-1.9-4.4-4.5-4.5-3.1 0-4.9 2.3-4.9 4.7 0 .9.4 1.9.8 2.5.1.1.1.2.1.3-.1.4-.3 1.1-.3 1.3 0 .2-.2.3-.4.2-1.4-.7-2.3-2.8-2.3-4.5 0-3.6 2.6-7 7.6-7 4 0 7.1 2.8 7.1 6.6 0 4-2.5 7.2-5.9 7.2-1.2 0-2.3-.6-2.6-1.4l-.7 2.7c-.3 1-1 2.3-1.5 3.1.9.3 1.9.4 2.9.4 5.5 0 10-4.5 10-10S17.5 2 12 2Z" /></svg>
+            </a>
+            <Link to="/contact/" aria-label="Contact">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="M3 6h18v12H3z" /><path d="m3 7 9 6 9-6" /></svg>
+            </Link>
+          </span>
+        </div>
+      </div>
+
+      {/* centered masthead: wordmark on its own line, nav in a ruled band beneath */}
       <header className="masthead">
         <div className="wrap mast-inner">
           <Link to="/" className="wordmark" onClick={closeNav}><Logo src="/logo-color.png" /></Link>
-          <nav className={`cats${navOpen ? ' open' : ''}`}>
-            {categories.map((c) => (
-              <Link key={c.slug} to={`/category/${c.slug}/`} onClick={closeNav}>{c.name}</Link>
-            ))}
-            <Link to="/#subscribe" className="btn nav-cta-menu" onClick={closeNav}>Subscribe</Link>
-          </nav>
-          <Link to="/#subscribe" className="btn nav-cta" onClick={closeNav}>Subscribe</Link>
           <button className="nav-toggle" aria-label={navOpen ? 'Close menu' : 'Open menu'} aria-expanded={navOpen} onClick={() => setNavOpen(!navOpen)}>
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
               {navOpen ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M3 7h18M3 12h18M3 17h18" />}
             </svg>
           </button>
+        </div>
+        <div className="mast-navband">
+          <nav className={`cats${navOpen ? ' open' : ''}`}>
+            <Link to="/" onClick={closeNav}>Home</Link>
+            {categories.map((c) => (
+              <Link key={c.slug} to={`/category/${c.slug}/`} onClick={closeNav}>{NAV_LABEL[c.slug] || c.name}</Link>
+            ))}
+            <Link to="/about/" onClick={closeNav}>About</Link>
+            <Link to="/#subscribe" className="btn nav-cta-menu" onClick={closeNav}>Subscribe</Link>
+          </nav>
         </div>
       </header>
 
