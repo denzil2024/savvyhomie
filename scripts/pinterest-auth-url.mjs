@@ -7,6 +7,7 @@ const scopes = [
   'boards:read_secret',
   'pins:read',
   'pins:read_secret',
+  'pins:write',
   'user_accounts:read',
 ].join(',')
 

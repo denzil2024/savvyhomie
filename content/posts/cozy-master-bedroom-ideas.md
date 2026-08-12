@@ -1,5 +1,5 @@
 ---
-title: 25 Cozy Master Bedroom Ideas Worth Trying
+title: 25 Cozy Master Bedroom Ideas for the Room You Share Every Night
 cover: /covers/cozy-master-bedroom-ideas.webp
 pin: /pins/cozy-master-bedroom-ideas.webp
 description: 25 cozy master bedroom ideas covering seating TV setups nightstands windows and rugs. These are the details general bedroom guides skip because a shared primary bedroom needs them.
@@ -240,15 +240,9 @@ products: [
 
 I'll be honest. Bedroom advice out there treats every room the same. A guest room gets the same tips as the room you share every night, and that's never sat right with me. Your primary bedroom has to serve more purposes than a guest room ever will, yet it still gets decorated like an afterthought. That's backwards.
 
-It's where you watch TV, read, unwind, and spend more private time than anywhere else in the house. No wonder standard decor advice falls short here. So instead of more bedding and throw pillows, this list focuses on what earns its place, real seating, a TV setup that doesn't take over the wall, matched nightstands, proper light control, and rugs sized for the room. Want the basics first? [Cozy Bedroom Ideas](/blog/cozy-bedroom-ideas/) has those.
+It's where you watch TV, read, unwind, and spend more private time than anywhere else in the house. No wonder standard decor advice falls short here. So instead of more bedding and throw pillows, this list focuses on what earns its place, real seating, a TV setup that doesn't take over the wall, matched nightstands, proper light control, and rugs sized for the room. Want the basics first, or something built around a masculine-leaning room specifically? [Cozy Bedroom Ideas](/blog/cozy-bedroom-ideas/) and [Cozy Male Bedroom Decor](/blog/cozy-male-bedroom-decor/) cover those.
 
 <!-- products -->
-
-## How We Chose
-
-Every idea here is paired with one real product that carries it out, not a vague suggestion to "add some texture" or "layer your lighting." If an idea couldn't be tied to a specific, real, buyable piece, it didn't make the list.
-
-We also skipped anything the main Cozy Bedroom Ideas guide already covers. Bedding, throw pillows, and wall art belong there. What's left here is specific to a primary bedroom, real seating, a TV that doesn't take over the room, matched nightstands, windows that block real light, and rugs sized for a bed this size.
 
 ## FAQ
 

@@ -208,12 +208,12 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist.
 
 **Pillar**
-123. Cozy Bedroom Ideas
+~~123. Cozy Bedroom Ideas~~ — published 2026-08-10
 
 **Occupant/Gender (3)**
-124. Cozy Master Bedroom Ideas
-125. Cozy Male Bedroom Decor
-126. Cozy Feminine Bedroom
+~~124. Cozy Master Bedroom Ideas~~ — published 2026-08-11
+~~125. Cozy Male Bedroom Decor~~ — published 2026-08-12
+~~126. Cozy Feminine Bedroom~~ — published 2026-08-12
 
 **Style/Aesthetic (3)**
 127. Cozy Cottage Bedroom Ideas

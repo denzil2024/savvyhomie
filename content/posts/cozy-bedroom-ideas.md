@@ -673,4 +673,6 @@ The feeling matters more than any single item on this list. A warm lamp and one 
 
 ## More Cozy Bedroom Ideas Guides
 
-- [25 Cozy Master Bedroom Ideas Worth Trying](/blog/cozy-master-bedroom-ideas/), the primary-bedroom-specific companion to this guide, sorted by seating, TV setup, nightstands, window light control, and rugs sized for a shared room.
+- [25 Cozy Master Bedroom Ideas for the Room You Share Every Night](/blog/cozy-master-bedroom-ideas/), the primary-bedroom-specific companion to this guide, sorted by seating, TV setup, nightstands, window light control, and rugs sized for a shared room.
+- [25 Cozy Male Bedroom Decor Ideas Built Around Real Materials](/blog/cozy-male-bedroom-decor/), real materials and function for a masculine-leaning room, sorted by wall art, leather accents, dresser storage, industrial hardware, and grooming setup.
+- [27 Cozy Feminine Bedroom Ideas Beyond the Basics](/blog/cozy-feminine-bedroom/), the details past bedding and throw pillows, sorted by jewelry storage, brass and gold accents, wallpaper and wall treatments, and canopy bed drapery.

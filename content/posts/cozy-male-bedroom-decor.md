@@ -1,5 +1,5 @@
 ---
-title: 25 Cozy Male Bedroom Decor Ideas Worth Trying
+title: 25 Cozy Male Bedroom Decor Ideas Built Around Real Materials
 cover: /covers/cozy-male-bedroom-decor.webp
 pin: /pins/cozy-male-bedroom-decor.webp
 description: 25 cozy male bedroom decor ideas covering wall art, leather accents, dresser storage, industrial hardware, and grooming setup. Real pieces for a bedroom that looks lived-in, not decorated.
