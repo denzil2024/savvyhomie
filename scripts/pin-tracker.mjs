@@ -32,6 +32,22 @@ const posts = postFiles.map((f) => {
     title: titleMatch ? titleMatch[1] : slug,
   }
 })
+// 1b. Amazon storefront collections (no blog post, pins go straight to the storefront link).
+// Pin images live in pin-drops/amazon-storefront/<slug>/, not pin-drops/<slug>/, and the live
+// pin's `link` is the real a.co storefront URL rather than a savvyhomie.com/blog/<slug>/ URL, so
+// these can't be auto-discovered from content/posts the way article posts are. Add a new entry
+// here (and drop images in pin-drops/amazon-storefront/<slug>/) whenever a new collection starts.
+const STOREFRONT_COLLECTIONS = [
+  {
+    slug: 'organizational-storage',
+    date: '2026-08-09',
+    title: 'Amazon Organization & Storage Finds Worth Adding to Cart',
+    link: 'https://a.co/d/0iRb1TP7',
+  },
+]
+for (const c of STOREFRONT_COLLECTIONS) {
+  posts.push({ slug: c.slug, date: c.date, title: c.title, storefrontLink: c.link })
+}
 posts.sort((a, b) => a.date.localeCompare(b.date))
 
 // 2. Pin-drops inventory per slug (some pillar folders use a "-pillar" suffix that doesn't match the post slug)
@@ -41,8 +57,11 @@ const PIN_DROP_FOLDER_ALIASES = {
   'gifts-for-her': 'gifts-for-her-pillar',
   'kitchen-gadgets': 'kitchen-gadgets-pillar',
 }
+const STOREFRONT_SLUGS = new Set(STOREFRONT_COLLECTIONS.map((c) => c.slug))
 function pinDropCount(slug) {
-  const folder = PIN_DROP_FOLDER_ALIASES[slug] || slug
+  const folder = STOREFRONT_SLUGS.has(slug)
+    ? `amazon-storefront/${slug}`
+    : PIN_DROP_FOLDER_ALIASES[slug] || slug
   try {
     return readdirSync(`pin-drops/${folder}`).filter((f) => f.endsWith('.png')).length
   } catch {
@@ -67,10 +86,11 @@ for (const board of boards) {
   }
 }
 
-// 4. Match live pins to post slugs via exact link substring
+// 4. Match live pins to post slugs via exact link substring (storefront collections match by
+// their exact a.co link instead, since the link has no relation to the slug text)
 for (const post of posts) {
   post.livePins = allPins
-    .filter((p) => p.link.includes(`/${post.slug}/`) || p.link.includes(`/${post.slug}`))
+    .filter((p) => (post.storefrontLink ? p.link === post.storefrontLink : p.link.includes(`/${post.slug}/`) || p.link.includes(`/${post.slug}`)))
     .sort((a, b) => a.created.localeCompare(b.created))
   post.available = pinDropCount(post.slug)
   post.postedCount = post.livePins.length
@@ -139,8 +159,14 @@ const CLUSTERS = {
   // Cozy Bedroom Ideas is its own topic under Home Decor Finds (round-robin position
   // after Everyday Home Finds closed at 6/6) — separate live board from Amazon Home Finds.
   cozyBedroom: {
-    slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas'],
+    slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas', 'cozy-male-bedroom-decor'],
     boards: ['Cozy Bedroom Ideas'],
+  },
+  // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
+  // storefront, not a blog post, and only ever post to their own dedicated board.
+  storefront: {
+    slugs: STOREFRONT_COLLECTIONS.map((c) => c.slug),
+    boards: ['Shop My Amazon Picks'],
   },
 }
 function eligibleBoards(slug) {
