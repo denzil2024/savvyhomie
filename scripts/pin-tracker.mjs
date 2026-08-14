@@ -159,7 +159,7 @@ const CLUSTERS = {
   // Cozy Bedroom Ideas is its own topic under Home Decor Finds (round-robin position
   // after Everyday Home Finds closed at 6/6) — separate live board from Amazon Home Finds.
   cozyBedroom: {
-    slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas', 'cozy-male-bedroom-decor', 'cozy-feminine-bedroom'],
+    slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas', 'cozy-male-bedroom-decor', 'cozy-feminine-bedroom', 'cozy-cottage-bedroom-ideas'],
     boards: ['Cozy Bedroom Ideas'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the

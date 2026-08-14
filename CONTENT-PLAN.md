@@ -216,7 +216,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~126. Cozy Feminine Bedroom~~ — published 2026-08-12
 
 **Style/Aesthetic (3)**
-127. Cozy Cottage Bedroom Ideas
+~~127. Cozy Cottage Bedroom Ideas~~ — published 2026-08-13
 128. Cozy Bedroom Aesthetic
 129. Cozy Minimalist Bedroom
 
