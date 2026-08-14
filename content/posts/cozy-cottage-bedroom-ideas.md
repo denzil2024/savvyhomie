@@ -2,7 +2,7 @@
 title: 25 Cozy Cottage Bedroom Ideas Made from Real Vintage Finds
 cover: /covers/cozy-cottage-bedroom-ideas.webp
 pin: /pins/cozy-cottage-bedroom-ideas.webp
-description: Twenty-five ideas for a cottage bedroom built from real vintage, not the manufactured kind. Ceiling beams, aged hardware, real shelving, and trunks and chests replace whatever came standard with the furniture.
+description: 25 cozy cottage bedroom ideas built from real vintage, not the manufactured kind, ceiling beams, aged hardware, real shelving, and trunks and chests.
 category: decor-finds
 topic: Cozy Bedroom Ideas
 date: 2026-08-13T10:00:00Z

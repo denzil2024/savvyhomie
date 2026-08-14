@@ -2,7 +2,7 @@
 title: 27 Cozy Feminine Bedroom Ideas Beyond the Basics
 cover: /covers/cozy-feminine-bedroom.webp
 pin: /pins/cozy-feminine-bedroom.webp
-description: 27 cozy feminine bedroom ideas covering jewelry storage, brass and gold accents, wallpaper, and canopy drapery. Real pieces for a room that feels finished, not just decorated.
+description: 27 cozy feminine bedroom ideas covering jewelry storage, brass and gold accents, wallpaper, and canopy drapery, for a room that feels finished.
 category: decor-finds
 topic: Cozy Bedroom Ideas
 date: 2026-08-12T14:00:00Z

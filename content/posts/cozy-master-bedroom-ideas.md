@@ -2,7 +2,7 @@
 title: 25 Cozy Master Bedroom Ideas for the Room You Share Every Night
 cover: /covers/cozy-master-bedroom-ideas.webp
 pin: /pins/cozy-master-bedroom-ideas.webp
-description: 25 cozy master bedroom ideas covering seating TV setups nightstands windows and rugs. These are the details general bedroom guides skip because a shared primary bedroom needs them.
+description: 25 cozy master bedroom ideas covering seating, TV setups, nightstands, windows, and rugs, the details a general bedroom guide skips for a shared primary room.
 category: decor-finds
 topic: Cozy Bedroom Ideas
 date: 2026-08-11T10:00:00Z
