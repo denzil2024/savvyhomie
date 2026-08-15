@@ -162,6 +162,11 @@ const CLUSTERS = {
     slugs: ['cozy-bedroom-ideas', 'cozy-master-bedroom-ideas', 'cozy-male-bedroom-decor', 'cozy-feminine-bedroom', 'cozy-cottage-bedroom-ideas', 'cozy-bedroom-aesthetic'],
     boards: ['Cozy Bedroom Ideas'],
   },
+  // Small Space Ideas topic (round-robin position after Cozy Bedroom Ideas closed at 6/6).
+  smallSpace: {
+    slugs: ['small-space-organization-ideas'],
+    boards: ['Small Space Ideas', 'Organizational Ideas for Home'],
+  },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
   // storefront, not a blog post, and only ever post to their own dedicated board.
   storefront: {

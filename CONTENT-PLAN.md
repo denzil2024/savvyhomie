@@ -108,11 +108,11 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. Note: several spokes below (Dorm Room and RV/Camper sub-clusters) don't carry the word "small" in the title — real search volume drops the qualifier because the room type is inherently compact (dorm rooms, RVs), same as "under bed storage" earlier in this file. They still belong to this cluster.
 
 **Pillar**
-61. Small Space Organization Ideas
+~~61. Small Space Organization Ideas~~ — published 2026-08-15
 
 **Small Closet Organization (5)**
 62. Small Closet Organization Ideas
-63. DIY Small Closet Organizer
+~~63. DIY Small Closet Organizer~~ — skipped 2026-08-14, real intent is a from-scratch woodworking build (lumber, Kreg jig, miter saw), not an organizing-product roundup, doesn't fit the site's format
 64. Small Walk In Closet Organization Ideas
 65. Small Bedroom Closet Organization Ideas
 66. Small Closet Hacks
