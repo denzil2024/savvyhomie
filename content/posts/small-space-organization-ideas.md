@@ -499,3 +499,7 @@ A valet stand earns its keep for next-day outfits specifically, because pulling 
 ## Final Thoughts
 
 Fifty products across six rooms is a lot to take in at once, so don't try to buy all of it in one weekend. Pick whichever room is bothering you today, maybe the couch buried in blankets or the mail pile taking over the counter, and start there. The rest of the house will still be waiting once that one spot finally feels done.
+
+## More Small Space Ideas Guides
+
+- [25 Small Closet Organization Ideas for When There's No Room to Spare](/blog/small-closet-organization-ideas/), the closet-specific companion to this guide, sorted by hanging and rod solutions, shelf and drawer systems, door-mounted storage, and shoe and accessory storage.
