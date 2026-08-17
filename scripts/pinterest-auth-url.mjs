@@ -5,6 +5,7 @@ const { PINTEREST_APP_ID, PINTEREST_REDIRECT_URI } = loadEnv()
 const scopes = [
   'boards:read',
   'boards:read_secret',
+  'boards:write',
   'pins:read',
   'pins:read_secret',
   'pins:write',
