@@ -12,7 +12,7 @@ answer: the best small closet organization ideas add hanging room and storage wi
 products: [
   {
     "name": "Layer Five Pairs of Pants Where One Hanger Used to Fit",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/3TXd1iD",
     "image": "/products/multi-tier-pants-hanger.webp",
     "award": "Multi-Pants Hanger",
@@ -21,7 +21,7 @@ products: [
   },
   {
     "name": "Double the Hanging Rod Without Adding a Single Shelf",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/3S32ZMh",
     "image": "/products/adjustable-double-hang-closet-rod.webp",
     "award": "Double Hang Rod",
@@ -30,7 +30,7 @@ products: [
   },
   {
     "name": "Mount a Second Rod Without Tearing Out the First One",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/3UdZKlK",
     "image": "/products/closet-rod-bracket-set.webp",
     "award": "Rod Bracket Set",
@@ -39,7 +39,7 @@ products: [
   },
   {
     "name": "Bring In Extra Hanging Room Only When the Closet Needs It",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/4wVBHqb",
     "image": "/products/collapsible-garment-rack.webp",
     "award": "Portable Garment Rack",
@@ -48,7 +48,7 @@ products: [
   },
   {
     "name": "Clip Every Scarf and Belt in One Place, Not a Drawer",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/4zhlzB3",
     "image": "/products/scarf-belt-ring-organizer.webp",
     "award": "Scarf & Belt Ring",
@@ -57,7 +57,7 @@ products: [
   },
   {
     "name": "Swap Bulky Hangers for Ones That Fit More on the Rod",
-    "category": "Small Closet Organization Ideas for Hanging & Rod Solutions",
+    "category": "The Rod That Ran Out of Room",
     "url": "https://amzn.to/4fWHWnL",
     "image": "/products/flocked-slim-hangers-set.webp",
     "award": "Slim Velvet Hangers",
@@ -66,7 +66,7 @@ products: [
   },
   {
     "name": "Slide Real Storage Into a Closet That Never Had Any",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/4bPLRAp",
     "image": "/products/stackable-closet-drawer-unit.webp",
     "award": "Stackable Drawer Unit",
@@ -75,7 +75,7 @@ products: [
   },
   {
     "name": "Split One Open Shelf Into Separate Bins, Not One Pile",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/4qlGRtk",
     "image": "/products/fabric-storage-bins-set.webp",
     "award": "Fabric Storage Bins",
@@ -84,7 +84,7 @@ products: [
   },
   {
     "name": "Build Shelving Sized to Fit the Exact Gap",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/4g70bFL",
     "image": "/products/modular-cube-storage-shelf.webp",
     "award": "Modular Cube Shelving",
@@ -93,7 +93,7 @@ products: [
   },
   {
     "name": "Hook a Basket Underneath a Shelf That Was Already There",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/462qBns",
     "image": "/products/under-shelf-hanging-basket.webp",
     "award": "Under-Shelf Basket",
@@ -102,7 +102,7 @@ products: [
   },
   {
     "name": "Give Small Folded Items Their Own Row, Not a Pile",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/4xx2okQ",
     "image": "/products/closet-drawer-organizer-trays.webp",
     "award": "Drawer Organizer Trays",
@@ -111,7 +111,7 @@ products: [
   },
   {
     "name": "Turn a Plain Wire Shelf Into One With Real Hanging Spots",
-    "category": "Small Closet Organization Ideas for Shelf & Drawer Systems",
+    "category": "What a Shelf Alone Can't Hold",
     "url": "https://amzn.to/4bKMPOm",
     "image": "/products/wire-shelf-hooks.webp",
     "award": "Wire Shelf Hooks",
@@ -120,7 +120,7 @@ products: [
   },
   {
     "name": "Store Shoes on the Door Instead of the Floor",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/4bL8Ts3",
     "image": "/products/twelve-pocket-over-door-shoe-organizer.webp",
     "award": "Over-Door Shoe Organizer",
@@ -129,7 +129,7 @@ products: [
   },
   {
     "name": "Open the Door and See Every Piece of Jewelry at Once",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/4bPqoYg",
     "image": "/products/over-door-jewelry-cabinet.webp",
     "award": "Over-Door Jewelry Cabinet",
@@ -138,7 +138,7 @@ products: [
   },
   {
     "name": "Move Tomorrow's Outfit to the Door, Not a Chair",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/3SwlFnO",
     "image": "/products/over-door-hook-rack.webp",
     "award": "Over-Door Hook Rack",
@@ -147,7 +147,7 @@ products: [
   },
   {
     "name": "Fold an Ironing Board Flat Against the Door When It's Not Needed",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/4gdjdu8",
     "image": "/products/door-mounted-ironing-board.webp",
     "award": "Door-Mounted Ironing Board",
@@ -156,7 +156,7 @@ products: [
   },
   {
     "name": "Free Up a Second Spot on the Door for Small Accessories",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/4fZ0lAp",
     "image": "/products/over-door-pocket-organizer.webp",
     "award": "Over-Door Pocket Organizer",
@@ -165,7 +165,7 @@ products: [
   },
   {
     "name": "Park the Hamper on the Door Instead of the Floor",
-    "category": "Small Closet Organization Ideas for Door-Mounted Storage",
+    "category": "The One Surface Nobody Uses",
     "url": "https://amzn.to/4z9zKrI",
     "image": "/products/over-door-laundry-hamper.webp",
     "award": "Over-Door Laundry Hamper",
@@ -174,7 +174,7 @@ products: [
   },
   {
     "name": "See Every Pair Without Opening a Single Box",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4czDg4T",
     "image": "/products/clear-stackable-shoe-boxes.webp",
     "award": "Clear Shoe Boxes",
@@ -183,7 +183,7 @@ products: [
   },
   {
     "name": "Spin to the Right Shoe Without Digging Through a Pile",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4wt8sdu",
     "image": "/products/rotating-shoe-rack.webp",
     "award": "Rotating Shoe Rack",
@@ -192,7 +192,7 @@ products: [
   },
   {
     "name": "Light Up the Closet the Second the Door Opens",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4gxMely",
     "image": "/products/motion-sensor-closet-light.webp",
     "award": "Motion-Sensor Closet Light",
@@ -201,7 +201,7 @@ products: [
   },
   {
     "name": "Stick a Hook Exactly Where an Accessory Gets Used",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4xGXodD",
     "image": "/products/clear-adhesive-wall-hooks-6pack.webp",
     "award": "Adhesive Wall Hooks",
@@ -210,7 +210,7 @@ products: [
   },
   {
     "name": "Keep Every Bag in Its Own Slot, Not Stacked in a Pile",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4g68PEA",
     "image": "/products/handbag-divider-organizer.webp",
     "award": "Handbag Divider Organizer",
@@ -219,7 +219,7 @@ products: [
   },
   {
     "name": "Steady Boots Upright Instead of Slouched in a Pile",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4cDz448",
     "image": "/products/boot-storage-rack.webp",
     "award": "Boot Storage Rack",
@@ -228,7 +228,7 @@ products: [
   },
   {
     "name": "Set Sunglasses and a Watch Down in the Same Spot Every Night",
-    "category": "Small Closet Organization Ideas for Shoe & Accessory Storage",
+    "category": "Shoes That Never Made It Off the Floor",
     "url": "https://amzn.to/4i399qc",
     "image": "/products/sunglasses-watch-organizer-tray.webp",
     "award": "Sunglasses & Watch Tray",
