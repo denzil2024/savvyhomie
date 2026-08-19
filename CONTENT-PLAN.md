@@ -114,7 +114,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~62. Small Closet Organization Ideas~~ — published 2026-08-17
 ~~63. DIY Small Closet Organizer~~ — skipped 2026-08-14, real intent is a from-scratch woodworking build (lumber, Kreg jig, miter saw), not an organizing-product roundup, doesn't fit the site's format
 ~~64. Small Walk In Closet Organization Ideas~~ — published 2026-08-18
-65. Small Bedroom Closet Organization Ideas
+~~65. Small Bedroom Closet Organization Ideas~~ — published 2026-08-19
 66. Small Closet Hacks
 
 **Small Entryway Storage (5)**

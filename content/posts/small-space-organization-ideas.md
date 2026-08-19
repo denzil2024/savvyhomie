@@ -504,3 +504,4 @@ Fifty products across six rooms is a lot to take in at once, so don't try to buy
 
 - [25 Small Closet Organization Ideas for When There's No Room to Spare](/blog/small-closet-organization-ideas/), the closet-specific companion to this guide, sorted by hanging and rod solutions, shelf and drawer systems, door-mounted storage, and shoe and accessory storage.
 - [25 Small Walk-In Closet Organization Ideas for the Room That Goes to Waste](/blog/small-walk-in-closet-organization-ideas/), for the closet size with floor room to stand in, sorted by lighting and mirrors, zone layout, vertical storage, and dressing area furniture.
+- [25 Small Bedroom Closet Organization Ideas for Rooms With No Closet](/blog/small-bedroom-closet-organization-ideas/), for bedrooms with barely a closet or none at all, sorted by freestanding wardrobes, open rods and racks, wall-mounted storage, and multi-functional furniture.
