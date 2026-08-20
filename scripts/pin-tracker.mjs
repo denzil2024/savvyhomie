@@ -164,7 +164,7 @@ const CLUSTERS = {
   },
   // Small Space Ideas topic (round-robin position after Cozy Bedroom Ideas closed at 6/6).
   smallSpace: {
-    slugs: ['small-space-organization-ideas', 'small-closet-organization-ideas', 'small-walk-in-closet-organization-ideas', 'small-bedroom-closet-organization-ideas', 'small-closet-hacks'],
+    slugs: ['small-space-organization-ideas', 'small-closet-organization-ideas', 'small-walk-in-closet-organization-ideas', 'small-bedroom-closet-organization-ideas', 'small-closet-hacks', 'small-entryway-storage-ideas'],
     boards: ['Small Space Ideas', 'Organizational Ideas for Home'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the

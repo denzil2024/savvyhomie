@@ -118,7 +118,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~66. Small Closet Hacks~~ — published 2026-08-20
 
 **Small Entryway Storage (5)**
-67. Small Entryway Storage Ideas
+~~67. Small Entryway Storage Ideas~~ — published 2026-08-21
 68. Small Entryway Shoe Storage
 69. Small Mudroom Storage Ideas
 70. Small Mudroom Bench Ideas
