@@ -244,7 +244,7 @@ This list works from that gap instead of a closet door. A wardrobe or a portable
 
 Wall-mounted storage and furniture built to hold more than it looks like handle everything smaller after that. Belts land on a hook instead of a drawer. A bench or a bed frame with drawers built in finishes the job without adding a single new piece of furniture to find room for.
 
-Already have a small closet, just not enough of one? [Small Closet Organization Ideas](/blog/small-closet-organization-ideas/) and [Small Walk-In Closet Organization Ideas](/blog/small-walk-in-closet-organization-ideas/) cover that instead, and [Small Space Organization Ideas](/blog/small-space-organization-ideas/) covers every other room a bedroom closet doesn't touch.
+Already have a small closet, just not enough of one? [Small Closet Organization Ideas](/blog/small-closet-organization-ideas/) and [Small Walk-In Closet Organization Ideas](/blog/small-walk-in-closet-organization-ideas/) cover that instead, [Small Closet Hacks](/blog/small-closet-hacks/) skips dedicated products entirely, and [Small Space Organization Ideas](/blog/small-space-organization-ideas/) covers every other room a bedroom closet doesn't touch.
 
 <!-- products -->
 

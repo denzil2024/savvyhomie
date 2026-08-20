@@ -240,7 +240,7 @@ products: [
 
 Most small closet organization advice assumes there's room to add furniture, a dresser here, a bench there, like the fix is cramming in more stuff. It isn't. A small closet needs the rod, the shelf, and the door it already has working three times as hard, not another piece of furniture squeezed in to make up for it.
 
-This list works through the closet the way it usually gets crowded. The rod first, since that's maxed out before the shelves get a second look. Storage next, then the door, then the small stuff that never quite has a home. Working on more than one closet? [Small Walk-In Closet Organization Ideas](/blog/small-walk-in-closet-organization-ideas/) and [Small Bedroom Closet Organization Ideas](/blog/small-bedroom-closet-organization-ideas/) cover the other closet sizes, and [Small Space Organization Ideas](/blog/small-space-organization-ideas/) picks up where all three leave off.
+This list works through the closet the way it usually gets crowded. The rod first, since that's maxed out before the shelves get a second look. Storage next, then the door, then the small stuff that never quite has a home. Working on more than one closet? [Small Walk-In Closet Organization Ideas](/blog/small-walk-in-closet-organization-ideas/) and [Small Bedroom Closet Organization Ideas](/blog/small-bedroom-closet-organization-ideas/) cover the other closet sizes, [Small Closet Hacks](/blog/small-closet-hacks/) skips dedicated products entirely, and [Small Space Organization Ideas](/blog/small-space-organization-ideas/) picks up where all four leave off.
 
 <!-- products -->
 
