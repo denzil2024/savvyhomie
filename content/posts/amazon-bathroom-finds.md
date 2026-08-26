@@ -101,8 +101,8 @@ products: [
     "image": "/products/filtered-shower-head.webp",
     "award": "Best Hard-Water Fix",
     "whofor": "anyone whose skin and hair feel different after moving somewhere with harder water",
-    "description": ["Hard water leaves a chalky film on shower glass within a week, and it does the same thing to hair and skin, just slower and less obvious.", "Fifteen filter stages sit inside this shower head, layered with charcoal and mineral beads that catch chlorine and sediment before the water ever reaches skin. Swapping it in takes about ten minutes with a wrench, no plumber, and water pressure stays strong across all the settings.", "Showers stop smelling faintly like a pool, and skin that used to feel tight and dry after rinsing off starts feeling normal again within a couple of weeks."],
-    "pros": ["Fifteen-stage filter cuts chlorine and sediment", "Installs in about ten minutes, no plumber", "Water pressure holds up across settings"],
+    "description": ["Hard water leaves a chalky film on shower glass within a week, and it does the same thing to hair and skin, just slower and less obvious.", "Fifteen filter stages sit inside this shower head, layered with charcoal and mineral beads that catch chlorine and sediment before the water ever reaches skin. Swapping it in takes about 10 minutes with a wrench, no plumber, and water pressure stays strong across all the settings.", "Showers stop smelling faintly like a pool, and skin that used to feel tight and dry after rinsing off starts feeling normal again within a couple of weeks."],
+    "pros": ["Fifteen-stage filter cuts chlorine and sediment", "Installs in about 10 minutes, no plumber", "Water pressure holds up across settings"],
     "cons": ["Filter cartridge needs replacing every few months"],
     "verdict": "Worth it for anyone on hard water or a heavily chlorinated municipal supply. Skip it if a whole-house filter is already installed, because this would just be doing the same job twice."
   },

@@ -123,8 +123,8 @@ products: [
     "url": "https://amzn.to/4vM2tju",
     "image": "/products/petsta-interactive-treat-puzzle-toy.webp",
     "award": "Best for Destructive Chewers",
-    "whofor": "the dog lover whose dog destroys every toy within the first ten minutes",
-    "description": "Ten minutes of quiet instead of ten seconds of chewed-up stuffing is worth more than most gifts on this list combined. This one hides treats behind sliding and spinning pieces that get harder to solve the more a dog figures them out, so it doesn't get boring after the first try.",
+    "whofor": "the dog lover whose dog destroys every toy within the first 10 minutes",
+    "description": "Ten minutes of quiet instead of 10 seconds of chewed-up stuffing is worth more than most gifts on this list combined. This one hides treats behind sliding and spinning pieces that get harder to solve the more a dog figures them out, so it doesn't get boring after the first try.",
     "pros": ["Keeps a dog mentally occupied far longer than a chew toy", "Sliding and spinning mechanisms add real difficulty", "Sturdy enough to survive persistent pawing"],
     "cons": ["A determined dog may eventually solve it too quickly to stay entertaining"],
     "verdict": "The gift that buys a dog owner ten quiet minutes, which is worth more than it sounds."

@@ -12,7 +12,7 @@ Only real, keyword-verified posts belong in this file. Everything below has gone
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist.
 
 **Pillar**
-1. Kitchen Organization Ideas
+~~1. Kitchen Organization Ideas~~ — published 2026-08-26 (48 products)
 
 **Pantry (8)**
 2. Small Pantry Organization Ideas

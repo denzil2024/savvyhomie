@@ -160,7 +160,7 @@ products: [
     "image": "/products/family-tree-picture-frame.webp",
     "award": "Best Sentimental Pick",
     "whofor": "a mom who already has too many candles and not enough photos on display",
-    "description": "Buying ten separate frames one at a time and finding wall space for each is the usual way a photo wall happens, and this skips straight past that. Ten small frames hang from a tabletop metal tree instead, arriving ready to fill with photos the day it's unwrapped. It's the kind of gift that keeps growing more sentimental as new photos replace old ones each year.",
+    "description": "Buying 10 separate frames one at a time and finding wall space for each is the usual way a photo wall happens, and this skips straight past that. Ten small frames hang from a tabletop metal tree instead, arriving ready to fill with photos the day it's unwrapped. It's the kind of gift that keeps growing more sentimental as new photos replace old ones each year.",
     "pros": ["Ten frames included, nothing extra to buy", "Tabletop design needs no wall drilling or hanging", "Metal tree stand looks like a decor piece on its own", "Easy to update with new photos for birthdays or holidays later"],
     "cons": ["The 2x3 frame size means printing photos at a specific size first"],
     "verdict": "One of the few gifts on this list that gets more sentimental every year as new photos go up on it."

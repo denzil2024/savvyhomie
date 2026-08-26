@@ -41,7 +41,7 @@ products: [
     "image": "/products/vintage-gallery-wall-art-set.webp",
     "award": "Best Instant Gallery Wall",
     "whofor": "a stretch of wall that's stayed blank because a real gallery wall felt like too much planning",
-    "description": ["A real gallery wall sounds like way too much work, so the wall just stays blank instead.", "This set skips all of that. Twelve mismatched frames come already filled with vintage-style art, gold and black finishes mixed together the way a wall looks when it's been collected over years, not bought in one trip.", "Nothing needs separate matting or a frame shop. Hang all twelve in an afternoon and the wall's done, instead of planned for months and never happening."],
+    "description": ["A real gallery wall sounds like way too much work, so the wall just stays blank instead.", "This set skips all of that. Twelve mismatched frames come already filled with vintage-style art, gold and black finishes mixed together the way a wall looks when it's been collected over years, not bought in one trip.", "Nothing needs separate matting or a frame shop. Hang all 12 in an afternoon and the wall's done, instead of planned for months and never happening."],
     "pros": ["Twelve frames arrive pre-filled with art", "Mixed gold and black finishes look collected, not matched", "Fills a large wall in one project"],
     "cons": ["Fixed art selection, no swapping in personal photos without reframing", "Twelve pieces take real time to arrange evenly"],
     "verdict": "Best for a blank wall that's felt like too big a project to tackle. Skip it if the goal is a wall of personal photos, because the art here is fixed, not swappable."
