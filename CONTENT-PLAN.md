@@ -15,7 +15,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~1. Kitchen Organization Ideas~~ — published 2026-08-26 (48 products)
 
 **Pantry (8)**
-2. Small Pantry Organization Ideas
+~~2. Small Pantry Organization Ideas~~ — published 2026-08-26 (31 products)
 3. Small Pantry Ideas
 4. Pantry Organization Tips
 5. Tiny Pantry Ideas

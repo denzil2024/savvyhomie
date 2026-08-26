@@ -468,3 +468,7 @@ This collection of kitchen organization ideas works through every one of those s
 ## Final Thoughts
 
 Nobody needs to fix all 48 of these ideas by the weekend. Pick the one drawer or shelf that gets under your skin every single day, whatever spot makes you sigh every time it opens, and start there instead of overhauling the whole kitchen at once. Everything else can wait until that one spot finally works the way it should have from the start.
+
+## More Kitchen Organization Guides
+
+- [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/)
