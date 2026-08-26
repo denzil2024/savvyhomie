@@ -472,3 +472,4 @@ Nobody needs to fix all 48 of these ideas by the weekend. Pick the one drawer or
 ## More Kitchen Organization Guides
 
 - [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/)
+- [Small Pantry Ideas](/blog/small-pantry-ideas/)

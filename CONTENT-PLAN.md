@@ -16,7 +16,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 
 **Pantry (8)**
 ~~2. Small Pantry Organization Ideas~~ — published 2026-08-26 (31 products)
-3. Small Pantry Ideas
+~~3. Small Pantry Ideas~~ — published 2026-08-27 (29 products)
 4. Pantry Organization Tips
 5. Tiny Pantry Ideas
 6. Organizing Deep Pantry Shelves
