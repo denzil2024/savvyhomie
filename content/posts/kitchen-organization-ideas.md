@@ -471,5 +471,6 @@ Nobody needs to fix all 48 of these ideas by the weekend. Pick the one drawer or
 
 ## More Kitchen Organization Guides
 
-- [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/)
-- [Small Pantry Ideas](/blog/small-pantry-ideas/)
+- [31 Small Pantry Organization Ideas for the Door, Walls, and Shelves](/blog/small-pantry-organization-ideas/), fixes that work no matter the pantry's layout, sorted by door and wall storage, shelf multipliers, bins and turntables, decanting containers, and labeling.
+- [29 Small Pantry Ideas Sorted by the Actual Shape of the Room](/blog/small-pantry-ideas/), sorted by pantry format instead of a single generic layout, corner, closet-style, apartment, small walk-in, and under the stairs.
+- [29 Pantry Organization Tips for a System That Holds Together](/blog/pantry-organization-tips/), a real six-step process instead of a random product list, from a clean slate through zones, containers, vertical room, labels, and the floor.
