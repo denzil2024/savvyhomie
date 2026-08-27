@@ -169,7 +169,7 @@ const CLUSTERS = {
   },
   // Kitchen Organization topic (new cluster, first post 2026-08-26).
   kitchenOrganization: {
-    slugs: ['kitchen-organization-ideas', 'small-pantry-organization-ideas', 'small-pantry-ideas', 'pantry-organization-tips'],
+    slugs: ['kitchen-organization-ideas', 'small-pantry-organization-ideas', 'small-pantry-ideas', 'pantry-organization-tips', 'tiny-pantry-ideas'],
     boards: ['Kitchen Organization Ideas'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
