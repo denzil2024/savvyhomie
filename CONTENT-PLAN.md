@@ -19,7 +19,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 ~~3. Small Pantry Ideas~~ — published 2026-08-27 (29 products)
 ~~4. Pantry Organization Tips~~ — published 2026-08-27 (29 products)
 ~~5. Tiny Pantry Ideas~~ — published 2026-08-27 (32 products)
-6. Organizing Deep Pantry Shelves
+~~6. Organizing Deep Pantry Shelves~~ — published 2026-08-27 (24 products)
 7. Organizing a Corner Pantry
 8. Canning Storage Ideas
 9. DIY Canned Food Organizer

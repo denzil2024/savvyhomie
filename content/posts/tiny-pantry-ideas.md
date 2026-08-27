@@ -303,7 +303,7 @@ products: [
 
 A kitchen with no pantry at all is a different problem than a kitchen with a small one. There's no room to reorganize, no shelf to sort by category, because the room that would normally hold food storage was never built in the first place.
 
-These 29+ tiny pantry ideas work with whatever's already there instead, a closet that was never meant for cans, a blank wall, the dead triangle under a staircase. The [Small Pantry Ideas](/blog/small-pantry-ideas/) guide covers real pantries sorted by their shape, [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) fixes the door and walls a tight pantry relies on, [Pantry Organization Tips](/blog/pantry-organization-tips/) walks through the process in order, and the full [Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide covers the rest of the kitchen. Start with whatever unused room your kitchen has to spare.
+These 29+ tiny pantry ideas work with whatever's already there instead, a closet that was never meant for cans, a blank wall, the dead triangle under a staircase. The [Small Pantry Ideas](/blog/small-pantry-ideas/) guide covers real pantries sorted by their shape, [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) fixes the door and walls a tight pantry relies on, [Pantry Organization Tips](/blog/pantry-organization-tips/) walks through the process in order, [Organizing Deep Pantry Shelves](/blog/organizing-deep-pantry-shelves/) fixes the depth problem a real pantry can still have, and the full [Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide covers the rest of the kitchen. Start with whatever unused room your kitchen has to spare.
 
 <!-- products -->
 

@@ -276,7 +276,7 @@ products: [
 
 A corner pantry and a closet pantry fail for completely different reasons, even though both get lumped into the same small pantry advice. One wastes room in a blind angle nobody can reach, the other's shaped like a coat closet because it used to be one.
 
-This list of small pantry ideas is sorted by the actual shape of the room instead of one generic list. The [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) guide covers fixes that work no matter the layout, door and wall storage included, [Pantry Organization Tips](/blog/pantry-organization-tips/) walks through the process in order from a clean slate to the floor, and the full [Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide covers the rest of the kitchen beyond the pantry. Find the layout that matches yours and start there.
+This list of small pantry ideas is sorted by the actual shape of the room instead of one generic list. The [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) guide covers fixes that work no matter the layout, door and wall storage included, [Pantry Organization Tips](/blog/pantry-organization-tips/) walks through the process in order from a clean slate to the floor, [Tiny Pantry Ideas](/blog/tiny-pantry-ideas/) covers kitchens with no pantry at all, [Organizing Deep Pantry Shelves](/blog/organizing-deep-pantry-shelves/) fixes the depth problem a deep shelf brings on its own, and the full [Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide covers the rest of the kitchen beyond the pantry. Find the layout that matches yours and start there.
 
 <!-- products -->
 

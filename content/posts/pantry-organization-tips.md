@@ -278,7 +278,7 @@ Pantry organization tips usually read like a random list of products, buy this b
 
 This list follows a real six-step process instead. Clear everything out first, then sort what's left into zones, then choose containers that fit those zones. Use the vertical and corner room after that, label what's inside, and handle the floor last.
 
-For a shape-specific breakdown by layout, [Small Pantry Ideas](/blog/small-pantry-ideas/) sorts fixes by corner, closet, or under-the-stairs pantries, and [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) covers the door and walls a tight pantry relies on daily.
+For a shape-specific breakdown by layout, [Small Pantry Ideas](/blog/small-pantry-ideas/) sorts fixes by corner, closet, or under-the-stairs pantries, [Small Pantry Organization Ideas](/blog/small-pantry-organization-ideas/) covers the door and walls a tight pantry relies on daily, [Tiny Pantry Ideas](/blog/tiny-pantry-ideas/) covers kitchens with no pantry at all, and [Organizing Deep Pantry Shelves](/blog/organizing-deep-pantry-shelves/) fixes the depth problem a deep shelf brings on its own.
 
 <!-- products -->
 
