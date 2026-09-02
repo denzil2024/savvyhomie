@@ -172,6 +172,12 @@ const CLUSTERS = {
     slugs: ['kitchen-organization-ideas', 'small-pantry-organization-ideas', 'small-pantry-ideas', 'pantry-organization-tips', 'tiny-pantry-ideas', 'organizing-deep-pantry-shelves'],
     boards: ['Kitchen Organization Ideas'],
   },
+  // Bathroom Organization topic (new cluster, first post 2026-08-28). No dedicated
+  // Pinterest board exists yet, so this rides on the general home organization board.
+  bathroomOrganization: {
+    slugs: ['bathroom-organization-ideas'],
+    boards: ['Organization Ideas for the Home'],
+  },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
   // storefront, not a blog post, and only ever post to their own dedicated board.
   storefront: {

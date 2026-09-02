@@ -59,7 +59,7 @@ Titles below are the validated primary keyword for each URL, not final headline 
 Titles below are the validated primary keyword for each URL, not final headline copy. Write the pillar first, then spokes grouped by sub-cluster — each spoke should link back to the pillar and to its sibling spokes once they exist. Under-Sink/Vanity is paused (stopped at 3 after repeated rounds failed to find more) but its 3 confirmed keywords are real and belong here same as any other sub-cluster.
 
 **Pillar**
-32. Bathroom Organization Ideas
+~~32. Bathroom Organization Ideas~~ — published 2026-08-28 (44 products)
 
 **Over-the-Toilet (3)**
 33. DIY Over the Toilet Storage
