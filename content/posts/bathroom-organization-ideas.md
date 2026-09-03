@@ -432,3 +432,7 @@ This list of 44 bathroom organization ideas covers the whole room instead, the c
 ## Final Thoughts
 
 None of these 44 ideas fix a whole bathroom by themselves, and trying all of them in one weekend means finishing none of them well. Pick the zone that's bothering you right now more than any other, the drawer that won't close, the counter that's always cluttered, and start there. A bathroom organized one zone at a time still ends up more usable than one attempted all at once and abandoned halfway through.
+
+## More Bathroom Organization Guides
+
+- [26 Over the Toilet Storage Ideas for the Space Every Bathroom Wastes](/blog/over-the-toilet-storage-ideas/), sorted by mounting style instead of just style, ladder and leaning shelves, enclosed cabinets, no-drill units, open tiered shelving, and metal and wire rack combos.
