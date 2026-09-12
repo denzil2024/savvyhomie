@@ -437,3 +437,5 @@ None of these 44 ideas fix a whole bathroom by themselves, and trying all of the
 
 - [26 Over the Toilet Storage Ideas for the Space Every Bathroom Wastes](/blog/over-the-toilet-storage-ideas/), sorted by mounting style instead of just style, ladder and leaning shelves, enclosed cabinets, no-drill units, open tiered shelving, and metal and wire rack combos.
 - [25 Toilet Paper Storage Ideas That Skip the Drill Entirely](/blog/diy-toilet-paper-storage/), sorted by how each one actually works, freestanding stands, no-drill mounts, enclosed holders, baskets, shelving, and towers.
+- [27 Toilet Paper Holder Ideas for a Bathroom That's Tired of Plain](/blog/diy-toilet-paper-holder/), sorted by style, novelty and animal shapes, sculptural pieces, wood, metal finishes, farmhouse character, and multi-function builds.
+- [30 Under Sink Organizer Ideas for the Cabinet Every Bathroom Ignores](/blog/diy-under-sink-organizer-bathroom/), sorted by the cabinet door, sliding access, the plumbing itself, small items, bins, and bulk storage.

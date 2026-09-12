@@ -154,7 +154,7 @@ const CLUSTERS = {
   // topic under Home Decor Finds (see FOUNDATION.md board-alignment section) — NOT gift content.
   homeDecorEveryday: {
     slugs: ['amazon-home-finds', 'amazon-bathroom-finds', 'amazon-must-haves-for-home', 'home-decor-must-haves', 'trendy-home-decor', 'trendy-wall-art'],
-    boards: ['Amazon Home Finds'],
+    boards: ['Amazon Home Finds', 'Home Decor Ideas'],
   },
   // Cozy Bedroom Ideas is its own topic under Home Decor Finds (round-robin position
   // after Everyday Home Finds closed at 6/6) — separate live board from Amazon Home Finds.
@@ -165,7 +165,7 @@ const CLUSTERS = {
   // Small Space Ideas topic (round-robin position after Cozy Bedroom Ideas closed at 6/6).
   smallSpace: {
     slugs: ['small-space-organization-ideas', 'small-closet-organization-ideas', 'small-walk-in-closet-organization-ideas', 'small-bedroom-closet-organization-ideas', 'small-closet-hacks', 'small-entryway-storage-ideas'],
-    boards: ['Small Space Ideas', 'Organization Ideas for the Home'],
+    boards: ['Small Space Ideas', 'Home Organization Ideas'],
   },
   // Kitchen Organization topic (new cluster, first post 2026-08-26).
   kitchenOrganization: {
@@ -175,8 +175,8 @@ const CLUSTERS = {
   // Bathroom Organization topic (new cluster, first post 2026-08-28). No dedicated
   // Pinterest board exists yet, so this rides on the general home organization board.
   bathroomOrganization: {
-    slugs: ['bathroom-organization-ideas', 'over-the-toilet-storage-ideas', 'diy-toilet-paper-storage'],
-    boards: ['Organization Ideas for the Home'],
+    slugs: ['bathroom-organization-ideas', 'over-the-toilet-storage-ideas', 'diy-toilet-paper-storage', 'diy-toilet-paper-holder', 'diy-under-sink-organizer-bathroom'],
+    boards: ['Home Organization Ideas'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
   // storefront, not a blog post, and only ever post to their own dedicated board.
