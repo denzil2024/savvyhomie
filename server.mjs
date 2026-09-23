@@ -12,7 +12,19 @@ const mime = {
   '.ico': 'image/x-icon', '.woff2': 'font/woff2',
 }
 
+const blockedCountries = new Set([
+  'IN', 'PK', 'CN', 'SG', 'AR', 'BR',
+  'PH', 'ID', 'VN', 'BD', 'NG', 'EG', 'NP', 'LK', 'MA', 'DZ',
+])
+
 http.createServer((req, res) => {
+  const country = req.headers['cf-ipcountry']
+  if (country && blockedCountries.has(country)) {
+    res.writeHead(403, { 'content-type': 'text/plain' })
+    res.end('Access denied')
+    return
+  }
+
   const urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname)
   let file = path.join(root, urlPath)
   if (!file.startsWith(root)) { res.writeHead(403).end(); return }
