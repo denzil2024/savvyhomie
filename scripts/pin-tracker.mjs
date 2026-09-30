@@ -48,6 +48,20 @@ const STOREFRONT_COLLECTIONS = [
 for (const c of STOREFRONT_COLLECTIONS) {
   posts.push({ slug: c.slug, date: c.date, title: c.title, storefrontLink: c.link })
 }
+// 1c. Own digital products (Beacons/Gumroad/etc. checkout link, NOT an Amazon storefront pick —
+// separate audience intent, separate pin-drops folder, separate board). Add a new entry here
+// (and drop images in pin-drops/digital-products/<slug>/) whenever a new product launches.
+const DIGITAL_PRODUCTS = [
+  {
+    slug: 'family-trip-vision-board-kit',
+    date: '2026-09-18',
+    title: 'Family Trip Vision Board Kit — 23 Printable & Editable Planning Pages',
+    link: 'https://shop.beacons.ai/savvyhomie/6e0a01cd-7a60-4199-8e73-9737d8f1c428',
+  },
+]
+for (const c of DIGITAL_PRODUCTS) {
+  posts.push({ slug: c.slug, date: c.date, title: c.title, storefrontLink: c.link })
+}
 posts.sort((a, b) => a.date.localeCompare(b.date))
 
 // 2. Pin-drops inventory per slug (some pillar folders use a "-pillar" suffix that doesn't match the post slug)
@@ -58,9 +72,12 @@ const PIN_DROP_FOLDER_ALIASES = {
   'kitchen-gadgets': 'kitchen-gadgets-pillar',
 }
 const STOREFRONT_SLUGS = new Set(STOREFRONT_COLLECTIONS.map((c) => c.slug))
+const DIGITAL_PRODUCT_SLUGS = new Set(DIGITAL_PRODUCTS.map((c) => c.slug))
 function pinDropCount(slug) {
   const folder = STOREFRONT_SLUGS.has(slug)
     ? `amazon-storefront/${slug}`
+    : DIGITAL_PRODUCT_SLUGS.has(slug)
+    ? `digital-products/${slug}`
     : PIN_DROP_FOLDER_ALIASES[slug] || slug
   try {
     return readdirSync(`pin-drops/${folder}`).filter((f) => f.endsWith('.png')).length
@@ -178,11 +195,24 @@ const CLUSTERS = {
     slugs: ['bathroom-organization-ideas', 'over-the-toilet-storage-ideas', 'diy-toilet-paper-storage', 'diy-toilet-paper-holder', 'diy-under-sink-organizer-bathroom', 'small-bathroom-vanity-storage'],
     boards: ['Home Organization Ideas'],
   },
+  // Home Organization & Storage category (new cluster opened 2026-09-07) - no dedicated
+  // Pinterest board yet, so this also rides on the general home organization board.
+  homeOrganization: {
+    slugs: ['home-organization-ideas'],
+    boards: ['Home Organization Ideas'],
+  },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
   // storefront, not a blog post, and only ever post to their own dedicated board.
   storefront: {
-    slugs: STOREFRONT_COLLECTIONS.map((c) => c.slug),
+    slugs: ['organizational-storage'],
     boards: ['Shop My Amazon Picks'],
+  },
+  // Digital product (Beacons checkout link, not Amazon) - own dedicated board, never mixed
+  // with the Amazon storefront picks board since the audience intent is different (buying a
+  // $12 printable kit vs. browsing affiliate product recs).
+  digitalProducts: {
+    slugs: ['family-trip-vision-board-kit'],
+    boards: ['Family Trip Vision Board'],
   },
 }
 function eligibleBoards(slug) {
