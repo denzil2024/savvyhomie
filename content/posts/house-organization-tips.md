@@ -4,7 +4,7 @@ cover: /covers/house-organization-tips.webp
 pin: /pins/house-organization-tips.webp
 description: 25 house organization tips covering clearing out, sorting, containing, labeling, and maintaining, so the system holds past the first week.
 category: organization
-topic: Home Organization
+topic: Home Organization & Storage
 date: 2026-09-29T11:00:00Z
 updated: September 29, 2026
 readTime: 20 min read
@@ -242,7 +242,7 @@ Every house builds up its own small pile of organizing problems, a junk drawer h
 
 These 25 house organization tips follow the order that holds up in practice: clear a space out completely, sort what's left into real categories, contain it in something built for the job, label the system, then maintain it so it doesn't slide back to where it started.
 
-The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, and this one focuses on the process itself, the steps that make any of those room-by-room fixes stick past the first week.
+The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, and this one focuses on the process itself, the steps that make any of those room-by-room fixes stick past the first week. The [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide picks up right after, with the specific products for the trouble spots this process clears out.
 
 <!-- products -->
 

@@ -4,7 +4,7 @@ cover: /covers/home-organization-ideas.webp
 pin: /pins/home-organization-ideas.webp
 description: 60 home organization ideas covering the kitchen, bathroom, bedroom, living room, entryway, craft corner, laundry room, and garage.
 category: organization
-topic: Home Organization
+topic: Home Organization & Storage
 date: 2026-09-29T10:00:00Z
 updated: September 29, 2026
 readTime: 40 min read
@@ -580,3 +580,4 @@ Nobody needs a whole weekend cleared out for one big organizing push, the kind t
 ## More Home Organization Guides
 
 - [25 House Organization Tips That Hold Up Past the First Week](/blog/house-organization-tips/), sorted by the process itself, clearing out, sorting into real categories, containing what stays, labeling the system, and maintaining it long-term.
+- [33 Tips for Decluttering Your Home Room by Room](/blog/tips-for-decluttering-your-home/), sorted by trouble spot, cords and cables, closets, kitchen drawers, dead space around doors and corners, paper, and small counter clutter.
