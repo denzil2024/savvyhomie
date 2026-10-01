@@ -581,3 +581,4 @@ Nobody needs a whole weekend cleared out for one big organizing push, the kind t
 
 - [25 House Organization Tips That Hold Up Past the First Week](/blog/house-organization-tips/), sorted by the process itself, clearing out, sorting into real categories, containing what stays, labeling the system, and maintaining it long-term.
 - [33 Tips for Decluttering Your Home Room by Room](/blog/tips-for-decluttering-your-home/), sorted by trouble spot, cords and cables, closets, kitchen drawers, dead space around doors and corners, paper, and small counter clutter.
+- [30 Decluttering Checklist Items for Before, During, and After the Sort](/blog/decluttering-checklist/), sorted by stage, setting up the sort, hauling everything out, protecting what's being handled, staging the maybe pile, getting the space ready, and tracking progress.

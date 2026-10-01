@@ -242,7 +242,7 @@ Every house builds up its own small pile of organizing problems, a junk drawer h
 
 These 25 house organization tips follow the order that holds up in practice: clear a space out completely, sort what's left into real categories, contain it in something built for the job, label the system, then maintain it so it doesn't slide back to where it started.
 
-The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, and this one focuses on the process itself, the steps that make any of those room-by-room fixes stick past the first week. The [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide picks up right after, with the specific products for the trouble spots this process clears out.
+The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, and this one focuses on the process itself, the steps that make any of those room-by-room fixes stick past the first week. The [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide picks up right after, with the specific products for the trouble spots this process clears out, and the [Decluttering Checklist](/blog/decluttering-checklist/) guide covers the supplies for the sort itself, from sorting bins to the cleanup after.
 
 <!-- products -->
 
