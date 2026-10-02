@@ -377,7 +377,7 @@ Your weekly wipe-down keeps the house looking fine from a normal distance, but i
 
 These 40 tools and tips cover the spots that build up quietly all year: dusting the high and awkward corners, deep-cleaning floors room to room, scrubbing the surfaces that fight back, keeping the right solutions stocked, organizing supplies into one caddy instead of a scattered mess, protecting your hands through a full day of it, resetting bedding and linens, and sanitizing the surfaces your hands touch every day without ever thinking about it.
 
-The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the process behind making it stick, the [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide covers the products for each specific trouble spot, and the [Decluttering Checklist](/blog/decluttering-checklist/) guide covers the supplies for a sort session itself.
+The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the process behind making it stick, the [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide covers the products for each specific trouble spot, the [Decluttering Checklist](/blog/decluttering-checklist/) guide covers the supplies for a sort session itself, and the [Minimalist Home Organization](/blog/minimalist-home-organization/) guide covers the furniture and systems worth switching to afterward.
 
 <!-- products -->
 

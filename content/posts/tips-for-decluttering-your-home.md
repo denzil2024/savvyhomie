@@ -314,7 +314,7 @@ Mama, if you've ever shoved a basket of mail behind the couch thirty seconds bef
 
 These 33 tips for decluttering your home work through the real trouble spots in order: cords and cables, closets, kitchen drawers, dead space around doors and corners, the paper pile that never shrinks, and the small stuff that clutters a counter.
 
-The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the clear-sort-contain-label process behind any of it, the [Decluttering Checklist](/blog/decluttering-checklist/) guide covers the real supplies for a sort session itself, and the [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide covers the real cleaning once the clutter's out of the way.
+The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the clear-sort-contain-label process behind any of it, the [Decluttering Checklist](/blog/decluttering-checklist/) guide covers the real supplies for a sort session itself, the [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide covers the real cleaning once the clutter's out of the way, and the [Minimalist Home Organization](/blog/minimalist-home-organization/) guide covers the furniture and systems that keep it from coming back.
 
 <!-- products -->
 

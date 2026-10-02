@@ -287,7 +287,7 @@ A decluttering checklist that's just a list of bins misses most of what makes a 
 
 These 30 checklist items cover the stages most lists skip entirely: setting up the sort, hauling everything out, protecting what you're handling, staging the maybe pile so it doesn't become permanent, getting the cleared space ready, and tracking real progress room by room.
 
-The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the process behind making it stick, the [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide covers the specific products for each trouble spot once the sort's done, and the [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide covers the real clean that comes after.
+The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the full house room by room, the [House Organization Tips](/blog/house-organization-tips/) guide covers the process behind making it stick, the [Tips for Decluttering Your Home](/blog/tips-for-decluttering-your-home/) guide covers the specific products for each trouble spot once the sort's done, the [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide covers the real clean that comes after, and the [Minimalist Home Organization](/blog/minimalist-home-organization/) guide covers the fewer, smarter pieces that keep the clutter from building back up.
 
 <!-- products -->
 

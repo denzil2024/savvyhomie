@@ -198,7 +198,7 @@ const CLUSTERS = {
   // Home Organization & Storage category (new cluster opened 2026-09-07) - no dedicated
   // Pinterest board yet, so this also rides on the general home organization board.
   homeOrganization: {
-    slugs: ['home-organization-ideas', 'house-organization-tips', 'tips-for-decluttering-your-home', 'decluttering-checklist', 'spring-cleaning-tips'],
+    slugs: ['home-organization-ideas', 'house-organization-tips', 'tips-for-decluttering-your-home', 'decluttering-checklist', 'spring-cleaning-tips', 'minimalist-home-organization'],
     boards: ['Home Organization Ideas'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
