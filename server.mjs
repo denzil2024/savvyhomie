@@ -12,14 +12,18 @@ const mime = {
   '.ico': 'image/x-icon', '.woff2': 'font/woff2',
 }
 
-const blockedCountries = new Set([
-  'IN', 'PK', 'CN', 'SG', 'AR', 'BR',
-  'PH', 'ID', 'VN', 'BD', 'NG', 'EG', 'NP', 'LK', 'MA', 'DZ',
+const allowedCountries = new Set([
+  'US', 'GB', 'CA', 'AU',
+  'DE', 'FR', 'NL', 'IE', 'CH', 'SE', 'NO', 'DK', 'FI',
 ])
+
+const botUA = /googlebot|bingbot|duckduckbot|slurp|baiduspider|yandexbot|applebot|facebookexternalhit|twitterbot|linkedinbot|slackbot|discordbot|gptbot|claudebot|perplexitybot|ahrefsbot|semrushbot|mj12bot/i
 
 http.createServer((req, res) => {
   const country = req.headers['cf-ipcountry']
-  if (country && blockedCountries.has(country)) {
+  const userAgent = req.headers['user-agent'] || ''
+  const isBot = botUA.test(userAgent)
+  if (!isBot && country && !allowedCountries.has(country)) {
     res.writeHead(403, { 'content-type': 'text/plain' })
     res.end('Access denied')
     return
