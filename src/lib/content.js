@@ -41,6 +41,12 @@ export const categories = [
     blurb: 'Holiday and seasonal guides, published early enough to plan around instead of scrambling last minute. Gift season, spring refreshes, and everything in between.',
     topics: ['Christmas Gift Ideas'],
   },
+  {
+    slug: 'home-questions',
+    name: 'Home Questions',
+    blurb: "Real answers to the judgment calls and 'is this normal' questions that come up living in a home: what's actually mold, why a space won't stay clean, and the stuff nobody tells you until you ask.",
+    topics: [],
+  },
 ]
 
 export const slugifyTopic = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')

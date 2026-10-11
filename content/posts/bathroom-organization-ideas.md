@@ -440,3 +440,5 @@ None of these 44 ideas fix a whole bathroom by themselves, and trying all of the
 - [27 Toilet Paper Holder Ideas for a Bathroom That's Tired of Plain](/blog/diy-toilet-paper-holder/), sorted by style, novelty and animal shapes, sculptural pieces, wood, metal finishes, farmhouse character, and multi-function builds.
 - [30 Under Sink Organizer Ideas for the Cabinet Every Bathroom Ignores](/blog/diy-under-sink-organizer-bathroom/), sorted by the cabinet door, sliding access, the plumbing itself, small items, bins, and bulk storage.
 - [33 Small Bathroom Vanity Storage Ideas for a Sink With No Room to Spare](/blog/small-bathroom-vanity-storage/), sorted by zone, above the vanity, beside it, inside the cabinet, the drawers, the counter, and floating shelves.
+
+Dealing with a stain on the caulk itself before tackling the rest of the bathroom? [Is This Mold or Just Dirt in Your Bathroom Caulk?](/blog/bathroom-caulk-mold-or-dirt/) walks through the wipe, smell, and bleach tests that tell the two apart.
