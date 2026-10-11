@@ -201,6 +201,13 @@ const CLUSTERS = {
     slugs: ['home-organization-ideas', 'house-organization-tips', 'tips-for-decluttering-your-home', 'decluttering-checklist', 'spring-cleaning-tips', 'minimalist-home-organization'],
     boards: ['Home Organization Ideas'],
   },
+  // Home Questions category (new track, first post 2026-10-11) - answer-first/troubleshooting
+  // posts, not shopping roundups. No dedicated Pinterest board yet, so this rides on the
+  // general home organization board like the other unbadged bathroom/organization clusters.
+  homeQuestions: {
+    slugs: ['bathroom-caulk-mold-or-dirt', 'bathroom-musty-smell-after-cleaning'],
+    boards: ['Home Organization Ideas'],
+  },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the
   // storefront, not a blog post, and only ever post to their own dedicated board.
   storefront: {
