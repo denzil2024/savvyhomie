@@ -116,7 +116,7 @@ products: [
     "description": ["Metal shower rings rust within a year in a steamy bathroom, and the separate plastic liner underneath is always the first thing to grow mildew.", "Built-in loops replace the rings on this curtain, so it clips straight onto the rod and slides smoothly instead of catching on every pull. A snap-in liner rides along the bottom half, hidden behind the fabric front instead of hanging as its own separate sheet.", "The whole thing goes into the washing machine as one piece when it needs cleaning, no separate liner to scrub by hand, and the two-tone fabric top reads like a real window curtain instead of standard shower gear."],
     "pros": ["No separate rings to rust or snag", "Liner and curtain wash together as one piece", "Two-tone fabric looks like a window curtain"],
     "cons": ["Loops are sized for a standard round rod", "Fabric top needs occasional re-waterproofing"],
-    "verdict": "Good for anyone tired of rusted rings and a visible mildewed liner. Skip it if the shower rod isn't a standard round style, because the loops are sized for that."
+    "verdict": "Good for anyone tired of rusted rings and a visible mildewed liner. Skip it if the shower rod isn't a standard round style, because the loops are sized for that. The [Why Does My Shower Curtain Liner Get Slimy So Fast?](/blog/shower-curtain-liner-slimy/) guide covers why a standard separate liner mildews so quickly in the first place."
   },
   {
     "name": "Teak Wood Shower Floor Mat",

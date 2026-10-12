@@ -46,6 +46,8 @@ A mildew resistant shower curtain liner buys more time between replacements. A s
 
 <div class="product"><a href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-shower-curtain-liner.webp" alt="Mildew resistant shower curtain liner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
+A liner that's gone past spotting into a slimy texture is a different problem than a musty room. The [Why Does My Shower Curtain Liner Get Slimy So Fast?](/blog/shower-curtain-liner-slimy/) guide covers the biofilm, material, and habits behind that specifically.
+
 ## The Drain Might Be the Actual Source
 
 A clean-looking bathroom with a musty drain is a common mismatch, because the smell is coming from a few inches down, not off any surface in view.
