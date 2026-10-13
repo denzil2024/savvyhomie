@@ -114,7 +114,7 @@ None of that replaces a proper mold-resistant seal, but it buys that seal more t
 
 <div class="product"><a href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-mold-resistant-silicone-caulk.webp" alt="Mold resistant silicone caulk" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
-The [Bathroom Organization Ideas](/blog/bathroom-organization-ideas/) guide covers the rest of the bathroom, from the cabinet under the sink to the medicine cabinet, once the caulk question's settled. The [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide has the grout brush and mildew-proof picks worth adding to the same cleaning pass.
+The [Bathroom Organization Ideas](/blog/bathroom-organization-ideas/) guide covers the rest of the bathroom, from the cabinet under the sink to the medicine cabinet, once the caulk question's settled. The [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide has the grout brush and mildew-proof picks worth adding to the same cleaning pass. Same dark-ring question, different spot: the [Black Stuff Around the Bathtub Drain, Is It Mold?](/blog/bathtub-drain-black-mold/) guide walks through the same kind of texture test for the drain itself.
 
 ## FAQ
 
