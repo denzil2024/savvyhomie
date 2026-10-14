@@ -469,6 +469,8 @@ This collection of kitchen organization ideas works through every one of those s
 
 Nobody needs to fix all 48 of these ideas by the weekend. Pick the one drawer or shelf that gets under your skin every single day, whatever spot makes you sigh every time it opens, and start there instead of overhauling the whole kitchen at once. Everything else can wait until that one spot finally works the way it should have from the start.
 
+Still catching a sour smell by the sink no matter how often it gets wiped down? [Why Do My Kitchen Sponges Smell So Bad So Fast?](/blog/kitchen-sponge-smell/) covers the real reason, and why cleaning the sponge harder isn't always the fix.
+
 ## More Kitchen Organization Guides
 
 - [31 Small Pantry Organization Ideas for the Door, Walls, and Shelves](/blog/small-pantry-organization-ideas/), fixes that work no matter the pantry's layout, sorted by door and wall storage, shelf multipliers, bins and turntables, decanting containers, and labeling.
