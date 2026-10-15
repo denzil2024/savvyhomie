@@ -20,13 +20,13 @@ A musty smell means moisture is sitting somewhere long enough to grow something,
 
 ## Check the Exhaust Fan and the Air First
 
-Every other cause on this list gets worse if the bathroom isn't drying out between showers, so this is the first thing worth ruling out. A fan that runs but doesn't move real air is doing almost nothing.
+Every other cause on this list gets worse if the bathroom isn't drying out between showers, so this is the first thing worth ruling out. **A fan that runs but doesn't move real air is doing almost nothing.**
 
-- **The tissue test:** hold a single-ply tissue up to the fan while it's running. It should pull flat against the grille. If it barely moves, the fan isn't pulling enough air to matter.
-- **Run time:** a fan that shuts off the moment the shower does isn't doing its job. Humidity lingers well after the water's off.
+- **The tissue test:** hold a single-ply tissue up to the fan while it's running. **It should pull flat against the grille.** If it barely moves, the fan isn't pulling enough air to matter.
+- **Run time:** a fan that shuts off the moment the shower does isn't doing its job. **Humidity lingers well after the water's off.**
 - **The vent path:** a fan that vents into the attic instead of outside just relocates the moisture problem instead of solving it.
 
-<blockquote><p><strong>Pro tip:</strong> Run the fan during the shower and for a full 20 minutes after, not just while you're in there. Most of the lingering humidity builds up after the water's off, while the room is still warm and wet.</p></blockquote>
+<blockquote><p><strong>Pro tip:</strong> <strong>Run the fan during the shower and for a full 20 minutes after</strong>, not just while you're in there. Most of the lingering humidity builds up after the water's off, while the room is still warm and wet.</p></blockquote>
 
 A window cracked for even ten minutes helps even with a working fan, because it gives the moist air somewhere to go instead of just circulating.
 
@@ -34,7 +34,7 @@ A window cracked for even ten minutes helps even with a working fan, because it 
 
 Soft items hold water long after the hard surfaces look dry, and a musty smell coming off a towel or mat is easy to mistake for a smell coming off the room itself.
 
-- **Hang, don't fold.** A damp towel folded over a bar stays wet in the fold for hours longer than one hung open.
+- **Hang, don't fold.** **A damp towel folded over a bar stays wet in the fold for hours longer than one hung open.**
 - **Rubber-backed bath mats trap water against the floor.** Lift the mat and check underneath. An odor or dark spotting there means it's been sitting damp for a while.
 - **A shower curtain liner that stays bunched never fully dries.** Pull it open flat across the rod after every shower instead of leaving it pushed to one side.
 
@@ -50,9 +50,9 @@ A liner that's gone past spotting into a slimy texture is a different problem th
 
 ## The Drain Might Be the Actual Source
 
-A clean-looking bathroom with a musty drain is a common mismatch, because the smell is coming from a few inches down, not off any surface in view.
+A clean-looking bathroom with a musty drain is a common mismatch, because **the smell is coming from a few inches down, not off any surface in view.**
 
-Hair, soap scum, and skin oils build up along the inside of a drain pipe and form a slimy layer that smells musty or sour as it sits. Cleaning around the drain opening does nothing for buildup that's further down the pipe.
+Hair, soap scum, and skin oils build up along the inside of a drain pipe and form a slimy layer that smells musty or sour as it sits. **Cleaning around the drain opening does nothing for buildup that's further down the pipe.**
 
 <blockquote><p><strong>Pro tip:</strong> Smell right at the drain opening, close enough that it feels a little ridiculous, and compare it to the smell a few feet away. A smell that's clearly stronger right at the drain means that's the real source, not something drifting in from elsewhere in the room.</p></blockquote>
 
@@ -66,7 +66,7 @@ For buildup further down than a brush can reach, an enzyme drain cleaner breaks 
 
 ## A Dry P-Trap Can Let Sewer Smell In
 
-Almost nobody thinks to check this one, because it has nothing to do with dirt or mold at all. Every drain has a curved section of pipe underneath it, called a P-trap, that holds a small amount of water specifically to block sewer gas from coming back up into the room. If that water evaporates, the seal is gone.
+Almost nobody thinks to check this one, because it has nothing to do with dirt or mold at all. **Every drain has a curved section of pipe underneath it, called a P-trap, that holds a small amount of water specifically to block sewer gas from coming back up into the room.** If that water evaporates, the seal is gone.
 
 | Drain Usage | How Fast the Trap Can Dry Out |
 |---|---|
@@ -76,11 +76,11 @@ Almost nobody thinks to check this one, because it has nothing to do with dirt o
 
 A sewer-gas smell coming from a drain that hasn't been used in a while, a guest bathroom, a basement floor drain, a tub nobody showers in: that's often just this and nothing more.
 
-<blockquote><p><strong>Pro tip:</strong> Run water in any rarely used drain for about 30 seconds once a month. It refills the trap in seconds and costs nothing.</p></blockquote>
+<blockquote><p><strong>Pro tip:</strong> <strong>Run water in any rarely used drain for about 30 seconds once a month.</strong> It refills the trap in seconds and costs nothing.</p></blockquote>
 
 ## A Failed Wax Ring or Vent Pipe Problem
 
-If the smell is sewer-like and strongest right around the base of the toilet, the P-trap probably isn't the issue, since a toilet's trap rarely dries out the way a floor drain does. The more likely cause is the seal underneath the toilet itself.
+If the smell is sewer-like and strongest right around the base of the toilet, **the P-trap probably isn't the issue, since a toilet's trap rarely dries out the way a floor drain does.** The more likely cause is the seal underneath the toilet itself.
 
 - **A failed wax ring:** the ring that seals the toilet base to the drain pipe can degrade or shift over time, especially if the toilet has ever rocked slightly. This needs the toilet pulled and the ring replaced, not something a cleaner fixes.
 - **A loose toilet:** gently try to rock the toilet side to side. Any movement at all is often what broke the seal in the first place, not just a symptom of it.
@@ -90,7 +90,7 @@ If the smell is sewer-like and strongest right around the base of the toilet, th
 
 ## Hidden Leaks Behind Walls or Under Fixtures
 
-Months can pass with a spot damp behind a wall and never show up as a puddle, which is exactly what makes a slow leak the hardest cause on this list to self-diagnose.
+**Months can pass with a spot damp behind a wall and never show up as a puddle**, which is exactly what makes a slow leak the hardest cause on this list to self-diagnose.
 
 - **Under the sink:** check the supply lines and the P-trap connection for dampness. Even a slight dampness that isn't actively dripping counts.
 - **Behind the toilet:** look where the supply line connects, and at the floor right around the base.
@@ -104,7 +104,7 @@ A leak that's been going for a while, especially one behind tile or drywall, nee
 
 Even with everything else ruled out, the caulk lines and grout joints themselves hold onto moisture differently than the surrounding tile, and a musty smell with no obvious source often traces back to exactly this. The [Is This Mold or Just Dirt in Your Bathroom Caulk?](/blog/bathroom-caulk-mold-or-dirt/) guide covers how to tell a surface stain from something growing underneath the bead, worth a quick check if a dark line nearby lines up with the smell.
 
-Grout is porous by nature, which means it absorbs water instead of shedding it the way tile does, and that trapped moisture is a steady source of musty air even when the surface looks clean.
+**Grout is porous by nature, which means it absorbs water instead of shedding it the way tile does**, and that trapped moisture is a steady source of musty air even when the surface looks clean.
 
 A grout cleaner strips out the soap scum and grime that's feeding growth inside the grout lines themselves, not just sitting on top of the tile.
 
@@ -118,7 +118,7 @@ Once the grout is clean and fully dry, a grout sealer keeps water from soaking b
 
 Reaching for bleach is the default move for a musty bathroom, and it's also why the smell so often comes right back within a week or two.
 
-Bleach works on the surface layer of a stain, but it doesn't reach growth that's established itself below the surface, inside porous grout, behind a loose caulk bead, or deeper in a shower curtain's folds. It also adds a small amount of moisture back to the exact spot being cleaned, which can feed whatever's left once the bleach smell fades.
+**Bleach works on the surface layer of a stain, but it doesn't reach growth that's established itself below the surface**, inside porous grout, behind a loose caulk bead, or deeper in a shower curtain's folds. It also adds a small amount of moisture back to the exact spot being cleaned, which can feed whatever's left once the bleach smell fades.
 
 <blockquote><p><strong>Pro tip:</strong> A cleaner made specifically for mold and mildew, left on for its full listed contact time rather than wiped off right away, reaches further than a quick bleach pass does.</p></blockquote>
 
@@ -128,7 +128,7 @@ A mold and mildew cleaner spray built for bathroom surfaces handles this properl
 
 ## Mold Hiding Somewhere You're Not Cleaning
 
-If every surface, drain, and seal checks out clean and the smell is still there, the growth is likely somewhere that never gets cleaned at all, because it's never seen in the first place.
+If every surface, drain, and seal checks out clean and the smell is still there, **the growth is likely somewhere that never gets cleaned at all, because it's never seen in the first place.**
 
 - **Behind a mirror or medicine cabinet** mounted flush against a damp wall
 - **Inside the vanity**, especially the back corner behind stored items where air never moves
@@ -142,18 +142,18 @@ A standalone bathroom dehumidifier helps regardless of where the hidden source t
 
 ## FAQ
 
-<details><summary>Why does my bathroom smell musty but no mold?</summary>A musty smell with no visible mold means the growth or moisture is somewhere you can't see: inside a drain, behind a caulk bead, inside the grout itself, or behind a wall. It can also just mean trapped humidity from weak ventilation, which smells musty on its own well before any mold forms.</details>
+<details><summary>Why does my bathroom smell musty but no mold?</summary><strong>A musty smell with no visible mold means the growth or moisture is somewhere you can't see:</strong> inside a drain, behind a caulk bead, inside the grout itself, or behind a wall. It can also just mean trapped humidity from weak ventilation, which smells musty on its own well before any mold forms.</details>
 
-<details><summary>How to stop a bathroom from smelling musty?</summary>Keep the exhaust fan running during and for 20 minutes after every shower, hang towels and mats so they dry fully instead of staying bunched, and clean the drain itself rather than just around it. If a drain goes unused for a while, run water through it monthly so its P-trap doesn't dry out and let sewer smell in.</details>
+<details><summary>How to stop a bathroom from smelling musty?</summary><strong>Keep the exhaust fan running during and for 20 minutes after every shower, hang towels and mats so they dry fully instead of staying bunched, and clean the drain itself rather than just around it.</strong> If a drain goes unused for a while, run water through it monthly so its P-trap doesn't dry out and let sewer smell in.</details>
 
-<details><summary>How to get rid of musty smell even after shower?</summary>If the smell is still there right after a shower, trapped humidity from a weak or short-running fan is the most likely cause. Run the fan the entire time you shower and for a while after, and confirm it's pulling real air with a simple tissue test rather than just running.</details>
+<details><summary>How to get rid of musty smell even after shower?</summary>If the smell is still there right after a shower, <strong>trapped humidity from a weak or short-running fan is the most likely cause.</strong> Run the fan the entire time you shower and for a while after, and confirm it's pulling real air with a simple tissue test rather than just running.</details>
 
-<details><summary>How to remove sewer smell from bathroom?</summary>A sewer smell specifically points to a broken seal somewhere in the plumbing, most often a dry P-trap, a failed toilet wax ring, or a blocked vent pipe. Running water through an unused drain fixes a dry trap in seconds; a failed wax ring or vent pipe issue needs a plumber.</details>
+<details><summary>How to remove sewer smell from bathroom?</summary><strong>A sewer smell specifically points to a broken seal somewhere in the plumbing, most often a dry P-trap, a failed toilet wax ring, or a blocked vent pipe.</strong> Running water through an unused drain fixes a dry trap in seconds; a failed wax ring or vent pipe issue needs a plumber.</details>
 
-<details><summary>Why does my bathroom smell musty only after I clean it?</summary>Cleaning adds moisture to the room, and if the fan isn't keeping up, that extra humidity can make an existing musty smell more noticeable right afterward rather than less. It's a sign the ventilation issue was there before the cleaning, not caused by it.</details>
+<details><summary>Why does my bathroom smell musty only after I clean it?</summary>Cleaning adds moisture to the room, and if the fan isn't keeping up, <strong>that extra humidity can make an existing musty smell more noticeable right afterward rather than less.</strong> It's a sign the ventilation issue was there before the cleaning, not caused by it.</details>
 
-<details><summary>Can a bathroom smell musty from something that isn't mold?</summary>Yes. Biofilm in a drain, a dry P-trap letting in sewer gas, and plain trapped humidity can all produce a musty smell with no mold or mildew involved at all. Mold is one possible cause on this list, not the only one.</details>
+<details><summary>Can a bathroom smell musty from something that isn't mold?</summary><strong>Yes.</strong> Biofilm in a drain, a dry P-trap letting in sewer gas, and plain trapped humidity can all produce a musty smell with no mold or mildew involved at all. Mold is one possible cause on this list, not the only one.</details>
 
 ## Final Thoughts
 
-A bathroom that still smells musty after a real cleaning isn't lying to you. The source is just somewhere a sponge doesn't reach. Working through the fan, the soft items, the drains, the P-trap, and the hidden spots in order turns up the real cause faster than cleaning the same visible surfaces again.
+A bathroom that still smells musty after a real cleaning isn't lying to you. **The source is just somewhere a sponge doesn't reach.** Working through the fan, the soft items, the drains, the P-trap, and the hidden spots in order turns up the real cause faster than cleaning the same visible surfaces again.

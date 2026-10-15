@@ -20,9 +20,9 @@ That slime has a name, and knowing what it is changes what fixes it. Here's why 
 
 ## What's Growing on the Liner
 
-What feels like soap scum is a complex microbial biofilm, confirmed by a 2004 study on shower curtain microbial communities. Bacteria build a protective layer that lets them stick to plastic and fabric alike, and that layer is exactly what makes the surface feel slick instead of just dirty.
+**What feels like soap scum is a complex microbial biofilm, confirmed by a 2004 study on shower curtain microbial communities.** Bacteria build a protective layer that lets them stick to plastic and fabric alike, and that layer is exactly what makes the surface feel slick instead of just dirty.
 
-- Biofilm forms wherever moisture and organic residue (soap, body oil, dead skin) sit together on a surface
+- **Biofilm forms wherever moisture and organic residue (soap, body oil, dead skin) sit together on a surface**
 - It protects the bacteria inside it, which is why a quick rinse never fully removes it
 - Once established, it helps more grime stick to the same spot, which is why a liner that's gone slimy tends to get dirty again sooner from that point on
 
@@ -30,19 +30,19 @@ What feels like soap scum is a complex microbial biofilm, confirmed by a 2004 st
 
 ## Pink or Orange Slime Is a Different Thing Entirely
 
-A pink or orange tint on the liner is a different organism from the black or green biofilm most people picture, and it's common enough to deserve its own answer. It's typically *Serratia marcescens*, a bacterium rather than a mold, and its color comes from a pigment it produces called prodigiosin.
+A pink or orange tint on the liner is a different organism from the black or green biofilm most people picture, and it's common enough to deserve its own answer. **It's typically *Serratia marcescens*, a bacterium rather than a mold**, and its color comes from a pigment it produces called prodigiosin.
 
 - It feeds on the same fatty residue from soap, shampoo, and conditioner that regular biofilm does
 - It thrives in the same warm, damp, low-light shower conditions
-- Antifungal mold cleaners don't touch it, since it isn't a fungus. It needs an antibacterial cleaner or an oxidizing agent like hydrogen peroxide instead
+- **Antifungal mold cleaners don't touch it, since it isn't a fungus.** It needs an antibacterial cleaner or an oxidizing agent like hydrogen peroxide instead
 
-For most healthy adults, it's a cosmetic nuisance and a slight slip hazard rather than a real health risk. The bacteria can cause infection through an open wound or a mucous membrane, though, so it's worth cleaning more carefully in a bathroom used by infants, anyone immunocompromised, or anyone who rinses contact lenses or cases at the sink.
+For most healthy adults, **it's a cosmetic nuisance and a slight slip hazard rather than a real health risk.** The bacteria can cause infection through an open wound or a mucous membrane, though, so it's worth cleaning more carefully in a bathroom used by infants, anyone immunocompromised, or anyone who rinses contact lenses or cases at the sink.
 
-<blockquote><p><strong>Pro tip:</strong> Airborne bacteria can recolonize a cleaned surface within days if the moisture and soap residue it feeds on are still there. A pink patch coming back fast isn't a sign the cleaning failed. It's a sign the surface never got the chance to dry out.</p></blockquote>
+<blockquote><p><strong>Pro tip:</strong> <strong>Airborne bacteria can recolonize a cleaned surface within days if the moisture and soap residue it feeds on are still there.</strong> A pink patch coming back fast isn't a sign the cleaning failed. It's a sign the surface never got the chance to dry out.</p></blockquote>
 
 ## Material Makes It Worse: Vinyl vs. Fabric
 
-Vinyl and PVC liners sit inside the tub, taking the most direct, constant contact with water and soap of anything in the shower. That nonstop exposure is why vinyl develops biofilm noticeably sooner than a fabric liner does.
+Vinyl and PVC liners sit inside the tub, taking the most direct, constant contact with water and soap of anything in the shower. **That nonstop exposure is why vinyl develops biofilm noticeably sooner than a fabric liner does.**
 
 | Material | How Fast Biofilm Builds | Trade-Off |
 |---|---|---|
@@ -50,7 +50,7 @@ Vinyl and PVC liners sit inside the tub, taking the most direct, constant contac
 | Fabric (polyester, nylon) | Slower | Machine washable, dries faster when spread out |
 | Fabric with a separate vinyl liner behind it | Slowest for the visible curtain | Two layers to maintain instead of one |
 
-A nylon or fabric shower curtain liner won't stop biofilm from ever forming, but it buys real time between cleanings compared to a standard vinyl one. If sticking with plastic, look for one made from PEVA instead of standard PVC vinyl. PEVA is a mold-resistant plastic that holds up better against the same conditions. A hookless design in the [27 Amazon Bathroom Finds](/blog/amazon-bathroom-finds/) guide combines both pieces into one washable unit, so there's no separate liner hanging on its own getting slimy in the first place.
+A nylon or fabric shower curtain liner won't stop biofilm from ever forming, but it buys real time between cleanings compared to a standard vinyl one. If sticking with plastic, look for one made from PEVA instead of standard PVC vinyl. **PEVA is a mold-resistant plastic that holds up better against the same conditions.** A hookless design in the [27 Amazon Bathroom Finds](/blog/amazon-bathroom-finds/) guide combines both pieces into one washable unit, so there's no separate liner hanging on its own getting slimy in the first place.
 
 <div class="product"><a href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-fabric-liner.webp" alt="Nylon fabric shower curtain liner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
@@ -58,11 +58,11 @@ A nylon or fabric shower curtain liner won't stop biofilm from ever forming, but
 
 ## Water Pooling and Trapped Folds
 
-The bottom hem of a liner stays wet the longest, since that's where water running down the curtain collects. Biofilm tends to start there first and spread upward from that edge.
+**The bottom hem of a liner stays wet the longest, since that's where water running down the curtain collects.** Biofilm tends to start there first and spread upward from that edge.
 
 - Bunched or folded sections trap water for hours after a shower ends
 - A liner pushed to one side of the rod never gets full airflow across its surface
-- Scratches from an abrasive scrubber leave grooves where bacteria settle in more easily
+- **Scratches from an abrasive scrubber leave grooves where bacteria settle in more easily**
 
 That last one matters more than it sounds like it should. A rough sponge or a scouring pad might lift the visible film in the moment, but it also leaves the surface slightly rougher than before, and a rougher surface gives the next round of biofilm more places to grab onto. A soft cloth or a melamine sponge gets the same result without creating new texture for it to cling to.
 
@@ -76,7 +76,7 @@ A double shower curtain rod gives the liner its own separate bar from the decora
 
 ## Bathroom Humidity Feeds It From the Outside
 
-A liner doesn't just get wet from its own shower. It sits inside a room that stays humid well after the water's off, and that ambient moisture keeps feeding biofilm even on a liner that's technically dry to the touch. The [Why Does My Bathroom Smell Musty Even After Cleaning?](/blog/bathroom-musty-smell-after-cleaning/) guide covers the fan, ventilation, and humidity checks that slow this down room-wide, not just on the curtain itself.
+A liner doesn't just get wet from its own shower. **It sits inside a room that stays humid well after the water's off, and that ambient moisture keeps feeding biofilm even on a liner that's technically dry to the touch.** The [Why Does My Bathroom Smell Musty Even After Cleaning?](/blog/bathroom-musty-smell-after-cleaning/) guide covers the fan, ventilation, and humidity checks that slow this down room-wide, not just on the curtain itself.
 
 <blockquote><p><strong>Pro tip:</strong> Running the exhaust fan for 20 minutes after a shower helps the liner as much as it helps the walls and grout. A damp room undoes a liner that was pulled open and spread out correctly.</p></blockquote>
 
@@ -89,7 +89,7 @@ A squeegee run down the tub walls and liner right after a shower cuts down how m
 Some everyday habits speed up how soon a liner goes slimy, and several of them have nothing to do with how often the bathroom gets cleaned.
 
 - **Bar soap leaves more residue than body wash.** Bar soap is a bigger contributor to scum buildup than liquid cleansers, since it leaves more film behind with each use.
-- **Infrequent cleaning compounds.** Biofilm that's a week old wipes off easily. Biofilm that's sat for two months is a different job entirely.
+- **Infrequent cleaning compounds.** **Biofilm that's a week old wipes off easily. Biofilm that's sat for two months is a different job entirely.**
 - **Washing the liner with regular laundry can snag it.** A standard wash cycle without protection can catch the liner on a washer's agitator or zippers from other items.
 
 Switching from bar soap to a non-soap cleanser bar or body wash cuts down on exactly the residue that feeds biofilm in the first place.
@@ -117,13 +117,13 @@ A wipe-down with an all-purpose spray rarely touches biofilm once it's establish
 - Scrub every visible patch with a nylon brush or the scrubby side of a sponge, working the paste into the texture rather than just wiping over it
 - Rinse thoroughly, then hang it fully open to dry
 
-<blockquote><p><strong>Pro tip:</strong> Never mix bleach with vinegar, ammonia, or any other cleaner on the same surface. The combination produces a toxic gas, and this applies just as much to a shower liner as it does to any other bathroom surface.</p></blockquote>
+<blockquote><p><strong>Pro tip:</strong> <strong>Never mix bleach with vinegar, ammonia, or any other cleaner on the same surface.</strong> The combination produces a toxic gas, and this applies just as much to a shower liner as it does to any other bathroom surface.</p></blockquote>
 
 Still visibly discolored or cloudy after all that? That's the point where cleaning stops being the right answer.
 
 ## When to Stop Cleaning and Just Replace It
 
-A liner that's cleaned on a consistent schedule can last a while, but every liner eventually reaches a point where cleaning stops being worth it. Roughly six to twelve months is the normal range under regular use, shorter in a bathroom with poor ventilation or heavy daily use.
+A liner that's cleaned on a consistent schedule can last a while, but every liner eventually reaches a point where cleaning stops being worth it. **Roughly six to twelve months is the normal range under regular use**, shorter in a bathroom with poor ventilation or heavy daily use.
 
 - Discoloration, cloudiness, or a musty smell that cleaning doesn't resolve
 - A sticky or rough texture that comes right back within days of a real scrub
@@ -133,24 +133,24 @@ A liner that's otherwise in decent shape, just a bit of surface scum, is worth c
 
 ## FAQ
 
-<details><summary>Why does my shower liner mold so fast?</summary>Constant moisture, soap residue, and bathroom humidity combine to form biofilm, a bacterial layer that builds on plastic and fabric alike. Vinyl liners build it soonest because they sit in direct, constant contact with water and soap.</details>
+<details><summary>Why does my shower liner mold so fast?</summary><strong>Constant moisture, soap residue, and bathroom humidity combine to form biofilm, a bacterial layer that builds on plastic and fabric alike.</strong> Vinyl liners build it soonest because they sit in direct, constant contact with water and soap.</details>
 
-<details><summary>How often should you replace a shower curtain liner?</summary>Roughly every six to twelve months under normal use, sooner in a bathroom with poor ventilation or heavy daily use. Replace it immediately if cleaning doesn't resolve discoloration, a musty smell, or a sticky texture.</details>
+<details><summary>How often should you replace a shower curtain liner?</summary><strong>Roughly every six to twelve months under normal use</strong>, sooner in a bathroom with poor ventilation or heavy daily use. Replace it immediately if cleaning doesn't resolve discoloration, a musty smell, or a sticky texture.</details>
 
-<details><summary>How to keep shower liner mold free?</summary>Spread the liner fully open across the rod after every shower instead of leaving it bunched, run the exhaust fan for a while after showering, and clean it on a set schedule rather than waiting until it visibly needs it.</details>
+<details><summary>How to keep shower liner mold free?</summary><strong>Spread the liner fully open across the rod after every shower instead of leaving it bunched</strong>, run the exhaust fan for a while after showering, and clean it on a set schedule rather than waiting until it visibly needs it.</details>
 
 <details><summary>How to keep a shower curtain liner clean?</summary>Spray it down and wipe it on the rod between deeper cleans, separate any folded sections since they trap the most grime, and either machine wash or hand scrub it every few weeks depending on how often the shower gets used.</details>
 
-<details><summary>Can shower curtain liners be washed in the washing machine?</summary>Most fabric and many vinyl liners can go in the washing machine on a cold, gentle cycle. Use a mesh bag to keep it from twisting or snagging, and let it air dry fully rather than using a dryer.</details>
+<details><summary>Can shower curtain liners be washed in the washing machine?</summary><strong>Most fabric and many vinyl liners can go in the washing machine on a cold, gentle cycle.</strong> Use a mesh bag to keep it from twisting or snagging, and let it air dry fully rather than using a dryer.</details>
 
-<details><summary>Is it better to have a plastic or fabric shower curtain liner?</summary>Fabric builds biofilm more slowly than plastic and holds up better to repeated machine washing. Plastic is cheaper up front but needs more frequent cleaning to stay ahead of the same buildup.</details>
+<details><summary>Is it better to have a plastic or fabric shower curtain liner?</summary><strong>Fabric builds biofilm more slowly than plastic and holds up better to repeated machine washing.</strong> Plastic is cheaper up front but needs more frequent cleaning to stay ahead of the same buildup.</details>
 
-<details><summary>Can you wash shower curtain liners with towels?</summary>Yes, and it helps. A few towels thrown in with the liner add gentle friction that scrubs off residue the detergent alone wouldn't fully remove.</details>
+<details><summary>Can you wash shower curtain liners with towels?</summary><strong>Yes, and it helps.</strong> A few towels thrown in with the liner add gentle friction that scrubs off residue the detergent alone wouldn't fully remove.</details>
 
 <details><summary>How to clean shower curtain liner without washing machine?</summary>Leave it hanging on the rod, spray it with an all-purpose cleaner, and scrub with a sponge or a melamine sponge, pulling apart any folded sections to reach the grime trapped inside them. Rinse and let it air dry fully before closing it again.</details>
 
-<details><summary>Is pink slime on a shower curtain liner mold?</summary>No. It's typically a bacteria called Serratia marcescens, not a mold, which is why antifungal cleaners don't get rid of it. It feeds on the same soap residue as regular biofilm and needs an antibacterial cleaner or an oxidizing agent like hydrogen peroxide to clear it fully.</details>
+<details><summary>Is pink slime on a shower curtain liner mold?</summary><strong>No. It's typically a bacteria called Serratia marcescens, not a mold</strong>, which is why antifungal cleaners don't get rid of it. It feeds on the same soap residue as regular biofilm and needs an antibacterial cleaner or an oxidizing agent like hydrogen peroxide to clear it fully.</details>
 
 ## Final Thoughts
 
-A slimy shower curtain liner isn't a sign of a dirty bathroom. It's biofilm doing exactly what biofilm does on a surface that's wet and soapy almost every day. Spreading it out to dry, switching to a fabric liner, and cleaning it on a routine keeps it ahead of that cycle instead of constantly catching up to it.
+A slimy shower curtain liner isn't a sign of a dirty bathroom. It's biofilm doing exactly what biofilm does on a surface that's wet and soapy almost every day. **Spreading it out to dry, switching to a fabric liner, and cleaning it on a routine keeps it ahead of that cycle** instead of constantly catching up to it.

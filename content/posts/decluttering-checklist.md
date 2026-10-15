@@ -306,3 +306,5 @@ The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the f
 ## Final Thoughts
 
 A decluttering checklist built only around bins misses the parts of the project that slow people down most: the haul-out, the maybe pile, the cleanup after. Pull together the supplies for one full stage at a time, and the whole project moves instead of stalling at the first full bin.
+
+Sorting through boxes that have sat sealed in the garage for years? [Is It Bad to Keep Cardboard Boxes in the Garage?](/blog/cardboard-boxes-garage-bad/) covers what's likely happened to them, and why the dust mask matters more than it sounds like it should.

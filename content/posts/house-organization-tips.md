@@ -261,3 +261,5 @@ The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the f
 ## Final Thoughts
 
 None of this works as one giant weekend project, the kind that starts strong and stalls out by the second room. Clear one space, sort it, contain it, label it, and let the system prove itself before moving to the next room. The order matters more than the bins do.
+
+Still storing everything in the cardboard boxes from the last move? [Is It Bad to Keep Cardboard Boxes in the Garage?](/blog/cardboard-boxes-garage-bad/) covers what that's doing to the stuff inside them over time.
