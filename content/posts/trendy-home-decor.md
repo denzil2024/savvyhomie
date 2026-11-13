@@ -2,7 +2,7 @@
 title: 27 Trendy Home Decor Finds Worth Buying Right Now
 cover: /covers/trendy-home-decor.webp
 pin: /pins/trendy-home-decor.webp
-description: 27 trendy home decor finds sorted by vintage, curved shapes, natural texture, lighting, coastal, and pattern. Real pieces pulled from what keeps showing up in homes right now.
+description: 27 trendy home decor finds sorted by vintage, curved shapes, natural texture, lighting, coastal, and pattern. Real pieces showing up in homes right now.
 category: decor-finds
 topic: Everyday Home Finds
 date: 2026-08-09T10:00:00Z

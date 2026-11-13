@@ -30,7 +30,22 @@ http.createServer((req, res) => {
     return
   }
 
-  const urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname)
+  const reqUrl = new URL(req.url, 'http://x')
+  const urlPath = decodeURIComponent(reqUrl.pathname)
+
+  // One canonical URL per page. Cloudflare already forces https; this collapses
+  // the two remaining duplicates so Google never sees a second 200 for the same
+  // content: www -> apex, and /blog/slug -> /blog/slug/ (every prerendered route
+  // ends in a slash; files with an extension are left alone).
+  const host = (req.headers.host || '').toLowerCase()
+  const wantsSlash = !path.extname(urlPath) && !urlPath.endsWith('/')
+  if (host.startsWith('www.') || wantsSlash) {
+    const target = 'https://' + host.replace(/^www\./, '') + urlPath + (wantsSlash ? '/' : '') + reqUrl.search
+    res.writeHead(301, { location: target, 'cache-control': 'public, max-age=86400' })
+    res.end()
+    return
+  }
+
   let file = path.join(root, urlPath)
   if (!file.startsWith(root)) { res.writeHead(403).end(); return }
 

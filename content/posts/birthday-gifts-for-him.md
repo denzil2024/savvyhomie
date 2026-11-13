@@ -2,7 +2,7 @@
 title: 28 Birthday Gifts for Him, From Practical to Splurge-Worthy
 cover: /covers/birthday-gifts-for-him.webp
 pin: /pins/birthday-gifts-for-him.webp
-description: 28 birthday gifts for him sorted by type, practical, experience, comfort, fun, sentimental, and splurge-worthy, so it's easy to find something that fits how you want to show up for his birthday.
+description: 28 birthday gifts for him sorted by type, from practical and comfort picks to fun, sentimental, and splurge-worthy, so it's easy to find one that fits him.
 category: gift-guides
 topic: Gifts for Him
 date: 2026-07-27

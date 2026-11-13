@@ -7,7 +7,7 @@ export default function Logo({ src = '/logo.png' }) {
   const [failed, setFailed] = useState(false)
 
   if (!failed) {
-    return <img className="logo-img" src={src} alt="SavvyHomie" onError={() => setFailed(true)} />
+    return <img className="logo-img" src={src} alt="SavvyHomie" width="1692" height="538" onError={() => setFailed(true)} />
   }
   return <>savvyhomie<span className="dot"> ■</span></>
 }

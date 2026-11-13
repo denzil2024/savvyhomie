@@ -1,8 +1,7 @@
-import { marked } from 'marked'
-
 export const SITE = 'https://savvyhomie.com'
 export const SITE_NAME = 'SavvyHomie'
 export const TAGLINE = 'Thoughtful tips and finds for a home you love.'
+export const PINTEREST_URL = 'https://www.pinterest.com/savvyhomie/'
 
 // `topics` roughly mirrors the live Pinterest boards (boards that ARE a category,
 // like "Gift Guides", are covered by the tile itself), but the two aren't forced
@@ -56,89 +55,15 @@ export const slugifyTopic = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').r
 // it hurts ranking more than having no page at all. See FOUNDATION.md "SEO / AEO plan".
 export const MIN_POSTS_FOR_TOPIC_PAGE = 4
 
-const files = import.meta.glob('../../content/posts/*.md', { query: '?raw', import: 'default', eager: true })
-
-function parseFrontmatter(raw) {
-  const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/)
-  const meta = {}
-  let body = raw
-  if (m) {
-    body = m[2]
-    const lines = m[1].split(/\r?\n/)
-    const depthOf = (s) => [...s].reduce((d, ch) => d + (ch === '[' || ch === '{' ? 1 : ch === ']' || ch === '}' ? -1 : 0), 0)
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i]
-      const idx = line.indexOf(':')
-      if (idx < 0) continue
-      const key = line.slice(0, idx).trim()
-      const rest = line.slice(idx + 1).trim()
-      if (rest.startsWith('[') || rest.startsWith('{')) {
-        let buf = rest
-        let depth = depthOf(buf)
-        while (depth > 0 && i + 1 < lines.length) {
-          i++
-          buf += '\n' + lines[i]
-          depth += depthOf(lines[i])
-        }
-        meta[key] = JSON.parse(buf)
-      } else {
-        meta[key] = rest
-      }
-    }
-  }
-  return { meta, body }
+// The post list is a store, not a module-level import. The server fills it from
+// posts-server.js (every post, full bodies); the browser fills it from the inline
+// `#sh-data` JSON on the page (light index + the one post being viewed). ES
+// module live bindings mean every `import { posts }` sees the filled array.
+// Nothing in src/ may import posts-server.js except the two entry files.
+export let posts = []
+export function setPosts(list) {
+  posts = list
 }
-
-const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
-
-function parseFaqs(raw) {
-  const faqs = []
-  const re = /<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g
-  let m
-  while ((m = re.exec(raw))) {
-    faqs.push({ question: stripTags(m[1]), answer: stripTags(m[2]) })
-  }
-  return faqs
-}
-
-export const posts = Object.entries(files)
-  .map(([path, raw]) => {
-    const slug = path.split('/').pop().replace(/\.md$/, '')
-    const { meta, body } = parseFrontmatter(raw)
-    // A `<!-- products -->` marker in the body splits the prose: everything
-    // above it renders BEFORE the product cards (intro, context), everything
-    // below renders after (analysis, how-we-chose, FAQ). Without the marker
-    // the whole body renders after the cards, as before.
-    const [introMd, ...restMd] = body.split(/<!--\s*products\s*-->/)
-    return {
-      slug,
-      title: meta.title || slug,
-      description: meta.description || '',
-      category: meta.category || '',
-      topic: meta.topic || '',
-      date: meta.date || '',
-      updated: meta.updated || meta.date || '',
-      answer: meta.answer || '',
-      readTime: meta.readTime || '',
-      cover: meta.cover || '',
-      // Optional wide lifestyle photo (~2000px) for the homepage showcase well.
-      // The cover is finished pin artwork with the title lettered into it, so it
-      // can't sit behind the showcase card; without a `hero` the homepage falls
-      // back to showing the cover whole beside the card instead.
-      hero: meta.hero || '',
-      pin: meta.pin || '',
-      products: meta.products || [],
-      demo: meta.demo === 'true',
-      faqs: parseFaqs(body),
-      introHtml: restMd.length ? marked.parse(introMd) : '',
-      html: marked.parse(restMd.length ? restMd.join('\n') : body),
-    }
-  })
-  .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
-
-// `demo: true` in frontmatter keeps a post out of llms.txt — slug prefix and description
-// wording were tried first and both proved unreliable (see FOUNDATION.md).
-export const realPosts = posts.filter((p) => !p.demo)
 
 export function postsInCategory(slug) {
   return posts.filter((p) => p.category === slug)
@@ -192,35 +117,60 @@ export function getRoutes() {
   return getSitemapEntries().map((e) => e.loc)
 }
 
+// Frontmatter `updated` is human-readable ("August 4, 2026"); schema.org wants
+// ISO 8601. `date` is already ISO (with or without a time) and passes through.
+export function toISODate(s) {
+  if (!s) return ''
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s
+  const d = new Date(s)
+  return isNaN(d) ? '' : d.toISOString().slice(0, 10)
+}
+
+const ORG = {
+  '@type': 'Organization', '@id': SITE + '/#organization',
+  name: SITE_NAME, url: SITE + '/',
+  logo: { '@type': 'ImageObject', url: SITE + '/logo-color.png', width: 1692, height: 538 },
+  sameAs: [PINTEREST_URL],
+}
+
+const breadcrumbs = (items) => ({
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: items.map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + path })),
+})
+
 export function metaFor(url) {
   const clean = url.replace(/\/+$/, '')
   if (clean === '' || url === '/') {
     return {
       title: `${SITE_NAME} · ${TAGLINE}`,
       description: 'Practical home & kitchen tips, gift guides, and honest product picks, pros and cons included.',
-      jsonLd: { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE },
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE + '/', publisher: { '@id': ORG['@id'] } },
+        { '@context': 'https://schema.org', ...ORG },
+      ],
     }
   }
   if (clean === '/about') {
     return {
       title: `About Carol · ${SITE_NAME}`,
       description: 'Carol is an interior design graduate of Parsons School of Design. SavvyHomie is her trained eye applied to everyday budgets: practical home tips and honest product picks, cons included.',
-      jsonLd: {
+      jsonLd: [{
         '@context': 'https://schema.org', '@type': 'AboutPage', url: SITE + url,
         mainEntity: {
           '@type': 'Person', name: 'Carol', url: SITE + '/about/',
           alumniOf: { '@type': 'CollegeOrUniversity', name: 'Parsons School of Design' },
-          sameAs: ['https://www.pinterest.com/savvyhomie/'],
+          sameAs: [PINTEREST_URL],
+          worksFor: { '@id': ORG['@id'] },
           description: 'Interior design graduate of Parsons School of Design and founder of SavvyHomie.',
         },
-      },
+      }, breadcrumbs([['Home', '/'], ['About', '/about/']])],
     }
   }
   if (clean === '/contact') {
     return {
       title: `Contact · ${SITE_NAME}`,
       description: 'Get in touch with SavvyHomie: report a broken link or wrong price, suggest a product, or reach out about a partnership.',
-      jsonLd: { '@context': 'https://schema.org', '@type': 'ContactPage', url: SITE + url },
+      jsonLd: [{ '@context': 'https://schema.org', '@type': 'ContactPage', url: SITE + url }, breadcrumbs([['Home', '/'], ['Contact', '/contact/']])],
     }
   }
   const LEGAL_META = {
@@ -235,7 +185,7 @@ export function metaFor(url) {
     return {
       title: `${m.title} · ${SITE_NAME}`,
       description: m.description,
-      jsonLd: { '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, url: SITE + url },
+      jsonLd: [{ '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, url: SITE + url }, breadcrumbs([['Home', '/'], [m.title, clean + '/']])],
     }
   }
   const topicMatch = clean.match(/^\/category\/([^/]+)\/([^/]+)$/)
@@ -245,7 +195,10 @@ export function metaFor(url) {
     if (c && topicName) return {
       title: `${topicName} · ${SITE_NAME}`,
       description: `Every ${topicName} guide on ${SITE_NAME}, all sorted so it's easy to find something that fits.`,
-      jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
+        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`], [topicName, clean + '/']]),
+      ],
     }
   }
   const catMatch = clean.match(/^\/category\/([^/]+)$/)
@@ -254,19 +207,25 @@ export function metaFor(url) {
     if (c) return {
       title: `${c.name} · ${SITE_NAME}`,
       description: c.blurb,
-      jsonLd: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
+      jsonLd: [
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
+        breadcrumbs([['Home', '/'], [c.name, clean + '/']]),
+      ],
     }
   }
   const post = posts.find((p) => `/blog/${p.slug}` === clean)
   if (post) {
+    const cat = categories.find((c) => c.slug === post.category)
     const jsonLd = [{
       '@context': 'https://schema.org', '@type': 'Article',
       headline: post.title, description: post.description,
-      dateModified: post.updated, datePublished: post.date,
+      image: post.cover ? [SITE + post.cover] : undefined,
+      datePublished: toISODate(post.date), dateModified: toISODate(post.updated) || toISODate(post.date),
       author: { '@type': 'Person', name: 'Carol', url: SITE + '/about/' },
-      publisher: { '@type': 'Organization', name: SITE_NAME },
+      publisher: ORG,
       mainEntityOfPage: SITE + url,
     }]
+    jsonLd.push(breadcrumbs([['Home', '/'], ...(cat ? [[cat.name, `/category/${cat.slug}/`]] : []), [post.title, clean + '/']]))
     if (post.products.length) {
       jsonLd.push({
         '@context': 'https://schema.org', '@type': 'ItemList',
@@ -284,9 +243,11 @@ export function metaFor(url) {
         })),
       })
     }
+    // No " · SavvyHomie" suffix on posts: the titles are already 50-60 chars
+    // of real keyword, the suffix pushed 35 of 66 past Google's cutoff.
     return {
-      title: `${post.title} · ${SITE_NAME}`, description: post.description, jsonLd,
-      type: 'article', cover: post.cover, date: post.date,
+      title: post.title, description: post.description, jsonLd,
+      type: 'article', cover: post.cover, coverW: post.coverW, coverH: post.coverH, date: post.date, updated: toISODate(post.updated),
     }
   }
   return { title: SITE_NAME, description: TAGLINE }

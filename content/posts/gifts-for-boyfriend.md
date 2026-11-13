@@ -2,7 +2,7 @@
 title: 45 Gifts for Boyfriend for Every Stage of Your Relationship
 cover: /covers/gifts-for-boyfriend.webp
 pin: /pins/gifts-for-boyfriend.webp
-description: 45 gifts for boyfriend organized by relationship stage, new relationship, long-term, long-distance, and big milestones, so it's easy to find something that fits where you are.
+description: 45 gifts for boyfriend organized by relationship stage, from new and long-term to long-distance and big milestones, so it's easy to find one that fits.
 category: gift-guides
 topic: Gifts for Him
 date: 2026-07-25

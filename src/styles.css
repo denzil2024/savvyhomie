@@ -1,3 +1,13 @@
+/* Self-hosted fonts (public/fonts/). Same files Google Fonts serves, split by
+   unicode-range exactly as it does, with font-display: swap so text never waits.
+   Variable fonts: one file covers the whole weight range. */
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fraunces-roman-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 400 600; font-display: swap; src: url(/fonts/fraunces-roman-latin-ext.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Fraunces"; font-style: italic; font-weight: 400 600; font-display: swap; src: url(/fonts/fraunces-italic-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Fraunces"; font-style: italic; font-weight: 400 600; font-display: swap; src: url(/fonts/fraunces-italic-latin-ext.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/inter-tight-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Inter Tight"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/inter-tight-latin-ext.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
 /* Two typefaces only: Fraunces for headlines, Inter Tight for everything else
    (nav, body, labels, buttons, meta). No third "mono label" face — small caps
    labels use Inter Tight at one fixed weight/size/tracking sitewide instead of
@@ -592,7 +602,12 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 .product > a { display: block; }
 .product .photo { aspect-ratio: 2 / 1; min-height: 0; }
 .product-photo-well { display: flex; align-items: center; justify-content: center; background: var(--card); padding: 28px; min-height: 260px; border-bottom: 1px solid var(--line); }
-.product-photo { display: block; max-width: 340px; max-height: 320px; width: auto; height: auto; object-fit: contain; }
+/* Post.jsx sets an inline width per image (its natural size scaled to fit 340x320,
+   never up), so together with the width/height attributes the box is definite BEFORE
+   the lazy image arrives. With width:auto the box was 0 until load and every card grew
+   ~120px as it scrolled in, which threw jump links off by a full screen. flex-shrink: 0
+   keeps the same overflow-into-padding behaviour the auto width had on narrow screens. */
+.product-photo { display: block; max-width: 340px; max-height: 320px; width: auto; height: auto; flex-shrink: 0; object-fit: contain; }
 .product-group-head { font-family: var(--serif); font-size: var(--fs-2xl); font-weight: 500; letter-spacing: -.3px; line-height: 1.2; margin: 1.7em 0 .5em; }
 .product .txt { padding: 26px 32px 30px; }
 .product-head { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }

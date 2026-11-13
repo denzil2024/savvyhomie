@@ -2,7 +2,7 @@
 title: 28 Amazon Home Decor Must Haves for a Room That Finally Looks Finished
 cover: /covers/home-decor-must-haves.webp
 pin: /pins/home-decor-must-haves.webp
-description: 28 Amazon home decor must haves sorted by lighting, wall art, textiles, accents, and furniture. Small pieces that make a room look pulled together instead of half-decorated.
+description: 28 Amazon home decor must haves sorted by lighting, wall art, textiles, accents, and furniture. Small pieces that make a room look pulled together.
 category: decor-finds
 topic: Everyday Home Finds
 date: 2026-08-08T10:00:00Z

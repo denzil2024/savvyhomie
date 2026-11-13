@@ -8,11 +8,11 @@ const PAGE_SIZE = 7 // one lead entry + three pairs
 
 // Real photos for the category strip; slugs without one fall back to placeholder art.
 const CAT_IMAGES = {
-  'gift-guides': '/cat-gift-guides.webp',
-  'kitchen-finds': '/cat-kitchen-finds.webp',
-  'organization': '/cat-organization.webp',
-  'decor-finds': '/cat-decor-finds.webp',
-  'seasonal': '/cat-seasonal.webp',
+  'gift-guides': { src: '/cat-gift-guides.webp', w: 500, h: 500 },
+  'kitchen-finds': { src: '/cat-kitchen-finds.webp', w: 330, h: 500 },
+  'organization': { src: '/cat-organization.webp', w: 474, h: 497 },
+  'decor-finds': { src: '/cat-decor-finds.webp', w: 385, h: 500 },
+  'seasonal': { src: '/cat-seasonal.webp', w: 500, h: 500 },
 }
 
 const catOf = (slug) => categories.find((c) => c.slug === slug)
@@ -24,13 +24,13 @@ function Entry({ post, size }) {
   const href = `/blog/${post.slug}/`
   return (
     <article className={`entry entry-${size}`}>
-      <Link to={href} className="entry-media">
-        {post.cover ? <img src={post.cover} alt={post.title} /> : <Photo seed={post.slug} />}
+      <Link reloadDocument to={href} className="entry-media">
+        {post.cover ? <img src={post.cover} alt={post.title} width={post.coverW} height={post.coverH} loading="lazy" decoding="async" /> : <Photo seed={post.slug} />}
       </Link>
       {cat && <Link to={`/category/${cat.slug}/`} className="entry-cat">{cat.name}</Link>}
-      <h2><Link to={href}>{post.title}</Link></h2>
+      <h2><Link reloadDocument to={href}>{post.title}</Link></h2>
       <p>{post.description}</p>
-      <Link to={href} className="btn-read">Read More</Link>
+      <Link reloadDocument to={href} className="btn-read">Read More</Link>
     </article>
   )
 }
@@ -66,15 +66,15 @@ export default function Home() {
             {featured.hero
               ? <img src={featured.hero} alt="" />
               : featured.cover
-                ? <img src={featured.cover} alt={featured.title} />
+                ? <img src={featured.cover} alt={featured.title} width={featured.coverW} height={featured.coverH} fetchpriority="high" decoding="async" />
                 : <Photo seed={featured.slug} label="" />}
           </div>
           <div className="showcase-plate">
             <div className="showcase-card">
               {featuredCat && <span className="entry-cat">{featuredCat.name}</span>}
-              <h1><Link to={`/blog/${featured.slug}/`}>{featured.title}</Link></h1>
+              <h1><Link reloadDocument to={`/blog/${featured.slug}/`}>{featured.title}</Link></h1>
               <p>{featured.description}</p>
-              <Link to={`/blog/${featured.slug}/`} className="btn-read">Read More</Link>
+              <Link reloadDocument to={`/blog/${featured.slug}/`} className="btn-read">Read More</Link>
             </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="cat-strip">
         {categories.map((c) => (
           <Link key={c.slug} to={`/category/${c.slug}/`} className={`cs-tile cs-${c.slug}`}>
-            {CAT_IMAGES[c.slug] ? <img src={CAT_IMAGES[c.slug]} alt="" /> : <Photo seed={c.slug} label="" />}
+            {CAT_IMAGES[c.slug] ? <img src={CAT_IMAGES[c.slug].src} alt="" width={CAT_IMAGES[c.slug].w} height={CAT_IMAGES[c.slug].h} loading="lazy" decoding="async" /> : <Photo seed={c.slug} label="" />}
             <span className="cs-label">{c.name}</span>
           </Link>
         ))}
@@ -110,7 +110,7 @@ export default function Home() {
 
         <aside className="feed-side">
           <div className="side-block side-author">
-            <span className="side-photo"><img src="/founder.webp" alt="Carol, founder of SavvyHomie" /></span>
+            <span className="side-photo"><img src="/founder.webp" alt="Carol, founder of SavvyHomie" width="720" height="1280" loading="lazy" decoding="async" /></span>
             <p>Hi, I'm Carol. I studied interior design at Parsons, and I've spent just as much time working out what actually makes a home good to live in. Here I share both: the tips that pull a room together, and the finds worth spending on.</p>
             <Link to="/about/" className="btn-read btn-read-alt">More</Link>
           </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 const cat = catOf(p.category)
                 return (
                   <li key={p.slug}>
-                    <Link to={`/blog/${p.slug}/`}>
+                    <Link reloadDocument to={`/blog/${p.slug}/`}>
                       <span className="sp-n">No. {i + 1}</span>
                       <span className="sp-t">{p.title}</span>
                       {cat && <span className="sp-c">{cat.name}</span>}

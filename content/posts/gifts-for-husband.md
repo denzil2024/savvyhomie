@@ -2,7 +2,7 @@
 title: 43 Gifts for Husband for Every Stage of Your Marriage
 cover: /covers/gifts-for-husband.webp
 pin: /pins/gifts-for-husband.webp
-description: 43 gifts for husband organized by where you are in the marriage, newlywed, new dad, long-term, decades together, and everyday appreciation, so it's easy to find something that fits.
+description: 43 gifts for husband sorted by stage of marriage, newlywed to decades together, plus everyday appreciation picks, so it's easy to find one that fits.
 category: gift-guides
 topic: Gifts for Him
 date: 2026-07-26

@@ -2,7 +2,7 @@
 title: 47 Best Gifts for Him That Aren't the Same Five Things Everyone Buys
 cover: /covers/gifts-for-him.webp
 pin: /pins/gifts-for-him.webp
-description: 47 gifts for him, from tech and outdoor gear to grooming, the home bar, food, fashion, fitness, hobbies, and keepsakes, sorted so it's easy to find what fits him.
+description: 47 gifts for him, from tech and outdoor gear to grooming, the home bar, fitness, hobbies, and keepsakes, sorted so it's easy to find what fits him.
 category: gift-guides
 topic: Gifts for Him
 date: 2026-07-24

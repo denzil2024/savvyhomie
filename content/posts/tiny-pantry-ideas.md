@@ -2,7 +2,7 @@
 title: 29+ Tiny Pantry Ideas for Kitchens With No Pantry to Begin With
 cover: /covers/tiny-pantry-ideas.webp
 pin: /pins/tiny-pantry-ideas.webp
-description: 29+ tiny pantry ideas for kitchens that never had a pantry at all, repurposed cabinets, dead air under stairs, wall storage, and stacking that skips the floor entirely.
+description: 29+ tiny pantry ideas for kitchens that never had a pantry, from repurposed cabinets and the space under stairs to wall storage and stacking off the floor.
 category: organization
 topic: Kitchen Organization
 date: 2026-08-27T16:00:00Z
