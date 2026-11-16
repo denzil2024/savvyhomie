@@ -717,7 +717,9 @@ article.post { max-width: 840px; margin: 0 auto; padding: 28px 0 64px; }
 .related-head h2 { font-size: var(--fs-2xl); letter-spacing: -.01em; margin: 0; }
 .meta-rule { border-top: 1px solid var(--line); padding-top: 12px; }
 .related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.card-cover-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+/* !important: the width/height HTML attributes (added for CLS) set an
+   implicit aspect-ratio that otherwise wins over this one in some browsers */
+.card-cover-img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9 !important; object-fit: cover; }
 @media (max-width: 780px) { .related-grid { grid-template-columns: 1fr; } }
 
 /* ── footer: dark editorial ink band, dot-grid texture (savvyhomie sibling-project pattern) ── */
