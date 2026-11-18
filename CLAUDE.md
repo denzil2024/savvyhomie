@@ -6,7 +6,7 @@ This file is git-tracked and loads automatically in every Claude Code session on
 
 ## Project
 
-SavvyHomie: home & kitchen product roundups + gift guides, monetized via display ads (Journey by Mediavine → Mediavine → Raptive) plus Amazon Associates. Zero photography budget — that constraint is why the niche is product roundups (Amazon SiteStripe images, free and legitimate) rather than original-photo content. Stack: React + Vite, SSR-prerendered to static HTML, Railway hosting + Cloudflare DNS. Audience: mostly female, US/UK/CA/AU, Pinterest-first traffic in months 1-12.
+SavvyHomie: home & kitchen product roundups + gift guides, monetized via display ads (Journey by Mediavine → Mediavine → Raptive) plus Amazon Associates. Zero photography budget — that constraint is why the niche is product roundups (Amazon SiteStripe images, free and legitimate) rather than original-photo content. Stack: React + Vite, SSR-prerendered to static HTML, Vercel hosting (primary since 2026-11-16, swapped from Railway) + Cloudflare DNS. Audience: mostly female, US/UK/CA/AU, Pinterest-first traffic in months 1-12.
 
 ## Communication style / personality
 

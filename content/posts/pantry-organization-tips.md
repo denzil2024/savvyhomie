@@ -299,3 +299,5 @@ For a shape-specific breakdown by layout, [Small Pantry Ideas](/blog/small-pantr
 ## Final Thoughts
 
 Nobody needs to knock out all 29 of these in one weekend, and trying usually backfires. You burn out around step two, and the whole project stalls in a half-emptied pantry for a month. Pick one step, finish it completely, and let it sit for a few days before moving to the next. A pantry zoned this week and labeled next week still ends up more organized than one attempted all at once and abandoned by Sunday.
+
+Airtight storage solves more than clutter, too. If something's been getting into an open bag of flour or cereal, the [Tiny Bugs in Your Pantry That Aren't Weevils](/blog/tiny-bugs-in-pantry-not-weevils/) guide covers what it is and how to stop it for good.
