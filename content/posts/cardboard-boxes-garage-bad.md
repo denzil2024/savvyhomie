@@ -7,7 +7,7 @@ category: home-questions
 topic: Home Questions
 date: 2026-10-15T10:00:00Z
 updated: October 15, 2026
-readTime: 13 min read
+readTime: 15 min read
 answer: keeping cardboard boxes in the garage is fine short-term but risky the longer they sit. Cardboard absorbs humidity and breaks down. It feeds and shelters pests like silverfish and deer mice, and it can pick up chemical fumes from anything else stored nearby. Boxes stored dry, elevated off the floor, and checked every few months carry far less risk than ones shoved in a corner for years. Plastic bins solve most of this outright.
 products: []
 ---
@@ -161,3 +161,5 @@ None of the first four fixes hold up long-term without this one. Knowing what's 
 ## Final Thoughts
 
 Cardboard in the garage won't ruin anything overnight, but it's not doing anyone any favors either. Moisture, pests, and the material's own slow breakdown are all quietly working against it the longer it sits untouched in a corner. A plastic bin, a shelf off the floor, and a quick look every few months closes almost all of that gap, and none of it takes more than an afternoon.
+
+The same moisture and pest risk shows up indoors too. The [why does my pantry smell](/blog/why-does-my-pantry-smell/) guide covers what that looks like in a much smaller, enclosed space.

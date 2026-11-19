@@ -7,7 +7,7 @@ category: home-questions
 topic: Home Questions
 date: 2026-10-13T10:00:00Z
 updated: October 13, 2026
-readTime: 13 min read
+readTime: 14 min read
 answer: a kitchen sponge smells fast because bacteria, especially a species called Moraxella osloensis, multiply in its damp, porous foam and produce smelly waste as they feed on trapped food and soap residue. A real study found that microwaving, boiling, or dishwashing a sponge can make the smell worse: it kills off competing bacteria and leaves the toughest, smelliest ones to take over. Replacing the sponge weekly works better than trying to sanitize it back to clean.
 products: []
 ---
@@ -157,3 +157,5 @@ Forget the usual vague cleaning advice. **The study's own authors put a real num
 ## Final Thoughts
 
 A sponge that smells fast isn't a sign anything was done wrong. It's bacteria doing exactly what bacteria do in a warm, wet, food-rich spot, and **the research says scrubbing harder won't out-clean that cycle.** A short replacement schedule beats a long one every time, no matter how many times that sponge gets microwaved in between.
+
+The sink isn't the only spot in the kitchen that smells off for a reason that isn't obvious. The [why does my pantry smell](/blog/why-does-my-pantry-smell/) guide covers the pantry side of that same question.

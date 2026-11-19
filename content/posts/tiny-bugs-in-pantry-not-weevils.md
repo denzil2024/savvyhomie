@@ -7,7 +7,7 @@ category: home-questions
 topic: Home Questions
 date: 2026-11-18T10:00:00Z
 updated: November 18, 2026
-readTime: 17 min read
+readTime: 18 min read
 answer: Tiny bugs in the pantry that aren't weevils are usually flour beetles, grain beetles, or psocids (booklice). Flour and grain beetles are reddish-brown, oval-shaped, and feed on stored food. Psocids are smaller, paler, move in quick, jerky hops, and feed on mold, often indicating excess humidity. The easiest way to distinguish weevils is to look for a snout: weevils have one, while these other pantry pests don't.
 products: []
 ---
@@ -212,4 +212,4 @@ Getting the rest of the shelf back into real working order is worth doing at the
 
 Not every tiny bug in a pantry is the same problem wearing a different face. **A beetle means something got into the food. A psocid means something got into the air.** Checking for the snout rules out a weevil in seconds, and the movement, steady crawl versus jerky hop, sorts the rest of it out almost as fast.
 
-The fix follows the cause once that's settled: airtight containers and a trap for beetles, a drier cabinet for psocids, and a real cleanout either way before anything goes back on the shelf.
+The fix follows the cause once that's settled: airtight containers and a trap for beetles, a drier cabinet for psocids, and a real cleanout either way before anything goes back on the shelf. Bugs are only one reason a pantry smells off. The [why does my pantry smell](/blog/why-does-my-pantry-smell/) guide walks through the other four.
