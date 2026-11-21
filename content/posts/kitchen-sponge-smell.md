@@ -158,4 +158,4 @@ Forget the usual vague cleaning advice. **The study's own authors put a real num
 
 A sponge that smells fast isn't a sign anything was done wrong. It's bacteria doing exactly what bacteria do in a warm, wet, food-rich spot, and **the research says scrubbing harder won't out-clean that cycle.** A short replacement schedule beats a long one every time, no matter how many times that sponge gets microwaved in between.
 
-The sink isn't the only spot in the kitchen that smells off for a reason that isn't obvious. The [why does my pantry smell](/blog/why-does-my-pantry-smell/) guide covers the pantry side of that same question.
+The sink isn't the only spot in the kitchen that smells off for a reason that isn't obvious. The [why does my pantry smell](/blog/why-does-my-pantry-smell/) guide covers the pantry side of that same question, and the [plastic container smell](/blog/why-do-plastic-containers-smell/) guide covers why washing alone never fixes a container that's absorbed odor into the material itself.
