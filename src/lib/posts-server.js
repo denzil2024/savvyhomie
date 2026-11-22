@@ -85,6 +85,7 @@ export const allPosts = Object.entries(files)
       date: meta.date || '',
       updated: meta.updated || meta.date || '',
       answer: meta.answer || '',
+      answerHtml: meta.answer ? marked.parse(meta.answer.split(' || ').join('\n\n')) : '',
       readTime: meta.readTime || '',
       cover, coverW, coverH,
       // Optional wide lifestyle photo (~2000px) for the homepage showcase well.
@@ -108,6 +109,7 @@ export function lightPost(p) {
   const out = {}
   for (const k of LIGHT_KEYS) out[k] = p[k]
   out.answer = ''
+  out.answerHtml = ''
   out.products = []
   out.faqs = []
   out.introHtml = ''

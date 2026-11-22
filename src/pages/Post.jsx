@@ -138,7 +138,7 @@ export default function Post() {
         <div className="post-body">
           <div className="disclosure">We may earn a commission when you buy through links on this page, at no extra cost to you. <Link to="/how-we-pick-products/">How we pick products</Link>.</div>
 
-          {post.answer && <div className="answer"><b>The short answer:</b> {post.answer}</div>}
+          {post.answer && <div className="answer"><b>The short answer:</b> <span dangerouslySetInnerHTML={{ __html: post.answerHtml }} /></div>}
 
           {post.products.length >= 2 && <Lineup products={post.products} />}
 

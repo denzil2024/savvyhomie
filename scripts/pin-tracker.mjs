@@ -205,7 +205,7 @@ const CLUSTERS = {
   // posts, not shopping roundups. No dedicated Pinterest board yet, so this rides on the
   // general home organization board like the other unbadged bathroom/organization clusters.
   homeQuestions: {
-    slugs: ['bathroom-caulk-mold-or-dirt', 'bathroom-musty-smell-after-cleaning', 'shower-curtain-liner-slimy', 'bathtub-drain-black-mold', 'kitchen-sponge-smell', 'cardboard-boxes-garage-bad', 'tiny-bugs-in-pantry-not-weevils', 'why-does-my-pantry-smell', 'why-do-plastic-containers-smell'],
+    slugs: ['bathroom-caulk-mold-or-dirt', 'bathroom-musty-smell-after-cleaning', 'shower-curtain-liner-slimy', 'bathtub-drain-black-mold', 'kitchen-sponge-smell', 'cardboard-boxes-garage-bad', 'tiny-bugs-in-pantry-not-weevils', 'why-does-my-pantry-smell', 'why-do-plastic-containers-smell', 'kitchen-no-pantry'],
     boards: ['Home Organization Ideas'],
   },
   // Amazon storefront collections (see STOREFRONT_COLLECTIONS above) - link straight to the

@@ -469,7 +469,7 @@ This collection of kitchen organization ideas works through every one of those s
 
 Nobody needs to fix all 48 of these ideas by the weekend. Pick the one drawer or shelf that gets under your skin every single day, whatever spot makes you sigh every time it opens, and start there instead of overhauling the whole kitchen at once. Everything else can wait until that one spot finally works the way it should have from the start.
 
-Still catching a sour smell by the sink no matter how often it gets wiped down? [Why Do My Kitchen Sponges Smell So Bad So Fast?](/blog/kitchen-sponge-smell/) covers the real reason, and why cleaning the sponge harder isn't always the fix.
+Still catching a sour smell by the sink no matter how often it gets wiped down? [Why Do My Kitchen Sponges Smell So Bad So Fast?](/blog/kitchen-sponge-smell/) covers the real reason, and why cleaning the sponge harder isn't always the fix. And if there's no actual pantry cabinet in the mix at all, the [How Do You Organize a Kitchen With No Pantry?](/blog/kitchen-no-pantry/) guide walks through building one out of the cabinets, walls, and counter space already there.
 
 ## More Kitchen Organization Guides
 

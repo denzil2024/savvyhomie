@@ -228,6 +228,16 @@ nav.cats a:hover { color: var(--spruce); }
 .btn-more { display: block; margin: 8px auto 0; background: none; border: 1px solid var(--butter-line); color: var(--butter-ink); font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; padding: 15px 38px; cursor: pointer; transition: background .15s ease, border-color .15s ease; }
 .btn-more:hover { background: var(--butter-pale); border-color: var(--butter); }
 
+/* ── category/topic pagination ── */
+.pager { display: flex; align-items: center; justify-content: center; gap: 22px; margin: 48px 0 8px; padding-top: 32px; border-top: 1px solid var(--line); }
+.pager-link { display: inline-flex; align-items: center; gap: 8px; background: none; border: 1px solid var(--butter-line); color: var(--butter-ink); font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; padding: 13px 26px; transition: background .15s ease, border-color .15s ease; }
+.pager-link:hover { background: var(--butter-pale); border-color: var(--butter); }
+.pager-status { font-family: var(--serif); font-size: var(--fs-lead); color: var(--muted); font-variant-numeric: oldstyle-nums; white-space: nowrap; }
+@media (max-width: 560px) {
+  .pager { flex-wrap: wrap; gap: 14px; margin: 36px 0 8px; }
+  .pager-status { order: 3; width: 100%; text-align: center; }
+}
+
 /* ── sidebar ── */
 .feed-side { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 40px; }
 .side-h { font-family: var(--serif); font-size: var(--fs-xl); font-weight: 500; text-align: center; margin: 0 0 12px; }

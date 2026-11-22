@@ -1,7 +1,22 @@
 import { Link, useParams } from 'react-router-dom'
-import { categories, postsInCategory, postsInTopic, slugifyTopic } from '../lib/content.js'
+import { categories, postsInCategory, postsInTopic, slugifyTopic, pageCount, paginate } from '../lib/content.js'
 import Photo from '../components/Photo.jsx'
 import EmailSignup from '../components/EmailSignup.jsx'
+
+// Shared by the flat list and each topic-grouped section: renders prev/next
+// links to the real crawlable /page/n/ URLs, never a client-side "load more"
+// that would hide posts past page 1 from search engines.
+function Pager({ basePath, page, total }) {
+  if (total <= 1) return null
+  const urlFor = (p) => (p === 1 ? basePath : `${basePath}page/${p}/`)
+  return (
+    <nav className="pager" aria-label="Pagination">
+      {page > 1 && <Link reloadDocument to={urlFor(page - 1)} className="pager-link">← Previous</Link>}
+      <span className="pager-status">Page {page} of {total}</span>
+      {page < total && <Link reloadDocument to={urlFor(page + 1)} className="pager-link">Next →</Link>}
+    </nav>
+  )
+}
 
 function PostGrid({ list }) {
   return (
@@ -23,7 +38,7 @@ function PostGrid({ list }) {
 }
 
 export default function Category() {
-  const { slug } = useParams()
+  const { slug, page: pageParam } = useParams()
   const cat = categories.find((c) => c.slug === slug)
   if (!cat) return <section className="hero"><h1>Not found</h1></section>
   const list = postsInCategory(slug)
@@ -37,6 +52,16 @@ export default function Category() {
         .filter((g) => g.posts.length > 0)
     : []
   const untagged = groupByTopic ? list.filter((p) => !p.topic) : []
+  const page = pageParam ? Number(pageParam) : 1
+  const catBase = `/category/${cat.slug}/`
+  const totalPages = pageCount(list.length)
+  // A page number past the real last page (or a non-numeric one) isn't a
+  // different list, it's a 404 — same belt-and-suspenders pattern Topic.jsx
+  // uses for its own hard gate.
+  if (pageParam && (!Number.isInteger(page) || page < 2 || page > totalPages)) {
+    return <section className="hero"><h1>Not found</h1></section>
+  }
+  const pagedList = groupByTopic ? [] : paginate(list, page)
 
   return (
     <>
@@ -92,7 +117,10 @@ export default function Category() {
             {list.length === 0 ? (
               <div className="empty">Guides for this category are coming soon.</div>
             ) : (
-              <PostGrid list={list} />
+              <>
+                <PostGrid list={pagedList} />
+                <Pager basePath={catBase} page={page} total={totalPages} />
+              </>
             )}
           </div>
         </section>

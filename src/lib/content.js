@@ -76,6 +76,20 @@ export function postsInTopic(categorySlug, topicSlug) {
   return posts.filter((p) => p.category === categorySlug && p.topic && slugifyTopic(p.topic) === topicSlug)
 }
 
+// Category and topic pages are prerendered static HTML, so once a list grows
+// past one page the extra posts need real crawlable /page/2/, /page/3/ URLs,
+// never a client-side "load more" that hides content from Google. 12 per page
+// everywhere, confirmed against organization (24 posts) and the fast-growing
+// home-questions category as the real motivating cases.
+export const PAGE_SIZE = 9
+export function pageCount(total) {
+  return Math.max(1, Math.ceil(total / PAGE_SIZE))
+}
+export function paginate(list, page) {
+  const start = (page - 1) * PAGE_SIZE
+  return list.slice(start, start + PAGE_SIZE)
+}
+
 export function getRelatedPosts(slug, category, limit = 3) {
   const current = posts.find((p) => p.slug === slug)
   const pool = posts.filter((p) => p.slug !== slug && p.category === category)
@@ -89,25 +103,47 @@ export function getRelatedPosts(slug, category, limit = 3) {
   return pool.slice(0, limit)
 }
 
-export function getSitemapEntries() {
-  const catLastmod = (slug) => {
-    const catPosts = posts.filter((p) => p.category === slug && p.date)
-    return catPosts.length ? catPosts.reduce((max, p) => (p.date > max ? p.date : max), catPosts[0].date) : undefined
+// Shared by getSitemapEntries() and getRoutes(): page 1 keeps the existing
+// bare URL (no redirect, no churn on already-indexed links), page 2+ gets its
+// own /page/n/ URL. lastmod only reflects the posts actually on that page,
+// not the whole list, so an old page doesn't look falsely fresh forever.
+function pagedEntries(basePath, list) {
+  const total = pageCount(list.length)
+  const entries = []
+  for (let page = 1; page <= total; page++) {
+    const pageList = paginate(list, page)
+    const lastmod = pageList.filter((p) => p.date).reduce((max, p) => (p.date > max ? p.date : max), pageList[0]?.date)
+    entries.push({ loc: page === 1 ? basePath : `${basePath}page/${page}/`, lastmod })
   }
+  return entries
+}
+
+export function getSitemapEntries() {
   const topicEntries = []
   for (const c of categories) {
     for (const t of c.topics || []) {
       const topicSlug = slugifyTopic(t)
       const tPosts = postsInTopic(c.slug, topicSlug)
       if (tPosts.length < MIN_POSTS_FOR_TOPIC_PAGE) continue
-      const lastmod = tPosts.reduce((max, p) => (p.date > max ? p.date : max), tPosts[0].date)
-      topicEntries.push({ loc: `/category/${c.slug}/${topicSlug}/`, lastmod })
+      topicEntries.push(...pagedEntries(`/category/${c.slug}/${topicSlug}/`, tPosts))
     }
   }
+  // A category with more than one topic renders its guides split into
+  // per-topic sections, not the flat list — so its own /page/n/ URLs would
+  // paginate content the page doesn't actually show. Only a single-topic (or
+  // topic-less, like Home Questions) category gets real pagination here;
+  // a grouped category's topic sub-pages are paginated individually above.
+  const catEntries = categories
+    .filter((c) => !(c.topics && c.topics.length > 1))
+    .flatMap((c) => pagedEntries(`/category/${c.slug}/`, postsInCategory(c.slug)))
+  const groupedCatEntries = categories
+    .filter((c) => c.topics && c.topics.length > 1)
+    .map((c) => ({ loc: `/category/${c.slug}/` }))
   return [
     { loc: '/' }, { loc: '/about/' }, { loc: '/contact/' },
     { loc: '/privacy-policy/' }, { loc: '/cookie-policy/' }, { loc: '/terms-of-service/' }, { loc: '/affiliate-disclosure/' }, { loc: '/how-we-pick-products/' },
-    ...categories.map((c) => ({ loc: `/category/${c.slug}/`, lastmod: catLastmod(c.slug) })),
+    ...catEntries,
+    ...groupedCatEntries,
     ...topicEntries,
     ...posts.map((p) => ({ loc: `/blog/${p.slug}/`, lastmod: p.date || undefined })),
   ]
@@ -188,28 +224,31 @@ export function metaFor(url) {
       jsonLd: [{ '@context': 'https://schema.org', '@type': 'WebPage', name: m.title, url: SITE + url }, breadcrumbs([['Home', '/'], [m.title, clean + '/']])],
     }
   }
-  const topicMatch = clean.match(/^\/category\/([^/]+)\/([^/]+)$/)
+  const topicMatch = clean.match(/^\/category\/([^/]+)\/([^/]+?)(?:\/page\/(\d+))?$/)
   if (topicMatch) {
     const c = categories.find((x) => x.slug === topicMatch[1])
     const topicName = c?.topics?.find((t) => slugifyTopic(t) === topicMatch[2])
+    const page = topicMatch[3] ? Number(topicMatch[3]) : 1
+    const topicBase = `/category/${c?.slug}/${topicMatch[2]}/`
     if (c && topicName) return {
-      title: `${topicName} · ${SITE_NAME}`,
+      title: page > 1 ? `${topicName} · Page ${page} · ${SITE_NAME}` : `${topicName} · ${SITE_NAME}`,
       description: `Every ${topicName} guide on ${SITE_NAME}, all sorted so it's easy to find something that fits.`,
       jsonLd: [
         { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
-        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`], [topicName, clean + '/']]),
+        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`], [topicName, topicBase]]),
       ],
     }
   }
-  const catMatch = clean.match(/^\/category\/([^/]+)$/)
+  const catMatch = clean.match(/^\/category\/([^/]+?)(?:\/page\/(\d+))?$/)
   if (catMatch) {
     const c = categories.find((x) => x.slug === catMatch[1])
+    const page = catMatch[2] ? Number(catMatch[2]) : 1
     if (c) return {
-      title: `${c.name} · ${SITE_NAME}`,
+      title: page > 1 ? `${c.name} · Page ${page} · ${SITE_NAME}` : `${c.name} · ${SITE_NAME}`,
       description: c.blurb,
       jsonLd: [
         { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
-        breadcrumbs([['Home', '/'], [c.name, clean + '/']]),
+        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`]]),
       ],
     }
   }

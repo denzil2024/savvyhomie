@@ -77,7 +77,9 @@ export default function App() {
           <Route path="/terms-of-service/*" element={<TermsOfService />} />
           <Route path="/affiliate-disclosure/*" element={<AffiliateDisclosure />} />
           <Route path="/how-we-pick-products/*" element={<HowWePickProducts />} />
+          <Route path="/category/:slug/:topic/page/:page/*" element={<Topic />} />
           <Route path="/category/:slug/:topic/*" element={<Topic />} />
+          <Route path="/category/:slug/page/:page/*" element={<Category />} />
           <Route path="/category/:slug/*" element={<Category />} />
           <Route path="/blog/:slug/*" element={<Post />} />
         </Routes>
