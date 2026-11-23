@@ -242,4 +242,4 @@ You don't need another big organizing session to prevent this. Just build a few 
 
 You can have an organized kitchen without a dedicated pantry. Start with the cabinets you already have, make use of empty walls and doors, and add a rolling cart or freestanding cabinet if you need more room.
 
-You don't have to buy everything at once, either. Start with the storage problem that frustrates you most and build from there. The goal is to make groceries easier to find, keep countertops clear, and know what you have before buying more.
+You don't have to buy everything at once, either. Start with the storage problem that frustrates you most and build from there. The goal is to make groceries easier to find, keep countertops clear, and know what you have before buying more. If the counter itself is the tight spot, especially in an older house, the [Is It Normal for a Kitchen to Not Have Enough Counter Space in an Older House?](/blog/old-house-kitchen-counter-space/) guide covers why that happens and the real fixes for it.

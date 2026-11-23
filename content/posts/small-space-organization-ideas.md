@@ -498,7 +498,7 @@ A valet stand earns its keep for next-day outfits specifically, because pulling 
 
 ## Final Thoughts
 
-Fifty products across six rooms is a lot to take in at once, so don't try to buy all of it in one weekend. Pick whichever room is bothering you today, maybe the couch buried in blankets or the mail pile taking over the counter, and start there. The rest of the house will still be waiting once that one spot finally feels done. If the kitchen is the room without the room, specifically a kitchen with no pantry at all, the [How Do You Organize a Kitchen With No Pantry?](/blog/kitchen-no-pantry/) guide applies this same small-pieces approach there.
+Fifty products across six rooms is a lot to take in at once, so don't try to buy all of it in one weekend. Pick whichever room is bothering you today, maybe the couch buried in blankets or the mail pile taking over the counter, and start there. The rest of the house will still be waiting once that one spot finally feels done. If the kitchen is the room without the room, specifically a kitchen with no pantry at all, the [How Do You Organize a Kitchen With No Pantry?](/blog/kitchen-no-pantry/) guide applies this same small-pieces approach there. And if it's the counter itself running short, especially in an older house, the [Is It Normal for a Kitchen to Not Have Enough Counter Space in an Older House?](/blog/old-house-kitchen-counter-space/) guide covers why that happens and the real fixes for it.
 
 ## More Small Space Ideas Guides
 
