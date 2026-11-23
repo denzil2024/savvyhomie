@@ -210,4 +210,4 @@ Heavy-duty adhesive hooks hold several pounds once they've cured for the time li
 
 None of these seventeen fixes came from a closet aisle. A pool noodle, a dish rack, a wine rack, and binder clips all had a different job before the closet needed them more.
 
-Start with whatever's causing the biggest mess right now. Shoes on the floor mean starting with the tension rods or the cubbies. A drawer that won't close means starting with the magazine holder or the dish rack.
+Start with whatever's causing the biggest mess right now. Shoes on the floor mean starting with the tension rods or the cubbies. A drawer that won't close means starting with the magazine holder or the dish rack. If one closet now has to hold two people's clothes, [Is 400 Square Feet Too Small for a Couple?](/blog/400-sq-ft-couple/) covers how to split that space before it turns into a daily argument.

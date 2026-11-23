@@ -444,4 +444,4 @@ The [Home Organization Ideas](/blog/home-organization-ideas/) guide covers the f
 
 ## Final Thoughts
 
-A minimalist home still has plenty in it. The difference is that every piece earns its spot, whether that's a bed that becomes a desk or a single matching set of jars instead of ten mismatched bottles. Start with the one room that bothers you most, pick the ideas that fit its actual shape, and the rest of the house tends to follow once you've seen how much lighter that room feels.
+A minimalist home still has plenty in it. The difference is that every piece earns its spot, whether that's a bed that becomes a desk or a single matching set of jars instead of ten mismatched bottles. Start with the one room that bothers you most, pick the ideas that fit its actual shape, and the rest of the house tends to follow once you've seen how much lighter that room feels. If two households are merging into one small apartment, [Is 400 Square Feet Too Small for a Couple?](/blog/400-sq-ft-couple/) covers how to combine belongings without the space feeling like it's shrinking by the week.
