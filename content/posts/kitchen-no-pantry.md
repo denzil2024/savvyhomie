@@ -94,7 +94,7 @@ A few tips will help you get the most out of it:
 - **Group similar items:** Keep spices together, canned goods in one section, and baking ingredients in another.
 - **Put everyday items within easy reach:** Reserve the front or most accessible part of the turntable for ingredients you use regularly.
 
-<div class="product"><a href="https://link.amazon/B0dzFjvY9" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-lazy-susan-organizer.webp" alt="Lazy Susan turntable organizers for pantry cabinet" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dzFjvY9" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0dzFjvY9" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-lazy-susan-organizer.webp" alt="Lazy Susan turntable organizers for pantry cabinet" class="product-photo" width="500" height="492" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dzFjvY9" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Bring the Back of the Cabinet Forward With a Roll-Out Shelf
 
@@ -106,7 +106,7 @@ Keep these tips in mind when setting it up:
 - **Place heavier items carefully:** Keep the heaviest containers within easy reach and check the shelf's weight capacity before loading it.
 - **Check the weight limit:** Canned goods and large food containers can be heavy. Choose a shelf designed to support the combined weight without sagging or sticking.
 
-<div class="product"><a href="https://link.amazon/B0fq3cGPz" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-pull-out-cabinet-shelf.webp" alt="Pull out wire cabinet shelf organizer" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fq3cGPz" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fq3cGPz" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-pull-out-cabinet-shelf.webp" alt="Pull out wire cabinet shelf organizer" class="product-photo" width="480" height="333" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fq3cGPz" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Split a Deep Drawer Into Real Sections With Dividers
 
@@ -118,7 +118,7 @@ Before filling the drawer, keep these tips in mind:
 - **Arrange items by size and use:** Keep frequently used items near the front and taller containers towards the back so you can see what's inside.
 - **Leave room for easy access:** Avoid packing each section too tightly. You should be able to remove an item without disturbing everything around it.
 
-<div class="product"><a href="https://link.amazon/B08W4Wo9h" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-drawer-dividers.webp" alt="Adjustable bamboo drawer dividers" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08W4Wo9h" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B08W4Wo9h" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-drawer-dividers.webp" alt="Adjustable bamboo drawer dividers" class="product-photo" width="415" height="410" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08W4Wo9h" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### For Everything Left Over, Roll In a Cart
 
@@ -130,7 +130,7 @@ A few details will make the cart more useful:
 - **Store items by how often you use them:** Keep everyday cooking essentials on the top shelf and less frequently used supplies on the lower shelves.
 - **Lock the wheels when parked:** Use the wheel locks to keep the cart steady while you're preparing food or reaching for something.
 
-<div class="product"><a href="https://link.amazon/B0bOiCE9l" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-rolling-kitchen-cart.webp" alt="Rolling kitchen storage cart with wire shelves" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bOiCE9l" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0bOiCE9l" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-rolling-kitchen-cart.webp" alt="Rolling kitchen storage cart with wire shelves" class="product-photo" width="461" height="489" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bOiCE9l" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### If the Overflow Is Bigger Than a Cart, Bring In a Freestanding Cabinet
 
@@ -142,7 +142,7 @@ Before choosing one, consider a few practical details:
 - **Check the shelf arrangement:** Adjustable shelves make it easier to accommodate tall cereal boxes, large food containers, and bulk grocery packs.
 - **Keep it close to the kitchen:** Choose a spot where you can reach your supplies while cooking. Storing everyday groceries in another room makes meal preparation less convenient.
 
-<div class="product"><a href="https://link.amazon/B09UmBNVr" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-freestanding-pantry-cabinet.webp" alt="Freestanding white pantry storage cabinet" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09UmBNVr" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09UmBNVr" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-freestanding-pantry-cabinet.webp" alt="Freestanding white pantry storage cabinet" class="product-photo" width="500" height="449" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09UmBNVr" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Hang Storage on the Door That's Been Empty This Whole Time
 
@@ -154,7 +154,7 @@ Before buying one, check a few things:
 - **Choose lightweight items:** Spices, seasoning sachets, and small packets work well. Avoid loading the hooks with heavy jars or bulky containers.
 - **Look for removable hooks:** Hook-mounted organizers are easier to install and remove, making them a practical option if you're renting or planning to move.
 
-<div class="product"><a href="https://link.amazon/B0h7zqOPY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-over-door-organizer.webp" alt="Over the door hanging storage organizer" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0h7zqOPY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0h7zqOPY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-over-door-organizer.webp" alt="Over the door hanging storage organizer" class="product-photo" width="369" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0h7zqOPY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Hook a Basket Under the Shelf Instead of Wasting That Gap
 
@@ -168,7 +168,7 @@ Before buying one, check these details:
 
 <blockquote><p><strong>Pro tip:</strong> Add one under every shelf that has clearance, not just one. A single basket barely moves the needle, a full set of them adds real capacity.</p></blockquote>
 
-<div class="product"><a href="https://link.amazon/B00MOwJTg" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-under-shelf-basket.webp" alt="Under shelf wire storage baskets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00MOwJTg" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00MOwJTg" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-under-shelf-basket.webp" alt="Under shelf wire storage baskets" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00MOwJTg" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Decant Into Containers You Can See Through
 
@@ -180,7 +180,7 @@ A few tips will help you choose and use them properly:
 - **Choose the right container size:** Match the capacity to how much you buy and how quickly you use it. Large containers take up valuable shelf space when you're storing small quantities.
 - **Label every container:** Flour and sugar can look identical once transferred. Add the food name and, where useful, the expiration or best-before date so you can identify everything easily.
 
-<div class="product"><a href="https://link.amazon/B06k1aHOe" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-airtight-food-containers.webp" alt="Airtight clear food storage containers" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06k1aHOe" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B06k1aHOe" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-airtight-food-containers.webp" alt="Airtight clear food storage containers" class="product-photo" width="374" height="479" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06k1aHOe" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Keep Only the Daily Staples on the Counter
 
@@ -194,7 +194,7 @@ Use these simple guidelines when deciding what stays:
 
 Once every cabinet, drawer, and container has a real job, the [Pantry Organization Tips](/blog/pantry-organization-tips/) guide covers the same clean-zone-contain sequence in more depth, for anyone who does have a dedicated pantry to apply it to as well.
 
-<div class="product"><a href="https://link.amazon/B0dyf6yrr" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-glass-canister-set.webp" alt="Glass canister set with airtight lids" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dyf6yrr" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0dyf6yrr" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/kitchen-no-pantry-glass-canister-set.webp" alt="Glass canister set with airtight lids" class="product-photo" width="489" height="451" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dyf6yrr" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## How Long This Takes to Feel Done
 

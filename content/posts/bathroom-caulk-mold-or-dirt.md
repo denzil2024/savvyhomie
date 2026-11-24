@@ -49,11 +49,11 @@ Spray the line with a basic cleaner, like a soap scum remover, and wipe it with 
 
 This one test alone talks a surprising number of people down off the ledge. Bathroom lighting makes everything look worse than it is, and plenty of what sets off alarm bells is just residue that's never had an honest scrub, not something that's been growing in the dark for weeks. If the line wipes clean and stays clean for a week, breathe, that spot was dirt or soap scum, not mold.
 
-<div class="product"><a href="https://link.amazon/B0aaB9pnt" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-soap-scum-remover.webp" alt="Soap scum remover spray bottle" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0aaB9pnt" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0aaB9pnt" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-soap-scum-remover.webp" alt="Soap scum remover spray bottle" class="product-photo" width="389" height="470" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0aaB9pnt" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A gritty crust that doesn't budge with a normal wipe points to hard water instead of anything biological, and the smell and bleach tests below won't help with that case. **A hard water stain remover clears it in one pass, where bleach does nothing for it.**
 
-<div class="product"><a href="https://link.amazon/B0d52sCpD" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-hard-water-stain-remover.webp" alt="Hard water stain remover bottle" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0d52sCpD" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0d52sCpD" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-hard-water-stain-remover.webp" alt="Hard water stain remover bottle" class="product-photo" width="248" height="462" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0d52sCpD" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 If it didn't fully wipe clean and isn't gritty like hard water, or it came back within a few days, keep going.
 
@@ -73,7 +73,7 @@ This only works on caulk and grout, since bleach can discolor some painted or fi
 
 A bleach pen controls that dab better than a soaked cotton ball, no drips down the tile.
 
-<div class="product"><a href="https://link.amazon/B0ivmCni6" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-bleach-pen.webp" alt="Bleach pen two-pack" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0ivmCni6" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0ivmCni6" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-bleach-pen.webp" alt="Bleach pen two-pack" class="product-photo" width="480" height="471" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0ivmCni6" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> Run the bathroom fan or crack a window before doing the bleach test, and never pair it with any other cleaner on the same spot. <strong>Mixing bleach with an ammonia-based or acidic cleaner releases a toxic gas.</strong></p></blockquote>
 
@@ -87,7 +87,7 @@ Caulk seals a joint, but it doesn't always seal it perfectly for its full lifesp
 
 If the results come back mixed, the line wipes mostly clean but the smell lingers, or the bleach test sits right on the 45-second line, **treat it as mold until proven otherwise.** Cleaning a spot that turns out to be stubborn soap scum costs a few minutes. Ignoring a spot that turns out to be hidden mold costs a bigger repair later, once it's spread further behind the wall.
 
-<div class="product"><a href="https://link.amazon/B00jR9L0l" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-mold-mildew-remover-spray.webp" alt="Mold and mildew cleaner spray" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00jR9L0l" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00jR9L0l" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-mold-mildew-remover-spray.webp" alt="Mold and mildew cleaner spray" class="product-photo" width="500" height="365" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00jR9L0l" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Clean It, or Pull the Caulk and Start Over?
 
@@ -98,7 +98,7 @@ If the results come back mixed, the line wipes mostly clean but the smell linger
 
 A caulk removal tool makes that last job far cleaner than a utility knife. Cut along both edges of the bead and peel it out in strips to avoid tearing the tile's factory edge or leaving half the old caulk stuck in the corners.
 
-<div class="product"><a href="https://link.amazon/B0jcpsFWH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-caulk-removal-tool.webp" alt="Caulk removal tool" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0jcpsFWH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0jcpsFWH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-caulk-removal-tool.webp" alt="Caulk removal tool" class="product-photo" width="500" height="417" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0jcpsFWH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Keeping the Same Spot From Coming Back
 
@@ -112,7 +112,7 @@ Beyond the caulk itself, a few small habits slow regrowth:
 
 None of that replaces a proper mold-resistant seal, but it buys that seal more time before it needs attention again.
 
-<div class="product"><a href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-mold-resistant-silicone-caulk.webp" alt="Mold resistant silicone caulk" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bcm-mold-resistant-silicone-caulk.webp" alt="Mold resistant silicone caulk" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0ginlOgY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 The [Bathroom Organization Ideas](/blog/bathroom-organization-ideas/) guide covers the rest of the bathroom, from the cabinet under the sink to the medicine cabinet, once the caulk question's settled. The [Spring Cleaning Tips](/blog/spring-cleaning-tips/) guide has the grout brush and mildew-proof picks worth adding to the same cleaning pass. Same dark-ring question, different spot: the [Black Stuff Around the Bathtub Drain, Is It Mold?](/blog/bathtub-drain-black-mold/) guide walks through the same kind of texture test for the drain itself.
 

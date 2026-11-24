@@ -52,7 +52,7 @@ Vinyl and PVC liners sit inside the tub, taking the most direct, constant contac
 
 A nylon or fabric shower curtain liner won't stop biofilm from ever forming, but it buys real time between cleanings compared to a standard vinyl one. If sticking with plastic, look for one made from PEVA instead of standard PVC vinyl. **PEVA is a mold-resistant plastic that holds up better against the same conditions.** A hookless design in the [27 Amazon Bathroom Finds](/blog/amazon-bathroom-finds/) guide combines both pieces into one washable unit, so there's no separate liner hanging on its own getting slimy in the first place.
 
-<div class="product"><a href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-fabric-liner.webp" alt="Nylon fabric shower curtain liner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-fabric-liner.webp" alt="Nylon fabric shower curtain liner" class="product-photo" width="404" height="482" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09rMYqvZ" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> A fabric liner still needs to be spread out to dry after every shower. Material alone doesn't fix a liner that stays bunched and wet.</p></blockquote>
 
@@ -68,11 +68,11 @@ That last one matters more than it sounds like it should. A rough sponge or a sc
 
 Pulling the liner fully open across the rod after every shower is free and solves most of this on its own. For a liner that keeps drifting back into a bunch, small magnetic or weighted clips along the bottom hem keep it hanging flat and separated from the tub wall.
 
-<div class="product"><a href="https://link.amazon/B08THYDNy" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-curtain-weights.webp" alt="Shower curtain liner weights" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08THYDNy" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B08THYDNy" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-curtain-weights.webp" alt="Shower curtain liner weights" class="product-photo" width="485" height="476" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08THYDNy" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A double shower curtain rod gives the liner its own separate bar from the decorative curtain, so it hangs flatter and dries more fully instead of being pressed against a second layer of fabric.
 
-<div class="product"><a href="https://link.amazon/B09Cq2WWH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-double-shower-rod.webp" alt="Double shower curtain rod" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09Cq2WWH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09Cq2WWH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-double-shower-rod.webp" alt="Double shower curtain rod" class="product-photo" width="494" height="445" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09Cq2WWH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Bathroom Humidity Feeds It From the Outside
 
@@ -82,7 +82,7 @@ A liner doesn't just get wet from its own shower. **It sits inside a room that s
 
 A squeegee run down the tub walls and liner right after a shower cuts down how much standing water is left for biofilm to use in the first place.
 
-<div class="product"><a href="https://link.amazon/B07vf3ngs" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-squeegee.webp" alt="Shower squeegee" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07vf3ngs" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07vf3ngs" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-squeegee.webp" alt="Shower squeegee" class="product-photo" width="500" height="463" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07vf3ngs" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Cleaning Habits That Make It Worse
 
@@ -94,11 +94,11 @@ Some everyday habits speed up how soon a liner goes slimy, and several of them h
 
 Switching from bar soap to a non-soap cleanser bar or body wash cuts down on exactly the residue that feeds biofilm in the first place.
 
-<div class="product"><a href="https://link.amazon/B00RaPQR9" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-non-soap-cleanser-bar.webp" alt="Non-soap cleanser bar" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00RaPQR9" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00RaPQR9" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-non-soap-cleanser-bar.webp" alt="Non-soap cleanser bar" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00RaPQR9" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 When it's time to machine wash the liner itself, a mesh laundry bag keeps it from twisting around the agitator or catching on anything else in the load.
 
-<div class="product"><a href="https://link.amazon/B013X2HKT" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-mesh-laundry-bag.webp" alt="Mesh laundry bag" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B013X2HKT" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B013X2HKT" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/scl-mesh-laundry-bag.webp" alt="Mesh laundry bag" class="product-photo" width="430" height="483" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B013X2HKT" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> Add a few old towels to the wash load alongside the liner. The extra friction helps scrub off residue the detergent alone won't fully lift.</p></blockquote>
 

@@ -90,7 +90,7 @@ A sealed shelf or drawer traps the moisture that potatoes, onions, and other roo
 - **Check the bin weekly**, not just once something starts to smell
 - **Ventilated plastic over a sealed bin**, the holes matter more than the material
 
-<div class="product"><a href="https://link.amazon/B0hG0AdEL" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-ventilated-produce-bin.webp" alt="Stackable ventilated produce storage bins" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0hG0AdEL" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0hG0AdEL" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-ventilated-produce-bin.webp" alt="Stackable ventilated produce storage bins" class="product-photo" width="481" height="369" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0hG0AdEL" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Pull the Trapped Humidity Back Out
 
@@ -100,7 +100,7 @@ Wiping down a musty shelf removes the mold that's already visible, but it does n
 - **Replace it once it's saturated**, most show a clear visual cue when they're done absorbing
 - **Pair it with cracking the door** after cooking or running the dishwasher, for a space that stays damp no matter what
 
-<div class="product"><a href="https://link.amazon/B03mniA2G" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-moisture-absorber-hanging-bags.webp" alt="Moisture absorbing hanging bags" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03mniA2G" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B03mniA2G" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-moisture-absorber-hanging-bags.webp" alt="Moisture absorbing hanging bags" class="product-photo" width="492" height="491" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03mniA2G" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Seal the Gaps a Mouse Is Using
 
@@ -110,7 +110,7 @@ A mouse can fit through a gap about the width of a pencil, which is why a pantry
 - **Pack it in tightly**, a mouse can chew through a loosely stuffed gap
 - **Clean up afterward**, the smell itself won't clear until the source is gone and the area's been wiped down
 
-<div class="product"><a href="https://link.amazon/B0hwqyxjW" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-steel-wool-gap-sealant.webp" alt="Steel wool for sealing gaps" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0hwqyxjW" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0hwqyxjW" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-steel-wool-gap-sealant.webp" alt="Steel wool for sealing gaps" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0hwqyxjW" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Get a Seal That Holds
 
@@ -120,7 +120,7 @@ A snap-lid container looks sealed, but it still lets air move in and out around 
 - **Reseal after each use**, the seal only works while it's fully closed
 - **Label with the date**, since a vacuum-sealed bag hides freshness cues a clear jar would show
 
-<div class="product"><a href="https://link.amazon/B06mgpiEo" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-vacuum-seal-bags.webp" alt="Vacuum seal food storage bags" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06mgpiEo" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B06mgpiEo" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-vacuum-seal-bags.webp" alt="Vacuum seal food storage bags" class="product-photo" width="412" height="481" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06mgpiEo" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Absorb What's Left Once the Source Is Gone
 
@@ -130,7 +130,7 @@ Even after the rotten produce is tossed, the mold's been cleaned, or the gap's b
 - **Give it a few days**, it works gradually, not instantly
 - **Not a substitute for finding the source**, only bring it in once the real cause is handled
 
-<div class="product"><a href="https://link.amazon/B00iR1mHo" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-activated-charcoal-bags.webp" alt="Activated charcoal odor absorber bags" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00iR1mHo" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00iR1mHo" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-smell-activated-charcoal-bags.webp" alt="Activated charcoal odor absorber bags" class="product-photo" width="500" height="498" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00iR1mHo" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## If None of That Matches
 

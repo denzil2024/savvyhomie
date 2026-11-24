@@ -51,7 +51,7 @@ For most households this stays a cleaning annoyance, not a health scare. It's wo
 
 A tub drain hair catcher cuts off a real chunk of the food supply before it ever reaches the drain, and trapped hair is exactly what biofilm's been feasting on down there.
 
-<div class="product"><a href="https://link.amazon/B0bBYuNsq" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-hair-catcher.webp" alt="Tub drain hair catcher" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bBYuNsq" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0bBYuNsq" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-hair-catcher.webp" alt="Tub drain hair catcher" class="product-photo" width="476" height="348" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bBYuNsq" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> A slow-draining tub is worth treating as a cause, not just an annoyance. The slower the water moves, the longer biofilm gets to feed on whatever's sitting in it.</p></blockquote>
 
@@ -95,7 +95,7 @@ That explains the black sludge that sometimes sprays out the second the jets kic
 - Run the jets for 10 to 20 minutes with a cleaner made for jetted systems
 - Drain, then refill with plain water and run the jets again to flush out any residue left behind
 
-<div class="product"><a href="https://link.amazon/B0j2RUe6e" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-jetted-tub-cleaner.webp" alt="Jetted tub jet cleaner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0j2RUe6e" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0j2RUe6e" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-jetted-tub-cleaner.webp" alt="Jetted tub jet cleaner" class="product-photo" width="360" height="496" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0j2RUe6e" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> <strong>Run a jet cleaning cycle every month or two if the tub gets regular use.</strong> The buildup inside the lines compounds the same way a dirty drain does, just completely out of sight.</p></blockquote>
 
@@ -113,7 +113,7 @@ If the smell won't trace back to the drain opening, that's where to look next, b
 
 An overflow tube cleaning brush reaches into that narrow opening in a way nothing else in a standard cleaning kit does.
 
-<div class="product"><a href="https://link.amazon/B0e63oDh4" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-overflow-cleaning-brush.webp" alt="Bathtub overflow tube cleaning brush" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0e63oDh4" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0e63oDh4" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-overflow-cleaning-brush.webp" alt="Bathtub overflow tube cleaning brush" class="product-photo" width="469" height="483" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0e63oDh4" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## A Sulfur Smell Means Something Else Entirely
 
@@ -132,20 +132,20 @@ The drain and the overflow tube aren't close to the same job. One's wide open an
 
 A drain cleaning brush handles the visible stain and the stretch of pipe right past the opening, exactly where biofilm likes to set up camp.
 
-<div class="product"><a href="https://link.amazon/B0bkhSaPy" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-cleaning-brush.webp" alt="Drain cleaning brush" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bkhSaPy" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0bkhSaPy" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-cleaning-brush.webp" alt="Drain cleaning brush" class="product-photo" width="491" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bkhSaPy" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A brush can only go so far. If the drain's slow on top of being discolored, the real buildup is sitting further down than any brush will ever follow.
 
 A drain opening powder dissolves straight through that deeper section instead of relying on bristles to scrape it loose, and that's the difference between a drain that merely looks better and one that drains at a normal speed again.
 
-<div class="product"><a href="https://link.amazon/B036SrEUW" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-opening-powder.webp" alt="Drain opening powder" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B036SrEUW" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B036SrEUW" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-drain-opening-powder.webp" alt="Drain opening powder" class="product-photo" width="244" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B036SrEUW" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 **For buildup further down the pipe:**
 A standard declogger is all brute force, pressure or chemical reaction shoving a clog out of the way without ever touching what caused it. **An enzyme drain cleaner plays a longer game.**
 
 It sends in live enzymes to break down the hair, skin cells, and soap film biofilm was built from in the first place, so the mess gets eaten instead of just pushed further down the pipe. That's the better pick for a drain that's slow and smelly but not truly blocked. There's no hard clog here to force through to begin with.
 
-<div class="product"><a href="https://link.amazon/B0gssBehp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-enzyme-drain-cleaner.webp" alt="Enzyme drain cleaner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0gssBehp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0gssBehp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bdb-enzyme-drain-cleaner.webp" alt="Enzyme drain cleaner" class="product-photo" width="401" height="466" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0gssBehp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> <strong>Never mix an enzyme cleaner with bleach in the same cleaning pass.</strong> Bleach kills the same bacteria an enzyme cleaner relies on to work, so running both back to back cancels out the enzyme treatment entirely.</p></blockquote>
 

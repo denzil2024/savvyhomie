@@ -11,6 +11,19 @@
 import { marked } from 'marked'
 import imageDims from './image-dims.json'
 
+// Plain markdown `![]()` images (used inline in Home Questions body prose)
+// get no width/height/loading from marked's default renderer, unlike the
+// roundup `products` array cards which get it via dimsOf() in Post.jsx. This
+// closes that gap so every image avoids CLS and defers offscreen loads.
+const renderer = new marked.Renderer()
+renderer.image = ({ href, title, text }) => {
+  const [w, h] = imageDims[href] || []
+  const dims = w ? ` width="${w}" height="${h}"` : ''
+  const titleAttr = title ? ` title="${title}"` : ''
+  return `<img src="${href}" alt="${text}"${titleAttr}${dims} loading="lazy" decoding="async">`
+}
+marked.use({ renderer })
+
 const files = import.meta.glob('../../content/posts/*.md', { query: '?raw', import: 'default', eager: true })
 
 function parseFrontmatter(raw) {

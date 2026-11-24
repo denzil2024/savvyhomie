@@ -40,11 +40,11 @@ Soft items hold water long after the hard surfaces look dry, and a musty smell c
 
 A quick-dry bath mat solves the underside problem specifically. Its bottom layer is built to let air through instead of sealing moisture against the floor.
 
-<div class="product"><a href="https://link.amazon/B0c9N1CcI" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-quick-dry-bath-mat.webp" alt="Quick dry bath mat" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c9N1CcI" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0c9N1CcI" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-quick-dry-bath-mat.webp" alt="Quick dry bath mat" class="product-photo" width="488" height="381" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c9N1CcI" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A mildew resistant shower curtain liner buys more time between replacements. A standard liner tends to pick up spotting within a few months in a shower that gets used daily. If towels themselves are the real culprit, the [27 Amazon Bathroom Finds](/blog/amazon-bathroom-finds/) guide has a towel ladder rack built specifically to stop that damp-towel smell before it starts.
 
-<div class="product"><a href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-shower-curtain-liner.webp" alt="Mildew resistant shower curtain liner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-shower-curtain-liner.webp" alt="Mildew resistant shower curtain liner" class="product-photo" width="390" height="470" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0aLVlgTm" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A liner that's gone past spotting into a slimy texture is a different problem than a musty room. The [Why Does My Shower Curtain Liner Get Slimy So Fast?](/blog/shower-curtain-liner-slimy/) guide covers the biofilm, material, and habits behind that specifically.
 
@@ -58,11 +58,11 @@ Hair, soap scum, and skin oils build up along the inside of a drain pipe and for
 
 A flexible drain cleaning brush reaches further into the pipe than a standard brush or a straightened wire hanger, and it pulls out the buildup instead of just pushing it deeper.
 
-<div class="product"><a href="https://link.amazon/B0fquss0P" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-drain-cleaning-brush.webp" alt="Drain cleaning brush" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fquss0P" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fquss0P" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-drain-cleaning-brush.webp" alt="Drain cleaning brush" class="product-photo" width="491" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fquss0P" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 For buildup further down than a brush can reach, an enzyme drain cleaner breaks down the organic layer itself instead of just forcing water past it like a chemical declogger does.
 
-<div class="product"><a href="https://link.amazon/B001pU7jE" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-enzyme-drain-cleaner.webp" alt="Enzyme drain cleaner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B001pU7jE" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B001pU7jE" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-enzyme-drain-cleaner.webp" alt="Enzyme drain cleaner" class="product-photo" width="277" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B001pU7jE" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## A Dry P-Trap Can Let Sewer Smell In
 
@@ -108,11 +108,11 @@ Even with everything else ruled out, the caulk lines and grout joints themselves
 
 A grout cleaner strips out the soap scum and grime that's feeding growth inside the grout lines themselves, not just sitting on top of the tile.
 
-<div class="product"><a href="https://link.amazon/B0cCVwKx2" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-grout-cleaner.webp" alt="Grout cleaner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0cCVwKx2" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0cCVwKx2" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-grout-cleaner.webp" alt="Grout cleaner" class="product-photo" width="166" height="493" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0cCVwKx2" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 Once the grout is clean and fully dry, a grout sealer keeps water from soaking back in the way it did before, instead of leaving the joint porous again within a few months.
 
-<div class="product"><a href="https://link.amazon/B03AMPtVC" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-grout-sealer.webp" alt="Grout sealer" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03AMPtVC" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B03AMPtVC" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-grout-sealer.webp" alt="Grout sealer" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03AMPtVC" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Why Bleach Alone Doesn't Fix It
 
@@ -124,7 +124,7 @@ Reaching for bleach is the default move for a musty bathroom, and it's also why 
 
 A mold and mildew cleaner spray built for bathroom surfaces handles this properly. The formula is designed to sit and work rather than just bleach the color out of a stain.
 
-<div class="product"><a href="https://link.amazon/B09gGOmGp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-mold-mildew-cleaner-spray.webp" alt="Mold and mildew cleaner spray" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09gGOmGp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09gGOmGp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-mold-mildew-cleaner-spray.webp" alt="Mold and mildew cleaner spray" class="product-photo" width="192" height="451" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09gGOmGp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Mold Hiding Somewhere You're Not Cleaning
 
@@ -136,7 +136,7 @@ If every surface, drain, and seal checks out clean and the smell is still there,
 
 A standalone bathroom dehumidifier helps regardless of where the hidden source turns out to be. It pulls down the ambient humidity that every single cause on this list depends on to keep going.
 
-<div class="product"><a href="https://link.amazon/B01UwoQLl" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-bathroom-dehumidifier.webp" alt="Bathroom dehumidifier" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B01UwoQLl" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B01UwoQLl" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/bms-bathroom-dehumidifier.webp" alt="Bathroom dehumidifier" class="product-photo" width="500" height="483" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B01UwoQLl" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> Working through every cause above and still finding nothing is worth a mold inspector's time. Hidden wall-cavity growth isn't something a product off a shelf reaches.</p></blockquote>
 

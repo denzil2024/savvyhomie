@@ -73,7 +73,7 @@ This is usually the first thing worth trying for ordinary food smell. Baking sod
 - **An hour is the minimum**, overnight works better for a smell that's been building for weeks
 - **Lid included**, since residue in the gasket groove needs the soak too, not just the container body
 
-<div class="product"><a href="https://link.amazon/B020VShgi" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-baking-soda.webp" alt="Baking soda for odor removal" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B020VShgi" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B020VShgi" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-baking-soda.webp" alt="Baking soda for odor removal" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B020VShgi" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Work a Baking Soda Paste Into Stains and the Groove
 
@@ -83,7 +83,7 @@ A soak works on smell spread through the plastic, but a stuck-in stain or buildu
 - **15 to 30 minutes of contact time**, longer for a stain that's been set in for a while
 - **Use the soft side of the sponge on the groove**, the abrasive side can tear a thin silicone gasket
 
-<div class="product"><a href="https://link.amazon/B00zMnjCk" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-scrub-sponge.webp" alt="Heavy duty scrub sponge" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00zMnjCk" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00zMnjCk" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-scrub-sponge.webp" alt="Heavy duty scrub sponge" class="product-photo" width="485" height="499" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00zMnjCk" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Fill It With White Vinegar When Baking Soda Didn't Finish the Job
 
@@ -93,7 +93,7 @@ Vinegar works through acidity instead of baking soda's alkalinity, which is why 
 - **A few hours is standard**, stronger smells can soak overnight without any harm to the plastic
 - **Wash with soap afterward**, a vinegar soak alone leaves its own smell behind if it isn't rinsed out
 
-<div class="product"><a href="https://link.amazon/B0eAIVDHx" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-white-vinegar.webp" alt="Distilled white vinegar" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eAIVDHx" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0eAIVDHx" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-white-vinegar.webp" alt="Distilled white vinegar" class="product-photo" width="246" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eAIVDHx" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Combine Vinegar and Baking Soda for a Smell That's Deeply Set In
 
@@ -105,7 +105,7 @@ If a container didn't respond to either method alone, combining them tends to wo
 
 <blockquote><p><strong>Pro tip:</strong> Do this one in the sink, not on a counter. Even a controlled fizz pushes a little liquid over the rim once the container's full, and a sink means that's nothing to wipe up.</p></blockquote>
 
-<div class="product"><a href="https://link.amazon/B00R96LII" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-glass-measuring-cup.webp" alt="Glass measuring cup" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00R96LII" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00R96LII" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-glass-measuring-cup.webp" alt="Glass measuring cup" class="product-photo" width="492" height="383" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00R96LII" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Dry It on a Slatted Rack Instead of a Flat Towel
 
@@ -115,7 +115,7 @@ Sun exposure is a good last step after any soak, since UV seems to break down od
 - **Open side up**, so sunlight reaches the interior directly instead of just the exterior plastic
 - **Works on lids too**, prop them against the rack instead of laying them flat on a counter
 
-<div class="product"><a href="https://link.amazon/B0bFMpvmY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-drying-rack.webp" alt="Drying rack with slats" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bFMpvmY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0bFMpvmY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-drying-rack.webp" alt="Drying rack with slats" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bFMpvmY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Seal in a Charcoal Odor Packet for What's Still Faintly There
 
@@ -125,7 +125,7 @@ If there's just a faint smell left after a full soak-and-sun cycle, rather than 
 - **Reusable over months**, a packet left in rotation between containers doesn't need replacing after one use
 - **Works on a whole cabinet of containers at once**, not just the one that's currently a problem
 
-<div class="product"><a href="https://link.amazon/B07jRGyyi" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-charcoal-odor-packets.webp" alt="Bamboo charcoal odor absorbing packets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07jRGyyi" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07jRGyyi" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-charcoal-odor-packets.webp" alt="Bamboo charcoal odor absorbing packets" class="product-photo" width="500" height="498" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07jRGyyi" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Keep a Sachet Inside During Storage
 
@@ -135,7 +135,7 @@ Once a container is clean, keeping it that way between uses is its own problem. 
 - **Cedar lasts longer between refreshes than most people expect**, a light sanding restores the scent without replacing it
 - **Keep a couple in rotation**, so every container in a cabinet gets one instead of just the worst offender
 
-<div class="product"><a href="https://link.amazon/B05Q7vNs4" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-cedar-sachets.webp" alt="Cedar storage sachets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B05Q7vNs4" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B05Q7vNs4" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-cedar-sachets.webp" alt="Cedar storage sachets" class="product-photo" width="500" height="362" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B05Q7vNs4" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Rinse With Cold Water First on Anything Stained
 
@@ -145,7 +145,7 @@ This one is more about stains than smell. **Hot water tends to set tomato or tur
 - **Only switch to warm or hot water for the actual wash**, once the initial pigment has already been rinsed away
 - **A dedicated basin keeps the habit consistent**, instead of relying on remembering to run the tap cold first at a shared sink
 
-<div class="product"><a href="https://link.amazon/B0fDxfDIv" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-rinse-basin.webp" alt="Collapsible rinse basin" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fDxfDIv" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fDxfDIv" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-rinse-basin.webp" alt="Collapsible rinse basin" class="product-photo" width="489" height="400" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fDxfDIv" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Pop the Gasket Out and Scrub the Groove Directly
 
@@ -157,7 +157,7 @@ A container can pass every other step and still smell a little off if the lid's 
 
 <blockquote><p><strong>Pro tip:</strong> Check the groove by smell, not by sight. A gasket can look completely clean and still carry a sour smell that only shows up once it's popped out and held close.</p></blockquote>
 
-<div class="product"><a href="https://link.amazon/B08jD0ozb" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-detail-brush-set.webp" alt="Detail cleaning brush set" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08jD0ozb" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B08jD0ozb" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/plastic-container-smell-detail-brush-set.webp" alt="Detail cleaning brush set" class="product-photo" width="360" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B08jD0ozb" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## The Habit That Prevents Most of This
 

@@ -54,13 +54,13 @@ Most kitchen sponges are polyurethane foam, and that specific material is part o
 
 Natural sponges made from cellulose or plant fiber behave differently. They're more breathable and dry faster than synthetic foam, and bacteria need sustained moisture to keep multiplying. A sponge that dries out fully between uses, rather than staying damp at its core for hours, gives bacteria far less working time.
 
-<div class="product"><a href="https://link.amazon/B0c8BbT7n" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-cellulose-sponges.webp" alt="Natural cellulose sponges" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c8BbT7n" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0c8BbT7n" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-cellulose-sponges.webp" alt="Natural cellulose sponges" class="product-photo" width="485" height="466" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c8BbT7n" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 Silicone is the other real alternative, and it works on a completely different principle than either foam or cellulose. **It has no pores at all, so there's nowhere for bacteria to hide and nothing to trap moisture against.** Everything that happens on a silicone sponge happens on the surface, right where a rinse reaches it, instead of somewhere deep inside the material that water never fully touches.
 
 That's also why it dries so fast it's almost suspicious the first time. Wring out a foam sponge and it's still damp an hour later. A silicone one is dry enough to put away within a few minutes, and dry is exactly the condition bacteria can't do much with.
 
-<div class="product"><a href="https://link.amazon/B04BTenty" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-silicone-dish-sponge.webp" alt="Silicone dish sponge" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B04BTenty" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B04BTenty" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-silicone-dish-sponge.webp" alt="Silicone dish sponge" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B04BTenty" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> Silicone scrubs differently than foam: less absorbent, more abrasive. <strong>It takes some getting used to, but it never develops the sour smell a foam sponge does.</strong></p></blockquote>
 
@@ -100,7 +100,7 @@ One real figure puts the stakes in perspective: **a single wipe with a contamina
 
 A dedicated dish brush with its own stand keeps the bristles upright and air-drying between uses, rather than sitting wet in a sink the way a sponge does.
 
-<div class="product"><a href="https://link.amazon/B079gz9KB" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-dish-brush-stand.webp" alt="Dish brush with stand" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B079gz9KB" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B079gz9KB" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-dish-brush-stand.webp" alt="Dish brush with stand" class="product-photo" width="345" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B079gz9KB" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 A sponge that's past its prime for dishes still has a second life wiping counters or the stovetop, lower-risk jobs that don't need a fresh sponge. It doesn't have to go straight in the trash the moment it starts to smell.
 
@@ -108,7 +108,7 @@ A sponge that's past its prime for dishes still has a second life wiping counter
 
 A sponge holder caddy that drains and keeps the sponge elevated off the sink basin matters more than people expect, since standing water at the bottom of a sponge is exactly what keeps it from drying out between uses.
 
-<div class="product"><a href="https://link.amazon/B07VRrx3S" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-sponge-holder-caddy.webp" alt="Sponge holder caddy" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07VRrx3S" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07VRrx3S" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-sponge-holder-caddy.webp" alt="Sponge holder caddy" class="product-photo" width="394" height="217" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07VRrx3S" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 The [48 Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide has more ways to keep the whole sink area, not just the sponge, from turning into a damp catch-all.
 
@@ -124,7 +124,7 @@ The [48 Kitchen Organization Ideas](/blog/kitchen-organization-ideas/) guide has
 
 Microfiber cloths carry a real practical advantage: they go through the wash with everything else instead of sitting at the sink indefinitely. That resets the bacterial load on a real schedule, something rinsing a sponge never does.
 
-<div class="product"><a href="https://link.amazon/B0irCNJex" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-microfiber-cloths.webp" alt="Microfiber cleaning cloths" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0irCNJex" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0irCNJex" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-microfiber-cloths.webp" alt="Microfiber cleaning cloths" class="product-photo" width="485" height="470" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0irCNJex" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## The Real Replacement Schedule
 
@@ -134,7 +134,7 @@ Forget the usual vague cleaning advice. **The study's own authors put a real num
 - A sponge that smells sour, feels slimy, or shows any discoloration has crossed the point where cleaning is worth attempting
 - Buying in bulk removes the friction that makes people stretch a single sponge for a month instead of a week
 
-<div class="product"><a href="https://link.amazon/B084Rw0S5" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-sponge-multipack.webp" alt="Kitchen sponge multipack" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B084Rw0S5" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B084Rw0S5" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/ks-sponge-multipack.webp" alt="Kitchen sponge multipack" class="product-photo" width="500" height="343" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B084Rw0S5" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## FAQ
 

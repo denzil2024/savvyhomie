@@ -36,7 +36,7 @@ That's also the real reason to glove up before a real sort through boxes that ha
 
 A dehumidifier is the one fix that helps everything in the garage at once, not just the boxes. Lowering the ambient humidity slows mold growth on cardboard, reduces the musty smell that builds up in an enclosed space, and makes the whole room less appealing to the moisture-loving pests covered next.
 
-<div class="product"><a href="https://link.amazon/B00hu8Zxu" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-dehumidifier.webp" alt="Dehumidifier for garage or basement" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00hu8Zxu" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00hu8Zxu" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-dehumidifier.webp" alt="Dehumidifier for garage or basement" class="product-photo" width="298" height="498" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00hu8Zxu" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Cardboard Breaks Down on Its Own, Even Without Moisture
 
@@ -56,7 +56,7 @@ Cardboard doesn't just sit there waiting to get infested. It actively helps, in 
 
 A silverfish or pantry pest trap set near stored boxes catches the problem early, well before it spreads into whatever else is packed nearby.
 
-<div class="product"><a href="https://link.amazon/B0eiPanzd" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-silverfish-traps.webp" alt="Silverfish and pantry pest traps" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eiPanzd" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0eiPanzd" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-silverfish-traps.webp" alt="Silverfish and pantry pest traps" class="product-photo" width="445" height="467" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eiPanzd" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Shelter
 
@@ -78,7 +78,7 @@ They're also a practical, separate problem for anyone who parks a car in the gar
 
 A rodent repellent placed around stored boxes and shelving makes the whole area less appealing to nest in, without needing traps as the first move. It's a lower-effort starting point, worth trying before escalating to anything more aggressive.
 
-<div class="product"><a href="https://link.amazon/B0dMTawUV" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-rodent-repellent.webp" alt="Rodent repellent" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dMTawUV" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0dMTawUV" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-rodent-repellent.webp" alt="Rodent repellent" class="product-photo" width="471" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dMTawUV" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 <blockquote><p><strong>Pro tip:</strong> Open a long-stored box outdoors or with a window open if it hasn't been touched in over a year, and avoid sweeping up any droppings dry. <strong>The CDC specifically recommends wetting the area first to keep particles from becoming airborne.</strong></p></blockquote>
 
@@ -114,13 +114,13 @@ None of the real risks above need a full garage overhaul to solve. Five changes 
 
 This is the single biggest fix, since it removes the root cause instead of managing around it. **A plastic bin doesn't absorb moisture the way cardboard does.** It gives pests nothing to eat, and a snap-on lid keeps most insects out entirely. Everything else on this list is a refinement on top of this one switch, not a replacement for it.
 
-<div class="product"><a href="https://link.amazon/B0fpYMG3X" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-plastic-storage-bins.webp" alt="Stackable clear plastic storage bins" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fpYMG3X" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fpYMG3X" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-plastic-storage-bins.webp" alt="Stackable clear plastic storage bins" class="product-photo" width="451" height="479" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fpYMG3X" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### 2. Get Everything Off the Floor
 
 The container matters, but height matters almost as much. Ground-level storage sits closest to flooding, rising damp, and the exact spot rodents explore first when they're looking for a way in. A shelving rack solves this in one pass: it keeps bins elevated, keeps the garage floor clear, and makes the six-month check faster since nothing needs to be dug out from a pile.
 
-<div class="product"><a href="https://link.amazon/B0eqCCkA6" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-garage-shelving-rack.webp" alt="Garage storage shelving rack" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eqCCkA6" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0eqCCkA6" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-garage-shelving-rack.webp" alt="Garage storage shelving rack" class="product-photo" width="486" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eqCCkA6" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 The [29 House Organization Tips](/blog/house-organization-tips/) guide has an overhead rack option too, for anyone who'd rather claim the ceiling space above the car instead of a wall-mounted shelf.
 
@@ -128,19 +128,19 @@ The [29 House Organization Tips](/blog/house-organization-tips/) guide has an ov
 
 Plastic bins solve the box problem, but clothing, bedding, and anything fabric-based has an extra vulnerability: trapped air. Moisture and pests both need that air to survive inside a container. A vacuum sealer bag removes it entirely, something a plastic bin alone doesn't do, and it shrinks the item down to a fraction of its stored size in the process.
 
-<div class="product"><a href="https://link.amazon/B0dYmplEp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-vacuum-sealer-bags.webp" alt="Vacuum sealer storage bags" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dYmplEp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0dYmplEp" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-vacuum-sealer-bags.webp" alt="Vacuum sealer storage bags" class="product-photo" width="450" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0dYmplEp" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### 4. Add a Moisture Absorber Inside Each Container
 
 Even a sealed plastic bin isn't airtight forever, and some humidity will always find its way in over months of storage. A moisture absorber packet handles that small, ongoing leak without needing a dehumidifier running for just one or two bins. Drop one in, check it every few months, and swap it out once it's spent.
 
-<div class="product"><a href="https://link.amazon/B04g8J2Ic" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-moisture-absorber-packets.webp" alt="Moisture absorber packets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B04g8J2Ic" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B04g8J2Ic" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-moisture-absorber-packets.webp" alt="Moisture absorber packets" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B04g8J2Ic" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### 5. Label Everything
 
 None of the first four fixes hold up long-term without this one. Knowing what's in each bin without opening it turns the six-month check from a chore nobody does into a thirty-second glance down the shelf. A label maker makes that labeling fast enough to keep up with, bin after bin.
 
-<div class="product"><a href="https://link.amazon/B058Od55J" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-label-maker.webp" alt="Label maker" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B058Od55J" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B058Od55J" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/cbg-label-maker.webp" alt="Label maker" class="product-photo" width="402" height="452" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B058Od55J" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## FAQ
 

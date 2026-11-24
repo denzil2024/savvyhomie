@@ -162,7 +162,7 @@ A wall-mounted fold-down desk gives remote work a defined spot without requiring
 - **Keep work essentials together:** Use a small organiser or wall shelf for chargers, notebooks, and other supplies so they don't spread across the apartment.
 - **Check your rental restrictions:** Get permission before drilling into the wall. If that's not possible, consider a compact folding desk that can be stored when you're done.
 
-<div class="product"><a href="https://link.amazon/B0fPVeb24" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-fold-down-desk.webp" alt="Wall mounted fold down desk" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fPVeb24" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fPVeb24" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-fold-down-desk.webp" alt="Wall mounted fold down desk" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fPVeb24" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Give Each Person Dedicated Storage From Day One
 
@@ -176,7 +176,7 @@ A stackable closet organiser can help you divide limited wardrobe space and keep
 
 If one small closet has to work for two people, our [**small closet hacks**](/blog/small-closet-hacks/) guide has more ways to stretch it further.
 
-<div class="product"><a href="https://link.amazon/B03ckfMQf" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-closet-organizer.webp" alt="Stackable closet organizer" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03ckfMQf" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B03ckfMQf" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-closet-organizer.webp" alt="Stackable closet organizer" class="product-photo" width="500" height="488" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03ckfMQf" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Separate Shared Belongings From Personal Items
 
@@ -188,7 +188,7 @@ Labeled storage bins help you keep personal belongings separate from items you b
 - **Make use of vertical storage:** Stack compatible bins on shelves or inside closets to free up floor and counter space.
 - **Review what you store:** Remove items you no longer use and adjust the labels as your storage needs change.
 
-<div class="product"><a href="https://link.amazon/B0c3cmdzw" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-storage-bins.webp" alt="Labeled storage bins" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c3cmdzw" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0c3cmdzw" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-storage-bins.webp" alt="Labeled storage bins" class="product-photo" width="500" height="498" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0c3cmdzw" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Set a Date to Reassess Your Living Situation
 
@@ -199,7 +199,7 @@ A wall calendar can help you keep track of how long you intend to stay in the ap
 - **Account for upcoming changes:** Add expected job changes, family plans, or other major commitments that could affect your space requirements.
 - **Follow through:** Set a reminder so the conversation doesn't get pushed aside when the date arrives.
 
-<div class="product"><a href="https://link.amazon/B0emX13BT" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-wall-calendar.webp" alt="Wall calendar planner" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0emX13BT" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0emX13BT" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-wall-calendar.webp" alt="Wall calendar planner" class="product-photo" width="471" height="488" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0emX13BT" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Create a Flexible Spot for When Guests Come Over
 
@@ -210,7 +210,7 @@ A storage bench gives you extra seating when friends or family visit and provide
 - **Make room for visitors:** Keep the area around the bench clear so guests can sit comfortably without having to move other furniture.
 - **Check the dimensions before buying:** Make sure the bench fits your available space and leaves enough room to move around when it's in use.
 
-<div class="product"><a href="https://link.amazon/B09673Tja" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-storage-bench.webp" alt="Storage bench" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09673Tja" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09673Tja" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-storage-bench.webp" alt="Storage bench" class="product-photo" width="496" height="238" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09673Tja" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Put the Space Outside Your Unit to Work
 
@@ -221,7 +221,7 @@ A weatherproof outdoor storage box can help you make better use of a private bal
 - **Store occasional-use items:** Keep seasonal decorations, spare cushions, gardening supplies, or outdoor accessories inside rather than everyday essentials.
 - **Measure your balcony first:** Make sure the box fits without blocking doors, walkways, drainage, or access to shared areas.
 
-<div class="product"><a href="https://link.amazon/B0fx85uBM" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-outdoor-storage-box.webp" alt="Weatherproof outdoor storage box" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fx85uBM" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0fx85uBM" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-outdoor-storage-box.webp" alt="Weatherproof outdoor storage box" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0fx85uBM" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Split Chores by Strength, Not Evenly
 
@@ -233,7 +233,7 @@ A shared chore chart helps you keep track of household responsibilities and avoi
 - **Review the arrangement:** Check in regularly to see whether the workload still feels fair, especially when work schedules change.
 - **Account for shared mess:** Agree on basic habits, such as washing your own dishes and putting personal belongings away, so everyday tidying doesn't fall to one person.
 
-<div class="product"><a href="https://link.amazon/B0h68wqxM" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-chore-chart.webp" alt="Chore chart whiteboard" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0h68wqxM" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0h68wqxM" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-chore-chart.webp" alt="Chore chart whiteboard" class="product-photo" width="460" height="471" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0h68wqxM" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Agree on a Clear Privacy Signal
 
@@ -245,7 +245,7 @@ A room divider curtain can give you a visible way to signal when you need quiet 
 - **Keep everyday access in mind:** Make sure the curtain doesn't block walkways, windows, or access to frequently used parts of the apartment.
 - **Set a time expectation:** Agree on whether the curtain stays closed for a few minutes, an hour, or until the person is ready to reconnect.
 
-<div class="product"><a href="https://link.amazon/B09MK3hec" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-room-divider-curtain.webp" alt="Room divider curtain" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09MK3hec" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09MK3hec" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/400-sq-ft-couple-room-divider-curtain.webp" alt="Room divider curtain" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09MK3hec" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## How Long Before It Feels Livable
 

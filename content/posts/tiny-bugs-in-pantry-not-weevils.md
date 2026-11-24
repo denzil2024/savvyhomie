@@ -57,7 +57,7 @@ Here are a few things to know about flour beetles:
 
 The best way to prevent them from spreading is to transfer opened flour, cereal, and other dry goods into airtight containers. This limits access to food and helps contain an infestation before it reaches other pantry shelves.
 
-<div class="product"><a href="https://link.amazon/B0eAhKknG" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-airtight-containers.webp" alt="Airtight food storage containers" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eAhKknG" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0eAhKknG" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-airtight-containers.webp" alt="Airtight food storage containers" class="product-photo" width="489" height="451" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eAhKknG" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Drugstore and Cigarette Beetles
 
@@ -110,7 +110,7 @@ If psocids keep returning after cleaning, check for these sources, improve airfl
 
 <blockquote><p><strong>Pro tip:</strong> Crack the pantry door for an hour after cooking or running the dishwasher. That one habit does more for cabinet humidity than most people expect, and it costs nothing.</p></blockquote>
 
-<div class="product"><a href="https://link.amazon/B0eIHsUdc" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-mini-dehumidifier.webp" alt="Mini dehumidifier for cabinets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eIHsUdc" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0eIHsUdc" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-mini-dehumidifier.webp" alt="Mini dehumidifier for cabinets" class="product-photo" width="386" height="469" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0eIHsUdc" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## Indian Meal Moths
 
@@ -166,7 +166,7 @@ Each bug in this post has a different weak point, so the real fix **matches the 
 
 Being able to see inside a container catches a problem early, before it's bad enough to notice from the outside. A new infestation often starts as a grey tint in flour or a few small specks moving against the glass, the kind of thing that's **invisible through an opaque bin but obvious through clear glass** with a real locking seal. That same visibility also makes it easy to see at a glance which jar has been sitting opened and half-used the longest, since forgotten food is exactly what draws a new infestation in.
 
-<div class="product"><a href="https://link.amazon/B0cm37wlR" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-glass-canisters-labeled.webp" alt="Glass canisters with locking lids" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0cm37wlR" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0cm37wlR" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-glass-canisters-labeled.webp" alt="Glass canisters with locking lids" class="product-photo" width="491" height="351" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0cm37wlR" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Step 2: Trap the Adult Moths Before They Lay Again
 
@@ -174,19 +174,19 @@ Sealing the food doesn't stop an adult moth that's already loose in the cabinet.
 
 <blockquote><p><strong>Pro tip:</strong> Hang the trap near the shelf, not inside a sealed container. The pheromone needs open air to draw a moth in, and a trap tucked behind jars won't catch much.</p></blockquote>
 
-<div class="product"><a href="https://link.amazon/B01tLfUPP" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-moth-beetle-traps.webp" alt="Pantry moth and beetle traps" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B01tLfUPP" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B01tLfUPP" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-moth-beetle-traps.webp" alt="Pantry moth and beetle traps" class="product-photo" width="491" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B01tLfUPP" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Step 3: Dry Out the Cabinet for Psocids
 
 None of the steps above do anything for psocids, since sealing food doesn't fix a humidity problem. The moisture that grows the mold they feed on has to come down on its own, and **a cabinet backed against a kitchen wall or sitting near a dishwasher rarely dries out without help**. A moisture absorber tucked behind the baking supplies, right where condensation tends to collect, pulls that humidity down without needing power or upkeep.
 
-<div class="product"><a href="https://link.amazon/B03k4XGf8" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-moisture-absorber-packets.webp" alt="Moisture absorber packets" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03k4XGf8" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B03k4XGf8" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-moisture-absorber-packets.webp" alt="Moisture absorber packets" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B03k4XGf8" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Step 4: Clear Out the Crumbs That Started It All
 
 Before anything goes back on the shelf, the shelf itself needs real attention, not just a wipe. A pinch of spilled flour in a corner, a stray crumb behind a jar, or debris wedged into a seam is **enough food for either a beetle or a psocid to keep going on**, long after the original infested package is gone, which is exactly how a shelf that was just cleaned out ends up reinfested within weeks. A handheld vacuum reaches into those corners and seams in a way a cloth or a brush usually can't.
 
-<div class="product"><a href="https://link.amazon/B06egIQlY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-handheld-vacuum.webp" alt="Handheld vacuum cordless" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06egIQlY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B06egIQlY" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/pantry-handheld-vacuum.webp" alt="Handheld vacuum cordless" class="product-photo" width="435" height="365" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B06egIQlY" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 Getting the rest of the shelf back into real working order is worth doing at the same time. The [Pantry Organization Tips](/blog/pantry-organization-tips/) guide covers the airtight-container setup that keeps this from becoming a repeat problem.
 

@@ -94,7 +94,7 @@ Keep these points in mind before using one:
 - **Remove it before cooking:** Never leave a board over an active burner or hot cooking surface. Allow the stovetop to cool completely before covering it.
 - **Keep the wood dry:** Clean the board according to the manufacturer's instructions and dry it thoroughly to prevent warping, cracking, or moisture damage.
 
-<div class="product"><a href="https://link.amazon/B07ncQ7zj" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-butcher-block-board.webp" alt="Butcher block countertop board" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07ncQ7zj" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07ncQ7zj" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-butcher-block-board.webp" alt="Butcher block countertop board" class="product-photo" width="472" height="231" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07ncQ7zj" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Cover the Sink When It's Not in Use
 
@@ -106,7 +106,7 @@ Before buying one, keep these points in mind:
 - **Keep the surface dry:** Wipe the sink and the underside of the cover before putting it away to prevent trapped moisture and mildew.
 - **Remove it when washing dishes:** Take the cover off completely rather than working around it. This also makes it easier to clean the sink properly.
 
-<div class="product"><a href="https://link.amazon/B07DqzdpH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-sink-cover.webp" alt="Sink cover board" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07DqzdpH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07DqzdpH" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-sink-cover.webp" alt="Sink cover board" class="product-photo" width="493" height="470" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07DqzdpH" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Cover the Stovetop the Same Way
 
@@ -118,7 +118,7 @@ Before using a stovetop cover, check the following:
 - **Keep it within reach:** Store the cover in a nearby cabinet or accessible spot so you can put it on and remove it easily.
 - **Remove it before cooking:** Never use the cover while a burner is on or the cooking surface is still hot. Follow the manufacturer's instructions for your specific cooktop.
 
-<div class="product"><a href="https://link.amazon/B0bDy2q2a" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-stove-top-cover.webp" alt="Stove top cover" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bDy2q2a" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0bDy2q2a" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-stove-top-cover.webp" alt="Stove top cover" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0bDy2q2a" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Move Countertop Appliances Onto a Dedicated Stand
 
@@ -130,7 +130,7 @@ When choosing and arranging a stand, consider the following:
 - **Allow enough ventilation:** Check each appliance's clearance requirements, especially air fryers and other appliances that release heat or steam.
 - **Choose a stable stand:** If it has wheels, lock them when parked and check that the stand can support the combined weight of your appliances.
 
-<div class="product"><a href="https://link.amazon/B0j24B51U" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-appliance-garage.webp" alt="Appliance garage organizer stand" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0j24B51U" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0j24B51U" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-appliance-garage.webp" alt="Appliance garage organizer stand" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0j24B51U" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Free Up Drawer Space by Moving Knives Onto the Wall
 
@@ -143,7 +143,7 @@ Before installing one, consider where it will go:
 - **Avoid busy walkways:** Choose a spot away from doorways, tight corners, and areas where someone might accidentally brush against the knives.
 - **Secure the mounting:** Follow the manufacturer's installation instructions and use fixings suitable for your wall type. The strip must hold firmly when knives are added or removed.
 
-<div class="product"><a href="https://link.amazon/B09wyvAQf" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-magnetic-knife-strip.webp" alt="Magnetic knife strip" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09wyvAQf" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B09wyvAQf" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-magnetic-knife-strip.webp" alt="Magnetic knife strip" class="product-photo" width="465" height="395" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B09wyvAQf" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Give an Unused Corner a Storage Shelf
 
@@ -155,7 +155,7 @@ Before buying one, check a few details:
 - **Keep heavier items on the bottom:** Place lighter containers on the upper tiers to help keep the unit stable.
 - **Store less frequently used items:** Reserve the shelf for supplies you don't need every time you cook. Keep daily essentials within easier reach.
 
-<div class="product"><a href="https://link.amazon/B00HoMg5H" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-corner-shelf.webp" alt="Corner shelf organizer" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00HoMg5H" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B00HoMg5H" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-corner-shelf.webp" alt="Corner shelf organizer" class="product-photo" width="442" height="389" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B00HoMg5H" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Put Up Open Shelving to Get Clutter Off the Counter
 
@@ -167,7 +167,7 @@ Before installing shelves, consider these details:
 - **Distribute the weight evenly:** Place heavier items closer to the wall and avoid overloading the shelves or leaving objects hanging over the edge.
 - **Check the clearance:** Leave enough room between the shelf and countertop for appliances, cabinet doors, and everyday kitchen tasks.
 
-<div class="product"><a href="https://link.amazon/B02uFUnGX" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-floating-shelves.webp" alt="Floating wall shelves" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B02uFUnGX" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B02uFUnGX" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-floating-shelves.webp" alt="Floating wall shelves" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B02uFUnGX" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Pull Out a Slide-Out Tray for Extra Surface
 
@@ -179,7 +179,7 @@ Check these details before choosing one:
 - **Check the weight capacity:** Choose a tray designed to support the items you plan to place on it. A stand mixer, for example, requires a much stronger support than a chopping board or mixing bowl.
 - **Check its stability:** Extend the tray fully and make sure its locking mechanism or support system holds it securely before using it as a work surface.
 
-<div class="product"><a href="https://link.amazon/B0elX853q" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-pull-out-tray.webp" alt="Pull out drawer tray" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0elX853q" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B0elX853q" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-pull-out-tray.webp" alt="Pull out drawer tray" class="product-photo" width="500" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B0elX853q" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ### Fill the Narrow Gap Beside the Fridge With Extra Storage
 
@@ -191,7 +191,7 @@ Before buying one, keep these details in mind:
 - **Choose what to store:** Use it for items that don't need to stay on the countertop, such as backup groceries, bottles, and less frequently used ingredients.
 - **Check the wheels:** Look for locking casters so the cart stays in place when parked. Make sure there's enough room to pull it out without blocking the kitchen walkway.
 
-<div class="product"><a href="https://link.amazon/B07xyHoMm" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-narrow-cart.webp" alt="Narrow rolling kitchen cart" class="product-photo"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07xyHoMm" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
+<div class="product"><a href="https://link.amazon/B07xyHoMm" target="_blank" rel="nofollow sponsored noopener"><div class="product-photo-well"><img src="/products/old-house-kitchen-counter-narrow-cart.webp" alt="Narrow rolling kitchen cart" class="product-photo" width="412" height="500" loading="lazy" decoding="async"></div></a><div class="txt" style="padding:16px 20px;"><a class="cta" href="https://link.amazon/B07xyHoMm" target="_blank" rel="nofollow sponsored noopener">Check price on Amazon →</a></div></div>
 
 ## How Long Until It Feels Workable
 
