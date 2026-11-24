@@ -1,5 +1,6 @@
 ---
 title: 30 Small Entryway Storage Ideas for the Narrowest Room in the House
+metaTitle: 30 Small Entryway Storage Ideas for Shoes, Bags and More
 cover: /covers/small-entryway-storage-ideas.webp
 pin: /pins/small-entryway-storage-ideas.webp
 description: 30 small entryway storage ideas for the room every visitor sees first, covering shoe piles, coat clutter, and the keys and mail nobody has a spot for.

@@ -1,5 +1,6 @@
 ---
 title: 25 Cozy Master Bedroom Ideas for the Room You Share Every Night
+metaTitle: 25 Bedroom Ideas That Bring Hotel Comfort Home
 cover: /covers/cozy-master-bedroom-ideas.webp
 pin: /pins/cozy-master-bedroom-ideas.webp
 description: 25 cozy master bedroom ideas covering seating, TV setups, nightstands, windows, and rugs, the details a general bedroom guide skips for a shared primary room.

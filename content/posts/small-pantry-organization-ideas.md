@@ -1,5 +1,6 @@
 ---
 title: 31 Small Pantry Organization Ideas for the Door, Walls, and Shelves
+metaTitle: 31 Small Pantry Ideas to Make Every Inch Count
 cover: /covers/small-pantry-organization-ideas.webp
 pin: /pins/small-pantry-organization-ideas.webp
 description: 31 small pantry organization ideas for tight shelves, blank doors, and corners a small pantry can't spare, each solving one specific storage problem.

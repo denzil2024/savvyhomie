@@ -1,5 +1,6 @@
 ---
 title: Is It Normal for a Kitchen to Not Have Enough Counter Space in an Older House?
+metaTitle: Old Kitchen, No Counter Space? Here's What Helps
 cover: /covers/old-house-kitchen-counter-space.webp
 pin: /pins/old-house-kitchen-counter-space.webp
 description: Yes, tight counter space in an older kitchen is normal, not a flaw. Here's why it happens and the real ways to add usable surface back.

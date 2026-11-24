@@ -1,5 +1,6 @@
 ---
 title: 27 Toilet Paper Holder Ideas for a Bathroom That's Tired of Plain
+metaTitle: 27 DIY Toilet Paper Holders That Save Floor Space
 cover: /covers/diy-toilet-paper-holder.webp
 pin: /pins/diy-toilet-paper-holder.webp
 description: 27 toilet paper holder ideas (novelty shapes, sculptural pieces, wood, metal finishes, and multi-function holders), sorted by style.

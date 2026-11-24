@@ -1,5 +1,6 @@
 ---
 title: 51 Best Gifts for Her That Aren't the Same Candle and Jewelry Combo
+metaTitle: 51 Gifts for Her That Aren't Another Candle
 cover: /covers/gifts-for-her.webp
 pin: /pins/gifts-for-her.webp
 description: 51 gifts for her, from tech, beauty, and jewelry to loungewear, home fragrance, fitness, and personalized keepsakes, sorted so it's easy to find what fits.

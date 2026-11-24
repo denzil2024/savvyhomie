@@ -1,5 +1,6 @@
 ---
 title: 27 Christmas Gifts for Coworkers That Feel Thoughtful, Not Awkward
+metaTitle: 27 Coworker Christmas Gifts They Won't Want to Regift
 cover: /covers/christmas-gifts-for-coworkers.webp
 pin: /pins/christmas-gifts-for-coworkers.webp
 description: 27 Christmas gifts for coworkers that stay professional without feeling generic, from desk upgrades to snacks, each one compared on who it's right for.

@@ -1,5 +1,6 @@
 ---
 title: 44 Bathroom Organization Ideas for Every Cabinet, Drawer, and Corner
+metaTitle: 44 Bathroom Organization Ideas to Clear Every Surface
 cover: /covers/bathroom-organization-ideas.webp
 pin: /pins/bathroom-organization-ideas.webp
 description: 44 bathroom organization ideas covering the under-sink cabinet, drawers, counter, towels, the shower, and the medicine cabinet, sorted by the actual problem.

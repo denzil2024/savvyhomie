@@ -1,5 +1,6 @@
 ---
 title: 45 Minimalist Home Organization Ideas That Cut the Clutter for Good
+metaTitle: 45 Minimalist Home Organization Ideas to Clear the Clutter
 cover: /covers/minimalist-home-organization.webp
 pin: /pins/minimalist-home-organization.webp
 description: 45 minimalist home organization ideas that favor smarter furniture and one matching system over more bins, with storage built into the wall, not the floor.

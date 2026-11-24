@@ -1,5 +1,6 @@
 ---
 title: 43 Christmas Gifts for Women, From Stocking Stuffers to Splurges
+metaTitle: 43 Christmas Gifts for Women She'll Be Excited to Open
 cover: /covers/christmas-gifts-for-women.webp
 pin: /pins/christmas-gifts-for-women.webp
 description: 43 Christmas gifts for women sorted into six categories, from personalized keepsakes and beauty picks to jewelry, home, tech, and stocking stuffers.

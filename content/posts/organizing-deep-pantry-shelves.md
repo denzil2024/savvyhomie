@@ -1,5 +1,6 @@
 ---
 title: 24 Ways to Organize a Deep Pantry Shelf From the Back to the Front
+metaTitle: Deep Pantry Shelves? Stop Losing Food at the Back
 cover: /covers/organizing-deep-pantry-shelves.webp
 pin: /pins/organizing-deep-pantry-shelves.webp
 description: 24 ways to organize a deep pantry shelf, sorted by where the problem sits, the back you can't reach, the top, eye level, the floor, and front-to-back depth.

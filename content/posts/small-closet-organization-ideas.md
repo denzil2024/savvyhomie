@@ -1,5 +1,6 @@
 ---
 title: 25 Small Closet Organization Ideas for When There's No Room to Spare
+metaTitle: 25 Small Closet Ideas to Make More Room for Clothes
 cover: /covers/small-closet-organization-ideas.webp
 pin: /pins/small-closet-organization-ideas.webp
 description: 25 small closet organization ideas for rods, shelves, doors, and shoes. Real fixes for a closet with no room to spare, not a walk-in remodel.

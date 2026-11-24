@@ -1,5 +1,6 @@
 ---
 title: 50 Small Space Organization Ideas for Every Room That Ran Out of Room
+metaTitle: 50 Small-Space Organization Ideas to Find More Room
 cover: /covers/small-space-organization-ideas.webp
 pin: /pins/small-space-organization-ideas.webp
 description: 50 small space organization ideas, each a specific product solving one everyday storage problem around the house.

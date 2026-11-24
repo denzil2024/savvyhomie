@@ -302,8 +302,11 @@ export function metaFor(url) {
     }
     // No " · SavvyHomie" suffix on posts: the titles are already 50-60 chars
     // of real keyword, the suffix pushed 35 of 66 past Google's cutoff.
+    // metaTitle is optional frontmatter: a shorter <title>/headline for posts
+    // whose on-page H1 (post.title) runs past Google's ~60-char SERP cutoff.
+    // Falls back to post.title when absent, so most posts need nothing.
     return {
-      title: post.title, description: post.description, jsonLd,
+      title: post.metaTitle || post.title, description: post.description, jsonLd,
       type: 'article', cover: post.cover, coverW: post.coverW, coverH: post.coverH, date: post.date, updated: toISODate(post.updated),
     }
   }

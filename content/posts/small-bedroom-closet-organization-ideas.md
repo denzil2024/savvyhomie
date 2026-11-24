@@ -1,5 +1,6 @@
 ---
 title: 25 Small Bedroom Closet Organization Ideas for Rooms With No Closet
+metaTitle: No Bedroom Closet? Try These Smart Storage Ideas
 cover: /covers/small-bedroom-closet-organization-ideas.webp
 pin: /pins/small-bedroom-closet-organization-ideas.webp
 description: 25 small bedroom closet organization ideas for wardrobes, open racks, wall storage, and furniture that step in when the bedroom has no real closet at all.

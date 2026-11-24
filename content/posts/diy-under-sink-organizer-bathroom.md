@@ -1,5 +1,6 @@
 ---
 title: 30 Under Sink Organizer Ideas for the Cabinet Every Bathroom Ignores
+metaTitle: 30 Under-Sink Storage Fixes for a More Organized Bathroom
 cover: /covers/diy-under-sink-organizer-bathroom.webp
 pin: /pins/diy-under-sink-organizer-bathroom.webp
 description: 30 under sink organizer ideas for the bathroom cabinet, from the door and the pipe to small items and bulk backstock.

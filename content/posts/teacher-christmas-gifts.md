@@ -1,5 +1,6 @@
 ---
 title: 25 Thoughtful Teacher Christmas Gifts That Aren't Just Another Mug
+metaTitle: Teacher Christmas Gifts They'll Use Beyond the Holidays
 cover: /covers/teacher-christmas-gifts.webp
 pin: /pins/teacher-christmas-gifts.webp
 description: Teacher Christmas gifts organized by coffee and drinkware, cozy self-care, desk fixes, keepsakes, and treats, all better than another mug.

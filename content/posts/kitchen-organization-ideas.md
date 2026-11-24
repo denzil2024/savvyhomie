@@ -1,5 +1,6 @@
 ---
 title: 48 Kitchen Organization Ideas for Every Cabinet, Drawer, and Counter
+metaTitle: 48 Kitchen Organization Ideas for Drawers That Won't Behave
 cover: /covers/kitchen-organization-ideas.webp
 pin: /pins/kitchen-organization-ideas.webp
 description: 48 kitchen organization ideas covering the pantry, cabinets, drawers, counters, fridge, and under the sink, each one solving a specific daily kitchen problem.

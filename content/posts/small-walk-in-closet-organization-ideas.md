@@ -1,5 +1,6 @@
 ---
 title: 25 Small Walk-In Closet Organization Ideas for the Room That Goes to Waste
+metaTitle: Walk-In Closet Wasting Space? Try These Smart Fixes
 cover: /covers/small-walk-in-closet-organization-ideas.webp
 pin: /pins/small-walk-in-closet-organization-ideas.webp
 description: 25 small walk-in closet organization ideas for lighting, zones, vertical storage, and dressing furniture. Fixes sized for a bigger closet, not a small one.

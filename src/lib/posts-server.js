@@ -92,6 +92,7 @@ export const allPosts = Object.entries(files)
     return {
       slug,
       title: meta.title || slug,
+      metaTitle: meta.metaTitle || '',
       description: meta.description || '',
       category: meta.category || '',
       topic: meta.topic || '',

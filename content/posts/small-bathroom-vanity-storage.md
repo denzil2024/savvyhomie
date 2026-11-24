@@ -1,5 +1,6 @@
 ---
 title: 33 Small Bathroom Vanity Storage Ideas for a Sink With No Room to Spare
+metaTitle: 33 Small Bathroom Vanity Storage Ideas That Make Room
 cover: /covers/small-bathroom-vanity-storage.webp
 pin: /pins/small-bathroom-vanity-storage.webp
 description: 33 small bathroom vanity storage ideas, from above the mirror and beside the sink to inside the cabinet, the drawers, and the counter itself.

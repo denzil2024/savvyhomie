@@ -1,5 +1,6 @@
 ---
 title: 26 Over the Toilet Storage Ideas for the Space Every Bathroom Wastes
+metaTitle: 26 Over-the-Toilet Storage Ideas That Free Up Space
 cover: /covers/over-the-toilet-storage-ideas.webp
 pin: /pins/over-the-toilet-storage-ideas.webp
 description: 26 over the toilet storage ideas, from no-drill units to enclosed cabinets, sorted by how each one mounts and what it holds.

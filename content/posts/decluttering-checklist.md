@@ -1,5 +1,6 @@
 ---
 title: 30 Decluttering Checklist Items for Before, During, and After the Sort
+metaTitle: The Decluttering Checklist That Makes Letting Go Easier
 cover: /covers/decluttering-checklist.webp
 pin: /pins/decluttering-checklist.webp
 description: A real decluttering checklist of 30 supplies for before, during, and after a sort: sorting bins and hauling gear, protective gear, and progress tracking.

@@ -1,5 +1,6 @@
 ---
 title: Why Do Plastic Containers Always Smell No Matter How Much You Wash Them
+metaTitle: Why Plastic Food Containers Keep Smelling, and How to Fix It
 cover: /covers/why-do-plastic-containers-smell.webp
 pin: /pins/why-do-plastic-containers-smell.webp
 description: Plastic containers smell even after washing because odor molecules migrate into the material itself, not just the surface. Here's the real fix for each cause.

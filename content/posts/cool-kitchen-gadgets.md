@@ -1,5 +1,6 @@
 ---
 title: 31 Cool Kitchen Gadgets That Make Cooking Feel Less Like a Chore
+metaTitle: 31 Kitchen Gadgets That Earn Their Counter Space
 cover: /covers/cool-kitchen-gadgets.webp
 pin: /pins/cool-kitchen-gadgets.webp
 description: 31 cool kitchen gadgets in five categories, from prep and storage to countertop appliances, baking tools, and coffee gear, picked for everyday fun.
