@@ -230,26 +230,44 @@ export function metaFor(url) {
     const topicName = c?.topics?.find((t) => slugifyTopic(t) === topicMatch[2])
     const page = topicMatch[3] ? Number(topicMatch[3]) : 1
     const topicBase = `/category/${c?.slug}/${topicMatch[2]}/`
-    if (c && topicName) return {
-      title: page > 1 ? `${topicName} · Page ${page} · ${SITE_NAME}` : `${topicName} · ${SITE_NAME}`,
-      description: `Every ${topicName} guide on ${SITE_NAME}, all sorted so it's easy to find something that fits.`,
-      jsonLd: [
-        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
-        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`], [topicName, topicBase]]),
-      ],
+    if (c && topicName) {
+      const pagePosts = paginate(postsInTopic(c.slug, topicMatch[2]), page)
+      return {
+        title: page > 1 ? `${topicName} · Page ${page} · ${SITE_NAME}` : `${topicName} · ${SITE_NAME}`,
+        description: `Every ${topicName} guide on ${SITE_NAME}, all sorted so it's easy to find something that fits.`,
+        jsonLd: [
+          { '@context': 'https://schema.org', '@type': 'CollectionPage', name: topicName, url: SITE + url },
+          breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`], [topicName, topicBase]]),
+          {
+            '@context': 'https://schema.org', '@type': 'ItemList',
+            itemListElement: pagePosts.map((p, i) => ({
+              '@type': 'ListItem', position: (page - 1) * PAGE_SIZE + i + 1, name: p.title, url: `${SITE}/blog/${p.slug}/`,
+            })),
+          },
+        ],
+      }
     }
   }
   const catMatch = clean.match(/^\/category\/([^/]+?)(?:\/page\/(\d+))?$/)
   if (catMatch) {
     const c = categories.find((x) => x.slug === catMatch[1])
     const page = catMatch[2] ? Number(catMatch[2]) : 1
-    if (c) return {
-      title: page > 1 ? `${c.name} · Page ${page} · ${SITE_NAME}` : `${c.name} · ${SITE_NAME}`,
-      description: c.blurb,
-      jsonLd: [
-        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
-        breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`]]),
-      ],
+    if (c) {
+      const pagePosts = paginate(postsInCategory(c.slug), page)
+      return {
+        title: page > 1 ? `${c.name} · Page ${page} · ${SITE_NAME}` : `${c.name} · ${SITE_NAME}`,
+        description: c.blurb,
+        jsonLd: [
+          { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.name, url: SITE + url },
+          breadcrumbs([['Home', '/'], [c.name, `/category/${c.slug}/`]]),
+          {
+            '@context': 'https://schema.org', '@type': 'ItemList',
+            itemListElement: pagePosts.map((p, i) => ({
+              '@type': 'ListItem', position: (page - 1) * PAGE_SIZE + i + 1, name: p.title, url: `${SITE}/blog/${p.slug}/`,
+            })),
+          },
+        ],
+      }
     }
   }
   const post = posts.find((p) => `/blog/${p.slug}` === clean)
